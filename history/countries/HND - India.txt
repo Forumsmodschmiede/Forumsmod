@@ -8,7 +8,7 @@ culture = kanauji
 religion = hindu
 government = democracy
 plurality = 0.0
-nationalvalue = nv_equality
+nationalvalue = nv_liberty
 literacy = 0.02
 civilized = no
 
