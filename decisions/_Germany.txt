@@ -1,7 +1,8 @@
 political_decisions = {
 	form_german_federation = {
 		potential = {
-			tag = NGF					
+			tag = NGF
+			tag = PRU						
 		}
 		
 		allow = {
@@ -54,4 +55,46 @@ political_decisions = {
             		factor = 1
         	}
     	}
+	ems_dispatch = {
+		potential = {
+			NOT = {
+				has_country_flag = ems_dispatch_sent
+			}
+			OR = {
+				tag = PRU
+				tag = NGF
+			}
+			exists = FRA
+		}
+		
+		allow = {
+			prestige = 30
+			steel_breech_loaded_artillery = 1
+			NOT = {
+				relation = {
+					who = FRA
+					value = 0
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			FRA = {
+				country_event = { id=19200 days=0 }
+			}
+			set_country_flag = ems_dispatch_sent
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					war_exhaustion = 1
+				}
+			}
+		}
+	}
+
 }

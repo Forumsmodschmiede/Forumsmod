@@ -783,14 +783,40 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA19200"
-		prestige = -10
+		prestige = -40
 		relation = {
 			who = FROM
-			value = -50
-		}
+			value = -100}
+			}
+	option = {	
+		name = "EVTOPTA19201"
+		leave_alliance = FROM
 		casus_belli = {
 			target = FROM
-			type = cut_down_to_size
+			type = humiliate
+			months = 24
+		}
+		war = {
+			target = FROM
+			attacker_goal = {
+				casus_belli = humiliate
+			}
+			call_ally = no
+		}
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0.5
+				num_of_revolts = 1
+			}
+			modifier = {
+				factor = 0.5
+				war_policy = anti_military
+			}
+			modifier = {
+				factor = 0.2
+				war_policy = pacifism
+			}
 		}
 	}
 }

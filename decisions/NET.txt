@@ -24,6 +24,11 @@ political_decisions = {
 			}		
 		}
 		effect = {
+			set_country_flag = benelux_formed
+			add_country_modifier = {
+				name = treaty_of_london
+				duration = -1
+			}
 			remove_core = 387
 			remove_core = 388
 			remove_core = 389

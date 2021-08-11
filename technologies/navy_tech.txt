@@ -1730,9 +1730,10 @@ the_command_principle = {
 	cost = 3600
 	unciv_military = yes
 	navy_base = {
-		default_organisation = 10
+		default_organisation = 5
 	}
-	
+		colonial_points = 75
+		colonial_migration = 0.02
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1816,6 +1817,7 @@ naval_professionalism = {
 	navy_base = {
 		default_organisation = 5
 	}
+		colonial_points = 75
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1899,6 +1901,7 @@ naval_decision_making = {
 	navy_base = {
 		default_organisation = 5
 	}
+		colonial_points = 75
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1982,6 +1985,7 @@ naval_risk_management = {
 	navy_base = {
 		default_organisation = 5
 	}
+		colonial_points = 75
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -2065,6 +2069,7 @@ naval_nco_training = {
 	navy_base = {
 		default_organisation = 5
 	}
+		colonial_points = 75
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -2148,6 +2153,7 @@ modern_naval_training = {
 	navy_base = {
 		default_organisation = 5
 	}
+		colonial_points = 75
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this

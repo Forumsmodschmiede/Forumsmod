@@ -475,8 +475,8 @@ the_slavery_debate = {
 
 the_bonnie_blue_flag = {
 	leadership = 2
-	mobilisation_economy_impact = -0.25
-	mobilisation_size = 0.1
+	mobilisation_economy_impact = -0.5
+	mobilisation_size = 0.15
 	icon = 15
 }
 
@@ -776,9 +776,10 @@ la_guardia_civil = {
 }
 
 #### FRA - France ####
-the_french_foreign_legion = {
+the_french_foreign_legion = {	
 	prestige = 0.01
-	global_immigrant_attract = 0.01	#1%..
+	leadership_modifier = 0.1
+	global_immigrant_attract = 0.05	#1%..
 	icon = 17
 }
 
@@ -886,4 +887,8 @@ new_crops = {
 new_dye_methods = {
 	farm_rgo_eff = 0.25
 	icon = 14
+}
+treaty_of_london = {
+	prestige = 0.1
+	badboy = -0.05
 }

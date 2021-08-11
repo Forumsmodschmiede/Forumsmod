@@ -1,7 +1,10 @@
 political_decisions = {
 	form_benelux = {
 		potential = {
-			tag = NET					
+			tag = NET	
+			NOT = {
+				has_country_flag = benelux_formed
+			}				
 		}
 		
 		allow = {

@@ -1550,6 +1550,7 @@ societal_status = {
 		navy_base = {
 			default_organisation = 1
 		}
+		colonial_migration = 0.02
 	}
 }
 
@@ -1610,6 +1611,7 @@ delegated_power = {
 		navy_base = {
 			default_organisation = 1
 		}
+		colonial_migration = 0.02
 	}
 }
 
@@ -1670,6 +1672,7 @@ n_saddle_orders = {
 		navy_base = {
 			default_organisation = 1
 		}
+		colonial_migration = 0.02
 	}
 }
 #naval_nco_training
@@ -1728,6 +1731,7 @@ nco_tactical_training = {
 		navy_base = {
 			default_organisation = 1
 		}
+		colonial_migration = 0.02
 	}
 }
 #modern_naval_training
@@ -1769,6 +1773,7 @@ naval_exercises = {
 	}
 	effect = {
 		naval_attrition = -0.1
+		colonial_migration = 0.02
 	}
 }
 
