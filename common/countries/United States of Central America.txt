@@ -1,6 +1,6 @@
 color = { 90 175 255 }
 graphical_culture = SouthAmericanGC
-
+proletarian_dictatorship = { 198 29 29 }
 party = {
 	name = "UCA_conservative"
 	start_date = 1830.1.1

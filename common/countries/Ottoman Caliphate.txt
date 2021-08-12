@@ -1,5 +1,5 @@
 color = { 170  206  162 }
-
+proletarian_dictatorship = { 198 0 39}
 graphical_culture = OttomanGC
 
 party = {

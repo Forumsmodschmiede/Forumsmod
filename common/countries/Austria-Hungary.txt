@@ -1,6 +1,6 @@
 color = { 124 40 30 }
 graphical_culture = AustriaHungaryGC
-
+proletarian_dictatorship = { 255 10 67}
 party = {
 	name = "AUS_conservative"
 	start_date = 1836.1.1

@@ -1,5 +1,7 @@
 color = { 231  181  12 }
+proletarian_dictatorship = { 196 0 81 }
 graphical_culture = SpanishGC
+
 
 party = {
 	name = "SPA_conservative"

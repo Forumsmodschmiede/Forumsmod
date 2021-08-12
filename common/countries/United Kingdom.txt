@@ -1,6 +1,6 @@
 color = { 209  66  58 }
 graphical_culture = BritishGC
-
+proletarian_dictatorship = { 196 0 13 }
 
 party = {
 	name = "ENG_conservative"

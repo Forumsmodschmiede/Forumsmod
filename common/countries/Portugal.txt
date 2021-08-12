@@ -1,4 +1,5 @@
 color = { 57  160  101 }
+proletarian_dictatorship = { 196 0 81 }
 graphical_culture = EuropeanGC
 
 party = {

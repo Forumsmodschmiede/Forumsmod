@@ -1,6 +1,6 @@
 color = { 125  171  84 }
 graphical_culture = ItalianGC
-
+proletarian_dictatorship = { 196 27 33 }
 party = {
 	name = "ITA_reactionary"
 	start_date = 1830.1.1

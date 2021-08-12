@@ -1,6 +1,7 @@
 color = { 142  201  208 }
 graphical_culture = EuropeanGC
-
+proletarian_dictatorship = { 170 0 0}
+fascist_dictatorship = { 40 40 40}
 party = {
 	name = "SGF_liberal"
 	start_date = 1830.1.1

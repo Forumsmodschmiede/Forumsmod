@@ -1,6 +1,6 @@
 color = {150 77 240}
 graphical_culture = IndianGC
-
+proletarian_dictatorship = { 195 13 33 }
 party = {
 	name = "HND_conservative"
 	start_date = 1800.1.1

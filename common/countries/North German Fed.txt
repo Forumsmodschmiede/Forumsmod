@@ -1,6 +1,7 @@
 color = { 143  168  154 }
 graphical_culture = PrussianGC
-
+proletarian_dictatorship = { 170 0 0}
+fascist_dictatorship = { 40 40 40}
 party = {
 	name = "NGF_liberal"
 	start_date = 1830.1.1

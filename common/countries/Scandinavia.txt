@@ -1,6 +1,6 @@
 color = { 62  122  189 }
 graphical_culture = EuropeanGC
-
+proletarian_dictatorship = { 198 25 43 }
 party = {
 	name = "SCA_liberal"
 	start_date = 1830.1.1

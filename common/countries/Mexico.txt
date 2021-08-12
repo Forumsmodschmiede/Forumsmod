@@ -1,5 +1,5 @@
 color = { 173  242  175 }
-
+proletarian_dictatorship = { 240 25 25 }
 graphical_culture = Generic
 
 party = {

@@ -1,6 +1,6 @@
 color = { 116  107  140 }
 graphical_culture = EuropeanGC
-
+proletarian_dictatorship = { 255 7 40 }
 party = {
 	name = "BUL_liberal"
 	start_date = 1830.1.1

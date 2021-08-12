@@ -1,6 +1,6 @@
 color = { 255 191 191 }
 graphical_culture = JapaneseGC
-
+proletarian_dictatorship = { 196 49 58 }
 party = {
 	name = "NIP_reactionary"
 	start_date = 1800.1.1
