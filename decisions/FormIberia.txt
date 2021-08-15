@@ -16,6 +16,7 @@ political_decisions = {
 			change_tag = IBE
 			add_accepted_culture = portuguese
 			prestige = 10
+			517 = {add_core = IBE}
 		}
 	}
 }
