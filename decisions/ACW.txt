@@ -665,14 +665,14 @@ political_decisions = {
 
 			define_general = {
 				name = "Robert E.Lee"
-				personality = audacious
-				background = war_college
+				personality = defence_4.1
+				background = attack_5.1
 			}
 
 			define_general = {
 				name = "Thomas Jackson"
-				personality = coolminded
-				background = school_of_defense
+				personality = defence_5.1
+				background = attack_2.1
 			}
 			
 			add_country_modifier = {
