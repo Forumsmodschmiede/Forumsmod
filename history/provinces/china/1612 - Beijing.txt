@@ -1,6 +1,0 @@
-owner = BEI
-controller = BEI
-add_core = BEI
-trade_goods = tea
-life_rating = 32
-fort = 1
