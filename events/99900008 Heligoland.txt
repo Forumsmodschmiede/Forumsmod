@@ -5,7 +5,7 @@ country_event = {
     picture = "heligoland_treaty_1"
 
     is_triggered_only = yes
-	major = yes
+
     option = {
         name = "We will give up Helgoland"
         533 = {
