@@ -662,11 +662,6 @@ political_decisions = {
 		}
 		
 		effect = {
-			money = 1000000
-			artillery = 2000
-			canned_food = 2000
-			ammunition = 2000
-			small_weapons = 2000
 
 			define_general = {
 				name = "Robert E.Lee"

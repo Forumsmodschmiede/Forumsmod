@@ -1,4 +1,4 @@
 add_core = RUS
 add_core = JAP
 trade_goods = coal
-life_rating = 24
+life_rating = 20

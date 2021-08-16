@@ -69,7 +69,7 @@ political_decisions = {
 		
 		allow = {
 			prestige = 30
-			military_statistics = 1
+			steel_breech_loaded_artillery = 1
 			NOT = {
 				relation = {
 					who = FRA
