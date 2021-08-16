@@ -96,5 +96,17 @@ political_decisions = {
 			}
 		}
 	}
+an_mein_volk = {
+potential = {
+tag = PRU
+}
+	
+effect = {
+add_country_modifier = {
 
+					name = An_mein_Volk
+					duration = 730
+}
+}
+}
 }

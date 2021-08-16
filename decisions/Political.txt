@@ -188,7 +188,21 @@ political_decisions = {
 			}
 		}
 	}
-	
+	create_a_national_language = {
+		potential = {
+			tag = JAP
+			not = { has_country_modifier = create_a_national_language }
+		}
+		allow = {
+			idealism = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = create_a_national_language
+				duration = -1
+				}
+			}
+		}
 	the_meiji_restoration2 = {
 		potential = {
 			civilized = no

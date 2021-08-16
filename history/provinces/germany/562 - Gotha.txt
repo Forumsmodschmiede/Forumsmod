@@ -2,6 +2,6 @@ owner = COB
 controller = COB
 add_core = COB
 add_core = GER
-trade_goods = iron
+trade_goods = timber
 life_rating = 39
 1861.1.1 = { railroad = 3 }
