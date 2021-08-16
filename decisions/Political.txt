@@ -309,6 +309,7 @@ political_decisions = {
 		effect = {
 			nationalize = yes
 		}
+		money = 100000
 		
 		ai_will_do = {
 			factor = 0
