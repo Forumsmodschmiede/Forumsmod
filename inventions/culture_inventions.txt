@@ -1437,15 +1437,16 @@ terrorism = {
 		enable_crime = terrorist_cells 
 	}
 }
-#general_strikes = {
-#	limit = { revolution_n_counterrevolution = 1 }
-#	news = no
-#	chance = {
-#		base = 5
-#	}
-#	effect = { 
-#	}
-#}
+general_strikes = {
+	limit = { revolution_n_counterrevolution = 1 }
+	news = no
+	chance = {
+		base = 2
+	}
+	effect = { 	factory_throughput = -0.03
+			suppression_points_modifier = -0.05
+	}
+}
 secret_police = {
 	news = no
 	limit = { revolution_n_counterrevolution = 1 }
@@ -1602,7 +1603,7 @@ the_doctrine_of_fascism = {
 	effect = {
 		rebel_org_gain = {
 			faction = fascist_rebels
-			value = 0.75
+			value = 0.8
 		}
 	}
 }
@@ -1610,7 +1611,7 @@ paramilitary_groups = {
 	limit = { mass_politics = 1 }
 	news = no
 	chance = {
-		base = 3
+		base = 2
 		modifier = {
 			factor = 2
 			war_exhaustion = 3
@@ -1623,7 +1624,7 @@ paramilitary_groups = {
 	effect = {
 		rebel_org_gain = {
 			faction = fascist_rebels
-			value = 0.25
+			value = 0.5
 		} 
 	}
 }

@@ -382,12 +382,6 @@ army = {
 	}
 
 	regiment = {
-		name= "I. Pionierbrigade"
-		type = engineer
-		home = 577
-	}
-
-	regiment = {
 		name= "IV. Linieninfanteriebrigade"
 		type = infantry
 		home = 2561
@@ -432,12 +426,6 @@ army = {
 		name= "IX. Linieninfanteriebrigade"
 		type = infantry
 		home = 682
-	}
-
-	regiment = {
-		name= "II. Pionierbrigade"
-		type = engineer
-		home = 684
 	}
 
 	regiment = {
@@ -488,12 +476,6 @@ army = {
 	}
 
 	regiment = {
-		name= "III. Pionierbrigade"
-		type = engineer
-		home = 693
-	}
-
-	regiment = {
 		name= "XVI. Linieninfanteriebrigade"
 		type = infantry
 		home = 695
@@ -538,12 +520,6 @@ army = {
 		name= "XXI. Linieninfanteriebrigade"
 		type = infantry
 		home = 679
-	}
-
-	regiment = {
-		name= "IV. Pionierbrigade"
-		type = engineer
-		home = 680
 	}
 
 	regiment = {
