@@ -45,21 +45,13 @@ easy_ai = {
 }
 
 hard_ai = {
-	badboy = -0.02
-	research_points_modifier = 0.5
-	land_organisation = 0.25
-	naval_organisation = 0.25
-	leadership_modifier = 0.5
-	global_pop_militancy_modifier = -0.02
+	tax_eff = 5
+	global_pop_militancy_modifier = -0.001
 }
 
 very_hard_ai = {
-	badboy = -0.05
-	research_points_modifier = 1.0
-	land_organisation = 0.5
-	naval_organisation = 0.5
-	leadership_modifier = 1.0
-	global_pop_militancy_modifier = -0.04
+	tax_eff = 10
+	global_pop_militancy_modifier = -0.002
 }
 
 
