@@ -957,13 +957,13 @@ unite_moldavia_wallachia = {
         }
 
         allow = {
-            mass_politics = 1
+            revolution_n_counterrevolution = 1
         }
 
         effect = {
             set_country_flag = peters_city_renamed
             994 = { change_province_name = "Petrograd" }
-            war_exhaustion = -1
+            war_exhaustion = -2
             any_pop = {
                 limit = { is_primary_culture = yes }
                 dominant_issue = { factor = 0.1 value = jingoism }

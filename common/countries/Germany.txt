@@ -188,7 +188,7 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Baden Bayern Derfflinger "Friedrich der Grosse" Goeben "Grosser Kurfürst" Helgoland Hindenburg Kaiser Kaiserin König "König Albert" Kronprinz Lützow Mackensen Markgraf Moltke Nassau Oldenburg Ostfriesland Posen "Prinzregent Luitpold" Rheinland Sachsen Seydlitz Thüringen "Von der Tann" Westfalen Württemberg
+		Baden Bayern Derfflinger "Friedrich der Grosse" Goeben "Grosser Kurfürst" Helgoland Hindenburg Kaiser Kaiserin König "König Albert" Kronprinz Lützow Mackensen Markgraf Moltke Nassau Oldenburg Ostfriesland Posen "Prinzregent Luitpold" Rheinland Sachsen Seydlitz Thüringen "Von der Tann" Westfalen Württemberg Bismarck
 	}
 	
 	battleship = {

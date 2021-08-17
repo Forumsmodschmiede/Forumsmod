@@ -198,8 +198,8 @@ political_decisions = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = create_a_national_language
-				duration = -1
+				name = created_a_national_language
+				duration = 18250
 				}
 			}
 		}

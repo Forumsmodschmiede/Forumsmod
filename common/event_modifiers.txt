@@ -855,11 +855,7 @@ the_walhalla = {
 	global_pop_militancy_modifier = 0.015
 	icon = 5
 }
-create_a_national_language = {
-	global_pop_militancy_modifier = 0.015
-	education_efficiency_modifier = 0.25
-	icon = 5
-}
+
  dar_al_funun = {
 	research_points_modifier = 0.2
 	icon = 5
@@ -900,4 +896,13 @@ new_dye_methods = {
 treaty_of_london = {
 	prestige = 0.1
 	badboy = -0.05
+}
+created_a_national_language = {
+	global_pop_militancy_modifier = 0.015
+	education_efficiency_modifier = 0.25
+	icon = 5
+}
+algeria_boom= {
+	immigrant_attract = 0.3
+	icon = 5
 }
