@@ -180,11 +180,11 @@ political_decisions = {
 			part_of_sphere = yes
 		}
 		effect = {
-			years_of_research = 4
+			years_of_research = 8
 			prestige = 10
 			add_country_modifier = {
 				name = meiji_restoration_boost
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -197,6 +197,7 @@ political_decisions = {
 			idealism = 1
 		}
 		effect = {
+			money = 500000
 			add_country_modifier = {
 				name = created_a_national_language
 				duration = 18250
@@ -214,11 +215,12 @@ political_decisions = {
 			part_of_sphere = no
 		}
 		effect = {
-			years_of_research = 4
-			prestige = 10
+			money = 500000
+			years_of_research = 16
+			prestige = 100
 			add_country_modifier = {
 				name = meiji_restoration_boost
-				duration = -1
+				duration = 10950
 			}
 			military_reform = modern_command_principle
 			military_reform = modern_naval_thought

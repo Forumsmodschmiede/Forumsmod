@@ -630,18 +630,18 @@ the_congo_reform_association = {
 ### GER - GERMANY, PRU - PRUSSIA ###
 An_mein_Volk = {
 	mobilisation_size = 0.03
-	icon = 11
+	icon = 17
 }
 germania_werft = {
 	local_repair = 0.5
-	local_ship_build = -0.05
+	local_ship_build = -0.2
 	icon = 15
 }
 
 ruhr_boom = {
 
 	mine_rgo_eff = 1.5
-	population_growth = 0.025
+	population_growth = 0.0125
 	life_rating = 0.2
 	icon = 11
 }
@@ -851,7 +851,7 @@ the_walhalla = {
  
  ##
  meiji_restoration_boost = {
-	research_points_modifier = 0.33
+	research_points_modifier = 0.50
 	global_pop_militancy_modifier = 0.015
 	icon = 5
 }
@@ -898,7 +898,6 @@ treaty_of_london = {
 	badboy = -0.05
 }
 created_a_national_language = {
-	global_pop_militancy_modifier = 0.015
 	education_efficiency_modifier = 0.25
 	icon = 5
 }
