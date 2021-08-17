@@ -11,7 +11,6 @@ torpedo_attacks = {
 	}
 	effect = {
 		cruiser = { torpedo_attack = 8 }
-		monitor = { torpedo_attack = 8 }
 	}
 }
 
@@ -50,7 +49,7 @@ speedy_maneuvering_tactic = {
 	}
 	effect = {
 		navy_base = {
-			maximum_speed = 0.25
+			maximum_speed = 1
 		}
 	}
 }
@@ -70,7 +69,7 @@ sealane_hunters = {
 	}
 	effect = {
 		navy_base = {
-			maximum_speed = 0.25
+			maximum_speed = 1
 		}
 	}
 }
@@ -85,7 +84,7 @@ fast_ship_killer = {
 	}
 	effect = {
 		navy_base = {
-			maximum_speed = 0.25
+			maximum_speed = 1
 		}
 	}
 }
@@ -129,7 +128,7 @@ standard_raider_group_doctrine = {
 	}
 	effect = {
 		navy_base = {
-			maximum_speed = 0.25
+			maximum_speed = 1
 		}
 	}
 }
@@ -451,6 +450,23 @@ ironclads = {
 		activate_unit = ironclad  
 	}
 }
+monitors = {
+	limit = { iron_steamers = 1 }
+	chance = {
+		base = 5
+		modifier = {
+			factor = 2
+			invention = ironclads
+		}
+		modifier = {
+			factor = 2
+			invention = torpedo_boats
+		}
+	}
+	effect = {
+		activate_unit = monitor 
+	}
+}
 torpedo_boats = {
 	limit = { iron_steamers = 1 }
 	chance = {
@@ -486,24 +502,7 @@ protected_cruisers = {
 		}
 	}
 	effect = {
-		activate_unit = cruiser
-	}
-}
-monitors = {
-	limit = { steel_steamers = 1 }
-	chance = {
-		base = 5
-		modifier = {
-			factor = 2
-			invention = ironclads
-		}
-		modifier = {
-			factor = 2
-			cheap_steel = 1
-		}
-	}
-	effect = {
-		activate_unit = monitor 
+		activate_unit = cruiser 
 	}
 }
 #destroyers = {
@@ -551,6 +550,7 @@ pre_dreadnought = {
 		ironclad = {
 			hull = 1
 			gun_power = 1
+			maximum_speed = 1
 		}
 		activate_unit = battleship 
 	}
@@ -651,11 +651,30 @@ advanced_cruisers = {
 		cruiser = {
 			hull = 1
 			gun_power = 1
-		}
-		monitor = {
-			hull = 1
-			gun_power = 1
 		} 
+	}
+}
+modern_cruisers = {
+	limit = { oil_driven_ships = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 2
+			invention = advanced_cruisers
+		}
+		modifier = {
+			factor = 2
+			combustion_engine = 1
+		}
+		modifier = {
+			factor = 2
+			advanced_metallurgy = 1
+		}
+	}
+	effect = {
+		cruiser = {
+			maximum_speed = 1
+		}  
 	}
 }
 #advanced_battlecruisers = {
@@ -717,12 +736,10 @@ modern_battleships = {
 	}
 	effect = {
 		battleship = {
-			hull = 2
-			gun_power = 2
+			maximum_speed = 1
 		} 
 		dreadnought = {
-			hull = 2
-			gun_power = 2
+			maximum_speed = 1
 		} 
 	}
 }
@@ -1175,10 +1192,6 @@ advanced_fire_control = {
 			gun_power = 2
 		}
 		cruiser = {
-			gun_power = 2
-			torpedo_attack = 4
-		}
-		monitor = {
 			gun_power = 2
 			torpedo_attack = 4
 		}
@@ -1776,4 +1789,3 @@ naval_exercises = {
 		colonial_migration = 0.02
 	}
 }
-
