@@ -95,4 +95,26 @@ political_decisions = {
 			set_country_flag = grunderzeit_we_have_done
 		}
 	}
+	We_need_to_move_forward = {
+	potential = {
+			tag = AUS
+			war = no
+	}
+	allow = {
+			OR = {
+				AND = {
+					exists = ITA
+					exists = GER
+				}
+				revolution_n_counterrevolution = 1
+			     }
+			}
+	effect = {
+		money = -2000000
+		money = -2000000
+		add_country_modifier = {
+				name = reform_our_empire
+				duration = -1
+		}
+	}
 }
