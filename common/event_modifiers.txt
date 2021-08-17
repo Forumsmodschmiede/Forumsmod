@@ -630,7 +630,7 @@ the_congo_reform_association = {
 ### GER - GERMANY, PRU - PRUSSIA ###
 germania_werft = {
 	local_repair = 0.5
-	local_ship_build = -0.3
+	local_ship_build = -0.5
 	icon = 15
 }
 
