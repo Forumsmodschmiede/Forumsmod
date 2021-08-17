@@ -20,7 +20,7 @@ political_decisions = {
 			}
 			relation = {
 				who = PRU
-				value = 20
+				value = 50
 			}
 		}
 	}

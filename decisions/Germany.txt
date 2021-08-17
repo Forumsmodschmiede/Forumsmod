@@ -363,6 +363,44 @@ political_decisions = {
 			}
 		}
 	}
+
+	schlieffen_plan = {
+		potential = {year = 1890
+			OR = {
+				tag = PRU
+				tag = GER
+				tag = NGF
+			}
+			NOT = {
+				has_country_flag = schlieffen_plan_enacted
+				}
+			}		
+		
+		allow = { military_directionism = 1
+		AND = {war_with = FRA
+			war_with = RUS}
+			}
+
+		effect = {
+			add_country_modifier = {
+				name = schlieffens_plan
+				duration = 365
+			}
+			leadership = 80
+			badboy = 5
+			any_pop = {
+				militancy = -1
+				}
+			set_country_flag = schlieffen_plan_enacted
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = no
+			}
+		}
+	}
 	
 	the_ruhr_boom = {
 	potential = {

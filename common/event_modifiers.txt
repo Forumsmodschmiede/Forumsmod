@@ -780,8 +780,8 @@ la_guardia_civil = {
 #### FRA - France ####
 the_french_foreign_legion = {	
 	prestige = 0.01
-	leadership_modifier = 0.1
-	global_immigrant_attract = 0.05	#1%..
+	leadership_modifier = 0.05
+	global_immigrant_attract = 0.1	#1%..
 	icon = 17
 }
 
@@ -906,5 +906,13 @@ algeria_boom= {
 }
 An_mein_Volk = {
 	mobilisation_size = 0.06
+	icon = 15
+}
+schlieffens_plan = {
+	org_regain = 0.2
+	land_organisation = 0.1
+	land_unit_start_experience = 5.0
+	leadership_modifier = 0.5
+	cb_generation_speed_modifier = 10
 	icon = 15
 }
