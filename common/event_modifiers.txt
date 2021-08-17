@@ -628,10 +628,6 @@ the_congo_reform_association = {
 }
 
 ### GER - GERMANY, PRU - PRUSSIA ###
-An_mein_Volk = {
-	mobilisation_size = 0.03
-	icon = 15
-}
 germania_werft = {
 	local_repair = 0.5
 	local_ship_build = -0.3
@@ -907,4 +903,8 @@ created_a_national_language = {
 algeria_boom= {
 	immigrant_attract = 0.3
 	icon = 5
+}
+An_mein_Volk = {
+	mobilisation_size = 0.06
+	icon = 15
 }

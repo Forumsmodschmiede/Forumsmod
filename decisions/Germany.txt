@@ -6,7 +6,8 @@ political_decisions = {
 			}
 			allow = {          
 		 tag = PRU
-	         war_with = FRA
+	        OR = { war_with = FRA
+			war_with = RUS}
 		}
 		effect = {
             		set_country_flag = prussia_mobilizes
