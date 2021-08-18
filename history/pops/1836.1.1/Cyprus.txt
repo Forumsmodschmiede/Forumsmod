@@ -6,61 +6,61 @@
 	aristocrats = {
 		culture = turkish
 		religion = sunni
-		size = 275
+		size = 2750
 	}
 
 	bureaucrats = {
 		culture = turkish
 		religion = sunni
-		size = 50
+		size = 500
 	}
 
 	officers = {
 		culture = turkish
 		religion = sunni
-		size = 50
+		size = 500
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = sunni
-		size = 75
+		size = 750
 	}
 
 	artisans = {
 		culture = turkish
 		religion = sunni
-		size = 500
+		size = 5000
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 175
+		size = 1750
 	}
 
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 2875
+		size = 7875
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 100
+		size = 1000
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 750
+		size = 7500
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 11150
+		size = 21150
 	}
 }
 #Limassol (44000/11000 POPS)
@@ -68,49 +68,49 @@
 	aristocrats = {
 		culture = turkish
 		religion = sunni
-		size = 200
+		size = 2000
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = sunni
-		size = 50
+		size = 500
 	}
 
 	artisans = {
 		culture = turkish
 		religion = sunni
-		size = 300
+		size = 3000
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 100
+		size = 1000
 	}
 
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 1350
+		size = 5350
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 75
+		size = 750
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 400
+		size = 4000
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 8525
+		size = 15525
 	}
 }
 #Famagusta (44000/11000 POPS)
@@ -118,49 +118,49 @@
 	aristocrats = {
 		culture = turkish
 		religion = sunni
-		size = 200
+		size = 2000
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = sunni
-		size = 50
+		size = 500
 	}
 
 	artisans = {
 		culture = turkish
 		religion = sunni
-		size = 150
+		size = 1500
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 100
+		size = 1000
 	}
 
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 2500
+		size = 5500
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 75
+		size = 750
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 400
+		size = 4000
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 7525
+		size = 15525
 	}
 
 }

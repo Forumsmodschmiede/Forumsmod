@@ -19,7 +19,8 @@ political_decisions = {
 			government = hms_government
 			any_pop = {
 				militancy = -2}
-				money = 100000
+				money = 1000000
+				prestige = 5
 		}
 	}
 	
@@ -53,7 +54,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 30
-			badboy = -10
+			badboy = -20
 			TUR_860 = {
 				add_core = GRE
 			}
@@ -74,8 +75,7 @@ political_decisions = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
 				government = hms_government
-			}
-			is_greater_power = yes			
+			}		
 		}
 		
 		allow = {
@@ -116,8 +116,7 @@ political_decisions = {
 			owns = 870
 			owns = 871
 			owns = 872
-			owns = 873
-			owns = 874
+			owns = 881
 			owns = 875			
 		}
 		
@@ -133,12 +132,19 @@ political_decisions = {
 					OR = {
 						culture = greek
 						culture = turkish
+						culture = bulgarian
 					}
 				}
 				add_core = BYZ
 			}
-			prestige = 40
-			badboy = -20
+			prestige = 50
+			badboy = -30
+
+			add_accepted_culture = bulgarian
+			add_accepted_culture = turkish
+			GRE = { all_core = { remove_core = GRE } }
+			BUL = { all_core = { remove_core = BUL } }
+			TUR = { all_core = { remove_core = TUR } }
 		}
 	}
 }

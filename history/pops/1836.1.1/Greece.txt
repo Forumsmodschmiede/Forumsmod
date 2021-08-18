@@ -1485,19 +1485,19 @@
 	bureaucrats = {
 		culture = turkish
 		religion = sunni
-		size = 50
+		size = 500
 	}
 
 	officers = {
 		culture = turkish
 		religion = sunni
-		size = 50
+		size = 500
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = sunni
-		size = 75
+		size = 750
 	}
 
 	artisans = {
@@ -1509,7 +1509,7 @@
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 200
+		size = 2000
 	}
 
 	farmers = {
@@ -1521,19 +1521,19 @@
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 75
+		size = 7500
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 1200
+		size = 15000
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 8725
+		size = 15725
 	}
 }
 #Iraklion (68000/17000 POPS)
@@ -1541,25 +1541,25 @@
 	aristocrats = {
 		culture = turkish
 		religion = sunni
-		size = 350
+		size = 3500
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = sunni
-		size = 75
+		size = 750
 	}
 
 	artisans = {
 		culture = turkish
 		religion = sunni
-		size = 550
+		size = 5500
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = sunni
-		size = 175
+		size = 1750
 	}
 
 	farmers = {
@@ -1571,19 +1571,19 @@
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 75
+		size = 750
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 450
+		size = 9500
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 9475
+		size = 20475
 	}
 
 }

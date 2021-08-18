@@ -474,9 +474,12 @@ the_slavery_debate = {
 }
 
 the_bonnie_blue_flag = {
-	leadership = 2
-	mobilisation_economy_impact = -0.5
-	mobilisation_size = 0.15
+	mobilisation_economy_impact = -1
+	mobilisation_size = 0.1
+	org_regain = 0.2
+	land_organisation = 0.1
+	land_unit_start_experience = 10.0
+	leadership_modifier = 1
 	icon = 15
 }
 
@@ -611,14 +614,7 @@ international_negotiations = {
 the_statue_of_liberty = {
 	prestige = 0.4
 	global_immigrant_attract = 1	#200%
-	global_assimilation_rate = 1.0
-	icon = 15
-}
-
-ordem_et_progresso = {
-	prestige = 0.1
-	global_immigrant_attract = 0.75
-	global_assimilation_rate = 1.0
+	global_assimilation_rate = 0.4
 	icon = 15
 }
 
@@ -914,5 +910,11 @@ schlieffens_plan = {
 	land_unit_start_experience = 5.0
 	leadership_modifier = 0.5
 	cb_generation_speed_modifier = 10
+	icon = 15
+}
+ordem_et_progresso = {
+	prestige = 0.1
+	global_immigrant_attract = 0.75
+	global_assimilation_rate = 0.3
 	icon = 15
 }
