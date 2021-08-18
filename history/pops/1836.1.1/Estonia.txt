@@ -126,21 +126,21 @@
 #Narva (184000/46000 POPS)  
 350 = {
 	clergymen = {
-		culture = estonian
+		culture = north_german
 		religion = protestant
-		size = 425
+		size = 4250
 	}
 
 	artisans = {
-		culture = estonian
+		culture = north_german
 		religion = protestant
 		size = 2300
 	}
 
 	soldiers = {
-		culture = estonian
+		culture = north_german
 		religion = protestant
-		size = 450
+		size = 4500
 	}
 
 	farmers = {
@@ -152,25 +152,25 @@
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 800
+		size = 8000
 	}
 
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 50
+		size = 500
 	}
 
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 100
+		size = 1000
 	}
 
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 50
+		size = 500
 	}
 
 	farmers = {
@@ -256,19 +256,19 @@
 	}
 
 	clergymen = {
-		culture = estonian
+		culture = north_german
 		religion = protestant
 		size = 350
 	}
 
 	artisans = {
-		culture = estonian
+		culture = north_german
 		religion = protestant
 		size = 1300
 	}
 
 	soldiers = {
-		culture = estonian
+		culture = north_german
 		religion = protestant
 		size = 350
 	}

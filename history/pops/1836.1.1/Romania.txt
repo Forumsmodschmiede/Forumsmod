@@ -2332,13 +2332,13 @@
 #Tulcea (40000/10000 POPS)  
 675 = {
 	clergymen = {
-		culture = romanian
+		culture = bulgarian
 		religion = orthodox
 		size = 50 
 	}
 
 	artisans = {
-		culture = romanian
+		culture = bulgarian
 		religion = orthodox
 		size = 250
 	}

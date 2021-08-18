@@ -533,13 +533,13 @@
 #Leskovac (220000/55000 POPS)
 799 = {
 	clergymen = {
-		culture = serb
+		culture = bulgarian
 		religion = orthodox
 		size = 325
 	}
 
 	artisans = {
-		culture = serb
+		culture = bulgarian
 		religion = orthodox
 		size = 1500
 	}
