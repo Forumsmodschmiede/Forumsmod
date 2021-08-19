@@ -670,12 +670,14 @@ political_decisions = {
 
 			define_general = {
 				name = "Robert E.Lee"
+				picture="usa_general_26"
 				personality = defence_4.1
 				background = attack_5.1
 			}
 
 			define_general = {
 				name = "Thomas Jackson"
+			picture="usa_general_25"
 				personality = defence_5.1
 				background = attack_2.1
 			}

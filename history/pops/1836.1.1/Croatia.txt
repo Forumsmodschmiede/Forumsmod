@@ -246,7 +246,7 @@
 	}
 
 	clergymen = {
-		culture = croat
+		culture = north_italian
 		religion = catholic
 		size = 350
 	}
@@ -264,9 +264,9 @@
 	}
 
 	farmers = {
-		culture = croat
+		culture = north_italian
 		religion = catholic
-		size = 30400
+		size = 20400
 	}
 
 	clergymen = {
@@ -296,7 +296,7 @@
 #Senj (96000/24000 POPS)
 774 = {
 	aristocrats = {
-		culture = croat
+		culture = north_italian
 		religion = catholic
 		size = 275
 	}
@@ -320,15 +320,15 @@
 	}
 
 	farmers = {
-		culture = croat
+		culture = north_italian
 		religion = catholic
 		size = 11525
 	}
 
 	clergymen = {
-		culture = serb
-		religion = orthodox
-		size = 100
+		culture = north_italian
+		religion = catholic
+		size = 1000
 	}
 
 	artisans = {
@@ -716,13 +716,13 @@
 	clergymen = {
 		culture = north_italian
 		religion = catholic
-		size = 25
+		size = 2500
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = catholic
-		size = 500
+		size = 5000
 	}
 
 	soldiers = {
@@ -734,7 +734,7 @@
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 450
+		size = 7500
 	}
 }
 #Zadar (128000/32000 POPS)
@@ -784,37 +784,37 @@
 	bureaucrats = {
 		culture = north_italian
 		religion = catholic
-		size = 75
+		size = 750
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = catholic
-		size = 75
+		size = 750
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = catholic
-		size = 700
+		size = 7000
 	}
 
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 25
+		size = 2500
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 2125
+		size = 11250
 	}
 
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 75
+		size = 750
 	}
 
 	artisans = {
@@ -826,7 +826,7 @@
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size = 75
+		size = 750
 	}
 
 	farmers = {
@@ -840,7 +840,7 @@
 	aristocrats = {
 		culture = croat
 		religion = catholic
-		size = 75
+		size = 750
 	}
 
 	clergymen = {
@@ -870,37 +870,37 @@
 	aristocrats = {
 		culture = north_italian
 		religion = catholic
-		size = 50
+		size = 5000
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = catholic
-		size = 25
+		size = 2500
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = catholic
-		size = 500
+		size = 5000
 	}
 
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 25
+		size = 2500
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 400
+		size = 18000
 	}
 
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 50
+		size = 500
 	}
 
 	artisans = {
@@ -912,7 +912,7 @@
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size = 25
+		size = 250
 	}
 
 	farmers = {

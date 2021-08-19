@@ -15,7 +15,8 @@ political_decisions = {
 			OR = {
 				AND = {
 					exists = ITA
-					exists = GER
+					OR ={exists = NGF
+						exists = GER}
 				}
 				revolution_n_counterrevolution = 1
 			     }

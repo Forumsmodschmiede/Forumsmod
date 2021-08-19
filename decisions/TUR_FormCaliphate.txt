@@ -74,8 +74,9 @@ political_decisions = {
 				all_core  = { add_core = OTC } 
 				annex_to = THIS
 			}
-
-			badboy = 10
+			967 = { add_core = OTC }
+			964 = { add_core = OTC }
+			966 = { add_core = OTC }
 			prestige = 10
 			set_global_flag = caliphate_formed	
 		}

@@ -290,7 +290,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			prestige = 20
+			prestige = 30
 			change_tag = SCA
 			add_accepted_culture = swedish
 			add_accepted_culture = danish

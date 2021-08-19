@@ -144,7 +144,7 @@ military = {
 	POP_MIN_SIZE_FOR_REGIMENT_PROTECTORATE_MULTIPLIER = 8,
 	POP_MIN_SIZE_FOR_REGIMENT_COLONY_MULTIPLIER = 5,
 	POP_MIN_SIZE_FOR_REGIMENT_NONCORE_MULTIPLIER = 3, -- VALUE * POP_MIN_SIZE_FOR_REGIMENT is min for noncores
-	GAS_ATTACK_MODIFIER = 1,
+	GAS_ATTACK_MODIFIER = 3,
 	COMBATLOSS_WAR_EXHAUSTION = 3, -- base war exhastion in combat
 	LEADER_MAX_RANDOM_PRESTIGE = 0.05, -- max percent of prestige, when randomizing stats for leaders.
 	LEADER_AGE_DEATH_FACTOR = 4, -- higher value means leaders live longer
@@ -210,7 +210,7 @@ diplomacy = {
 	PEACE_COST_STATUS_QUO = 1,
 	PEACE_COST_ANNEX = 85,
 	PEACE_COST_DEMAND_STATE = 10,
-	PEACE_COST_INSTALL_COMMUNIST_GOV_TYPE = 70,
+	PEACE_COST_INSTALL_COMMUNIST_GOV_TYPE = 50,
 	PEACE_COST_UNINSTALL_COMMUNIST_GOV_TYPE = 1,
 	PEACE_COST_COLONY = 10,
 	
@@ -248,8 +248,8 @@ diplomacy = {
 	PRESTIGE_DEMAND_STATE_BASE = 2,
 	PRESTIGE_CLEAR_UNION_SPHERE_BASE = 15, -- Prestige for asserting hegemony
 	PRESTIGE_GUNBOAT_BASE = 1, -- Prestige for debt collection
-	PRESTIGE_INSTALL_COMMUNIST_GOV_TYPE_BASE = 2,
-	PRESTIGE_UNINSTALL_COMMUNIST_GOV_TYPE_BASE = 2,
+	PRESTIGE_INSTALL_COMMUNIST_GOV_TYPE_BASE = 3,
+	PRESTIGE_UNINSTALL_COMMUNIST_GOV_TYPE_BASE = 3,
 	PRESTIGE_COLONY_BASE = 2,
 		
 	PRESTIGE_ADD_TO_SPHERE = 0.05,
@@ -268,8 +268,8 @@ diplomacy = {
 	PRESTIGE_DEMAND_STATE = 0.02,
 	PRESTIGE_CLEAR_UNION_SPHERE = 0.15,
 	PRESTIGE_GUNBOAT = 0.01, -- Prestige for debt collection
-	PRESTIGE_INSTALL_COMMUNIST_GOV_TYPE = 0.02,
-	PRESTIGE_UNINSTALL_COMMUNIST_GOV_TYPE = 0.02,
+	PRESTIGE_INSTALL_COMMUNIST_GOV_TYPE = 0.03,
+	PRESTIGE_UNINSTALL_COMMUNIST_GOV_TYPE = 0.03,
 	PRESTIGE_COLONY = 0.02,
 
 	BREAKTRUCE_INFAMY_ADD_TO_SPHERE = 1,
@@ -475,7 +475,7 @@ diplomacy = {
 	MAKE_CB_DIPLOMATIC_COST = 1,
 	MAKE_CB_RELATION_ON_ACCEPT = 0,
 	
-	DISARMAMENT_ARMY_HIT = 0.5,
+	DISARMAMENT_ARMY_HIT = 0.25,
 	REPARATIONS_TAX_HIT = 0.25,
 	PRESTIGE_REDUCTION_BASE = 25,
 	PRESTIGE_REDUCTION = 0.1, -- Base value + % of recipient's prestige
@@ -505,7 +505,7 @@ diplomacy = {
 	
 	MIN_WARSCORE_TO_INTERVENE = -1,
 	MIN_MONTHS_TO_INTERVENE = 0,
-	MAX_WARSCORE_FROM_BATTLES = 50,
+	MAX_WARSCORE_FROM_BATTLES = 40,
 	
 	GUNBOAT_DIPLOMATIC_COST = 1,
 	GUNBOAT_RELATION_ON_ACCEPT = 1,
@@ -536,8 +536,8 @@ diplomacy = {
 	GOODRELATION_MILITANCY_CLEAR_UNION_SPHERE = 2, -- Prestige for asserting hegemony with good relations
 	PEACE_COST_CLEAR_UNION_SPHERE = 0.6, -- Peace cost to assert hegemony per affected country
 	
-	GOOD_PEACE_REFUSAL_MILITANCY = 1.0, --Militancy hit from refusing a good peace offer
-	GOOD_PEACE_REFUSAL_WAREXH = 5.0, --War exhaustion hit from refusing a good peace offer
+	GOOD_PEACE_REFUSAL_MILITANCY = 0, --Militancy hit from refusing a good peace offer
+	GOOD_PEACE_REFUSAL_WAREXH = 0, --War exhaustion hit from refusing a good peace offer
 	
 	PEACE_COST_GUNBOAT = 5, -- Cost of forcing a defaulting country to pay its debt
 	INFAMY_GUNBOAT = 0, -- Infamy cost for debt collection
@@ -603,10 +603,10 @@ diplomacy = {
 	RANK_7_TENSION_DECAY = -0.04,
 	RANK_8_TENSION_DECAY = -0.02,
 
-	TWS_FULFILLED_SPEED = 0.1, -- Ticking War Score grows up with this speed daily once CB is fulfilled
-	TWS_NOT_FULFILLED_SPEED = 0.1, -- Ticking War Score falls down when CB is not fulfilled (or after grace period)
+	TWS_FULFILLED_SPEED = 0.07, -- Ticking War Score grows up with this speed daily once CB is fulfilled
+	TWS_NOT_FULFILLED_SPEED = 0.05, -- Ticking War Score falls down when CB is not fulfilled (or after grace period)
 	TWS_GRACE_PERIOD_DAYS = 730, -- Ticking War Score delay before it starts falling down for not fulfilling CB.
-	TWS_CB_LIMIT_DEFAULT = 100,
+	TWS_CB_LIMIT_DEFAULT = 90,
 	TWS_FULFILLED_IDLE_SPACE = 0.75, -- How much % the CB fulfillment must done, so TWS starts ticking.
 	TWS_BATTLE_MIN_COUNT = 5, -- At least X battles before the aspect of wins will count
 	TWS_BATTLE_MAX_ASPECT = 8.0, -- Max allowed battle wins aspect for TWS
@@ -713,7 +713,7 @@ ai =
 	CHANCE_INVEST_POP_PROJ = 0.25,
 	CHANCE_FOREIGN_INVEST = 0.25,
 	TWS_AWARENESS_SCORE_LOW_CAP = 0.2, -- AI will always add CBs if current warscore is less then that number (including TWS)
-	TWS_AWARENESS_SCORE_ASPECT = 0.5, -- AI will not add any more CBs when TWS is more then X% of total WS. (to not destroy the progress)
+	TWS_AWARENESS_SCORE_ASPECT = 0.4, -- AI will not add any more CBs when TWS is more then X% of total WS. (to not destroy the progress)
 	PEACE_BASE_RELUCTANCE = 20, -- AI base stubbornness to refuse peace (always applied)
 	PEACE_TIME_MONTHS = 30, -- months of additional AI stubbornness in a war
 	PEACE_TIME_FACTOR = 0.6, -- after months of stubbornness the effect of time passed is multiplied by this

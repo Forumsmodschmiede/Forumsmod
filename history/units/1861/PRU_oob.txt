@@ -478,7 +478,7 @@ army = {
 
 	regiment = {
 		name= "4.1. Linieninfanteriedivision"
-		type = infantry
+		type = engineer
 		home = 582
 	}
 
@@ -496,7 +496,7 @@ army = {
 
 	regiment = {
 		name= "3.2. Linieninfanteriedivision"
-		type = infantry
+		type = engineer
 		home = 584
 	}
 
@@ -531,7 +531,7 @@ army = {
 
 	regiment = {
 		name= "4.3. Linieninfanteriedivision"
-		type = infantry
+		type = engineer
 		home = 551
 	}
 
@@ -584,7 +584,7 @@ army = {
 
 	regiment = {
 		name= "4.5. Linieninfanteriedivision"
-		type = infantry
+		type = engineer
 		home = 693
 	}
 
@@ -637,7 +637,7 @@ army = {
 
 	regiment = {
 		name= "4.7. Linieninfanteriedivision"
-		type = infantry
+		type = engineer
 		home = 687
 	}
 
@@ -795,7 +795,7 @@ army = {
 
 	regiment = {
 		name= "4.2. Infanteriedivsion"
-		type = infantry
+		type = engineer
 		home = 699
 	}
 

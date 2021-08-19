@@ -209,9 +209,9 @@
 	}
 
 	farmers = {
-		culture = croat
+		culture = north_italian
 		religion = catholic
-		size = 5650
+		size = 15650
 	}
 
 	clergymen = {

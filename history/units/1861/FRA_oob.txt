@@ -241,7 +241,7 @@ army = {
 
 	regiment = {
 		name= "2.3ème Division d'Infanterie"
-		type = infantry
+		type = engineer
 		home = 418
 	}
 
@@ -300,7 +300,7 @@ army = {
 
 	regiment = {
 		name= "2.6ème Division d'Infanterie"
-		type = infantry
+		type = engineer
 		home = 403
 	}
 
@@ -358,7 +358,7 @@ army = {
 
 	regiment = {
 		name= "4.1ère Division de Chasseurs"
-		type = infantry
+		type = engineer
 		home = 411
 	}
 
@@ -382,7 +382,7 @@ army = {
 
 	regiment = {
 		name= "4.2ème Division de Chasseurs"
-		type = infantry
+		type = engineer
 		home = 439
 	}
 
@@ -536,7 +536,7 @@ army = {
 
 	regiment = {
 		name= "3.20ème Division d'Infanterie"
-		type = infantry
+		type = engineer
 		home = 430
 	}
 
@@ -613,7 +613,7 @@ army = {
 
 	regiment = {
 		name= "3.24ème Division d'Infanterie"
-		type = infantry
+		type = engineer
 		home = 416
 	}
 
@@ -856,7 +856,7 @@ army = {
 
 	regiment = {
 		name= "3.12ème Division d'Infanterie"
-		type = infantry
+		type = engineer
 		home = 401
 	}
 

@@ -2,7 +2,7 @@
 # If adding new groups or cultures, make sure they are unique.
 
 germanic = {
-	leader = european
+	leader = austrian
 	unit = EuropeanGC
 	north_german = { 
 		color = { 90 60 60 }
@@ -57,7 +57,7 @@ germanic = {
 }
 
 beneluxian = {
-	leader = european
+	leader = net
 	unit = EuropeanGC
 	dutch = { 
 		color = { 230 130 50}
@@ -175,7 +175,7 @@ pan_swiss = {
 }
 	
 scandinavian = {
-	leader = european
+	leader = swe
 	unit = EuropeanGC
 	swedish = { 
 		color = { 20 40 160}
@@ -244,7 +244,7 @@ scandinavian = {
 }
 
 british = {
-	leader = european
+	leader = eng
 	unit = BritishGC
 	british = {
 		color = { 220 100 220}
@@ -276,7 +276,7 @@ british = {
 }
 
 italian = {
-	leader = european
+	leader = ita
 	unit = ItalianGC
 	north_italian = { 
 		color = { 90 210 130}
@@ -319,7 +319,7 @@ italian = {
 }
 
 iberian = {
-	leader = southamerican
+	leader = spa
 	unit = SpanishGC
 	basque = {
 		color = {220 170 30}
@@ -387,7 +387,7 @@ iberian = {
 }
 
 french = {
-	leader = european
+	leader = french
 	unit = FrenchGC
 	french = { 
 		color = {20 20 100}
@@ -1759,7 +1759,7 @@ native_american = {
 }
 
 american_cultures = {
-	leader = european
+	leader = usa
 	is_overseas = no
 	yankee = {
 		color = {65 65 129}
@@ -1843,7 +1843,7 @@ neo_european_cultures = {
 }
 
 latin_american_cultures = {
-	leader = southamerican
+	leader = mex
 	is_overseas = no
 	mexican = {
 		color = {51 117 62}

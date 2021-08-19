@@ -56,24 +56,24 @@ SWI = {
 
 PAR = {
 	value = 100
-	level = 4
+	level = 5
 }
 
 MOD = {
 	value = 100
-	level = 4
+	level = 5
 	influence_value = 25
 }
 
 TUS = {
 	value = 75
-	level = 4
+	level = 5
 	influence_value = 25
 }
 
 LUC = {
 	value = 75
-	level = 4
+	level = 5
 	influence_value = 25
 }
 
@@ -97,10 +97,11 @@ ANH = {
 
 leader = {
 	name = "Josef Radetzky"
+	picture="austrian_general_20"
 	date = 1805.1.1
 	type = land
-	personality = au_fait
-	background = elderly
+	personality = defence_3.1
+	background = attack_4.1
 	prestige = 0.3
 }
 
