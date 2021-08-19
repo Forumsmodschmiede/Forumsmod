@@ -924,3 +924,9 @@ ordem_et_progresso = {
 	global_assimilation_rate = 0.3
 	icon = 15
 }
+Royal_Navy = {
+	land_organisation = -0.1
+	naval_unit_start_experience = 10
+	naval_organisation = 0.1
+	navy_tech_research_bonus = 0.1
+}
