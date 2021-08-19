@@ -632,8 +632,8 @@ germania_werft = {
 
 ruhr_boom = {
 
-	mine_rgo_eff = 1.5
-	population_growth = 0.025
+	mine_rgo_eff = 2
+	population_growth = 0.0125
 	life_rating = 0.2
 	icon = 11
 }
@@ -845,7 +845,7 @@ the_walhalla = {
  
  ##
  meiji_restoration_boost = {
-	research_points_modifier = 0.33
+	research_points_modifier = 1
 	global_pop_militancy_modifier = 0.015
 	icon = 5
 }
@@ -878,6 +878,13 @@ liberian_research_boost = {
 }
 
 ##Mod
+reform_our_empire = {
+	education_efficiency_modifier = 0.20
+	mobilisation_size = 0.01
+	research_points_modifier = 0.15
+	tax_efficiency = 0.05
+	factory_throughput = 0.05
+}
 new_crops = {
 	farm_rgo_eff = -0.95
 	icon = 14
@@ -892,7 +899,6 @@ treaty_of_london = {
 	badboy = -0.05
 }
 created_a_national_language = {
-	global_pop_militancy_modifier = 0.015
 	education_efficiency_modifier = 0.25
 	icon = 5
 }
