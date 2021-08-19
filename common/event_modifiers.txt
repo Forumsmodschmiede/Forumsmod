@@ -777,7 +777,7 @@ la_guardia_civil = {
 the_french_foreign_legion = {	
 	prestige = 0.01
 	leadership_modifier = 0.05
-	global_immigrant_attract = 0.1	#1%..
+	global_immigrant_attract = 0.2
 	icon = 17
 }
 
@@ -929,4 +929,16 @@ Royal_Navy = {
 	naval_unit_start_experience = 10
 	naval_organisation = 0.1
 	navy_tech_research_bonus = 0.1
+}
+Rebuild_our_Fleet = {
+	local_repair = 0.5
+	local_ship_build = -0.5
+}
+Rebuild_our_Fleets = {
+	naval_unit_start_experience = 5
+}
+Levée_en_masse = {
+	land_organisation = 0.1
+	org_regain = 0.15
+	supply_consumption = -0.1
 }

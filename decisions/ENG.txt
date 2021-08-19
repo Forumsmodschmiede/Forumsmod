@@ -209,3 +209,35 @@ Establish_the_Royal_Navy = {
 			}
 		}
 }
+Emergency_ship_building_effort = {
+		potential = {
+			tag = ENG
+			not = { has_country_modifier = Rebuild_our_Fleets }
+		}
+		effect = {
+		add_country_modifier = {
+					name = Rebuild_our_Fleets
+					duration = 1095
+					}
+		281 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = 1095
+					}
+}
+		303 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = 1095
+					}
+}
+		299 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = 1095
+					}
+}
+		271 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = 1095
+					}
+}
+}
+}

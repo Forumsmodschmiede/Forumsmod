@@ -320,4 +320,36 @@ political_decisions = {
 			set_country_flag = extreme_home_makeover
 		}
 	}
+	The_legacy_of_Napoleon = {
+		potential = {
+		tag = FRA
+			}
+		allow = {          
+		 tag = FRA
+	        OR = { war_with = ENG
+			war_with = GER}
+		}
+		effect = {
+		add_country_modifier = {
+					name = Levée_en_masse
+					duration = 3650
+					}
+		470 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = 1095
+					}
+}
+		442 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = 1095
+					}
+}
+		418 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = 1095
+					}
+}
+			}
+				}
+}
 }
