@@ -902,13 +902,6 @@ created_a_national_language = {
 	education_efficiency_modifier = 0.25
 	icon = 5
 }
-reform_our_empire = {
-	education_efficiency_modifier = 0.2
-	research_points_modifier = 0.1
-	factory_throughput = 0.05
-	mine_RGO_eff = 0.05
-	mobilisation_size = 0.01
-}
 algeria_boom= {
 	immigrant_attract = 0.3
 	icon = 5
