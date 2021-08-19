@@ -98,18 +98,19 @@ political_decisions = {
 	}
 	We_need_to_move_forward = {
 	potential = {
-			tag = AUS
+			OR = {tag = AUS
+				tag = KUK}
 			war = no
 	}
-	allow = {
+	allow = {money = 4000000
 			OR = {
 				AND = {
 					exists = ITA
 					exists = GER
-				}
+					}
 				revolution_n_counterrevolution = 1
 			     }
-			}
+		}
 	effect = {
 		money = -2000000
 		money = -2000000

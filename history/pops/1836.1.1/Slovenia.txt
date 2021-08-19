@@ -122,27 +122,27 @@
 #Postojna (180000/45000 POPS) 
 769 = {
 	aristocrats = {
-		culture = slovene
+		culture = north_italian
 		religion = catholic
 		size = 500
 	}
 
 	clergymen = {
-		culture = slovene
+		culture = north_italian
 		religion = catholic
 		size = 425
 	}
 
 	artisans = {
-		culture = slovene
+		culture = north_italian
 		religion = catholic
 		size = 2100
 	}
 
 	soldiers = {
-		culture = slovene
+		culture = north_italian
 		religion = catholic
-		size = 425
+		size = 4250
 	}
 
 	farmers = {
@@ -154,13 +154,13 @@
 	clergymen = {
 		culture = south_german
 		religion = catholic
-		size = 25
+		size = 250
 	}
 
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 1975
+		size = 19750
 	}
 
 }

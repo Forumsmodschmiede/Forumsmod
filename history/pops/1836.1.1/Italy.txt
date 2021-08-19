@@ -860,7 +860,7 @@
 	clergymen = {
 		culture = north_italian
 		religion = catholic
-		size = 125
+		size = 1250
 	}
 
 	artisans = {
@@ -872,7 +872,7 @@
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 125
+		size = 1250
 	}
 
 	farmers = {
@@ -903,6 +903,11 @@
 		culture = slovene
 		religion = catholic
 		size = 30375
+	}
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 15375
 	}
 }
 #Emilia Region (1120000)
