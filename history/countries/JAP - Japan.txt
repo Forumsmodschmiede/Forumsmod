@@ -1,8 +1,8 @@
-capital = 1649
+capital = 1657
 primary_culture = japanese
 culture = ainu
 religion = mahayana
-government = absolute_monarchy
+government = shogunate
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.40

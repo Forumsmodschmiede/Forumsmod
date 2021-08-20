@@ -11,10 +11,8 @@ country_event = {
         533 = {
             secede_province = GER
             remove_core = ENG
-        }
-	533 = { change_province_name = "Helgoland" }
-	533 = { state_scope = { change_region_name = "Helgoland" } }
-	}
+      	 	}
+		}
 
 	option = {
 		name = "Heligoland is ours!"

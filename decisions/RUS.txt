@@ -3,7 +3,7 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			has_country_flag = serfdom_not_abolished
-			#government = absolute_monarchy
+			#government = imperial
 		}
 		allow = {
 			OR = {
@@ -96,7 +96,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = ems_ukaz_dispatched
 			}
-			government = absolute_monarchy
+			government = imperial
 			owns = 958
 			phenomenalism = 1
 			exists = GER
@@ -126,7 +126,7 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			is_greater_power = yes
-			government = absolute_monarchy
+			government = imperial
 			NOT = {
 				has_country_flag = eastern_christians_up_in_here_yall
 			}

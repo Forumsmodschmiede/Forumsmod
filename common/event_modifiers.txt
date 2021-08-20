@@ -614,7 +614,7 @@ international_negotiations = {
 the_statue_of_liberty = {
 	prestige = 0.4
 	global_immigrant_attract = 1	#200%
-	global_assimilation_rate = 0.4
+	global_assimilation_rate = 0.5
 	icon = 15
 }
 
@@ -756,20 +756,28 @@ economic_boom = {
 
 #### ENG - ENGLAND #####
 corn_laws_repealed = {
-	max_tariff = -0.05
+	max_tariff = -0.5
 	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.01
+	global_pop_consciousness_modifier = 0.01	
+	import_cost = -0.1
 	icon = 1
 }
 
 the_yard = {
 	tax_efficiency = 0.01
+	suppression_points_modifier = 0.1
+	ruling_party_support = 0.05
+	core_pop_militancy_modifier = -0.001
 	icon = 1
 }
 
 #### SPA - Spain ####
 la_guardia_civil = {
 	tax_efficiency = 0.05
+	suppression_points_modifier = 0.1
+	ruling_party_support = 0.1
+	core_pop_militancy_modifier = -0.001
+	administrative_efficiency_modifier = 0.05
 	icon = 1
 }
 
@@ -783,6 +791,7 @@ the_french_foreign_legion = {
 
 the_eiffel_tower = {
 	prestige = 0.05
+	core_pop_militancy_modifier = -0.001
 	icon = 15
 }
 
@@ -790,6 +799,7 @@ the_eiffel_tower = {
 folkis_educates = {
 	research_points_modifier = 0.05
 	global_population_growth = 0.02
+	core_pop_militancy_modifier = -0.001
 	icon = 5
 }
 
@@ -883,6 +893,7 @@ reform_our_empire = {
 	mobilisation_size = 0.01
 	research_points_modifier = 0.15
 	tax_efficiency = 0.05
+	administrative_efficiency_modifier = 0.05
 	factory_throughput = 0.05
 }
 new_crops = {
@@ -908,11 +919,14 @@ algeria_boom= {
 }
 An_mein_Volk = {
 	mobilisation_size = 0.06
+	core_pop_militancy_modifier = -0.01
 	icon = 15
 }
 schlieffens_plan = {
+	import_cost = 0.5
+	core_pop_militancy_modifier = -0.01
 	org_regain = 0.2
-	land_organisation = 0.1
+	land_organisation = 0.2
 	land_unit_start_experience = 5.0
 	leadership_modifier = 0.5
 	cb_generation_speed_modifier = 10
@@ -921,7 +935,7 @@ schlieffens_plan = {
 ordem_et_progresso = {
 	prestige = 0.1
 	global_immigrant_attract = 0.75
-	global_assimilation_rate = 0.3
+	global_assimilation_rate = 1
 	icon = 15
 }
 Royal_Navy = {
@@ -941,4 +955,38 @@ Levée_en_masse = {
 	land_organisation = 0.1
 	org_regain = 0.15
 	supply_consumption = -0.1
+	core_pop_militancy_modifier = -0.01
+}
+otto_von_bismarck = {
+	prestige = 0.02
+	core_pop_militancy_modifier = -0.01
+	core_pop_consciousness_modifier = -0.01
+	diplomatic_points_modifier = 0.25
+	ruling_party_support = 0.5
+	badboy = -0.01
+	tax_efficiency = 0.05
+	administrative_efficiency_modifier = 0.05
+	icon = 17
+}
+louis_napoleon_iii = {
+	prestige = 0.05
+	ruling_party_support = 1.0
+	core_pop_militancy_modifier = -0.01
+	core_pop_consciousness_modifier = -0.05
+	land_organisation = -0.05
+	badboy = 0.01
+	icon = 17
+}
+german_colonial_society = {	
+	prestige = 0.01
+	leadership_modifier = 0.05
+	global_immigrant_attract = 0.1
+	icon = 17
+}
+commodore_perry = {	
+	prestige = -0.02
+	farm_rgo_eff = -0.2
+	import_cost = 0.2
+	research_points_modifier = -0.1
+	icon = 17
 }

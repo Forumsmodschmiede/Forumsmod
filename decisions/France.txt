@@ -83,9 +83,7 @@ political_decisions = {
 		potential = {
 			tag = FRA
 			exists = JAP
-			JAP = {
-				civilized = no
-			}
+
 			NOT = {
 				has_country_flag = military_mission_in_japan
 			}
@@ -105,7 +103,7 @@ political_decisions = {
 				value = 100
 			}
 			JAP = {
-				years_of_research = 0.6
+				years_of_research = 2
 			}
 			prestige = 20
 			set_country_flag = military_mission_in_japan

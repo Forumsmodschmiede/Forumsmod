@@ -17,6 +17,7 @@ political_decisions = {
 			add_accepted_culture = portuguese
 			prestige = 10
 			517 = {add_core = IBE}
+			464 = {add_core = IBE}
 		}
 	}
 }

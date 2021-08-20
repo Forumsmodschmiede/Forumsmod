@@ -169,93 +169,7 @@ political_decisions = {
 			}
 		}
 	}
-	the_meiji_restoration = {
-		potential = {
-			civilized = no
-			tag = JAP
-			not = { has_country_modifier = meiji_restoration_boost }
-		}
-		allow = {
-			war = no
-			part_of_sphere = yes
-		}
-		effect = {
-			years_of_research = 8
-			prestige = 10
-			add_country_modifier = {
-				name = meiji_restoration_boost
-				duration = 7300
-			}
-		}
-	}
-	create_a_national_language = {
-		potential = {
-			tag = JAP
-			not = { has_country_modifier = create_a_national_language }
-		}
-		allow = {
-			idealism = 1
-		}
-		effect = {
-			money = 500000
-			add_country_modifier = {
-				name = created_a_national_language
-				duration = 18250
-				}
-			}
-		}
-	the_meiji_restoration2 = {
-		potential = {
-			civilized = no
-			tag = JAP
-			not = { has_country_modifier = meiji_restoration_boost }
-		}
-		allow = {
-			war = no
-			part_of_sphere = no
-		}
-		effect = {
-			money = 500000
-			years_of_research = 16
-			prestige = 100
-			add_country_modifier = {
-				name = meiji_restoration_boost
-				duration = 10950
-			}
-			military_reform = modern_command_principle
-			military_reform = modern_naval_thought
-			any_pop = {
-				scaled_militancy = {
-					ideology = liberal
-					factor = 0.5
-				}
-				scaled_militancy = {
-					ideology = conservative
-					factor = 6
-				}
-				scaled_militancy = {
-					ideology = reactionary
-					factor = 6
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					OR = {
-						AND = {
-							pop_majority_ideology = liberal 
-							year = 1855
-						}
-					year = 1875		
-					}
-				}
-			}
-		}
-	}
-	
+
 	leave_soi = {
 		alert = no
 		potential = {
@@ -317,4 +231,301 @@ political_decisions = {
 			factor = 0
 		}
 	}
+
+
+
+	the_meiji_restoration = {
+		potential = {
+			civilized = no
+			tag = JAP
+			not = { has_country_modifier = meiji_restoration_boost }
+		}
+		allow = {
+			war = no
+			part_of_sphere = yes
+		}
+		effect = {
+			money = 500000
+			years_of_research = 10
+			prestige = 90
+			add_country_modifier = {
+				name = meiji_restoration_boost
+				duration = 10950
+			}
+			military_reform = modern_command_principle
+			military_reform = modern_naval_thought
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 0.5
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 6
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 6
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						AND = {
+							pop_majority_ideology = liberal 
+							year = 1855
+						}
+					year = 1875		
+					}
+				}
+			}
+		}
+	}
+
+
+	the_meiji_restoration2 = {
+		potential = {
+			civilized = no
+			tag = JAP
+			not = { has_country_modifier = meiji_restoration_boost }
+		}
+		allow = {
+			war = no
+			part_of_sphere = no
+		}
+		effect = {
+			money = 500000
+			years_of_research = 5
+			prestige = 80
+			add_country_modifier = {
+				name = meiji_restoration_boost
+				duration = 10950
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 0.5
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 6
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 6
+				}
+			}
+		}
+	}
+
+	taiwan_administration = {
+		picture = taiwan
+		potential = {
+				tag = JAP
+			NOT = { has_country_flag = taiwan_administration }
+		}
+		allow = {
+			civilized = yes
+		}
+		effect = {
+			prestige = 5
+			badboy = 10
+			2562 = {
+				add_core = JAP
+				change_province_name = "Karenko"
+			}
+			1485 = {
+				add_core = JAP
+				change_province_name = "Tainan Cho"
+				state_scope = { change_region_name = "Takasago" }
+			}
+			set_country_flag = taiwan_administration
+		}	
+	}
+	
+
+	create_a_national_language = {
+		potential = {
+			has_country_flag = sent_iwakura_mission
+			tag = JAP
+			not = { has_country_modifier = created_a_national_language }
+			civilized = yes
+		}
+		allow = {
+			idealism = 1
+		}
+		effect = {
+			money = 500000
+			add_country_modifier = {
+				name = created_a_national_language
+				duration = -1
+				}
+			}
+		}
+
+	iwakura_mission = {
+	picture = iwakura_mission
+		potential = {
+			tag = JAP
+			NOT = { has_country_flag = sent_iwakura_mission }
+			civilized = yes
+		}
+		
+		allow = {
+			war = no
+			idealism = 1}
+		
+		effect = {
+			set_country_flag = sent_iwakura_mission
+			years_of_research = 1
+			leadership = 80
+			prestige = 10
+		random_owned = {
+				limit = {
+					owner = { school_reforms = no_schools }
+					}
+				owner = { social_reform = low_schools }
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	meiji_constitution = {
+		picture = meiji_court
+		potential = {
+			tag = JAP
+			civilized = yes
+			NOT = { enacted_meiji_constitution }
+		}
+		
+		allow = {
+			war = no
+			state_n_government = 1
+			plurality = 10
+		}
+		
+		effect = {
+			set_country_flag = enacted_meiji_constitution
+			prestige = 10
+			political_reform = wealth_weighted_voting
+			random_owned = {
+				limit = {
+					owner = { political_parties = underground_parties }
+				}
+				owner = {
+					political_reform = harassment
+				}
+			}			
+			government = prussian_constitutionalism
+			any_pop = { militancy = -2 }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	abolish_the_han_system = {
+		picture = meiji_court
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			civilized = yes
+			NOT = { has_country_flag = han_system_abolished }
+		}
+		
+		allow = {
+			war = no
+			state_n_government = 1
+			owns = 1649
+			owns = 1640
+			owns = 1646
+			owns = 1662
+			owns = 1668
+			owns = 1665
+			owns = 1673
+		}
+		
+		effect = {
+			set_country_flag = han_system_abolished
+			remove_country_modifier = uncivilized_isolationism
+			years_of_research = 1
+			prestige = 10
+			remove_country_modifier = ansei_purge
+			remove_country_modifier = kobu_gattai
+			any_pop = {
+				limit = { is_primary_culture = yes }
+				ideology = {
+					value = liberal
+					factor = 0.1
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -6
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 6
+				}
+			}
+			CHO = {
+				all_core = { remove_core = CHO }
+			}
+			SAT = {
+				all_core = { remove_core = SAT }
+			}			
+			TOS = {
+				all_core = { remove_core = TOS }
+			}
+			KAG = {
+				all_core = { remove_core = KAG }
+			}
+			SEN = {
+				all_core = { remove_core = SEN }
+			}
+			YZW = {
+				all_core = { remove_core = YZW }
+			}
+		}
+	}
+
+	bonin_administration = {
+		picture = meiji_court
+		potential = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+			owns = 1654
+			owns = 2525
+			NOT = { has_country_flag = bonin_administration }
+		}
+		allow = {
+			civilized = yes
+			owns = 1654
+			owns = 2525
+		}
+		effect = {
+			prestige = 1
+			1654 = {
+				change_province_name = "Iwo Jima"
+			}
+			2525 = {
+				life_rating = 15
+				add_core = THIS
+				change_province_name = "Minami Torishima"
+				state_scope = {
+					change_region_name = "Ogasawara"
+				}
+			}
+			set_country_flag = bonin_administration
+		}	
+	}  
+	
+
 }

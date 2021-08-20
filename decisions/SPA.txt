@@ -14,7 +14,7 @@ political_decisions = {
 				has_country_flag = guardia_civil_established
 			}
 		}
-		allow = {
+		allow = { money = 1000000
 			NOT = {
 				num_of_revolts = 1
 			}
@@ -23,7 +23,7 @@ political_decisions = {
 				average_consciousness = 4
 			}
 		}
-		effect = {
+		effect = { money = -1000000
 			add_country_modifier = {
 				name = la_guardia_civil
 				duration = -1
@@ -52,7 +52,7 @@ political_decisions = {
 			prestige = 10
 			relation = {
 				who = PAP
-				value = -50
+				value = -100
 			}
 			any_pop = {
 				scaled_militancy = {
