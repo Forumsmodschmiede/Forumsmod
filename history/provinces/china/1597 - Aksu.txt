@@ -1,4 +1,4 @@
-add_core = CHI
+
 trade_goods = sulphur
 life_rating = 32
 

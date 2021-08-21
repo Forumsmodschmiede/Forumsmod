@@ -728,7 +728,6 @@ acquire_state = {
 				tag = SHA
 				tag = QNG
 				tag = BEI
-				tag = CHI
 			}
 		}
 		NOT = { is_our_vassal = THIS }
@@ -758,6 +757,7 @@ acquire_state = {
 		is_colonial = no
 		any_owned_province = {
 			not = {	is_core = THIS }
+			not = { is_core = CHI }
 			is_colonial = no
 		}
 		not = { any_owned_province = { is_capital = yes } }
@@ -1637,7 +1637,6 @@ demand_concession_casus_belli = {
 				tag = SHA
 				tag = QNG
 				tag = BEI
-				tag = CHI
 			}
 		}
 		NOT = { is_our_vassal = THIS }
@@ -1651,7 +1650,9 @@ demand_concession_casus_belli = {
 	allowed_states = {
 		any_owned_province = {
 			is_colonial = no
+			not = { is_core = CHI }	
 		}
+			
 		not = { any_owned_province = { is_capital = yes } }
 	}
 	
@@ -1703,7 +1704,6 @@ establish_protectorate_casus_belli = {
 				tag = SHA
 				tag = QNG
 				tag = BEI
-				tag = CHI
 			}
 		}
 		NOT = { is_our_vassal = THIS }
