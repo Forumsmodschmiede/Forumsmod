@@ -63,7 +63,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = haskingcotton
-			prestige = 5
+			prestige = 50
 			cotton = -500
 			any_greater_power = {
 				limit = {
@@ -221,7 +221,7 @@ political_decisions = {
 			CSA = {
 				add_country_modifier = {
 					name = anaconda_plan
-					duration = -1
+					duration = 2000
 				}
 			}
 			set_global_flag = anaconda_plan_active
@@ -260,7 +260,8 @@ political_decisions = {
 				}
 			}
 			CSA = {
-				war_exhaustion = 4
+				war_exhaustion = 30
+				money = 100000
 			}
 		}
 	}
@@ -329,7 +330,14 @@ political_decisions = {
 					}
 			}
 		}
-		effect = {
+		effect = {			
+			132 = {add_core = CSA}
+			133 = {add_core = CSA}
+			137 = {add_core = CSA}
+			134 = {add_core = CSA}
+			135 = {add_core = CSA}
+			138 = {add_core = CSA}
+			136 = {add_core = CSA}
 			set_country_flag = hasmanifestdestiny
 			diplomatic_influence = {
 				who = MEX
@@ -641,7 +649,7 @@ political_decisions = {
 				}
 				pop_type = soldiers
 			}
-			war_exhaustion = -1
+			war_exhaustion = -10
 			set_country_flag = kellys_irish_brigade
 		}
 	}
@@ -667,6 +675,16 @@ political_decisions = {
 			canned_food = 2000
 			ammunition = 2000
 			small_arms = 2000
+			cotton = 2000
+			steel = 2000
+			iron = 2000
+			coal = 2000
+			explosives = 2000
+			years_of_research = 3
+			leadership = 80
+			any_pop = {
+				militancy = -5
+				}
 
 			define_general = {
 				name = "Robert E.Lee"
@@ -679,7 +697,7 @@ political_decisions = {
 				name = "Thomas Jackson"
 			picture="usa_general_25"
 				personality = defence_5.1
-				background = attack_2.1
+				background = attack_3.1
 			}
 			
 			add_country_modifier = {

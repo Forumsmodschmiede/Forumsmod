@@ -480,6 +480,7 @@ the_bonnie_blue_flag = {
 	land_organisation = 0.1
 	land_unit_start_experience = 10.0
 	leadership_modifier = 1
+	research_points_modifier = 1
 	icon = 15
 }
 
@@ -988,5 +989,14 @@ commodore_perry = {
 	farm_rgo_eff = -0.2
 	import_cost = 0.2
 	research_points_modifier = -0.1
+	icon = 17
+}
+mexican_reforms = {	
+	prestige = 0.01
+	tax_efficiency = 0.05
+	administrative_efficiency_modifier = 0.05
+	land_organisation = 0.1
+	org_regain = 0.1
+	mobilisation_size = 0.02
 	icon = 17
 }
