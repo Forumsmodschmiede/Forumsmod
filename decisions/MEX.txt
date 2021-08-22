@@ -18,7 +18,7 @@ political_decisions = {
 		}
 		effect = { money = 500000
 			add_country_modifier = {
-				name = mexican_reforms
+				name = country_reforms
 				duration = -1}
 			government = hms_government
 			any_pop = {

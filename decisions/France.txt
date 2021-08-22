@@ -1,4 +1,49 @@
 political_decisions = {
+
+	appoint_napoleon = {
+		picture = napoleon
+		potential = {
+				tag = FRA
+			OR = {
+				government = hms_government
+				government = democracy
+			}
+			NOT = {
+				year = 1875
+				has_country_flag = napoleon_appointed
+			}
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			OR = {
+				ruling_party_ideology = liberal
+				ruling_party_ideology = conservative
+				ruling_party_ideology = reactionary
+			}
+		}
+		
+		effect = { 
+			government = absolute_monarchy
+			prestige = 10
+			set_country_flag = napoleon_appointed
+			add_country_modifier = {
+				name = louis_napoleon_iii
+				duration = 7300
+			}
+			any_pop = {
+				limit = { is_culture_group = french }
+				militancy = -3
+				dominant_issue = {
+					factor = 0.2
+					value = jingoism
+				}
+			}
+		}
+	}
+
+
 	liberty_enlightening_the_world = {
 		potential = {
 			NOT = {

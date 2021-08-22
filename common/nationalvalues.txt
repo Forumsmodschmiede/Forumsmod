@@ -6,6 +6,8 @@ nv_order = {
 nv_liberty = {
 	mobilisation_size = 0.02
 	mobilisation_economy_impact = 0.75
+	pop_militancy_modifier = -0.1
+	pop_consciousness_modifier = 0.01
 }
 
 nv_equality = {

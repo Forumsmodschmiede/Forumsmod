@@ -532,6 +532,7 @@ political_decisions = {
 			}
 			SPA_2209 = {
 				add_core = USA
+				add_core = CSA
 			}
 			any_state = {
 				limit = {

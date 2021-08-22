@@ -11,8 +11,11 @@ political_decisions = {
 			prestige = 1
 			romanticism = 1
 		}
-		effect = {
-			prestige = 5
+		effect = {	add_country_modifier = {
+				name = the_bonnie_blue_flag
+				duration = -1}
+			prestige = -20
+			money = 5000000
 			608 = {
 				remove_core = PRU
 				remove_core = NGF
@@ -41,7 +44,7 @@ political_decisions = {
 			606 = {
 				infrastructure = 4
 			}
-			prestige = 5
+			prestige = -10
 			set_country_flag = gotthard_tunnel_built
 		}
 	}

@@ -12,6 +12,7 @@ political_decisions = {
 		effect = {
             		set_country_flag = prussia_mobilizes
 			money = 500000
+			leadership = 80
 		add_country_modifier = {
 
 					name = An_mein_Volk
@@ -332,6 +333,11 @@ political_decisions = {
 		}
 		
 		effect = {
+			treasury = -50000
+			533 = {
+				naval_base = 6
+				add_province_modifier = { name = germania_werft duration = -1 }
+				}
 			533 = { change_province_name = "Helgoland" }
 			533 = { state_scope = { change_region_name = "Helgoland" } }
 			533 = {
