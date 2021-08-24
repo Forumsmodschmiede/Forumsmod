@@ -396,25 +396,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 
-Establish_the_Russian_Navy = {
-		potential = {
-			tag = RUS
-			not = { has_country_modifier = bigger_Navy }
-		}
-		allow = {
-			iron_steamers = 1
-			money = 4000000
-		}
-		effect = {
-			money = -2000000
-			money = -2000000
 
-			add_country_modifier = {
-				name = bigger_Navy
-				duration = -1
-			}
-		}
-}
 
 
 

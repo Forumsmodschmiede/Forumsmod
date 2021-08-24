@@ -20,25 +20,7 @@ political_decisions = {
 					}
 			}
 				}
-Establish_the_German_Navy = {
-		potential = {
-			tag = GER
-			not = { has_country_modifier = bigger_Navy }
-		}
-		allow = {
-			iron_steamers = 1
-			money = 4000000
-		}
-		effect = {
-			money = -2000000
-			money = -2000000
 
-			add_country_modifier = {
-				name = bigger_Navy
-				duration = -1
-			}
-		}
-}
 
 	helgoland_treaty = {
         	potential = {
