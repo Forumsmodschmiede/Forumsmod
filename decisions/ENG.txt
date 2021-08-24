@@ -124,7 +124,14 @@ political_decisions = {
 			war = no
 		}
 
-		effect = {
+		effect = {		517 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = -1
+						}			}
+					854 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = -1
+						}			}
 			relation = {
 				who = GRE
 				value = 50
@@ -205,6 +212,10 @@ Establish_the_Royal_Navy = {
 		effect = {
 			money = -2000000
 			money = -2000000
+		1384 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = -1
+			}		}
 			add_country_modifier = {
 				name = Royal_Navy
 				duration = -1

@@ -24,9 +24,6 @@ political_decisions = {
 				who = FRA
 				value = 150
 			}
-			owns = 726
-			owns = 727
-			owns = 728
 		}
 		
 		effect = {
@@ -203,9 +200,6 @@ political_decisions = {
 			NOT = {
 				has_country_flag = italia_ulterior
 			}
-			NOT = {
-				has_country_flag = peaceful_italian_unification
-			}
 		}
 		
 		allow = {
@@ -217,6 +211,36 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = italia_ulterior
+			473 = {
+				add_core = ITA
+			}
+			854 = {
+				add_core = ITA
+			}
+			470 = {
+				add_core = ITA
+			}			
+			729 = {
+				add_core = ITA
+			}
+			471 = {
+				add_core = ITA
+			}
+			469 = {
+				add_core = ITA
+			}
+			472 = {
+				add_core = ITA
+			}
+			454 = {
+				add_core = ITA
+			}
+			466 = {
+				add_core = ITA
+			}
+			465 = {
+				add_core = ITA
+			}			
 			729 = {
 				add_core = ITA
 			}

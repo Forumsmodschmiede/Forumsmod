@@ -16,7 +16,10 @@ party_issues = {
 		laissez_faire = {
 			max_tax = 0.5
 			factory_owner_cost = 0.2
-			factory_output = 0.05
+			factory_output = 0.1
+		pop_militancy_modifier = -0.01
+		pop_consciousness_modifier = 0.01
+		global_immigrant_attract = 0.1
 			
 			rules = {
 				build_factory = no
@@ -35,7 +38,7 @@ party_issues = {
 				open_factory_invest = yes
 				allow_foreign_investment = yes
 				build_railway_invest = yes
-				can_invest_in_pop_projects = no
+				can_invest_in_pop_projects = yes
 			}
 		}
 		interventionism = {

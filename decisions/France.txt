@@ -1,5 +1,33 @@
 political_decisions = {
 
+	claim_savoy = {
+		picture = form_italy
+		potential = {
+			tag = FRA
+			is_greater_power = yes
+			NOT = {
+				465 = { is_core = FRA }
+				has_country_flag = claimed_savoy
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		
+		effect = {
+			set_country_flag = claimed_savoy
+			badboy = 3
+			465 = { add_core = FRA }
+			466 = { add_core = FRA }
+			472 = { add_core = FRA }
+		}
+	}
+
 	appoint_napoleon = {
 		picture = napoleon
 		potential = {
@@ -52,22 +80,14 @@ political_decisions = {
 			tag = FRA
 			exists = FRA
 			exists = USA
-			USA = {
-				government = democracy
-				owns = 232
-			}
-			FRA = {
-				OR = {
-					government = hms_government
-					government = democracy
-				}
-			}	
-
 		}
 	
 		allow = {
 			cheap_steel = 1
-			USA = { slavery = no_slavery }
+			USA = { slavery = no_slavery 
+			government = democracy
+			owns = 232
+			}
 		}
 	
 		effect = {
@@ -148,7 +168,8 @@ political_decisions = {
 				value = 100
 			}
 			JAP = {
-				years_of_research = 2
+				years_of_research = 3
+				money = 100000
 			}
 			prestige = 20
 			set_country_flag = military_mission_in_japan

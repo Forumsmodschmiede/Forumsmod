@@ -865,7 +865,7 @@
 	artisans = {
 		culture = french
 		religion = catholic
-		size = 2000
+		size = 4000
 	}
 
 	soldiers = {
@@ -877,31 +877,31 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 73025
+		size = 93025
 	}
 
 	clergymen = {
 		culture = south_german
 		religion = catholic
-		size = 50
+		size = 500
 	}
 
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 1525
+		size = 4525
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 25
+		size = 250
 	}
 
 	labourers = {
 		culture = south_german
 		religion = catholic
-		size = 1400
+		size = 4400
 	}
 }
 #Epinal (412000/103000 POPS)
@@ -1169,7 +1169,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 115600
+		size = 105600
 	}
 }
 #St Brieuc (604000/151000 POPS)
@@ -1201,7 +1201,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 139300
+		size = 129300
 	}
 }
 #Vannes (436000/109000 POPS)
@@ -1271,7 +1271,7 @@
 	labourers = {
 		culture = french
 		religion = catholic
-		size = 95450
+		size = 85450
 	}
 }
 #Rennes (548000/137000 POPS)
@@ -1303,7 +1303,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 123850
+		size = 103850
 	}
 
 }
@@ -2041,6 +2041,7 @@
 		religion = catholic
 		size = 57950
 	}
+
 }
 #Blois (243600/60900 POPS)
 440 = {
@@ -2653,7 +2654,12 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 160300
+		size = 100300
+	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 84825
 	}
 
 }
@@ -3152,7 +3158,12 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 58800
+		size = 38800
+	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 34825
 	}
 }
 #Chambery (228400/57100 POPS)
@@ -3186,7 +3197,11 @@
 		religion = catholic
 		size = 52175
 	}
-
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 44825
+	}
 }
 #Provence Region (1268400)
 #Marseilles (384800/96200 POPS)
@@ -3314,6 +3329,11 @@
 		religion = catholic
 		size = 28600
 	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 24825
+	}
 }
 #Toulon (224000/56000 POPS)
 470 = {
@@ -3352,6 +3372,11 @@
 		religion = catholic
 		size = 40950
 	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 44825
+	}
 }
 #Frejus (132000/33000 POPS)
 471 = {
@@ -3384,37 +3409,42 @@
 		religion = catholic
 		size = 30400
 	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 24825
+	}
 }
 #Nice (Sardinian until 1860) (170800/42700 POPS)
 472 = {
 	aristocrats = {
 		culture = north_italian
 		religion = catholic
-		size = 450
+		size = 4500
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = catholic
-		size = 425
+		size = 4250
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = catholic
-		size = 6000
+		size = 9000
 	}
 
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1100
+		size = 5100
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 34825
+		size = 44825
 	}
 
 }
@@ -3430,7 +3460,7 @@
 	officers = {
 		culture = french
 		religion = catholic
-		size = 50
+		size = 500
 	}
 
 	bureaucrats = {
@@ -3461,6 +3491,11 @@
 		culture = french
 		religion = catholic
 		size = 47800
+	}
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 44825
 	}
 
 }

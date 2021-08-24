@@ -9264,7 +9264,7 @@ bourgeois_dictatorship_ruler;President;Président;Präsident;;Presidente;;;;;;;;;x
 fascist_dictatorship_ruler;Führer;Führer;Führer;;Führer;;;;;;;;;x;;;;
 absolute_monarchy_ruler;King;Roi;König;;Rey;;;;;;;;;x;;;;
 imperial_ruler;Tsar;Roi;König;;Rey;;;;;;;;;x;;;;
-shogunate;Shogun;Roi;König;;Rey;;;;;;;;;x;;;;
+shogunate_ruler;Shogun;Roi;König;;Rey;;;;;;;;;x;;;;
 prussian_constitutionalism_ruler;King;Roi;König;;Rey;;;;;;;;;x;;;;
 hms_government_ruler;King;Roi;König;;Rey;;;;;;;;;x;;;;
 democracy_ruler;President;Président;Präsident;;Presidente;;;;;;;;;x;;;;
@@ -13396,7 +13396,7 @@ FRA_458;Aquitaine;Aquitaine;Aquitaine;;Aquitania;;;;;;;;;x;;;;
 FRA_442;Poitou;Poitou;Poitou;;Poitou;;;;;;;;;x;;;;
 FRA_455;Le Midi;Midi;Le Midi;;Le Midi;;;;;;;;;x;;;;
 FRA_461;Languedoc;Languedoc;Languedoc;;Languedoc;;;;;;;;;x;;;;
-FRA_467;Provence;Provence;Provence;;Provenza;;;;;;;;;x;;;;
+FRA_467;Corsica;Provence;Provence;;Provenza;;;;;;;;;x;;;;
 FRA_445;Limousin;Limousin;Limousin;;Lemosín;;;;;;;;;x;;;;
 FRA_448;Auvergne;Auvergne;Auvergne;;Auvernia;;;;;;;;;x;;;;
 FRA_451;Rhone;Rhône;Rhone;;Rhone;;;;;;;;;x;;;;

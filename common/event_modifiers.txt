@@ -455,7 +455,7 @@ the_homestead_act = {
 }
 
 the_slavery_debate = {
-	global_pop_consciousness_modifier = 0.05
+	global_pop_consciousness_modifier = 0.045
 	icon = 4
 }
 
@@ -982,7 +982,7 @@ commodore_perry = {
 	research_points_modifier = -0.1
 	icon = 17
 }
-mexican_reforms = {	
+country_reforms = {	
 	prestige = 0.01
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.05
@@ -990,4 +990,9 @@ mexican_reforms = {
 	org_regain = 0.1
 	mobilisation_size = 0.02
 	icon = 17
+}
+bigger_Navy = {
+	naval_unit_start_experience = 5
+	naval_organisation = 0.1
+	navy_tech_research_bonus = 0.05
 }

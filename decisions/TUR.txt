@@ -16,7 +16,10 @@ political_decisions = {
 			average_consciousness = 4
 		}
 		
-		effect = {
+		effect = {		860 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = -1
+			}		}
 			any_pop = {
 				limit = {
 					NOT = {

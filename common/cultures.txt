@@ -45,7 +45,7 @@ germanic = {
 		"Graf von Scheuchenstuel" "von Schemua" "von Steinstätten" "von Nádas" "von Waldstätten" "von Webenau" "von Wurm"}
 	}
 	ashkenazi = { 
-		color = { 130 100 100}
+		color = { 15 71 255 }
 		first_names = { Abraham Albert Benjamin Daniel David Franz Gustav Heinrich Hermann Isaak Ignatz Jakob Jeremias Josef Leonhard Michael Mose Salomon Saul Shmuel
 		Sigmund Simon Theodor }
 

@@ -149,7 +149,10 @@ political_decisions = {
 			}
 		}
 		
-		effect = {
+		effect = {		967 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = -1
+			}		}
 			set_country_flag = eastern_christians_up_in_here_yall
 			add_country_modifier = {
 				name = protector_of_eastern_christendom
@@ -290,7 +293,7 @@ political_decisions = {
 				}
 				prestige = -20
 			}
-			random_owned = { limit = { province_id = 1082 NOT = { life_rating = 39 } } life_rating = 8 }
+			random_owned = { limit = { province_id = 1082 NOT = { life_rating = 39 } } life_rating = 5 }
 			1085 = { change_province_name = "Bushi" }
 			1084 = { change_province_name = "Niko" }
 			1083 = { change_province_name = "Hafu" }
@@ -393,7 +396,25 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 
+Establish_the_Russian_Navy = {
+		potential = {
+			tag = RUS
+			not = { has_country_modifier = bigger_Navy }
+		}
+		allow = {
+			iron_steamers = 1
+			money = 4000000
+		}
+		effect = {
+			money = -2000000
+			money = -2000000
 
+			add_country_modifier = {
+				name = bigger_Navy
+				duration = -1
+			}
+		}
+}
 
 
 

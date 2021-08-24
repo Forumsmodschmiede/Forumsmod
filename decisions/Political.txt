@@ -238,22 +238,16 @@ political_decisions = {
 		potential = {
 			civilized = no
 			tag = JAP
-			not = { has_country_modifier = meiji_restoration_boost }
+			NOT = { has_country_flag = the_meiji_restoration }
 		}
 		allow = {
 			war = no
 			part_of_sphere = yes
 		}
-		effect = {
-			money = 500000
-			years_of_research = 10
-			prestige = 90
-			add_country_modifier = {
-				name = meiji_restoration_boost
-				duration = 10950
-			}
-			military_reform = modern_command_principle
-			military_reform = modern_naval_thought
+		effect = {	set_country_flag = the_meiji_restoration
+			money = 100000
+			years_of_research = 1
+			prestige = 5
 			any_pop = {
 				scaled_militancy = {
 					ideology = liberal
@@ -261,11 +255,11 @@ political_decisions = {
 				}
 				scaled_militancy = {
 					ideology = conservative
-					factor = 6
+					factor = 1
 				}
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 6
+					factor = 1.5
 				}
 			}
 		}
@@ -299,7 +293,7 @@ political_decisions = {
 		}
 		effect = {
 			money = 500000
-			years_of_research = 5
+			years_of_research = 10
 			prestige = 80
 			add_country_modifier = {
 				name = meiji_restoration_boost
@@ -312,11 +306,11 @@ political_decisions = {
 				}
 				scaled_militancy = {
 					ideology = conservative
-					factor = 6
+					factor = 5
 				}
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 6
+					factor = 5
 				}
 			}
 		}
@@ -330,16 +324,15 @@ political_decisions = {
 		}
 		allow = {
 			civilized = yes
+			owns = 2562
+			owns = 1485
 		}
 		effect = {
 			prestige = 5
-			badboy = 10
 			2562 = {
-				add_core = JAP
 				change_province_name = "Karenko"
 			}
 			1485 = {
-				add_core = JAP
 				change_province_name = "Tainan Cho"
 				state_scope = { change_region_name = "Takasago" }
 			}
@@ -357,9 +350,10 @@ political_decisions = {
 		}
 		allow = {
 			idealism = 1
+			money = 100000
 		}
 		effect = {
-			money = 500000
+			money = -100000
 			add_country_modifier = {
 				name = created_a_national_language
 				duration = -1
@@ -400,7 +394,7 @@ political_decisions = {
 		potential = {
 			tag = JAP
 			civilized = yes
-			NOT = { enacted_meiji_constitution }
+			NOT = { has_country_flag = enacted_meiji_constitution }
 		}
 		
 		allow = {
@@ -408,8 +402,18 @@ political_decisions = {
 			state_n_government = 1
 			plurality = 10
 		}
-		
-		effect = {
+
+		effect = {	
+				capital = 1649
+				1649 = {
+				life_rating = 5
+				change_province_name = "Tokyo"
+					}
+			any_pop = {
+				limit = { is_primary_culture = yes }
+				consciousness = -3
+				militancy = -6
+			}
 			set_country_flag = enacted_meiji_constitution
 			prestige = 10
 			political_reform = wealth_weighted_voting
@@ -429,19 +433,16 @@ political_decisions = {
 	}
 
 	abolish_the_han_system = {
-		picture = meiji_court
+		picture = abolish_the_han_system
 		potential = {
-			OR = {
-				tag = JAP
-				tag = TKG
-			}
+			tag = JAP
 			civilized = yes
 			NOT = { has_country_flag = han_system_abolished }
 		}
 		
 		allow = {
 			war = no
-			state_n_government = 1
+			positivism = 1
 			owns = 1649
 			owns = 1640
 			owns = 1646
@@ -453,11 +454,9 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = han_system_abolished
-			remove_country_modifier = uncivilized_isolationism
 			years_of_research = 1
-			prestige = 10
-			remove_country_modifier = ansei_purge
-			remove_country_modifier = kobu_gattai
+			money = 500000
+			prestige = 5
 			any_pop = {
 				limit = { is_primary_culture = yes }
 				ideology = {
@@ -466,57 +465,35 @@ political_decisions = {
 				}
 				scaled_militancy = {
 					ideology = liberal
-					factor = -6
+					factor = -3
 				}
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 6
+					factor = 3
 				}
-			}
-			CHO = {
-				all_core = { remove_core = CHO }
-			}
-			SAT = {
-				all_core = { remove_core = SAT }
-			}			
-			TOS = {
-				all_core = { remove_core = TOS }
-			}
-			KAG = {
-				all_core = { remove_core = KAG }
-			}
-			SEN = {
-				all_core = { remove_core = SEN }
-			}
-			YZW = {
-				all_core = { remove_core = YZW }
 			}
 		}
 	}
 
 	bonin_administration = {
-		picture = meiji_court
 		potential = {
-			OR = {
 				tag = JAP
-				tag = TKG
-			}
-			owns = 1654
-			owns = 2525
 			NOT = { has_country_flag = bonin_administration }
-		}
-		allow = {
 			civilized = yes
 			owns = 1654
 			owns = 2525
 		}
+		allow = {
+			owns = 1654
+			owns = 2525
+		}
 		effect = {
-			prestige = 1
+			prestige = 5
 			1654 = {
 				change_province_name = "Iwo Jima"
 			}
 			2525 = {
-				life_rating = 15
+				life_rating = 5
 				add_core = THIS
 				change_province_name = "Minami Torishima"
 				state_scope = {

@@ -1,4 +1,28 @@
 political_decisions = {
+
+Establish_the_Spain_Navy = {
+		potential = {
+			OR = {
+				tag = SPA
+				tag = IBE
+			}
+			not = { has_country_modifier = bigger_Navy }
+		}
+		allow = {
+			iron_steamers = 1
+			money = 4000000
+		}
+		effect = {
+			money = -2000000
+			money = -2000000
+
+			add_country_modifier = {
+				name = bigger_Navy
+				duration = -1
+			}
+		}
+}
+
 	establish_la_guardia_civil = {
 		potential = {
 			OR = {
