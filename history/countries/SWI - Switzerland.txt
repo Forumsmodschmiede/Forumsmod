@@ -48,6 +48,8 @@ upper_house = {
 	iron_muzzle_loaded_artillery = 1
 	military_staff_system = 1
 	military_plans = 1
+	military_statistics = 1
+	military_logistics = 1
 	army_command_principle = 1
 	army_professionalism = 1
 	

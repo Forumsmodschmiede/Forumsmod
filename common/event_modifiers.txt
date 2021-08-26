@@ -941,7 +941,7 @@ Rebuild_our_Fleet = {
 Rebuild_our_Fleets = {
 	naval_unit_start_experience = 5
 }
-Levée_en_masse = {
+Levee_en_masse = {
 	land_organisation = 0.1
 	org_regain = 0.15
 	supply_consumption = -0.1
@@ -966,7 +966,6 @@ louis_napoleon_iii = {
 	research_points_modifier = 0.1
 	cb_generation_speed_modifier = 0.2
 	badboy = 0.01
-	land_organisation = -0.1
 	icon = 17
 }
 german_colonial_society = {	

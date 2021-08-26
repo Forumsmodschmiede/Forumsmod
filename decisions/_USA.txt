@@ -30,24 +30,14 @@ political_decisions = {
 			revolution_n_counterrevolution = 1
 			}
 			tag = USA
-			JAP = {
-				exists = yes
-				NOT = { has_country_flag = commodore_perry_expedition }
-				}
-			total_amount_of_ships = 4
+			NOT = { has_country_flag = commodore_perry_expedition }
 		}
 
 		allow = {
 			state_n_government = 1
 			is_greater_power = yes
 			war = no
-			any_owned_province = {
-				OR = {
-					region = MEX_85
-					region = USA_78
-					region = USA_81
-				}
-			}
+			total_amount_of_ships = 4
 		}
 
 		effect = {
@@ -63,7 +53,7 @@ political_decisions = {
 					exists = yes
 						tag = JAP
 				}
-				relation = { who = THIS value = -100 }
+				relation = { who = THIS value = -200 }
 			}
 			badboy = 5
 			prestige = 10

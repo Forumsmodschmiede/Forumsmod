@@ -385,6 +385,7 @@ political_decisions = {
 		}
 	}
 	The_legacy_of_Napoleon = {
+		picture = napoleon1
 		potential = {
 		tag = FRA
 			}
@@ -396,7 +397,7 @@ political_decisions = {
 		}
 		effect = {
 		add_country_modifier = {
-					name = Levée_en_masse
+					name = Levee_en_masse
 					duration = 3650
 					}
 		470 = { add_province_modifier = {

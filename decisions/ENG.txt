@@ -225,9 +225,14 @@ Establish_the_Royal_Navy = {
 Emergency_ship_building_effort = {
 		potential = {
 			tag = ENG
-			not = { has_country_modifier = Rebuild_our_Fleets }
+			NOT = {
+				has_country_flag = Emergency_ship_building_efforts_made
+			}
 		}
-		effect = {
+		allow = {
+			naval_plans = 1
+		}
+		effect = {	set_country_flag = Emergency_ship_building_efforts_made
 		add_country_modifier = {
 					name = Rebuild_our_Fleets
 					duration = 1095
