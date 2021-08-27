@@ -13,7 +13,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = -20
-			money = 1000000
+			money = 2000000
 			608 = {
 				remove_core = PRU
 				remove_core = NGF

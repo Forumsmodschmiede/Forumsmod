@@ -1,6 +1,6 @@
-owner = MYS
-controller = MYS
-add_core = MYS
+owner = BAS
+controller = BAS
+add_core = BAS
 add_core = HND
 trade_goods = silk
 life_rating = 32

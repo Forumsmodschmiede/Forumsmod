@@ -1,5 +1,6 @@
-owner = ENG
-controller = ENG
+owner = JOD
+controller = JOD
+add_core = JOD
 add_core = HND
 trade_goods = fish
 life_rating = 32
