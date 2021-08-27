@@ -930,6 +930,7 @@ ordem_et_progresso = {
 }
 Royal_Navy = {
 	land_organisation = -0.1
+	administrative_efficiency_modifier = -0.1
 	naval_unit_start_experience = 10
 	naval_organisation = 0.1
 	navy_tech_research_bonus = 0.1

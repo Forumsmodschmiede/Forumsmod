@@ -63,10 +63,6 @@ mechanical_production = 1
 clean_coal = 1
 battleship_column_doctrine = 1
 naval_professionalism = 1
-stock_exchange = 1
-ad_hoc_money_bill_printing = 1
-late_classical_theory = 1
-market_structure = 1
 
 # Inventions
 #corvettes = yes
@@ -93,6 +89,7 @@ schools = naval_tech_school
 
 foreign_investment = {
 	BEL = 10000
+	POR = 10000
 	DEN = 2000
 }
 

@@ -6,7 +6,9 @@ post_nelsonian_thought = {
 	unciv_military = yes
 	activate_building = naval_base
 	colonial_points = 100
-
+	navy_base = {
+		supply_consumption = 0.7
+	}
 
 
 	ai_chance = {
