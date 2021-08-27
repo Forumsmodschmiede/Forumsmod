@@ -47,7 +47,11 @@
 #
 # Asian Straits
 #
-1661;1632;sea;2829;0;Japan Strait
+1643;1087;sea;2839;0;Japan1 Strait
+1644;1089;sea;2839;0;Japan2 Strait
+1089;1088;sea;2839;0;Japan3 Strait
+1088;1074;sea;2838;0;Japan4 Strait
+1661;1632;sea;2829;0;Japan5 Strait
 1083;1086;sea;2832;0;Tatar Straits
 1084;1086;sea;2832;0;Tatar Straits
 #1087;1643;sea;2831;0;La Perouse Strait#removed
