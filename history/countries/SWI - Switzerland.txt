@@ -6,7 +6,7 @@ plurality = 40.0
 nationalvalue = nv_equality
 literacy = 0.7
 civilized = yes
-prestige = 1
+prestige = 0
 
 # Political reforms
 slavery = no_slavery
@@ -42,6 +42,7 @@ upper_house = {
 #Technologies
 	post_napoleonic_thought = 1
 	strategic_mobility = 1
+	point_defense_system = 1
 	flintlock_rifles = 1
 	muzzle_loaded_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
@@ -52,6 +53,7 @@ upper_house = {
 	military_logistics = 1
 	army_command_principle = 1
 	army_professionalism = 1
+	army_decision_making = 1
 	
 	post_nelsonian_thought = 1
 	battleship_column_doctrine = 1

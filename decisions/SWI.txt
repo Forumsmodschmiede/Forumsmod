@@ -11,11 +11,9 @@ political_decisions = {
 			prestige = 1
 			romanticism = 1
 		}
-		effect = {	add_country_modifier = {
-				name = the_bonnie_blue_flag
-				duration = -1}
+		effect = {
 			prestige = -20
-			money = 5000000
+			money = 1000000
 			608 = {
 				remove_core = PRU
 				remove_core = NGF
@@ -23,7 +21,7 @@ political_decisions = {
 			}
 			relation = {
 				who = PRU
-				value = 50
+				value = 10
 			}
 		}
 	}

@@ -716,55 +716,55 @@
 	aristocrats = {
 		culture = south_german
 		religion = catholic
-		size = 250 
+		size = 2500
 	}
 
 	clergymen = {
 		culture = south_german
 		religion = catholic
-		size =  150
+		size =  1500
 	}
 
 	artisans = {
 		culture = south_german
 		religion = catholic
-		size = 1500
+		size = 15000
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size = 150 
+		size = 4500 
 	}
 
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 14950
+		size = 24950
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = catholic
-		size =  50
+		size =  500
 	}
 
 	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 5000
+	}
+
+	soldiers = {
 		culture = north_italian
 		religion = catholic
 		size = 500
 	}
 
-	soldiers = {
-		culture = north_italian
-		religion = catholic
-		size = 50 
-	}
-
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 5400
+		size = 15400
 	}
 }
 #Friuli-Istria Region (292000) #see Croatia.txt for balance of region 

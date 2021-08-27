@@ -76,47 +76,47 @@
 	bureaucrats = {
 		culture = north_italian
 		religion = catholic
-		size = 225
+		size = 2250
 	}
 
 	officers = {
 		culture = slovene
 		religion = catholic
-		size = 100
+		size = 1000
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = catholic
-		size = 700
+		size = 900
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = catholic
-		size = 4000
+		size = 9000
 	}
 
 	soldiers = {
 		culture = north_italian
 		religion = catholic
-		size = 1100
+		size = 9100
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 13150
+		size = 15150
 	}
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 23150
+		size = 33150
 	}
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 23150
+		size = 25150
 	}
 }
 #Postojna (180000/45000 POPS) 

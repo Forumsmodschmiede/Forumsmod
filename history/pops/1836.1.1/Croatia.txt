@@ -242,55 +242,60 @@
 	aristocrats = {
 		culture = croat
 		religion = catholic
-		size = 550
+		size = 5500
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = catholic
-		size = 350
+		size = 3500
 	}
 
 	artisans = {
 		culture = croat
 		religion = catholic
-		size = 1700
+		size = 25700
 	}
 
 	soldiers = {
 		culture = croat
 		religion = catholic
-		size = 1100
+		size = 5100
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 20400
+		size = 23400
 	}
 
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 125
+		size = 1250
 	}
 
 	artisans = {
 		culture = serb
 		religion = orthodox
-		size = 600
+		size = 6000
 	}
 
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size = 150
+		size = 1500
 	}
 
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 11125
+		size = 5125
+	}
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 16500
 	}
 }
 #Senj (96000/24000 POPS)
@@ -298,31 +303,31 @@
 	aristocrats = {
 		culture = north_italian
 		religion = catholic
-		size = 275
+		size = 2750
 	}
 
 	clergymen = {
 		culture = croat
 		religion = catholic
-		size = 125
+		size = 1250
 	}
 
 	artisans = {
 		culture = croat
 		religion = catholic
-		size = 650
+		size = 12650
 	}
 
 	soldiers = {
 		culture = croat
 		religion = catholic
-		size = 125
+		size = 3250
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 11525
+		size = 20525
 	}
 
 	clergymen = {
@@ -340,13 +345,23 @@
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size = 125
+		size = 3250
 	}
 
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 10225
+		size = 6225
+	}
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 16500
+	}
+	farmers = {
+		culture = croat
+		religion = catholic
+		size = 5500
 	}
 }
 #Varadzin (68000/17000 POPS)
@@ -710,7 +725,7 @@
 	farmers = {
 		culture = croat
 		religion = catholic
-		size = 34350
+		size = 25350
 	}
 
 	clergymen = {
@@ -734,7 +749,7 @@
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 7500
+		size = 17500
 	}
 }
 #Zadar (128000/32000 POPS)
