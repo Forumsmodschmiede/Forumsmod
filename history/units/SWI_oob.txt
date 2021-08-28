@@ -1,9 +1,5 @@
 #Relations
 
-SAR = { 
-	value = 125
-}
-
 leader = {
 	name = "de Kalbermatten"
 	date = 1815.1.1

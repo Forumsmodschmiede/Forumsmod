@@ -219,6 +219,11 @@ COL = {				#Columbia if released
 	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 5
 }
+SWI = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
 
 leader = {
 	name = "Thomas Cochrane"

@@ -246,8 +246,8 @@ political_decisions = {
 		}
 		effect = {	set_country_flag = the_meiji_restoration
 			money = 100000
-			years_of_research = 1
-			prestige = 5
+			years_of_research = 2
+			prestige = 10
 			any_pop = {
 				scaled_militancy = {
 					ideology = liberal
@@ -282,6 +282,7 @@ political_decisions = {
 
 
 	the_meiji_restoration2 = {
+		picture = meiji_restoration
 		potential = {
 			civilized = no
 			tag = JAP
@@ -310,7 +311,7 @@ political_decisions = {
 				}
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 5
+					factor = 8
 				}
 			}
 		}
@@ -318,7 +319,8 @@ political_decisions = {
 
 	taiwan_administration = {
 		picture = taiwan
-		potential = {
+		potential = {			owns = 2562
+						owns = 1485
 				tag = JAP
 			NOT = { has_country_flag = taiwan_administration }
 		}

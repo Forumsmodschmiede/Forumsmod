@@ -38,8 +38,10 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
+			money = 4000000
 		}
-		effect = {		
+		effect = {	money = -2000000	
+				money = -2000000	
 		diplomatic_influence = {
 			who = HND
 			value = 300    }

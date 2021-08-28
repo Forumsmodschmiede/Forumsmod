@@ -1,4 +1,4 @@
-color = {150 77 240}
+color = {170  10  10}
 graphical_culture = IndianGC
 proletarian_dictatorship = { 195 13 33 }
 party = {

@@ -49,9 +49,9 @@ PAP = {
 }
 
 SWI = {
-	value = 125
-	level = 3
-	influence_value = 25
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
 }
 
 PAR = {
