@@ -745,9 +745,9 @@ economic_boom = {
 
 #### ENG - ENGLAND #####
 corn_laws_repealed = {
-	max_tariff = -0.5
-	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.01	
+	max_tariff = -0.25
+	core_pop_militancy_modifier = -0.01
+	core_pop_consciousness_modifier = 0.01	
 	import_cost = -0.1
 	icon = 1
 }
