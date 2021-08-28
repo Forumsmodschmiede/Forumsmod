@@ -671,7 +671,9 @@ political_decisions = {
 		}
 		
 		effect = {
-			money = 5000000
+			prestige = 10
+			money = 2000000
+			money = 2000000
 			artillery = 2000
 			canned_food = 2000
 			ammunition = 2000

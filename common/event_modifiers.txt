@@ -461,7 +461,7 @@ the_slavery_debate = {
 
 the_bonnie_blue_flag = {
 	mobilisation_economy_impact = -1
-	mobilisation_size = 0.1
+	mobilisation_size = 0.15
 	org_regain = 0.2
 	land_organisation = 0.1
 	land_unit_start_experience = 10.0

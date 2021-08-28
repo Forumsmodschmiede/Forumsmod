@@ -14,6 +14,16 @@ political_decisions = {
 		effect = {
 			prestige = -20
 			money = 2000000
+			artillery = 2000
+			canned_food = 2000
+			ammunition = 2000
+			small_arms = 2000
+			cotton = 2000
+			steel = 2000
+			iron = 2000
+			coal = 2000
+			explosives = 2000
+			leadership = 80
 			608 = {
 				remove_core = PRU
 				remove_core = NGF
@@ -21,7 +31,7 @@ political_decisions = {
 			}
 			relation = {
 				who = PRU
-				value = 10
+				value = 30
 			}
 		}
 	}
@@ -38,7 +48,27 @@ political_decisions = {
 			invention = machine_tools
 		}
 		
-		effect = {
+		effect = {					define_general = {
+				name = "Gerhard Broder"
+				personality = defence_5.1
+				background = attack_5.1
+			}	
+			add_country_modifier = {
+				name = the_bonnie_blue_flag
+				duration = -1
+			}
+			money = 2000000
+			money = 2000000
+			artillery = 2000
+			canned_food = 2000
+			ammunition = 2000
+			small_arms = 2000
+			cotton = 2000
+			steel = 2000
+			iron = 2000
+			coal = 2000
+			explosives = 2000
+			leadership = 80
 			606 = {
 				infrastructure = 4
 			}
