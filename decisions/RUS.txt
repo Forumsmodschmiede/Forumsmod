@@ -64,7 +64,7 @@ political_decisions = {
 	manifesto_on_unshakable_autocracy = {
 		potential = {
 			tag = RUS
-			government = absolute_monarchy
+			government = imperial
 			NOT = {
 				has_country_flag = the_manifesto
 			}
@@ -132,7 +132,6 @@ political_decisions = {
 			}
 			exists = TUR
 			TUR = {
-				government = absolute_monarchy
 				is_greater_power = no
 			}
 		}

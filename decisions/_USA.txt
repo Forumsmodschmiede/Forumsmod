@@ -38,6 +38,9 @@ political_decisions = {
 			is_greater_power = yes
 			war = no
 			total_amount_of_ships = 4
+			JAP = {
+			government = shogunate
+				}
 		}
 
 		effect = {
