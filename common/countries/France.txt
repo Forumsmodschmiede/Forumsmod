@@ -1,6 +1,7 @@
 color = { 20  50  210 }
 graphical_culture = FrenchGC
 proletarian_dictatorship = { 255 21 0 }
+fascist_dictatorship = { 77 109 255 }
 party = {
 	name = "FRA_reactionary"
 	start_date = 1830.1.1

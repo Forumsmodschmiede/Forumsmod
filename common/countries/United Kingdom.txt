@@ -1,7 +1,7 @@
 color = { 209  66  58 }
 graphical_culture = BritishGC
 proletarian_dictatorship = { 196 0 13 }
-
+fascist_dictatorship = { 175 56 50 }
 party = {
 	name = "ENG_conservative"
 	start_date = 1830.1.1

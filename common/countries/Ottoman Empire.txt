@@ -1,6 +1,7 @@
 color = { 170  206  162 }
 graphical_culture = OttomanGC
 proletarian_dictatorship = { 198 0 39}
+fascist_dictatorship = { 50 110 60 }
 party = {
 	name = "TUR_reactionary"
 	start_date = 1830.1.1
