@@ -1,6 +1,5 @@
-owner = JAI
-controller = JAI
-add_core = JAI
+owner = ENG
+controller = ENG
 add_core = HND
 trade_goods = tea
 life_rating = 32

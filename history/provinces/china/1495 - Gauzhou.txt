@@ -4,3 +4,4 @@ life_rating = 32
 
 owner = NAN
 controller = NAN
+naval_base = 1

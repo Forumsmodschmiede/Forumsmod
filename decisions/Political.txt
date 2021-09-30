@@ -1,5 +1,34 @@
 political_decisions = {
-	enact_liquor_prohibition = {
+		
+the_totalitarian_regime = {
+		picture = the_totalitarian_regime
+		potential = {
+			OR = {
+				government = fascist_dictatorship
+				government = proletarian_dictatorship
+			}
+			NOT = { has_country_modifier = totalitarian_system }
+		}
+		
+		allow = {
+			war = no
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			any_pop = { limit = { agree_with_ruling_party = 0.40 } militancy = -2 consciousness = -4 }
+			plurality = -25
+			add_country_modifier = {
+				name = totalitarian_system
+				duration = -1
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+
+
+enact_liquor_prohibition = {
 		potential = {
 			social_science = 1
 			has_country_modifier = temperance_league

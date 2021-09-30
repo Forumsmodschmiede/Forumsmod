@@ -1,5 +1,5 @@
-owner = ENG
-controller = ENG
+owner = KUT
+controller = KUT
 add_core = KUT
 add_core = HND
 trade_goods = cotton

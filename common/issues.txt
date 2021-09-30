@@ -10,6 +10,7 @@ party_issues = {
 		free_trade = {
 			max_tariff = 0.25
 			min_tariff = -1
+			import_cost = -0.05
 		}
 	}
 	economic_policy = {
@@ -42,7 +43,7 @@ party_issues = {
 			}
 		}
 		interventionism = {
-			factory_owner_cost = 0.5
+			factory_owner_cost = 0.4
 			
 			rules = {
 				build_factory = no
@@ -114,21 +115,23 @@ party_issues = {
 	
 	religious_policy = {
 		pro_atheism = {
-			#no effect
+			factory_output = 0.01
 		}
 		secularized = {
-			#no effect
+			ruling_party_support = 0.01
 		}
 		pluralism = {
-			#no effect
+			pop_militancy_modifier = -0.001
 		}
 		moralism = {
-			#no effect
+			pop_consciousness_modifier = -0.001
 		}
 	}
 	citizenship_policy = {
 		residency = {
 			rules = { primary_culture_voting = yes }
+			non_accepted_pop_militancy_modifier = 0.005
+			core_pop_militancy_modifier = -0.001
 		}
 		limited_citizenship = {
 			rules = { culture_voting = yes }
@@ -137,6 +140,7 @@ party_issues = {
 		full_citizenship = {
 			rules = { all_voting = yes }
 			global_assimilation_rate = 0.25
+			non_accepted_pop_consciousness_modifier = 0.005
 		}
 	}
 	war_policy = {

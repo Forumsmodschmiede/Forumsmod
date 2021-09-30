@@ -17,7 +17,12 @@ political_decisions = {
 				name = corn_laws_repealed
 				duration = 3650
 			}
-			any_pop = {
+
+			any_pop = {			
+				ideology = {
+					value = liberal
+					factor = 0.05
+				}
 				militancy = -2
 				consciousness = 3
 			}
@@ -46,9 +51,34 @@ political_decisions = {
 			who = HND
 			value = 300    }
 		
+				inherit = BER
+				inherit = MYS
+				inherit = TRA
+				inherit = KUT
+			1311 = {
+				secede_province = ENG
+			}
+			1308 = {
+				secede_province = ENG
+			1294 = {
+				secede_province = HND
+			}
+			1233 = {
+				secede_province = HND
+			}
+			1234 = {
+				secede_province = HND
+			}
+			}
+			HND = {	
+
+			inherit = NAG
+			inherit = ORI
 			inherit = AWA
 			inherit = BAS
-			inherit = BER
+			inherit = GWA
+			inherit = SIK
+			inherit = BUN
 			inherit = BIK
 			inherit = BHO
 			inherit = HYD
@@ -57,14 +87,7 @@ political_decisions = {
 			inherit = JAS
 			inherit = JOD
 			inherit = MEW
-			inherit = MYS
-			inherit = NAG
-			inherit = ORI
-			inherit = TRA
-			inherit = GWA
-			inherit = KUT
-			HND = {	inherit = SIK
-			inherit = BUN
+			government = absolute_monarchy
 				}
 			prestige = 20
 			any_pop = {
@@ -232,11 +255,16 @@ Establish_the_Royal_Navy = {
 					name = Rebuild_our_Fleet
 					duration = -1
 			}		}
+		71 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = -1
+			}		}
 			add_country_modifier = {
 				name = Royal_Navy
 				duration = -1
 			}
 		}
+
 }
 Emergency_ship_building_effort = {
 		potential = {

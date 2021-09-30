@@ -98,7 +98,7 @@ investment_banks = {
 	year = 1870
 	cost = 14400
 
-	tax_eff = 5
+	tax_eff = 10
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -128,7 +128,7 @@ bank_inspection_board = {
 	year = 1900
 	cost = 18000
 
-	tax_eff = 5
+	tax_eff = 15
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -158,7 +158,7 @@ mutual_funds = {
 	year = 1919
 	cost = 21600
 
-	tax_eff = 5
+	tax_eff = 20
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -253,7 +253,7 @@ central_bank_money_bill_printing = {
 	year = 1850
 	cost = 14400
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -275,7 +275,7 @@ modern_central_bank_system = {
 	year = 1870
 	cost = 18000
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.15
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -306,7 +306,7 @@ market_determined_exchange_rates = {
 	cost = 21600
 
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -603,6 +603,8 @@ market_regulations = {
 	cost = 14400
 
 	influence = 0.2
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -630,6 +632,8 @@ economic_responsibility = {
 	cost = 18000
 
 	influence = 0.2
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -657,6 +661,8 @@ government_interventionism = {
 	cost = 21600
 
 	influence = 0.2
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {

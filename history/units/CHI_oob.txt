@@ -1,6 +1,9 @@
 POR = {
 	value = 125		#relation
 }
+BUR = {
+	value = -150		#relation
+}
 
 army = {
 	name = "Army of Forbidden Banners"

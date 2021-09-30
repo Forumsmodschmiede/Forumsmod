@@ -637,8 +637,9 @@ ruhr_boom = {
 }
 
 prussian_general_staff = {
-	org_regain = 0.1
-	land_organisation = 0.05
+   	org_regain = 0.2
+  	land_organisation = 0.1
+  	mobilisation_economy_impact = -0.25
 	land_unit_start_experience = 5.0
 	supply_consumption = -0.05
 	leadership_modifier = 0.2
@@ -758,6 +759,8 @@ corn_laws_repealed = {
 	core_pop_militancy_modifier = -0.01
 	core_pop_consciousness_modifier = 0.01	
 	import_cost = -0.1
+	prestige = 0.1
+	global_immigrant_attract = 0.2
 	icon = 1
 }
 
@@ -939,7 +942,7 @@ ordem_et_progresso = {
 }
 Royal_Navy = {
 	land_organisation = -0.1
-	administrative_efficiency_modifier = -0.1
+	administrative_efficiency_modifier = -0.2
 	naval_unit_start_experience = 10
 	naval_organisation = 0.1
 	navy_tech_research_bonus = 0.1
@@ -958,7 +961,7 @@ Levee_en_masse = {
 	core_pop_militancy_modifier = -0.01
 }
 otto_von_bismarck = {
-	prestige = 0.02
+	prestige = 0.1
 	core_pop_militancy_modifier = -0.01
 	core_pop_consciousness_modifier = -0.01
 	diplomatic_points_modifier = 0.25
@@ -969,7 +972,7 @@ otto_von_bismarck = {
 	icon = 17
 }
 louis_napoleon_iii = {
-	prestige = 0.05
+	prestige = 0.2
 	ruling_party_support = 1.0
 	core_pop_militancy_modifier = -0.01
 	core_pop_consciousness_modifier = -0.05
@@ -979,20 +982,20 @@ louis_napoleon_iii = {
 	icon = 17
 }
 german_colonial_society = {	
-	prestige = 0.01
+	prestige = 0.05
 	leadership_modifier = 0.05
 	global_immigrant_attract = 0.1
 	icon = 17
 }
 commodore_perry = {	
-	prestige = -0.02
+	prestige = -0.1
 	farm_rgo_eff = -0.2
 	import_cost = 0.2
 	research_points_modifier = -0.1
 	icon = 17
 }
 country_reforms = {	
-	prestige = 0.01
+	prestige = 0.02
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.05
 	land_organisation = 0.1
@@ -1004,4 +1007,11 @@ bigger_Navy = {
 	naval_unit_start_experience = 5
 	naval_organisation = 0.1
 	navy_tech_research_bonus = 0.05
+}
+totalitarian_system = {
+	suppression_points_modifier = 2
+	ruling_party_support = 2
+	literacy_con_impact = -0.5
+	political_reform_desire = -0.5
+	icon = 7
 }

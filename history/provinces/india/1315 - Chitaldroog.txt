@@ -1,6 +1,6 @@
-owner = BIK
-controller = BIK
-add_core = BIK
+owner = MYS
+controller = MYS
+add_core = MYS
 add_core = HND
 trade_goods = tea
 life_rating = 32

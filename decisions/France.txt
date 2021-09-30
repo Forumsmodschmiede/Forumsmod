@@ -54,6 +54,13 @@ political_decisions = {
 		
 		effect = { 
 			government = absolute_monarchy
+			political_reform = appointed
+			political_reform = none_voting
+			political_reform = yes_meeting
+			political_reform = state_press
+			political_reform = no_trade_unions
+			political_reform = first_past_the_post
+			political_reform = underground_parties
 			prestige = 10
 			set_country_flag = napoleon_appointed
 			add_country_modifier = {
@@ -62,6 +69,10 @@ political_decisions = {
 			}
 			any_pop = {
 				limit = { is_culture_group = french }
+				ideology = {
+					value = conservative
+					factor = 0.05
+				}
 				militancy = -3
 				dominant_issue = {
 					factor = 0.2
@@ -300,6 +311,14 @@ political_decisions = {
 		}
 		
 		effect = {
+			any_pop = {
+				limit = { is_culture_group = french }
+				dominant_issue = {
+					factor = 0.2
+					value = jingoism
+				}
+			}
+
 			any_country = {
 				limit = {
 					OR = {
@@ -390,12 +409,20 @@ political_decisions = {
 		tag = FRA
 			}
 		allow = {  
-		military_logistics = 1        
+		military_statistics = 1        
 		 tag = FRA
 	        OR = { war_with = ENG
 			war_with = GER}
 		}
 		effect = {
+			any_pop = {
+				limit = { is_culture_group = french }
+				militancy = -1
+				dominant_issue = {
+					factor = 0.05
+					value = jingoism
+				}
+			}
 		add_country_modifier = {
 					name = Levee_en_masse
 					duration = 3650

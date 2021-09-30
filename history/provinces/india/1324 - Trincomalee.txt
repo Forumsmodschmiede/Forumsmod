@@ -1,6 +1,5 @@
-owner = JAS
-controller = JAS
-add_core = JAS
+owner = ENG
+controller = ENG
 add_core = HND
 trade_goods = tea
 life_rating = 32

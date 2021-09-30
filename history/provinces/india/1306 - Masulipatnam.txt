@@ -1,6 +1,6 @@
-owner = KUT
-controller = KUT
-add_core = KUT
+owner = ENG
+controller = ENG
+add_core = HYD
 add_core = HND
 trade_goods = grain
 life_rating = 32

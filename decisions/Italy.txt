@@ -210,6 +210,14 @@ political_decisions = {
 		}
 		
 		effect = {
+
+			any_pop = {
+				dominant_issue = {
+					factor = 0.2
+					value = jingoism
+				}
+			}
+
 			set_country_flag = italia_ulterior
 			473 = {
 				add_core = ITA

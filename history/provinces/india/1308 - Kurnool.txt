@@ -1,6 +1,6 @@
-owner = BHO
-controller = BHO
-add_core = BHO
+owner = HND
+controller = HND
+add_core = HYD
 add_core = HND
 trade_goods = tea
 life_rating = 32

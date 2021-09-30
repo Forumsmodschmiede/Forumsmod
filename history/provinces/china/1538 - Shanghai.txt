@@ -3,3 +3,4 @@ controller = SHA
 add_core = SHA
 trade_goods = tea
 life_rating = 32
+naval_base = 1

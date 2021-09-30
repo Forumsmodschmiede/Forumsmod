@@ -1,0 +1,25 @@
+country_event = {
+    id = 99900019
+    title = "End of Totalitarism"
+    desc = "We are no longer a totalitarian dictatorship. So we should finally free our people."
+    picture = "heligoland_treaty_1"
+	
+	trigger = {		
+		has_country_modifier = totalitarian_system
+			NOT = {    OR = {
+				government = fascist_dictatorship
+				government = proletarian_dictatorship
+			}		}
+
+	}
+
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+    option = {
+        name = "We will give up our totalitarian system."
+			remove_country_modifier = totalitarian_system
+		}
+
+}

@@ -1,5 +1,5 @@
-owner = HND
-controller = HND
+owner = BUN
+controller = BUN
 add_core = BUN
 add_core = HND
 trade_goods = dye

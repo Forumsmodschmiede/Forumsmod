@@ -1,5 +1,5 @@
-owner = HND
-controller = HND
+owner = JAI
+controller = JAI
 add_core = JAI
 add_core = HND
 trade_goods = timber

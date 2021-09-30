@@ -1,5 +1,5 @@
-owner = HND
-controller = HND
+owner = PAN
+controller = PAN
 add_core = PAN
 add_core = HND
 trade_goods = wool

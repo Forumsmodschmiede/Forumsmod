@@ -1,6 +1,6 @@
-owner = GWA
-controller = GWA
-add_core = GWA
+owner = ENG
+controller = ENG
+add_core = HYD
 add_core = HND
 trade_goods = grain
 life_rating = 32

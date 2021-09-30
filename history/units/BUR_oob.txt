@@ -7,6 +7,9 @@ SIA = {
 ENG = {
 	value = -5		#relation
 }
+CHI = {
+	value = -150		#relation
+}
 
 
 army = {

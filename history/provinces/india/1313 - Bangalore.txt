@@ -1,6 +1,6 @@
-owner = BER
-controller = BER
-add_core = BER
+owner = MYS
+controller = MYS
+add_core = MYS
 add_core = HND
 trade_goods = wool
 life_rating = 32
