@@ -98,7 +98,6 @@ political_decisions = {
 			}
 			government = imperial
 			owns = 958
-			phenomenalism = 1
 			exists = GER
 			GER = {
 				owns = 570
@@ -106,11 +105,12 @@ political_decisions = {
 		}
 		
 		allow = {
+			phenomenalism = 1
 			biologism = 1
 		}
 		
 		effect = {	
-			literacy = 0.05
+			literacy = 5		
 			any_pop = {
 				limit = {
 					has_pop_culture = ukrainian
@@ -259,7 +259,7 @@ political_decisions = {
 		effect = {
 			capital = 1008
 			prestige = 5
-	                war_exhaustion = -1
+	                war_exhaustion = -3
 		}
 		ai_will_do = {
 			factor = 1
@@ -342,7 +342,7 @@ political_decisions = {
 	expel_the_poles_GLM = {
 		picture = polish_expelled
 		potential = {
-			is_culture_group = east_slavic
+			tag = RUS
 			OR = {
 				owns = 951
 				owns = 952

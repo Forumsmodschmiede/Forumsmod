@@ -60,6 +60,7 @@ treaty_port_beijing = {
 #### RUSSIAN MANIFESTO ON UNSHAKABLE AUTOCRACY ####
 unshakable_autocracy = {
 	suppression_points_modifier = 0.5
+	global_assimilation_rate = 0.05
 }
 
 ##### POLITICAL EVENTS ######
