@@ -2116,6 +2116,7 @@ acquire_state;Acquire state;Prendre un état;Region erobern;;Adquirir estado;;;;;
 acquire_state_short;Acquire $STATE$; Prendre l'État de $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
 conquer_egypt;Conquer Egyptian Lands;;;;;;;;;;;;;x;;;;
+acquire_capital;Acquire Capital;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
 acquire_treaty_port;Acquire Treaty Port;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
 place_in_the_sun;Place in the sun;Une place au soleil;Ein Platz an der Sonne;;Un lugar bajo el sol;;;;;;;;;x;;;;
 place_in_the_sun_short;Acquire $STATE$; Prendre l'État de $STATE$;Kolonie $STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;

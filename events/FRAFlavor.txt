@@ -35,7 +35,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA37200" 
 		relation = { who = SWI value = -50 }
-			prestige = 5
+			prestige = 1
 			casus_belli = {
 				target = SWI
 				type = humiliate
@@ -647,6 +647,8 @@ country_event = {
 		prestige = 3
 		relation = { who = USA value = 25 }
 		any_pop = {
+			militancy = 1
+			consciousness = 1
 			ideology = { factor = 0.05 value = liberal }
 		}
 	}
