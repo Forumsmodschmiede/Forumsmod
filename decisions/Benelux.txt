@@ -46,9 +46,11 @@ political_decisions = {
 		allow = {
 			tech_school = traditional_academic
 			prestige = 100
+			war = no
 		}
 		
-		effect = {		376 = { add_province_modifier = {
+		effect = {	
+			376 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
 					duration = -1
 			}		}
@@ -59,4 +61,33 @@ political_decisions = {
 			tech_school = dutch_tech_school 
 		}
 	}
+
+
+	annex_luxemburg = {
+	picture = luxembourg_crisis
+		potential = {
+			OR = {
+				tag = BNX
+				tag = NET
+			}
+			NOT = {
+				has_country_flag = luxemburg
+			}		
+				}
+		
+		allow = {
+			prestige = 100
+			war = no
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {				set_country_flag = luxemburg
+
+			LUX = { annex_to = THIS }
+			prestige = 5
+
+		}
+	}
+
+
 }
