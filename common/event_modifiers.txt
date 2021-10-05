@@ -462,7 +462,7 @@ the_slavery_debate = {
 
 the_bonnie_blue_flag = {
 	mobilisation_economy_impact = -3
-	mobilisation_size = 0.15
+	mobilisation_size = 0.1
 	org_regain = 1
 	land_organisation = 1
 	land_unit_start_experience = 50.0
@@ -1017,4 +1017,16 @@ totalitarian_system = {
 	literacy_con_impact = -0.5
 	political_reform_desire = -0.5
 	icon = 7
+}
+swiss_boni = {
+	mobilisation_economy_impact = -3
+	mobilisation_size = 0.05
+	org_regain = 1
+	land_organisation = 1
+	supply_consumption = -1
+	tax_efficiency = 0.1
+	administrative_efficiency_modifier = 0.1
+	army_tech_research_bonus = 5
+	import_cost = -1
+	icon = 15
 }

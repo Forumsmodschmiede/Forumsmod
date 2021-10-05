@@ -66,6 +66,7 @@ political_decisions = {
 	annex_luxemburg = {
 	picture = luxembourg_crisis
 		potential = {
+			exists = LUX
 			OR = {
 				tag = BNX
 				tag = NET
