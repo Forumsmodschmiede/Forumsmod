@@ -2777,11 +2777,6 @@
 		religion = catholic
 		size = 80350
 	}
-	farmers = {
-		culture = basque
-		religion = catholic
-		size = 41200
-	}
 
 }
 #Aquitaine Region (1864000)
@@ -2844,12 +2839,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 103510
-	}
-	farmers = {
-		culture = basque
-		religion = catholic
-		size = 11200
+		size = 113510
 	}
 }
 #Mont de Marsan (556000/139000 POPS)
@@ -2913,7 +2903,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 104300
+		size = 114300
 	}
 
 	aristocrats = {
@@ -2943,7 +2933,7 @@
 	farmers = {
 		culture = basque
 		religion = catholic
-		size = 51200
+		size = 41200
 	}
 
 }

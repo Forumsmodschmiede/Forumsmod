@@ -167,7 +167,7 @@ political_decisions = {
 			prestige = -10
 			add_country_modifier = {
 				name = academic_confusion
-				duration = 1800
+				duration = 3650
 			}
 			tech_school = traditional_academic
 		}

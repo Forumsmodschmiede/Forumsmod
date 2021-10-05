@@ -739,7 +739,6 @@ great_depression = {
 
 central_bank_established = {
 	loan_interest = -0.02
-   	 max_loan_modifier = 1.0
 	icon = 11
 }
 
@@ -760,9 +759,9 @@ corn_laws_repealed = {
 	max_tariff = -0.25
 	core_pop_militancy_modifier = -0.01
 	core_pop_consciousness_modifier = 0.01	
-	import_cost = -0.25
+	import_cost = -0.1
 	prestige = 0.1
-	global_immigrant_attract = 0.3
+	global_immigrant_attract = 0.2
 	icon = 1
 }
 
@@ -771,7 +770,6 @@ the_yard = {
 	suppression_points_modifier = 0.1
 	ruling_party_support = 0.05
 	core_pop_militancy_modifier = -0.001
-	prestige = 0.01
 	icon = 1
 }
 
@@ -918,7 +916,7 @@ created_a_national_language = {
 	icon = 5
 }
 algeria_boom= {
-	immigrant_attract = 1
+	immigrant_attract = 0.3
 	icon = 5
 }
 An_mein_Volk = {
@@ -945,7 +943,7 @@ ordem_et_progresso = {
 }
 Royal_Navy = {
 	land_organisation = -0.1
-	administrative_efficiency_modifier = -0.1
+	administrative_efficiency_modifier = -0.2
 	naval_unit_start_experience = 10
 	naval_organisation = 0.1
 	navy_tech_research_bonus = 0.1

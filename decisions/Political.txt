@@ -106,7 +106,7 @@ enact_liquor_prohibition = {
 		}
 		
 		effect = {
-			treasury = -100000
+			treasury = -1000
 			add_country_modifier = {
 				name = central_bank_established
 				duration = -1
