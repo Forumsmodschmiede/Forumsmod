@@ -246,11 +246,11 @@ Establish_the_Royal_Navy = {
 		}
 		allow = {
 			iron_steamers = 1
-			money = 4000000
+			money = 2000000
 		}
 		effect = {
 			money = -2000000
-			money = -2000000
+			leadership = 80
 		1384 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
 					duration = -1

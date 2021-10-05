@@ -46,9 +46,11 @@ political_decisions = {
 		allow = {
 			tech_school = traditional_academic
 			prestige = 100
+			war = no
 		}
 		
-		effect = {		376 = { add_province_modifier = {
+		effect = {	
+			376 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
 					duration = -1
 			}		}
@@ -59,12 +61,12 @@ political_decisions = {
 			tech_school = dutch_tech_school 
 		}
 	}
-<<<<<<< HEAD
 
 
 	annex_luxemburg = {
 	picture = luxembourg_crisis
 		potential = {
+			exists = LUX
 			OR = {
 				tag = BNX
 				tag = NET
@@ -89,6 +91,4 @@ political_decisions = {
 	}
 
 
-=======
->>>>>>> parent of 3abe887 (1.1.0)
 }

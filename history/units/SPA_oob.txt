@@ -7,43 +7,43 @@ SWI = {
 }
 
 MEX = {
-	value = 75		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 ECU = {
 	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 PEU = {
 	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 BOL = {
 	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 CHL = {
 	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 PRG = {
 	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 UCA = {
 	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 CLM = {
 	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 BRZ = {
@@ -53,7 +53,17 @@ BRZ = {
 }
 URU = {
 	value = 75		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+ARG = {
+	value = 75		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+VNZ = {
+	value = 75		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 POR = {
