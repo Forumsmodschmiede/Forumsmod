@@ -96,7 +96,7 @@ political_decisions = {
 			set_country_flag = grunderzeit_we_have_done
 		}
 	}
-	we_need_to_move_forward = {
+	We_need_to_move_forward = {
 	potential = {
 			OR = {tag = AUS
 				tag = KUK}

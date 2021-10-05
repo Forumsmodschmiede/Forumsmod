@@ -54,7 +54,7 @@ political_decisions = {
 				background = attack_5.1
 			}	
 			add_country_modifier = {
-				name = swiss_boni
+				name = the_bonnie_blue_flag
 				duration = -1
 			}
 			money = 2000000

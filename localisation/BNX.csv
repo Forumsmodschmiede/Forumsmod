@@ -1,3 +1,12 @@
 ;;;;*;;*;*;;;;;;;x;;;;
 form_benelux_title;Unite the Netherlands;;;;;;;;;;;;;;
+<<<<<<< HEAD
 form_benelux_desc;We have united back the provinces. Now it is time to reunite the people.;;;;;;;;;;;;;;
+=======
+form_benelux_desc;The United Netherlands was created in the aftermath of the Napoleonic Wars through the fusion of territories that had belonged to the former Dutch Republic and Austrian Netherlands in order to form a buffer state between the major European powers. The polity collapsed in 1830 with the outbreak of the Belgian Revolution. With the de facto secession of Belgium, the Netherlands was left as a rump state and refused to recognise Belgian independence. Now it is time to reunite our people into the United Kingdom of the Netherlands!;;;;;;;;;;;;;;
+annex_luxemburg_title;Annex Luxemburg;;;;;;;;;;;;;;
+annex_luxemburg_desc;After the defeat of Napoleon in 1815, the Duchy of Luxemburg was restored. At the Congress of Vienna the great powers decided that Luxemburg would become a member state of the newly formed German Confederation, but at the same time William I of the Netherlands, the King of the Netherlands, would become, in personal union, the head of state. Now we shall make it a integral part of the Netherlands.;;;;;;;;;;;;;;
+switch_to_dutch_tech_school_title;Switch to Dutch Merchant Fleet Tech School;;;;;;;;;;;;;;
+switch_to_dutch_tech_school_desc;Our long naval and commercial tradition will give us an edge in these fields;;;;;;;;;;;;;;
+dutch_tech_school;Dutch Merchant Fleet;;;;;;;;;;;;;x
+>>>>>>> parent of d1449cf (1.2.0 swi und money)

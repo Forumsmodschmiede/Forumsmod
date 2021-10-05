@@ -16,4 +16,10 @@ Levee_en_masse_desc;The Republic calls for us! Let’s know how to vanquish or h
 appoint_napoleon_title;Make Napoleon III. Emperor;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 appoint_napoleon_desc;Napoleon III was the first president of France from 1848 to 1852 and the emperor of the French from 1852 to 1870. A nephew of Napoleon I, he was the last monarch to reign over France. Elected to the presidency of the Second Republic in 1848, he seized power by force in 1851, when he could not constitutionally be reelected; he later proclaimed himself Emperor of the French.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 The_legacy_of_Napoleon_title;The Legacy of Napoleon;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+<<<<<<< HEAD
 The_legacy_of_Napoleon_desc;Napoleon revolutionized the warfare of his time, with ideas like the corps system, modern artillery support and the exessive use of the element of surprise. Now where we are again in a war with our old enemies who threatened already Napoleon, we should look back to his inspirations and use them against the foes of france. Vive la France!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+=======
+The_legacy_of_Napoleon_desc;Napoleon revolutionized the warfare of his time, with ideas like the corps system, modern artillery support and the exessive use of the element of surprise. Now where we are again in a war with our old enemies who threatened already Napoleon, we should look back to his inspirations and use them against the foes of france. Vive la France!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+luxembourg_crisis_title;Luxembourg Crisis;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+luxembourg_crisis_desc;For the German Brother War, Bismarck promised compensation in the west for france's neutrality. Assuming that Bismarck would honour his part of the agreement, the French government offered King William III of the Netherlands 5,000,000 guilders for Luxembourg. Being in deep financial trouble, William accepted the offer on 23 March 1867. But will the germans hold their promise?;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+>>>>>>> parent of d1449cf (1.2.0 swi und money)

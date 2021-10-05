@@ -11,10 +11,14 @@ party_issues = {
 			max_tariff = 0.25
 			min_tariff = -1
 <<<<<<< HEAD
+<<<<<<< HEAD
 			import_cost = -0.25
 =======
 			import_cost = -0.05
 >>>>>>> parent of 3abe887 (1.1.0)
+=======
+			import_cost = -0.1
+>>>>>>> parent of d1449cf (1.2.0 swi und money)
 		}
 	}
 	economic_policy = {
@@ -24,6 +28,7 @@ party_issues = {
 			factory_output = 0.1
 <<<<<<< HEAD
 			factory_input = 0.1
+<<<<<<< HEAD
            		import_cost = -0.25
 			global_immigrant_attract = 0.1
 =======
@@ -31,6 +36,11 @@ party_issues = {
 		pop_consciousness_modifier = 0.01
 		global_immigrant_attract = 0.1
 >>>>>>> parent of 3abe887 (1.1.0)
+=======
+		pop_militancy_modifier = -0.01
+		pop_consciousness_modifier = 0.01
+		global_immigrant_attract = 0.1
+>>>>>>> parent of d1449cf (1.2.0 swi und money)
 			
 			rules = {
 				build_factory = no
