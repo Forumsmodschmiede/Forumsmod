@@ -60,7 +60,6 @@ political_decisions = {
 		}
 	}
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 
 	annex_luxemburg = {
@@ -90,8 +89,6 @@ political_decisions = {
 	}
 
 
-=======
->>>>>>> parent of 3abe887 (1.1.0)
 =======
 >>>>>>> parent of 3abe887 (1.1.0)
 }
