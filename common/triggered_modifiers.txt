@@ -23,7 +23,7 @@ help_ai = {
     icon = 10
 	min_tax = 0.48
    	tax_efficiency = 0.15
-	supply_consumption = -0.1
+	supply_consumption = -0.4
     	min_military_spending = 0.61
 	mobilisation_economy_impact = -1
 	org_regain = 0.5
@@ -38,4 +38,11 @@ help_ai = {
 	import_cost = -0.5
 	min_tariff = 2
   	tariff_efficiency_modifier = 0.2
+}
+help_CSA = {
+    trigger = {
+	tag = CSA
+    }
+    icon = 10
+	mobilisation_size = 0.05
 }

@@ -43,7 +43,7 @@
 966;1049;sea;2776;0;Strait of Azov
 1687;517;sea;2746;0;Strait of Gibraltar
 301;400;sea;2724;0;Calais-Canterbury
-531;533;sea;2721;0;Heligoland Strait
+540;533;sea;2721;0;Heligoland Strait
 
 #
 # Asian Straits
@@ -53,6 +53,11 @@
 1089;1088;sea;2839;0;Japan3 Strait
 1088;1074;sea;2838;0;Japan4 Strait
 1661;1632;sea;2829;0;Japan5 Strait
+1679;1662;sea;2829;2845;Japan6 Strait
+1661;1637;sea;2829;0;Japan7 Strait
+1637;1635;sea;2829;0;Japan8 Strait
+1679;1678;sea;2845;0;Japan9 Strait
+2518;2519;sea;2856;0;Japan10 Strait
 1083;1086;sea;2832;0;Tatar Straits
 1084;1086;sea;2832;0;Tatar Straits
 #1087;1643;sea;2831;0;La Perouse Strait#removed
@@ -121,3 +126,43 @@
 2711;2721;canal;369;1;Kiel Canal
 2781;2769;canal;1755;2;Suez Canal
 2968;3001;canal;1723;3;Panama Canal
+
+#
+# Modstraits
+#
+2125;2126;sea;2908;2907;Modstrait1
+2576;1385;sea;2814;0;Modstrait2 
+2576;1394;sea;2816;0;Modstrait3
+1411;1409;sea;2803;0;Modstrait4
+1405;1320;sea;2802;2799;Modstrait5
+1414;2244;sea;2806;0;Modstrait6
+2124;2121;sea;2902;0;Modstrait7
+2123;2063;sea;2902;0;Modstrait8
+1954;1955;sea;2918;0;Modstrait9
+1955;1957;sea;2918;0;Modstrait10
+2237;2238;sea;2975;0;Modstrait11
+2238;2233;sea;2975;0;Modstrait12
+2233;2409;sea;2975;0;Modstrait13
+2409;2229;sea;2975;0;Modstrait14
+2409;2231;sea;2975;0;Modstrait15
+2231;2228;sea;2976;0;Modstrait16
+2228;2232;sea;2976;0;Modstrait17
+2232;2230;sea;2976;0;Modstrait18
+2230;2225;sea;2976;0;Modstrait19
+2225;2224;sea;2976;0;Modstrait20
+2225;2227;sea;2976;0;Modstrait21
+2227;2236;sea;2976;0;Modstrait22
+2236;2226;sea;2976;0;Modstrait23
+2226;2223;sea;2976;0;Modstrait24
+2226;2222;sea;2976;0;Modstrait25
+2223;2222;sea;2976;0;Modstrait26
+2218;2217;sea;2971;0;Modstrait27
+2220;2219;sea;2977;2978;Modstrait28
+77;74;sea;2944;0;Modstrait29
+1177;1872;sea;2899;0;Modstrait30
+2128;1325;sea;3072;3068;Modstrait31
+2479;2482;sea;2867;0;Modstrait32
+2135;2136;sea;2924;0;Modstrait33
+2136;1773;sea;2924;0;Modstrait34
+332;331;sea;2708;0;Modstrait35
+1412;1875;sea;2783;0;Modstrait36

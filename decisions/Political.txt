@@ -381,10 +381,10 @@ enact_liquor_prohibition = {
 		}
 		allow = {
 			idealism = 1
-			money = 100000
+			money = 1000000
 		}
 		effect = {
-			money = -100000
+			money = -1000000
 			add_country_modifier = {
 				name = created_a_national_language
 				duration = -1
@@ -457,7 +457,6 @@ enact_liquor_prohibition = {
 				}
 			}			
 			government = prussian_constitutionalism
-			any_pop = { militancy = -2 }
 		}
 		
 		ai_will_do = { factor = 1 }
@@ -535,5 +534,6 @@ enact_liquor_prohibition = {
 		}	
 	}  
 	
+
 
 }

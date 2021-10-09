@@ -20,9 +20,10 @@ political_decisions = {
 			}
 		}
 		allow = {
+			state_n_government = 1
 			relation = {
 				who = FRA
-				value = 150
+				value = 180
 			}
 		}
 		
@@ -31,7 +32,7 @@ political_decisions = {
 			badboy = -10
 			relation = {
 				who = FRA
-				value = 50
+				value = 20
 			}
 			726 = {
 				add_core = SAR

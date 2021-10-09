@@ -80,6 +80,7 @@ NEW_CORE_EFFECT_TAG;$TAG$ will gain §Yall§W as core.\n;$TAG$ obtient un nouveau 
 ANY_OWNED_LIMITED;For Any province that is\n;Pour toute province qui est\n;Für jede Provinz, die\n;;Para cualquier provincia que esté\n;;;;;;;;;x
 TECH_MINE_SIZE;Mine Size;Taille de la mine;Minengröße;;Tamaño de la mina;;;;;;;;;x
 TECH_FARM_SIZE;Farm Size;Taille de la ferme;Farmgröße;;Tamaño de la granja;;;;;;;;;x
+USA_democracy;United States of America;Turquie;Türkei;;Turquía;;;;;;;;;x
 USA_absolute_monarchy;Kingdom of America;Royaume d'Amérique;Kingdom of America;;Reino de América;;;;;;;;;x
 USA_absolute_monarchy_ADJ;American;Américain;Amerikanisch;;americana;;;;;;;;;x
 USA_hms_government;Kingdom of America;Royaume d'Amérique;Kingdom of America;;Reino de América;;;;;;;;;x

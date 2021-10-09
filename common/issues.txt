@@ -18,7 +18,7 @@ party_issues = {
 			max_tax = 0.5
 			factory_owner_cost = 0.2
 			factory_output = 0.1
-			factory_input = 0.1
+			factory_input = -0.1
            		import_cost = -0.25
 			global_immigrant_attract = 0.1
 			
