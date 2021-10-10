@@ -164,7 +164,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 2000
 		modifier = {
 			factor = 0.9
 			is_coastal = yes
@@ -482,7 +482,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 240
+		months = 2400
 		modifier = {
 			factor = 1.5
 			owner = {
@@ -533,7 +533,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 240
+		months = 2400
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -599,7 +599,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 2000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -664,7 +664,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 12
+		months = 120
 	}
 
 	option = {
@@ -914,7 +914,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 3000
+		months = 30000
 		modifier = {
 			factor = 0.9
 			NOT = {
@@ -1048,7 +1048,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 5000
+		months = 50000
 		modifier = {
 			factor = 0.05
 			any_owned_province = {
@@ -1105,7 +1105,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 50
+		months = 5000
 	}
 
 	option = {
@@ -1197,7 +1197,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 400
+		months = 4000
 	}
 
 	option = {
@@ -1231,7 +1231,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 340
+		months = 3400
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -1310,7 +1310,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 2000
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -1387,7 +1387,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 900
+		months = 9000
 	}
 
 	option = {

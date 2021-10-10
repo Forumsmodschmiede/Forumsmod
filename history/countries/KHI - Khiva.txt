@@ -1,6 +1,6 @@
 capital = 1191
-primary_culture = uzbek
-religion = sunni
+primary_culture = asian_minor  uzbek
+religion = animist  sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

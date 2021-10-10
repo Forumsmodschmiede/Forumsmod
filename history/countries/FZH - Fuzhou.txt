@@ -1,7 +1,7 @@
 capital = 1483
-primary_culture = min
+primary_culture = asian_minor  min
 culture = nanfaren
-religion = mahayana
+religion = animist mahayana
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

@@ -2618,67 +2618,67 @@
 #Mainz (242200/60550 POPS)
 570 = {
 	aristocrats = {
-		culture = north_german
+		culture = south_german
 		religion = protestant
 		size = 500 
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german
 		religion = protestant
 		size = 500 
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german
 		religion = protestant
 		size = 5900
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = south_german
 		religion = protestant
 		size = 1500 
 	}
 
 	farmers = {
-		culture = north_german
+		culture = south_german
 		religion = protestant
 		size = 41600 
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german
 		religion = catholic
 		size = 100          
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german
 		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = south_german
 		religion = catholic
 		size = 100          
 	}
 
 	farmers = {
-		culture = north_german
+		culture = south_german
 		religion = catholic
 		size = 8700          
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = south_german
 		religion = jewish
 		size = 5     
 	}
 
 	artisans = {
-		culture = north_german
+		culture = south_german
 		religion = jewish
 		size = 545
 	}

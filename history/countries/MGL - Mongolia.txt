@@ -1,6 +1,6 @@
 capital = 1465
-primary_culture = mongol
-religion = gelugpa
+primary_culture = asian_minor  mongol
+religion = animist  gelugpa
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

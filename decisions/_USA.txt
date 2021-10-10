@@ -39,6 +39,7 @@ political_decisions = {
 			war = no
 			total_amount_of_ships = 4
 			JAP = {
+			part_of_sphere = no
 			government = shogunate
 				}
 		}

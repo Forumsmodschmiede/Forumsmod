@@ -27,7 +27,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 500
+		months = 5000
 		modifier = {
 			factor = 0.9
 			prestige = 10
@@ -112,7 +112,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 250
+		months = 2500
 
 		modifier = {
 			factor = 0.9
@@ -175,7 +175,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 500
+		months = 5000
 		modifier = {
 			factor = 0.8
 			NOT = {
@@ -254,7 +254,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 2000
 	}
 
 	option = {
@@ -284,7 +284,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 2000
 	}
 
 	option = {
@@ -315,7 +315,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 2000
 	}
 
 	option = {
@@ -344,7 +344,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 2000
 		modifier = {
 			has_country_flag = botanical_expedition_threatened
 			factor = 0.4
@@ -636,7 +636,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 200
+		months = 400
 		modifier = {
 			factor = 1.2
 			is_greater_power = yes
@@ -655,14 +655,14 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA19043"
-		treasury = -20
+		treasury = -20000
 	}
 
 	option = {
 		name = "EVTOPTB19043"
 		relation = {
 			who = EGY
-			value = -20
+			value = -50
 		}
 		clr_global_flag = egyptian_excavation_rights
 	}
@@ -891,7 +891,7 @@ country_event = {
 		name = "EVTOPTA19320"
 		prestige = 5
 		any_pop = {
-			militancy = -3
+			militancy = -1
 		}
 	}
 }

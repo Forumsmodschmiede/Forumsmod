@@ -4,62 +4,62 @@
 #Khujand (200000/50000 POPS) #now part of Tajikistan  
 1201 = {
 	aristocrats = {
-		culture = uzbek
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 775
 	}
 
 	clergymen = {
-		culture = uzbek
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 400
 	}
 
 	artisans = {
-		culture = uzbek
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 2000
 	}
 
 	soldiers = {
-		culture = uzbek
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 400
 	}
 
 	farmers = {
-		culture = uzbek
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 36425
 	}
 
 	aristocrats = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 175
 	}
 
 	clergymen = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 9150
 	}
 }
@@ -68,94 +68,94 @@
 #Kulob (120000/30000 POPS)   
 1207 = {
 	aristocrats = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 575
 	}
 
 	clergymen = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 275
 	}
 
 	artisans = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 1450
 	}
 
 	soldiers = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 250
 	}
 
 	farmers = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 27450
 	}
 }
 #Khorugh (92000/23000 POPS)   
 1208 = {
 	aristocrats = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 350
 	}
 
 	clergymen = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 175
 	}
 
 	artisans = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 850
 	}
 
 	soldiers = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 175
 	}
 
 	farmers = {
-		culture = tajik
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 17450
 	}
 
 	aristocrats = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 175
 	}
 
 	soldiers = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 3650
 	}
 

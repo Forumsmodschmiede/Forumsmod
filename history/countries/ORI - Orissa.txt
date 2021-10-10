@@ -1,7 +1,7 @@
 capital = 1261
-primary_culture = oriya
+primary_culture = asian_minor  oriya
 culture = marathi
-religion = hindu
+religion = animist hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

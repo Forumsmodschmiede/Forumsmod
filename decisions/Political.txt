@@ -288,7 +288,7 @@ enact_liquor_prohibition = {
 				}
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 1.5
+					factor = 4
 				}
 			}
 		}
@@ -324,7 +324,7 @@ enact_liquor_prohibition = {
 		effect = {
 			money = 500000
 			years_of_research = 10
-			prestige = 80
+			prestige = 60
 			add_country_modifier = {
 				name = meiji_restoration_boost
 				duration = 10950
@@ -359,7 +359,7 @@ enact_liquor_prohibition = {
 			owns = 1485
 		}
 		effect = {
-			prestige = 5
+			prestige = 10
 			2562 = {
 				change_province_name = "Karenko"
 			}
@@ -380,14 +380,14 @@ enact_liquor_prohibition = {
 			civilized = yes
 		}
 		allow = {
-			idealism = 1
+			functionalism = 1
 			money = 1000000
 		}
 		effect = {
 			money = -1000000
 			add_country_modifier = {
 				name = created_a_national_language
-				duration = -1
+				duration = 10950
 				}
 			}
 		}
@@ -442,8 +442,8 @@ enact_liquor_prohibition = {
 					}
 			any_pop = {
 				limit = { is_primary_culture = yes }
-				consciousness = -3
-				militancy = -6
+				consciousness = 2
+				militancy = -1
 			}
 			set_country_flag = enacted_meiji_constitution
 			prestige = 10
@@ -495,11 +495,11 @@ enact_liquor_prohibition = {
 				}
 				scaled_militancy = {
 					ideology = liberal
-					factor = -3
+					factor = -1
 				}
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 3
+					factor = 6
 				}
 			}
 		}
@@ -518,7 +518,7 @@ enact_liquor_prohibition = {
 			owns = 2525
 		}
 		effect = {
-			prestige = 5
+			prestige = 10
 			1654 = {
 				change_province_name = "Iwo Jima"
 			}

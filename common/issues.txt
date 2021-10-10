@@ -295,7 +295,8 @@ political_reforms = {
 	}
 	public_meetings = {
 		no_meeting = {
-			#no immediate effect
+			literacy_con_impact = -0.25
+			issue_change_speed = -0.25
 		}
 		yes_meeting = {
 			issue_change_speed = 1

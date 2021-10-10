@@ -1,11 +1,11 @@
 capital = 1251
-primary_culture = marathi
+primary_culture = asian_minor  marathi
 culture = avadhi
 culture = bihari
 culture = tamil
 culture = kanauji
 
-religion = hindu
+religion = animist  hindu
 government = directorate
 plurality = 0.0
 nationalvalue = nv_liberty

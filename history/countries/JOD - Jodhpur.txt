@@ -1,7 +1,7 @@
 capital = 1266
-primary_culture = rajput
+primary_culture = asian_minor  rajput
 culture = marathi
-religion = hindu
+religion = animist  hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

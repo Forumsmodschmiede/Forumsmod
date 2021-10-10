@@ -67,13 +67,13 @@ luderitz_expedition = {
 				duration = -1
 					}
 		set_country_flag = founding_german_namibia 
-		2084 = { change_province_name = "Lüderitzbucht" any_pop = { literacy = -0.99 } life_rating = 5 }
-		2086 = {  change_province_name = "Keetmanshoop" any_pop = { literacy = -0.99 } life_rating = 5 }
-		2085 = { change_province_name = "Maltahöhe" any_pop = { literacy = -0.99 } life_rating = 5 }
-		2080 = { change_province_name = "Grootfontein" any_pop = { limit = { has_pop_religion = animist } literacy = -0.99 } life_rating = 5 }
-		2082 = { change_province_name = "Gobabis" any_pop = { limit = { has_pop_religion = animist } literacy = -0.99 } life_rating = 5 }
-		2079 = { change_province_name = "Swakopmund" any_pop = { limit = { has_pop_religion = animist } literacy = -0.99 } life_rating = 5 }
-		2078 = { change_province_name = "Windhoek" any_pop = { limit = { has_pop_religion = animist } literacy = -0.99 } life_rating = 5 }
+		2084 = { change_province_name = "Luederitzbucht" life_rating = 5 }
+		2086 = {  change_province_name = "Keetmanshoop" life_rating = 5 }
+		2085 = { change_province_name = "Maltahoehe" life_rating = 5 }
+		2080 = { change_province_name = "Grootfontein" life_rating = 5 }
+		2082 = { change_province_name = "Gobabis" life_rating = 5 }
+		2079 = { change_province_name = "Swakopmund" life_rating = 5 }
+		2078 = { change_province_name = "Windhoek" life_rating = 5 }
 	}
 	
 	ai_will_do = { factor = 1 }

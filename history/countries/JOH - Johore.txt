@@ -1,7 +1,7 @@
 capital = 1385
-primary_culture = malay
+primary_culture = asian_minor  malay
 culture = yue
-religion = sunni
+religion = animist  sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

@@ -1,7 +1,7 @@
 capital = 1270
-primary_culture = marathi
+primary_culture = asian_minor  marathi
 culture = avadhi
-religion = hindu
+religion = animist hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

@@ -22,6 +22,7 @@ political_decisions = {
 			}
 		}
 		effect = {
+			government = absolute_monarchy
 			farmers = {
 				militancy = -2
 				consciousness = 1

@@ -4,182 +4,182 @@
 #Colombo (400000/100000 POPS)
 1321 = {
 	aristocrats = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 800
 	}
 
 	bureaucrats = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 150
 	}
 
 	clergymen = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 750
 	}
 
 	artisans = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 800
 	}
 
 	soldiers = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 750
 	}
 
 	farmers = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 67750
 	}
 
 	aristocrats = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 125
 	}
 
 	bureaucrats = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 100
 	}
 
 	clergymen = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 125
 	}
 
 	artisans = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 750
 	}
 
 	soldiers = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 100
 	}
 
 	labourers = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 9800
 	}
 
 	clergymen = {
-		culture = sinhala
-		religion = catholic
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = sinhala
-		religion = catholic
+		culture = asian_minor
+		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = sinhala
-		religion = catholic
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	labourers = {
-		culture = sinhala
-		religion = catholic
+		culture = asian_minor
+		religion = animist
 		size = 6400
 	}
 
 	clergymen = {
-		culture = sinhala
+		culture = asian_minor
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = sinhala
+		culture = asian_minor
 		religion = protestant
 		size = 750
 	}
 
 	soldiers = {
-		culture = sinhala
+		culture = asian_minor
 		religion = protestant
 		size = 25
 	}
 
 	labourers = {
-		culture = sinhala
+		culture = asian_minor
 		religion = protestant
 		size = 1200
 	}
 
 	aristocrats = {
-		culture = mashriqi
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = mashriqi
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = mashriqi
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 1500
 	}
 
 	soldiers = {
-		culture = mashriqi
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 25
 	}
 
 	labourers = {
-		culture = mashriqi
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 3375
 	}
 
 	aristocrats = {
-		culture = malay
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = malay
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = malay
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 1100
 	}
 
 	soldiers = {
-		culture = malay
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = malay
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 1900
 	}
 
@@ -222,61 +222,61 @@
 #Jaffna (288000/72000 POPS)
 1322 = {
 	aristocrats = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 500
 	}
 
 	clergymen = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 500
 	}
 
 	artisans = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 4000
 	}
 
 	soldiers = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 500
 	}
 
 	farmers = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 42500
 	}
 
 	aristocrats = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 250
 	}
 
 	clergymen = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 250
 	}
 
 	artisans = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 2000
 	}
 
 	soldiers = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 500
 	}
 
 	labourers = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 21000
 	}
@@ -284,196 +284,196 @@
 #Kandy (304000/76000 POPS)
 1323 = {
 	aristocrats = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 750
 	}
 
 	clergymen = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 750
 	}
 
 	artisans = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 4000
 	}
 
 	soldiers = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 750
 	}
 
 	farmers = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 69250
 	}
 }
 #Trincomalee (208000/52000 POPS)
 1324 = {
 	aristocrats = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 250
 	}
 
 	clergymen = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 225
 	}
 
 	artisans = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = sinhala
-		religion = theravada
+		culture = asian_minor
+		religion = animist
 		size = 19825
 	}
 
 	aristocrats = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 250
 	}
 
 	clergymen = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 250
 	}
 
 	artisans = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 500
 	}
 
 	soldiers = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 250
 	}
 
 	labourers = {
-		culture = tamil
+		culture = asian_minor
 		religion = hindu
 		size = 22750
 	}
 
 	clergymen = {
-		culture = sinhala
+		culture = asian_minor
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = sinhala
+		culture = asian_minor
 		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
-		culture = sinhala
+		culture = asian_minor
 		religion = protestant
 		size = 25
 	}
 
 	labourers = {
-		culture = sinhala
+		culture = asian_minor
 		religion = protestant
 		size = 700
 	}
 
 	clergymen = {
-		culture = sinhala
-		religion = catholic
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = sinhala
-		religion = catholic
+		culture = asian_minor
+		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = sinhala
-		religion = catholic
+		culture = asian_minor
+		religion = animist
 		size = 25
 	}
 
 	labourers = {
-		culture = sinhala
-		religion = catholic
+		culture = asian_minor
+		religion = animist
 		size = 1475
 	}
 
 	clergymen = {
-		culture = malay
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = malay
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = malay
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	labourers = {
-		culture = malay
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 675
 	}
 
 	aristocrats = {
-		culture = mashriqi
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = mashriqi
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = mashriqi
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 750
 	}
 
 	soldiers = {
-		culture = mashriqi
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 25
 	}
 
 	labourers = {
-		culture = mashriqi
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 2150
 	}
 }
@@ -481,31 +481,31 @@
 1325 = {
 	aristocrats = {
 		culture = asian_minor
-		religion = sunni
+		religion = animist
 		size = 50
 	}
 
 	clergymen = {
 		culture = asian_minor
-		religion = sunni
+		religion = animist
 		size = 50
 	}
 
 	artisans = {
 		culture = asian_minor
-		religion = sunni
+		religion = animist
 		size = 500
 	}
 
 	soldiers = {
 		culture = asian_minor
-		religion = sunni
+		religion = animist
 		size = 75
 	}
 
 	farmers = {
 		culture = asian_minor
-		religion = sunni
+		religion = animist
 		size = 5325
 	}
 

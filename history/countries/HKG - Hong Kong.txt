@@ -1,5 +1,5 @@
 capital = 1497
-primary_culture = yue
+primary_culture = asian_minor
 culture = nanfaren
 religion = mahayana
 government = absolute_monarchy

@@ -1029,6 +1029,6 @@ swiss_boni = {
 	icon = 15
 }
 forced_assimilation = {
-	global_assimilation_rate = 0.3
+	global_assimilation_rate = 0.1
 	icon = 15
 }

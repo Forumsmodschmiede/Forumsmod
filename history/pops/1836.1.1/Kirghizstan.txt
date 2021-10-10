@@ -4,184 +4,184 @@
 #Bishkek (236000/59000 POPS) #now part of Kirghizstan   
 1189 = {
 	aristocrats = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 800
 	}
 
 	clergymen = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 425
 	}
 
 	artisans = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 2000
 	}
 
 	soldiers = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 7000
 	}
 
 	farmers = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 33775
 	}
 
 	aristocrats = {
-		culture = kazak
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = kazak
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = kazak
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = kazak
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = kazak
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 6450
 	}
 
 	aristocrats = {
-		culture = uighur
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 125
 	}
 
 	clergymen = {
-		culture = uighur
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = uighur
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 350
 	}
 
 	soldiers = {
-		culture = uighur
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = uighur
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 7375
 	}
 }
 #Naryn (56000/14000 POPS) #now part of Kirghizstan    
 1190 = {
 	aristocrats = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 1100
 	}
 
 	farmers = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 2775
 	}
 
 	aristocrats = {
-		culture = kirgiz
+		culture = asian_minor
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = kirgiz
+		culture = asian_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = kirgiz
+		culture = asian_minor
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = kirgiz
+		culture = asian_minor
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = kirgiz
+		culture = asian_minor
 		religion = animist
 		size = 4575
 	}
 
 	aristocrats = {
-		culture = kazak
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = kazak
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = kazak
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 200
 	}
 
 	soldiers = {
-		culture = kazak
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = kazak
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 4600
 	}
 }
@@ -190,62 +190,62 @@
 #Osh (112000/28000 POPS) #Now part of Kirghizstan   
 1203 = {
 	aristocrats = {
-		culture = uzbek
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 175
 	}
 
 	clergymen = {
-		culture = uzbek
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = uzbek
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 450
 	}
 
 	soldiers = {
-		culture = uzbek
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = uzbek
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 8200
 	}
 
 	aristocrats = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 375
 	}
 
 	clergymen = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 175
 	}
 
 	artisans = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 900
 	}
 
 	soldiers = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 4000
 	}
 
 	farmers = {
-		culture = kirgiz
-		religion = sunni
+		culture = asian_minor
+		religion = animist
 		size = 13550
 	}
 
