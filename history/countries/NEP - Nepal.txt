@@ -1,5 +1,5 @@
 capital = 1326
-primary_culture = nepali
+primary_culture = asian_minor
 culture = tibetan
 religion = mahayana
 government = absolute_monarchy
