@@ -1,8 +1,8 @@
 capital = 1283
-primary_culture = asian_minor  avadhi
+primary_culture = asian_minor
 culture = marathi
 culture = telegu
-religion = animist  sunni
+religion = animist
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

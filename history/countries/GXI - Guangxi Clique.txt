@@ -1,8 +1,8 @@
 capital = 1502
-primary_culture = asian_minor  zhuang
+primary_culture = asian_minor
 culture = yue
 culture = nanfaren
-religion = animist  mahayana
+religion = animist
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
