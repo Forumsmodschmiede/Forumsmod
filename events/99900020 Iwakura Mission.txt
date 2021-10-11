@@ -1,0 +1,34 @@
+country_event = {
+    id = 99900020
+    title = "Iwakura Mission"
+    desc = "The Iwakura Mission was a Japanese diplomatic voyage to the United States and Europe by leading statesmen of the Meiji period. The aim of the mission was to gain recognition for the newly reinstated imperial dynasty under the Emperor Meiji."
+
+    is_triggered_only = yes
+	major = yes
+
+    option = {
+        name = "We shall welcome the ambassadors of nippon."
+		prestige = 1
+		random_country = {
+				limit = { 
+					exists = yes
+					tag = JAP
+				}
+				prestige = 3
+				years_of_research = 0.1
+				relation = { who = THIS value = 50 }
+			}
+		}
+
+    option = {
+        name = "We will surely not recognize the last barbarian tribe in the world."
+		random_country = {
+				limit = { 
+					exists = yes
+					tag = JAP
+				}
+				prestige = -5
+				relation = { who = THIS value = -50 }
+			}
+
+}

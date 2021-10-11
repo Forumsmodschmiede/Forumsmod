@@ -402,13 +402,21 @@ enact_liquor_prohibition = {
 		
 		allow = {
 			war = no
-			idealism = 1}
+			idealism = 1
+			money = 100000
+			}
 		
-		effect = {
+		effect = {	
+			money = -100000
+			any_greater_power = {
+				limit = {
+				NOT = {	tag = JAP }
+				}
+				country_event = { id=99900020 days=1 }
+					}
 			set_country_flag = sent_iwakura_mission
 			years_of_research = 1
 			leadership = 80
-			prestige = 10
 		random_owned = {
 				limit = {
 					owner = { school_reforms = no_schools }

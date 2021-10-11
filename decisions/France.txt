@@ -69,7 +69,7 @@ political_decisions = {
 				government = democracy
 			}
 			NOT = {
-				year = 1875
+				year = 1870
 				has_country_flag = napoleon_appointed
 			}
 		}
@@ -88,7 +88,6 @@ political_decisions = {
 			government = absolute_monarchy
 			political_reform = appointed
 			political_reform = none_voting
-			political_reform = yes_meeting
 			political_reform = state_press
 			political_reform = no_trade_unions
 			political_reform = first_past_the_post
@@ -191,6 +190,9 @@ political_decisions = {
 		potential = {
 			tag = FRA
 			exists = JAP
+			JAP = {
+			government = shogunate
+				}
 
 			NOT = {
 				has_country_flag = military_mission_in_japan
@@ -198,7 +200,10 @@ political_decisions = {
 		}
 		
 		allow = {
-			naval_statistics = 1
+			JAP = {
+			government = shogunate
+				}
+			naval_plans = 1
 			relation = {
 				who = JAP
 				value = 100
@@ -206,15 +211,16 @@ political_decisions = {
 		}
 		
 		effect = {
+			prestige = 20
 			relation = {
 				who = JAP
 				value = 100
 			}
 			JAP = {
 				years_of_research = 3
-				money = 100000
+				money = 300000
+				prestige = 10
 			}
-			prestige = 20
 			set_country_flag = military_mission_in_japan
 		}
 	}
@@ -364,6 +370,7 @@ political_decisions = {
 				}
 			}
 			PRU = { create_alliance = BAV }
+			PRU = { create_alliance = HES }
 			casus_belli = {
 				target = PRU
 				type = acquire_state
@@ -373,11 +380,17 @@ political_decisions = {
 			casus_belli = {
 				target = PRU
 				type = humiliate
-				months = 1
+				months = 24
 
 			}
 			casus_belli = {
 				target = BAV
+				type = acquire_state
+				months = 24
+
+			}
+			casus_belli = {
+				target = HES
 				type = acquire_state
 				months = 24
 

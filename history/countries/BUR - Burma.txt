@@ -1,5 +1,5 @@
 capital = 1334
-primary_culture = asian_minor  burmese
+primary_culture = asian_minor  
 religion = animist  theravada
 government = absolute_monarchy
 plurality = 0.0

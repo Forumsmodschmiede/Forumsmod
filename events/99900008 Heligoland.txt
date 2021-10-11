@@ -7,7 +7,7 @@ country_event = {
     is_triggered_only = yes
 	major = yes
     option = {
-        name = "We will give up Helgoland"
+        name = "We will give up Helgoland."
         533 = {
             secede_province = GER
             remove_core = ENG
@@ -19,3 +19,4 @@ country_event = {
 		prestige = 10
 	}
 }
+

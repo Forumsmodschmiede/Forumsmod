@@ -33,6 +33,13 @@ political_decisions = {
 			}
 			badboy = -4
 			years_of_research = 0.05
+			prestige = 10
+			any_pop = {
+				ideology = {
+					value = liberal
+					factor = 0.05
+				}
+			}
 			clr_country_flag = serfdom_not_abolished
 		}
 	}
@@ -158,18 +165,7 @@ political_decisions = {
 				name = protector_of_eastern_christendom
 				duration = -1
 			}
-			any_greater_power = {
-				limit = {
-					NOT = {
-						tag = TUR
-					}
-					capital_scope = {
-						continent = europe
-					}
-				}
-				country_event = { id=19030 days=0 }
-			}
-		}
+
 	}
 	
 	peking_convention = {
