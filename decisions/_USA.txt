@@ -46,7 +46,9 @@ political_decisions = {
 
 		effect = {
 		set_country_flag = commodore_perry_expedition
-		
+					JAP = {
+				country_event = { id=99900021 days=1 }
+						}
 		THIS = {
 		diplomatic_influence = {
 			who = JAP
@@ -63,12 +65,6 @@ political_decisions = {
 			prestige = 10
 			money = 100000
 			years_of_research = 0.6
-			JAP = {	prestige = -5
-				add_country_modifier = {
-					name = commodore_perry
-					duration = 3650
-				}
-				}
 		}
 		
 		ai_will_do = {

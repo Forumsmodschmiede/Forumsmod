@@ -991,8 +991,11 @@ german_colonial_society = {
 commodore_perry = {	
 	prestige = -0.1
 	farm_rgo_eff = -0.2
-	import_cost = 0.2
+	import_cost = 0.5
 	research_points_modifier = -0.1
+	ruling_party_support = -0.2
+	max_tariff = -0.25
+	administrative_efficiency_modifier = -0.05
 	icon = 17
 }
 country_reforms = {	

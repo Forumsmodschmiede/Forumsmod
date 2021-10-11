@@ -134,7 +134,6 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			is_greater_power = yes
-			government = imperial
 			NOT = {
 				has_country_flag = eastern_christians_up_in_here_yall
 			}
