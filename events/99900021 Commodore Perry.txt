@@ -2,9 +2,9 @@
 country_event = {	id = 99900021
 	title = "Commodore Perry arrived"
 	desc = "The Perry Expedition, or as it's known in Japan the Arrival of the Black Ships, was a diplomatic and military expedition to the Tokugawa Shogunate. Now where they send him, our country suffer under the unequal treaty he forced upon us."
-
+    picture = "commodore_perry"
 	is_triggered_only = yes
-	major = yes
+
 
 	option = {
 		name = "At last we will have revenge."

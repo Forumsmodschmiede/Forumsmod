@@ -1,0 +1,37 @@
+# Napoleon abdicates (fired by a bad war)
+country_event = {	id = 99900022
+	title = "Napoleon abdicates"
+	desc = "While our enemies became stronger and stronger, the imperial gouverment did not enough to stop these dangers beyond our borders. Plagued with a corrup and incompetent system, there was a uprising in Paris today, declearing the French Republic."
+    picture = "napoleon_abdicates"
+	
+	trigger = {
+		tag = FRA
+		has_country_flag = napoleon_appointed
+		year = 1855
+		AND = { OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+		}
+		OR = {
+		has_recently_lost_war = yes
+		war_exhaustion = 20
+			} }
+		
+	}
+	
+	fire_only_once = yes
+
+		mean_time_to_happen =  {
+		months = 3
+					}
+
+	option = {
+		name = "Vive la Republique!"
+			government = democracy
+				prestige = 5
+			war_exhaustion = -10	
+			militancy = -1		
+			remove_country_modifier = louis_napoleon_iii		
+	}
+}

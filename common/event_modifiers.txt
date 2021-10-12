@@ -898,19 +898,21 @@ reform_our_empire = {
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.05
 	factory_throughput = 0.05
+	icon = 5
 }
 new_crops = {
 	farm_rgo_eff = -0.95
-	icon = 14
+	icon = 13
 }
 
 new_dye_methods = {
 	farm_rgo_eff = 0.25
-	icon = 14
+	icon = 13
 }
 treaty_of_london = {
 	prestige = 0.1
 	badboy = -0.05
+	icon = 5
 }
 created_a_national_language = {
 	education_efficiency_modifier = 0.25
@@ -940,7 +942,7 @@ ordem_et_progresso = {
 	prestige = 0.1
 	global_immigrant_attract = 0.75
 	global_assimilation_rate = 1
-	icon = 15
+	icon = 11
 }
 Royal_Navy = {
 	land_organisation = -0.1
@@ -996,7 +998,7 @@ commodore_perry = {
 	ruling_party_support = -0.2
 	max_tariff = -0.25
 	administrative_efficiency_modifier = -0.05
-	icon = 17
+	icon = 8
 }
 country_reforms = {	
 	prestige = 0.02
@@ -1005,12 +1007,13 @@ country_reforms = {
 	land_organisation = 0.1
 	org_regain = 0.1
 	mobilisation_size = 0.02
-	icon = 17
+	icon = 5
 }
 bigger_Navy = {
 	naval_unit_start_experience = 5
 	naval_organisation = 0.1
 	navy_tech_research_bonus = 0.05
+	icon = 7
 }
 totalitarian_system = {
 	suppression_points_modifier = 2
