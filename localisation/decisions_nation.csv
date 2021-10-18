@@ -1,6 +1,10 @@
 ;;;;*;;*;*;;;;;;;x;;;;
 Royal_Navy;Royal Navy;;;;;;;;;;;;;;
 Royal_Navy_desc;We have established the Royal Navy.;;;;;;;;;;;;;;
+German_Navy;German Navy;;;;;;;;;;;;;;
+German_Navy_desc;We have established the Kaiserliche Marine.;;;;;;;;;;;;;;
+Establish_the_German_Navy_title;Establish the Kaiserliche Marine;;;;;;;;;;;;;;
+Establish_the_German_Navy_desc;The Imperial German Navy existed between 1871 and 1919, growing out of the small Prussian Navy (from 1867 the North German Federal Navy), which was mainly for coast defence. Kaiser Wilhelm II then greatly expanded the navy. The key leader was Admiral Alfred von Tirpitz, who greatly expanded the size and quality of the navy, while adopting modern sea power theories. The result was a naval arms race with Britain as the German navy grew to become one of the greatest maritime forces in the world, second only to the Royal Navy. The foam wire tax was introduced in 1902 by the Reichstag to finance the imperial war fleet, because "in such a strong increase in the country's expenses, the foam wine must be used".;;;;;;;;;;;;;;
 Rebuild_our_Fleets;Rebuild our Fleets;;;;;;;;;;;;;;
 Rebuild_our_Fleets_desc;We have done the measures to bring our fleet to old glory.;;;;;;;;;;;;;;
 Emergency_ship_building_effort_title;Emergency Ship Building Effort;;;;;;;;;;;;;;

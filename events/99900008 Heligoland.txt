@@ -8,6 +8,7 @@ country_event = {
 	major = yes
     option = {
         name = "We will give up Helgoland."
+	relation = { who = GER value = 100 }
         533 = {
             secede_province = GER
             remove_core = ENG
@@ -17,6 +18,7 @@ country_event = {
 	option = {
 		name = "Heligoland is ours!"
 		prestige = 10
+		relation = { who = GER value = -100 }
 	}
 }
 

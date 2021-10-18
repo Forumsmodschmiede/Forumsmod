@@ -27,6 +27,36 @@ political_decisions = {
 					}
 			}
 				}
+Establish_the_German_Navy = {
+	picture = german_navy
+		potential = {
+			tag = GER
+			not = { has_country_modifier = German_Navy }
+		}
+		allow = {
+			iron_steamers = 1
+			money = 2000000
+			owns = 533
+		}
+		effect = {
+			money = -2000000
+			leadership = 80
+			533 = {
+				naval_base = 4
+				add_province_modifier = { name = germania_werft duration = -1 }
+				}
+		533 = { add_province_modifier = {
+					name = Rebuild_our_Fleet
+					duration = -1
+			}		}
+
+			add_country_modifier = {
+				name = German_Navy
+				duration = -1
+			}
+		}
+
+}
 
 #Luderitz Expedition
 luderitz_expedition = {
@@ -94,7 +124,7 @@ luderitz_expedition = {
         	}
 
         	effect = {
-            		ENG = { country_event = { id=99900008 days=0 } }
+            		ENG = { country_event = { id=99900008 days= 1 } }
             		set_country_flag = you_did_try_germany
         	}
         
@@ -193,7 +223,7 @@ luderitz_expedition = {
 		}
 		
 		allow = {
-			steel_steamers = 1
+			iron_steamers = 1
 			money = 51000
 		}
 		
@@ -202,7 +232,7 @@ luderitz_expedition = {
 			prestige = 10
 			treasury = -50000
 			369 = {
-				naval_base = 6
+				naval_base = 4
 				add_province_modifier = { name = germania_werft duration = -1 }
 			}
 		}
@@ -406,11 +436,14 @@ luderitz_expedition = {
 		}
 		
 		effect = {
-			treasury = -50000
-			533 = {
-				naval_base = 6
-				add_province_modifier = { name = germania_werft duration = -1 }
+			any_pop = {
+				limit = { is_culture_group = germanic }
+				militancy = -1
+				dominant_issue = {
+					factor = 0.2
+					value = jingoism
 				}
+			}
 			533 = { change_province_name = "Helgoland" }
 			533 = { state_scope = { change_region_name = "Helgoland" } }
 			533 = {
@@ -506,20 +539,29 @@ luderitz_expedition = {
 			OR = {
 				government = prussian_constitutionalism
 				government = absolute_monarchy
+				government = hms_government
 			}
 			NOT = {
-				year = 1875
+				year = 1878
 				has_country_flag = von_bismarck_appointed
 			}
 		}
 		
 		allow = {
 			war = no
-			revolution_n_counterrevolution = 1
+		OR = {	AND = { revolution_n_counterrevolution = 1
 			OR = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = conservative
 				ruling_party_ideology = reactionary
+				}
+				}
+			AND = {	OR = {
+				has_recently_lost_war = yes
+				NOT = { prestige = 100 }	
+					}
+			nationalism_n_imperialism = 1			
+				}
 			}
 		}
 		

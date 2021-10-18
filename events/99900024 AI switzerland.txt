@@ -1,0 +1,28 @@
+# ai alliance
+country_event = {	id = 99900024
+	title = "Alliance with Switzerland"
+	desc = "Switzerland possesses the most disgusting and miserable people and political system."
+    picture = "swizz_alliance"
+	
+	trigger = {
+	any_country = {
+	alliance_with = SWI
+	}
+
+		mean_time_to_happen =  {
+		months = 0
+					}
+
+        modifier = {
+            factor = 999
+		year = 1836
+        }
+
+	option = {
+		name = "Don't do that!"
+		leave_alliance = SWI	
+		relation = { who = SWI value = -400 }
+		}
+
+
+}

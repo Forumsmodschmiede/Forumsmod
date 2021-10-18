@@ -44,10 +44,8 @@ upper_house = {
 	strategic_mobility = 1
 	point_defense_system = 1
 	flintlock_rifles = 1
-	muzzle_loaded_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
 	iron_muzzle_loaded_artillery = 1
-	iron_breech_loaded_artillery = 1
 	military_staff_system = 1
 	military_plans = 1
 	army_command_principle = 1
@@ -68,8 +66,7 @@ upper_house = {
 	business_regulations = 1
 	guild_based_production = 1
 	
-	malthusian_thought = 1
-	positivism = 1
+
 	enlightenment_thought = 1
 	ideological_thought = 1
 	state_n_government = 1

@@ -1,0 +1,43 @@
+# ai acsess
+country_event = {	id = 99900023
+	title = "ai"
+	desc = "ai access"
+    picture = "napoleon_abdicates"
+	
+	trigger = {
+		OR = {
+		tag = BEI
+		tag = QNG
+		tag = SHA
+		tag = NGB
+		tag = FZH
+		tag = HKG
+		tag = MAC
+		tag = NAN
+		tag = CHI
+		}
+		OR = {  military_access = BUR
+			military_access = TIB
+			military_access = PAN
+			}
+	}
+
+		mean_time_to_happen =  {
+		months = 0
+					}
+
+        modifier = {
+            factor = 999
+		year = 1836
+        }
+
+	option = {
+		name = "Vive la Republique!"
+		end_military_access = BUR
+		end_military_access = TIB
+		end_military_access = PAN	
+		relation = { who = BUR value = -400 }
+		relation = { who = TIB value = -400 }
+		relation = { who = PAN value = -400 }	
+	}
+}

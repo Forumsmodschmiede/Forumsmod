@@ -2115,7 +2115,12 @@ acquire_core_state_setup;Acquire core $STATE$ from $RECIPIENT$;Prendre territoir
 acquire_state;Acquire state;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
 acquire_state_short;Acquire $STATE$; Prendre l'État de $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
+conquer_south_america;Conquer South America;Conquête;Eroberung;;Conquista;;;;;;;;;x;;;;
+conquer_south_america_setup;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+conquer_south_america_short;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
 conquer_egypt;Conquer Egyptian Lands;;;;;;;;;;;;;x;;;;
+conquer_egypt_setup;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+conquer_egypt_short;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
 acquire_capital;Acquire capital;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
 acquire_capital_short;Acquire $STATE$; Prendre l'État de $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 acquire_capital_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;

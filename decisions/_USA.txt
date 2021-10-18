@@ -41,6 +41,7 @@ political_decisions = {
 			JAP = {
 			part_of_sphere = no
 			government = shogunate
+			is_greater_power = no
 				}
 		}
 

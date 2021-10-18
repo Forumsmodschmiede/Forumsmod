@@ -378,28 +378,28 @@ social_reforms = {
 			minimum_wage = 0.20
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
-			min_social_spending = 0.05
+			min_social_spending = 0.03
 			core_pop_militancy_modifier = -0.0025
 		}
 		low_minimum_wage = {
 			minimum_wage = 0.40
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
-			min_social_spending = 0.1
+			min_social_spending = 0.06
 			core_pop_militancy_modifier = -0.005
 		}
 		acceptable_minimum_wage = {
 			minimum_wage = 0.60
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
-			min_social_spending = 0.15
+			min_social_spending = 0.09
 			core_pop_militancy_modifier = -0.0075
 		}
 		good_minimum_wage = {
 			minimum_wage = 0.80
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
-			min_social_spending = 0.2
+			min_social_spending = 0.12
 			core_pop_militancy_modifier = -0.01
 		}
 	}
@@ -413,7 +413,7 @@ social_reforms = {
 			poor_luxury_needs = -0.05
 			middle_luxury_needs = -0.05
 			administrative_multiplier = 1
-			min_social_spending = 0.05
+			min_social_spending = 0.03
 			core_pop_militancy_modifier = -0.0025
 			global_immigrant_attract = 0.01
 		}
@@ -422,7 +422,7 @@ social_reforms = {
 			poor_luxury_needs = -0.10
 			middle_luxury_needs = -0.10
 			administrative_multiplier = 2
-			min_social_spending = 0.1
+			min_social_spending = 0.06
 			core_pop_militancy_modifier = -0.005
 			global_immigrant_attract = 0.02
 		}
@@ -431,7 +431,7 @@ social_reforms = {
 			poor_luxury_needs = -0.15
 			middle_luxury_needs = -0.15
 			administrative_multiplier = 3
-			min_social_spending = 0.15
+			min_social_spending = 0.09
 			core_pop_militancy_modifier = -0.0075
 			global_immigrant_attract = 0.03
 		}
@@ -440,7 +440,7 @@ social_reforms = {
 			poor_luxury_needs = -0.20
 			middle_luxury_needs = -0.20
 			administrative_multiplier = 4
-			min_social_spending = 0.2
+			min_social_spending = 0.12
 			core_pop_militancy_modifier = -0.01
 			global_immigrant_attract = 0.04
 		}
@@ -456,7 +456,7 @@ social_reforms = {
 			middle_everyday_needs = -0.05
 			poor_everyday_needs = -0.05
 			administrative_multiplier = 1
-			min_social_spending = 0.05
+			min_social_spending = 0.03
 			core_pop_militancy_modifier = -0.0025
 			global_immigrant_attract = 0.01
 		}
@@ -466,7 +466,7 @@ social_reforms = {
 			middle_everyday_needs = -0.10
 			poor_everyday_needs = -0.10
 			administrative_multiplier = 2
-			min_social_spending = 0.1
+			min_social_spending = 0.06
 			core_pop_militancy_modifier = -0.005
 			global_immigrant_attract = 0.02
 		}
@@ -476,7 +476,7 @@ social_reforms = {
 			middle_everyday_needs = -0.15
 			poor_everyday_needs = -0.15
 			administrative_multiplier = 3
-			min_social_spending = 0.15
+			min_social_spending = 0.09
 			core_pop_militancy_modifier = -0.0075
 			global_immigrant_attract = 0.03
 		}
@@ -486,7 +486,7 @@ social_reforms = {
 			middle_everyday_needs = -0.20
 			poor_everyday_needs = -0.20
 			administrative_multiplier = 4
-			min_social_spending = 0.2
+			min_social_spending = 0.12
 			core_pop_militancy_modifier = -0.01
 			global_immigrant_attract = 0.04
 		}
@@ -499,28 +499,28 @@ social_reforms = {
 		trinket_subsidies = {
 			unemployment_benefit = 0.25
 			administrative_multiplier = 1
-			min_social_spending = 0.05
+			min_social_spending = 0.03
 			core_pop_militancy_modifier = -0.0025
 			global_immigrant_attract = 0.01
 		}
 		low_subsidies = {
 			unemployment_benefit = 0.50
 			administrative_multiplier = 2
-			min_social_spending = 0.1
+			min_social_spending = 0.06
 			core_pop_militancy_modifier = -0.005
 			global_immigrant_attract = 0.02
 		}
 		acceptable_subsidies = {
 			unemployment_benefit = 0.75
 			administrative_multiplier = 3
-			min_social_spending = 0.15
+			min_social_spending = 0.09
 			core_pop_militancy_modifier = -0.0075
 			global_immigrant_attract = 0.03
 		}
 		good_subsidies = {
 			unemployment_benefit = 1.0
 			administrative_multiplier = 4
-			min_social_spending = 0.2
+			min_social_spending = 0.12
 			core_pop_militancy_modifier = -0.01
 			global_immigrant_attract = 0.04
 		}
@@ -532,28 +532,28 @@ social_reforms = {
 		trinket_pensions = {
 			pension_level	= 0.1
 			administrative_multiplier = 1
-			min_social_spending = 0.05
+			min_social_spending = 0.03
 			core_pop_militancy_modifier = -0.0025
 			global_immigrant_attract = 0.01
 		}
 		low_pensions = {
 			pension_level	= 0.2
 			administrative_multiplier = 2
-			min_social_spending = 0.1
+			min_social_spending = 0.06
 			core_pop_militancy_modifier = -0.005
 			global_immigrant_attract = 0.02
 		}
 		acceptable_pensions = {
 			pension_level	= 0.3
 			administrative_multiplier = 3
-			min_social_spending = 0.15
+			min_social_spending = 0.09
 			core_pop_militancy_modifier = -0.0075
 			global_immigrant_attract = 0.03
 		}
 		good_pensions = {
 			pension_level	= 0.4
 			administrative_multiplier = 4
-			min_social_spending = 0.2
+			min_social_spending = 0.12
 			core_pop_militancy_modifier = -0.01
 			global_immigrant_attract = 0.04
 		}

@@ -23,7 +23,6 @@ political_decisions = {
 			iron = 2000
 			coal = 2000
 			explosives = 2000
-			leadership = 80
 			608 = {
 				remove_core = PRU
 				remove_core = NGF
@@ -51,12 +50,8 @@ political_decisions = {
 		effect = {					define_general = {
 				name = "Gerhard Broder"
 				personality = defence_5.1
-				background = attack_5.1
+				background = attack_3.1
 			}	
-			add_country_modifier = {
-				name = swiss_boni
-				duration = -1
-			}
 			money = 2000000
 			money = 2000000
 			artillery = 2000

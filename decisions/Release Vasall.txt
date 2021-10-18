@@ -1,5 +1,6 @@
 political_decisions = {
 	release_vasall = {
+		alert = no
 		potential = {
 			ai = no
 			num_of_vassals = 1						
