@@ -1,5 +1,53 @@
 political_decisions = {
 
+    abolish_los_fueros = {
+    picture = fueros
+        potential = {
+            OR = {
+                tag = SPA
+                tag = IBE
+            }
+            NOT = { has_country_flag = fueros_abolished }
+        }
+
+        allow = {
+            war = no
+            idealism = 1
+        }
+
+        effect = {
+            set_country_flag = fueros_abolished
+			add_accepted_culture = basque
+			add_accepted_culture = catalan
+            any_pop = {
+                limit = {
+                OR = {
+                    has_pop_culture = basque
+                    has_pop_culture = catalan
+                    }
+                }
+                consciousness = 9
+                militancy = 9
+            }
+            any_pop = {
+                scaled_militancy = {
+                    ideology = conservative
+                    factor = 2
+                }
+                scaled_militancy = {
+                    ideology = reactionary
+                    factor = 6
+                }
+                scaled_militancy = {
+                    ideology = liberal
+                    factor = -1
+                }
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+
 	establish_la_guardia_civil = {
 		potential = {
 			OR = {
@@ -15,7 +63,8 @@ political_decisions = {
 				has_country_flag = guardia_civil_established
 			}
 		}
-		allow = { money = 500000
+		allow = { 
+			money = 500000
 			NOT = {
 				num_of_revolts = 1
 			}
@@ -24,7 +73,9 @@ political_decisions = {
 				average_consciousness = 4
 			}
 		}
-		effect = { money = -500000
+		effect = { 
+			prestige = 10
+			money = -500000
 			add_country_modifier = {
 				name = la_guardia_civil
 				duration = -1
@@ -50,7 +101,7 @@ political_decisions = {
 
 		effect = {
 			treasury = 250000
-			prestige = 10
+			prestige = -5
 			relation = {
 				who = PAP
 				value = -100
@@ -59,7 +110,13 @@ political_decisions = {
 				scaled_militancy = {
 					ideology = conservative
 					factor = 4
-				}
+				}}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 8
+				}}
+			any_pop = {
 				dominant_issue = {
 					value = pro_atheism
 					factor = 0.15

@@ -1,0 +1,44 @@
+political_decisions = {
+	ai_help = {
+		potential = {
+			ai = yes
+			OR = { 
+			tag = PRG
+			tag = FIN
+			tag = AFG
+			tag = DAI
+			tag = SIA
+			tag = SWI
+			tag = IRE
+			tag = SCO
+			tag = SOK
+			tag = ETH
+			tag = CSA
+		}
+		allow = {
+			ai = yes
+		NOT = {
+		has_country_modifier = ai_boni
+}
+}
+		effect = {
+			add_country_modifier = {
+				name = ai_boni
+				duration = -1
+						}
+			prestige = -3
+			money = 2000000
+			artillery = 2000
+			canned_food = 2000
+			ammunition = 2000
+			small_arms = 2000
+			cotton = 2000
+			steel = 2000
+			iron = 2000
+			coal = 2000
+			explosives = 2000
+			}
+		}
+
+
+}

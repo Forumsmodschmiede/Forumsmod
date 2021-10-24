@@ -3,7 +3,7 @@ leader = {
 	date = 1806.1.1
 	type = land
 	personality = timid
-	background = school_of_defense
+	background = defense_3.1
 	prestige = 0.3
 }
 
@@ -30,7 +30,7 @@ leader = {
 	date = 1807.1.1
 	type = land
 	personality = stout
-	background = colonial_b
+	background = attack_2.1
 	prestige = 0.3
 }
 

@@ -1,0 +1,26 @@
+political_decisions = {
+	form_iberia = {
+		potential = {
+			tag = SPA					
+		}
+		
+		allow = {
+			owns = 521
+			owns = 519
+			owns = 526
+			nationalism_n_imperialism = 1
+			war = no
+		}
+		
+		effect = {
+			change_tag = IBE
+			add_accepted_culture = portuguese
+			POR = { annex_to = THIS }
+			SPA = { all_core = { remove_core = SPA } }	
+			POR = { all_core = { remove_core = POR } }	
+			prestige = 10
+			517 = {add_core = IBE}
+			464 = {add_core = IBE}
+		}
+	}
+}

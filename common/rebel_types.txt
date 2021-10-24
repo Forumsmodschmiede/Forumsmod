@@ -28,6 +28,7 @@ reactionary_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = presidential_dictatorship
+		imperial = imperial 
 	}
 	
 	
@@ -140,11 +141,11 @@ reactionary_rebels = {
 			is_accepted_culture = yes
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.15
 			country = { government = absolute_monarchy}
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.4
 			country = { government = presidential_dictatorship }
 		}
 		modifier = {
@@ -428,6 +429,7 @@ communist_rebels = {
 		prussian_constitutionalism = proletarian_dictatorship
 		hms_government = proletarian_dictatorship
 		democracy = proletarian_dictatorship
+		imperial = proletarian_dictatorship
 	}
 	
 	
@@ -640,6 +642,7 @@ anarcho_liberal_rebels = {
 		prussian_constitutionalism = bourgeois_dictatorship
 		hms_government = bourgeois_dictatorship
 		democracy = bourgeois_dictatorship
+		imperial = bourgeois_dictatorship
 	}
 	
 	
@@ -835,6 +838,7 @@ nationalist_rebels = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		imperial = imperial 
 	}
 	
 	
@@ -1273,7 +1277,7 @@ carlist_rebels = {
 	icon = 1
 	
 	area = nation 					# Stays within the nation
-	break_alliance_on_win = yes
+	break_alliance_on_win = no
 	
 	# <this is the governement in the country> = <this is what the rebels want>
 	government = {
@@ -1300,7 +1304,7 @@ carlist_rebels = {
 	
 	resilient = yes					
 	reinforcing = yes				
-	general = no					
+	general = yes					
 	smart = yes
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
@@ -1310,7 +1314,10 @@ carlist_rebels = {
 	will_rise = 
 	{
 		factor = 0.5
-		
+		modifier = {
+			NOT = { year = 1841 }
+			factor = 3
+		}
 		modifier = {
 			war = yes
 			factor = 0.8
@@ -1337,6 +1344,10 @@ carlist_rebels = {
 	spawn_chance = {
 		factor = 1.02
 		
+		modifier = {
+			factor = 5
+			NOT = { year = 1841 }
+		}
 		modifier = {
 			factor = 0
 			country = { NOT = { tag = SPA}}
@@ -2140,6 +2151,7 @@ liberal_rebels = {
 		prussian_constitutionalism = democracy
 		hms_government = democracy
 		democracy = democracy
+		imperial = hms_government
 	}
 	
 	
@@ -2212,6 +2224,10 @@ liberal_rebels = {
 		}
 		modifier = {
 			factor = 0 # -100?
+			NOT = { literacy = 0.20 }
+		}
+		modifier = {
+			factor = 0.1 # -100?
 			NOT = { literacy = 0.40 }
 		}
 		modifier = {

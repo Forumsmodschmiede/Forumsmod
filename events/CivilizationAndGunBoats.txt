@@ -164,7 +164,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 2000
+		months = 20000
 		modifier = {
 			factor = 0.9
 			is_coastal = yes
@@ -1231,7 +1231,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 3400
+		months = 34000
 		modifier = {
 			factor = 0.9
 			owner = {
@@ -1480,17 +1480,18 @@ country_event = {
 		casus_belli = {
 			target = HKG
 			type = acquire_treaty_port
-			months = 24
+			months = 36
 		}
 		casus_belli = {
-			target = HKG
+			target = CHI
 			type = humiliate
-			months = 24
+			months = 36
 		}
 		war = {
 			target = HKG
 			attacker_goal = {
-				casus_belli = humiliate
+				casus_belli = acquire_treaty_port
+                        	state_province_id = 1496
 			}
 			call_ally = no
 		}

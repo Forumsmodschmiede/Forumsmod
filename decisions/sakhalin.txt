@@ -16,6 +16,9 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 20
+			any_pop = {
+				militancy = -2
+			}
 			add_country_modifier = {
 				name = forced_assimilation
 				duration = 1825
@@ -23,18 +26,12 @@ political_decisions = {
 			any_country = {
 				limit = {
 					tag = RUS
-					exists = yes
-				}
-				prestige = -20
-			}
-		random_country = {
-				limit = { 
-					exists = yes
-					OR = {
-						tag = RUS
-					}
 				}
 				relation = { who = THIS value = -100 }
+				prestige = -20
+			any_pop = {
+				militancy = 1
+			}
 			}
 			2832 = { change_province_name = "Mamiya Strait" }
 			2838 = { change_province_name = "Coast of Karafuto" }
@@ -69,18 +66,12 @@ political_decisions = {
 			any_country = {
 				limit = {
 					tag = JAP
-					exists = yes
-				}
-				prestige = -20
-			}
-		random_country = {
-				limit = { 
-					exists = yes
-					OR = {
-						tag = JAP
-					}
 				}
 				relation = { who = THIS value = -100 }
+				prestige = -15
+			any_pop = {
+				militancy = 1
+			}
 			}
 			2832 = { change_province_name = "Tatar Strait" }
 			2838 = { change_province_name = "Coast of Sakhalin" }

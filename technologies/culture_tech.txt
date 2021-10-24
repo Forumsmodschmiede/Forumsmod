@@ -289,10 +289,10 @@ analytic_philosophy = {
 }
 phenomenology_n_hermeneutic = {
 	area = philosophy
-	year = 1880
+	year = 1885
 	cost = 18000
 
-	increase_research = 1.0
+	increase_research = 0.5
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -301,7 +301,7 @@ phenomenology_n_hermeneutic = {
 		}
 		modifier = {
 			factor = 1.1
-			year = 1885
+			year = 1887
 		}
 		modifier = {
 			factor = 2

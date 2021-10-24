@@ -8,8 +8,8 @@ political_decisions = {
 			}
 		}
 		allow = {
-			prestige = 1
 			romanticism = 1
+			ai = yes
 		}
 		effect = {
 			prestige = -20
@@ -45,6 +45,7 @@ political_decisions = {
 		
 		allow = {
 			invention = machine_tools
+			ai = yes
 		}
 		
 		effect = {					define_general = {

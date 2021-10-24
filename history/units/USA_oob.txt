@@ -70,7 +70,7 @@ leader = {
 	date = 1836.1.1
 	type = land
 	personality = steadfast
-	background = school_of_firepower
+	background = attack_3.1
 	prestige = 0.3
 }
 
@@ -124,7 +124,7 @@ leader = {
 	date = 1836.1.1
 	type = sea
 	personality = efficient
-	background = school_of_offense
+	background = attack_3.1
 	prestige = 0.1
 }
 

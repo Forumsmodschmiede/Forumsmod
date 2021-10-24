@@ -39,27 +39,28 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA37700"
+		prestige = 5
 		clergymen = {
 			scaled_militancy = {
-				factor = -2
+				factor = -3
 				ideology = conservative
 			}
 		}
 		clergymen = {
 			scaled_militancy = {
-				factor = -3
+				factor = -4
 				ideology = reactionary
 			}
 		}
 		aristocrats = {
 			scaled_militancy = {
-				factor = -2
+				factor = -3
 				ideology = conservative
 			}
 		}
 		aristocrats = {
 			scaled_militancy = {
-				factor = -3
+				factor = -4
 				ideology = reactionary
 			}
 		}
@@ -67,51 +68,52 @@ country_event = {
 
 	option = {
 		name = "EVTOPTB37700"
+			treasury = 100000
 		clergymen = {
 			scaled_militancy = {
-				factor = 2
+				factor = 3
 				ideology = conservative
 			}
 		}
 		clergymen = {
 			scaled_militancy = {
-				factor = 3
+				factor = 4
 				ideology = reactionary
 			}
 		}
 		clergymen = {
 			scaled_consciousness = {
-				factor = 2
+				factor = 3
 				ideology = conservative
 			}
 		}
 		clergymen = {
 			scaled_consciousness = {
-				factor = 3
+				factor = 4
 				ideology = reactionary
 			}
 		}
 		aristocrats = {
 			scaled_militancy = {
-				factor = 2
+				factor = 3
 				ideology = conservative
 			}
 		}
 		aristocrats = {
 			scaled_militancy = {
-				factor = 3
+				factor = 4
 				ideology = reactionary
 			}
 		}
 		aristocrats = {
 			scaled_consciousness = {
-				factor = 2
+				factor = 3
 				ideology = conservative
 			}
 		}
 		aristocrats = {
 			scaled_consciousness = {
-				factor = 3
+				factor = 4
 				ideology = reactionary
 			}
 		}

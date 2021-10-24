@@ -38,7 +38,7 @@ army = {
 	}
 	regiment = {
 		name= "4. Brigade"
-		type = infantry
+		type = artillery
 		home = 606
 	}
 }
@@ -62,7 +62,7 @@ army = {
 	}
 	regiment = {
 		name= "8. Brigade"
-		type = infantry
+		type = artillery
 		home = 611
 	}
 }

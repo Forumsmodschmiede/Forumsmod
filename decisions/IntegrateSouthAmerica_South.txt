@@ -2,7 +2,7 @@ political_decisions = {
 	unite_the_south_of_south_america = {
 		potential = {
 			tag = BRZ
-			NOT = { has_global_flag = south_of_south_america_united }				
+			NOT = { has_country_flag = south_of_south_america_united }				
 		}
 		
 		allow = {
@@ -31,7 +31,7 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = south_andean 
 			prestige = 10
-			set_global_flag = south_of_south_america_united	
+			set_country_flag = south_of_south_america_united	
 
 			any_owned = {
 				limit = {

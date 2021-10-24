@@ -549,13 +549,7 @@ luderitz_expedition = {
 		
 		allow = {
 			war = no
-		OR = {	AND = { revolution_n_counterrevolution = 1
-			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = conservative
-				ruling_party_ideology = reactionary
-				}
-				}
+		OR = {	 revolution_n_counterrevolution = 1
 			AND = {	OR = {
 				has_recently_lost_war = yes
 				NOT = { prestige = 100 }	

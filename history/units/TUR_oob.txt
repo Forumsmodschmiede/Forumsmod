@@ -59,7 +59,7 @@ leader = {
 	date = 1809.1.1
 	type = land
 	personality = inefficient
-	background = elderly
+	background = attack_2.1
 	prestige = 0.2
 }
 
@@ -85,8 +85,8 @@ leader = {
 	name = "Abdi Pasha"
 	date = 1836.1.1
 	type = land
-	personality = merciless
-	background = old_school
+	personality = defense_1.1
+	background = attack_3.1
 	prestige = 0.0
 }
 

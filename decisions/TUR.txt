@@ -22,6 +22,11 @@ political_decisions = {
 				name = forced_assimilation
 				duration = 1825
 			}
+            any_pop = {
+                limit = { is_primary_culture = yes }
+                ideology = { value = liberal factor = 0.05 }
+                scaled_consciousness = { ideology = liberal factor = 3 }
+            }
 			any_pop = {
 				limit = {
 					NOT = {
@@ -152,7 +157,7 @@ political_decisions = {
 	}
 
 	annex_romania = {
-	picture = create_romania
+	picture = map_moldavia
 		potential = {
 			tag = OTC
 			AND = { exists = WAL

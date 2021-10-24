@@ -27,6 +27,61 @@ political_decisions = {
 		}
 	}
 
+    swe_annex_bal = {
+	    picture = map_livonia
+        potential = {
+		    OR = {
+			    tag = SWE
+				tag = SCA
+			}
+			NOT = { has_global_flag = swe_annex_bal }
+        }
+
+        allow = {
+		    OR = {
+		        UBD = {vassal_of = THIS is_vassal = yes }
+		        UBD = {in_sphere = THIS }
+				AND = {
+					349 = { owned_by = THIS }
+					354 = { owned_by = THIS }
+        		}
+		    }
+        }
+        effect = {
+			any_country = {
+				limit = {
+					tag = UBD
+					vassal_of = THIS
+				}
+				annex_to = THIS
+			}
+			set_global_flag = swe_annex_bal
+			set_country_flag = Conceded_Finland
+		    add_accepted_culture = latvian
+		    add_accepted_culture = estonian
+			badboy = 4
+			prestige = 10
+			any_pop = {
+			    limit = {
+					OR = {
+						has_pop_culture = latvian
+						has_pop_culture = estonian
+					}
+				}
+				militancy = 3
+            }
+			994 = { remove_core = RUS }
+			996 = { remove_core = RUS }
+			349 = { remove_core = RUS }
+			350 = { remove_core = RUS }
+			351 = { remove_core = RUS }
+			352 = { remove_core = RUS }
+			353 = { remove_core = RUS }
+			354 = { remove_core = RUS }
+		}
+		ai_will_do = { factor = 1 }
+    }
+
 	expand_kiruna_iron_mine = {
 		potential = {
 			owns = 321

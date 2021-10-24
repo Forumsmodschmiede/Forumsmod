@@ -12,7 +12,7 @@ leader = {
 	date = 1824.1.1
 	type = land
 	personality = chivalrous
-	background = gifted_administrator
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -30,7 +30,7 @@ leader = {
 	date = 1830.1.1
 	type = land
 	personality = cautious
-	background = politician
+	background = defense_3.1
 	prestige = 0.0
 }
 

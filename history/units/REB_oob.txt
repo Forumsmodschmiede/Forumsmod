@@ -23,27 +23,22 @@ army = {
 	}
 	regiment = {
 		name = "5. Regiment"
-		type = irregular
+		type = infantry
 		home = 493
 	}
 	regiment = {
 		name = "6. Regiment"
-		type = irregular
+		type = artillery
 		home = 493
 	}
 	regiment = {
 		name = "7. Regiment"
-		type = irregular
+		type = artillery
 		home = 493
 	}
-}
-
-army = {
-	name = "2nd Carlist Army"
-	location = 500
 	regiment = {
 		name = "8. Regiment"
-		type = infantry
+		type = artillery
 		home = 500
 	}
 	regiment = {
@@ -52,19 +47,28 @@ army = {
 		home = 500
 	}
 	regiment = {
-		name = "10. Regiment"
-		type = irregular
+		name = "18. Regiment"
+		type = infantry
 		home = 500
 	}
 	regiment = {
-		name = "11. Regiment"
-		type = irregular
+		name = "19. Regiment"
+		type = artillery
+		home = 500
+	}
+	regiment = {
+		name = "20. Regiment"
+		type = artillery
+		home = 500
+	}
+	regiment = {
+		name = "21. Regiment"
+		type = artillery
 		home = 500
 	}
 }
-
 army = {
-	name = "3rd Carlist Army"
+	name = "2nd Carlist Army"
 	location = 501
 	regiment = {
 		name = "12. Regiment"
@@ -78,20 +82,14 @@ army = {
 	}
 	regiment = {
 		name = "14. Regiment"
-		type = irregular
+		type = infantry
 		home = 501
 	}
 	regiment = {
 		name = "15. Regiment"
-		type = irregular
+		type = artillery
 		home = 501
 	}
-}
-
-
-army = {
-	name = "4th Carlist Army"
-	location = 499
 	regiment = {
 		name= "16.Regiment"
 		type = infantry
@@ -100,7 +98,42 @@ army = {
 
 	regiment = {
 		name= "17.Regiment"
-		type = irregular
+		type = artillery
 		home = 499
+	}
+	regiment = {
+		name = "22. Regiment"
+		type = infantry
+		home = 499
+	}
+	regiment = {
+		name = "23. Regiment"
+		type = infantry
+		home = 501
+	}
+	regiment = {
+		name = "24. Regiment"
+		type = infantry
+		home = 501
+	}
+	regiment = {
+		name = "25. Regiment"
+		type = artillery
+		home = 501
+	}
+	regiment = {
+		name = "26. Regiment"
+		type = artillery
+		home = 500
+	}
+	regiment = {
+		name = "27. Regiment"
+		type = artillery
+		home = 500
+	}
+	regiment = {
+		name = "28. Regiment"
+		type = artillery
+		home = 493
 	}
 }

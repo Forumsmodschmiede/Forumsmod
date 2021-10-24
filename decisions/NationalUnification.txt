@@ -311,6 +311,7 @@ political_decisions = {
 	}
 	
 	concede_finland = {
+	    picture = old_finnish_map
 		potential = {
 			tag = SWE
 			NOT = {
@@ -334,6 +335,7 @@ political_decisions = {
 				remove_core = SWE
 			}
 			prestige = 10
+			badboy = -4
 			any_pop = {
 				militancy = -1
 			}

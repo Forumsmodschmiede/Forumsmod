@@ -8,6 +8,7 @@ democratic_nation = {
 	government = democracy
         slavery = no_slavery
     }
+    icon = 10
     global_immigrant_attract = 0.1
     ruling_party_support = 0.3
     core_pop_militancy_modifier = -0.01
@@ -20,7 +21,7 @@ help_ai = {
         ai = yes
     }
     icon = 10
-	min_tax = 0.48
+	min_tax = 0.5
    	tax_efficiency = 0.15
 	supply_consumption = -0.4
     	min_military_spending = 0.61
@@ -31,13 +32,14 @@ help_ai = {
 	leadership_modifier = -0.2
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.1
-	administrative_efficiency_modifier = 0.5
+	administrative_efficiency_modifier = 0.4
 	factory_output = 0.1
 	army_tech_research_bonus = 0.3
 	import_cost = -0.5
 	min_tariff = 2
   	tariff_efficiency_modifier = 0.2
 }
+
 nerf_america_war = {
     trigger = {
 	war = yes
@@ -49,30 +51,7 @@ nerf_america_war = {
   		}
     icon = 10
 	immigrant_attract = -1	
-}
-	
-}
-strong_country_boni = {
-    trigger = {
-	OR = {
-	tag = SWI
-	tag = PRG 
-	tag = FIN
-	tag = AFG 
-	tag = NEJ 
-	tag = CSA
-	tag = SOK }
-        ai = yes }
-	mobilisation_economy_impact = -3
-	mobilisation_size = 0.05
-	org_regain = 1
-	land_organisation = 1
-	supply_consumption = -1
-	tax_efficiency = 0.1
-	administrative_efficiency_modifier = 0.1
-	army_tech_research_bonus = 1
-	import_cost = -1
-	icon = 15
+    mobilisation_size = -0.01	
 }
 
 save_the_nation0.5  = {
@@ -230,4 +209,24 @@ save_the_nation5  = {
     mobilization_impact = 1
     mobilisation_economy_impact = -0.66
     icon = 9
+}
+
+spain_war = {
+    trigger = {
+	is_culture_group = iberian
+	exists = yes
+	war = no
+	is_greater_power = yes
+	NOT = { year = 1840 }
+	ai = no
+    }
+
+    	icon = 11
+   	tax_efficiency = 0.2
+	administrative_efficiency_modifier = -0.05
+	mobilisation_economy_impact = 1
+	org_regain = -0.75
+	land_organisation = -0.75
+	import_cost = 0.3
+   	mobilisation_size = -0.05
 }

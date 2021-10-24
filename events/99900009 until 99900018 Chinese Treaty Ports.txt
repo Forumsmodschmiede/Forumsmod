@@ -1,6 +1,6 @@
 country_event = {
     id = 99900009
-    title = "The sleeping dragon"
+    title = "The Sleeping Dragon"
     desc = "China has always been one of the most powerful empires the world has ever seen. They are however weak and fragmented and failed to civilize properly."
     picture = "Expansion"
 
@@ -14,7 +14,7 @@ country_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-		months = 45
+		months = 33
 	}
 
     option = {

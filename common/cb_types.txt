@@ -81,7 +81,7 @@ acquire_treaty_port
 }
 
 gunboat = {
-	sprite_index = 1
+	sprite_index = 32
 	is_triggered_only = yes
 	months = 12
 	constructing_cb = no
@@ -112,7 +112,7 @@ gunboat = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.1
 		}
 	}
 	
@@ -146,7 +146,7 @@ status_quo = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.1
 		}
 	}
 	
@@ -235,15 +235,19 @@ conquest = {
 
 # Conquer South American
 conquer_south_america = {
-	sprite_index = 2
+	sprite_index = 23
 	is_triggered_only = yes
 	months = 12
 	crisis = no
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		THIS = { tag = BRZ }
+		OR = { THIS = { tag = BRZ }
+		THIS = { tag = IBE } }
 		OR = {
+			tag = UCA
+			tag = MEX
+			tag = HAI
 			tag = CLM
 			tag = VNZ
 			tag = ECU
@@ -288,7 +292,7 @@ conquer_south_america = {
 
 #Minor Conquest
 minor_conquest = {
-	sprite_index = 2
+	sprite_index = 21
 	is_triggered_only = yes
 	months = 12
 	crisis = no
@@ -317,7 +321,7 @@ minor_conquest = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 	
-	construction_speed = 0.5
+	construction_speed = 1
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -337,7 +341,7 @@ minor_conquest = {
 
 # Civil war
 civil_war = {
-	sprite_index = 2
+	sprite_index = 28
 	is_triggered_only = yes
 	months = 1
 	constructing_cb = no
@@ -575,7 +579,7 @@ annex_core_country = {
 
 # Gain control of Substate region
 acquire_substate_region = {
-	sprite_index = 6
+	sprite_index = 24
 	is_triggered_only = yes
 	months = 12
 	construction_speed = 0.5
@@ -630,7 +634,7 @@ acquire_substate_region = {
 }
 
 acquire_treaty_port = {
-	sprite_index = 6
+	sprite_index = 31
 	is_triggered_only = yes
 	months = 12
 	construction_speed = 0.5
@@ -786,7 +790,7 @@ acquire_state = {
 
 #Conquer Egypt
 conquer_egypt = {
-	sprite_index = 6
+	sprite_index = 29
 	is_triggered_only = yes
 	months = 12
 	construction_speed = 1
@@ -824,7 +828,7 @@ conquer_egypt = {
 
 # Gain control of Capital
 acquire_capital = {
-	sprite_index = 6
+	sprite_index = 20
 	is_triggered_only = yes
 	months = 12
 	construction_speed = 0.5
@@ -991,6 +995,7 @@ italian_unification = {
 			OR = { 
 				tag = SAR 
 				tag = SIC
+				tag = PAP
 			}
 		}
 		OR = {
@@ -1019,7 +1024,7 @@ italian_unification = {
 iberian_unification = {
 	sprite_index = 7
 	is_triggered_only = yes
-	months = 12
+	months = 22
 
 	badboy_factor = 0.5
 	prestige_factor = 1.5
@@ -1320,6 +1325,7 @@ liberate_country = {
 							tag = HUN
 							tag = EGY
 							tag = PRU
+							tag = SPA
 						}
 					}
 				}
@@ -1412,7 +1418,7 @@ dismantle_forts = {
 
 # Release Puppet
 release_puppet = {
-	sprite_index = 10
+	sprite_index = 30
 	is_triggered_only = yes
 	months = 12
 
@@ -1452,14 +1458,14 @@ release_puppet = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.15
 		}
 	}
 }
 
 # Make Puppet
 make_puppet = {
-	sprite_index = 10
+	sprite_index = 18
 	is_triggered_only = yes
 	months = 12
 	crisis = no
@@ -1508,7 +1514,7 @@ make_puppet = {
 
 # Become Independent
 become_independent = {
-	sprite_index = 10
+	sprite_index = 30
 	is_triggered_only = yes
 	months = 12
 	crisis = no
@@ -1570,7 +1576,7 @@ humiliate = {
 	months = 12
 
 	badboy_factor = 1.5
-	prestige_factor = 1
+	prestige_factor = 1.5
 	peace_cost_factor = 15
 	penalty_factor = 1
 	
@@ -1604,13 +1610,13 @@ humiliate = {
 
 # Demand Concession
 demand_concession_casus_belli = {
-	sprite_index = 7
+	sprite_index = 25
 	is_triggered_only = yes
 	months = 0
 	construction_speed = 1.2
 	crisis = no
 	
-	badboy_factor = 1
+	badboy_factor = 0.8
 	prestige_factor = 0.1
 	peace_cost_factor = 0.6
 	penalty_factor = 1
@@ -1742,7 +1748,7 @@ establish_protectorate_casus_belli = {
 
 # Unification Humiliate
 unification_humiliate_cb = {
-	sprite_index = 11
+	sprite_index = 28
 	is_triggered_only = no
 	months = 12
 	crisis = no
@@ -1979,7 +1985,7 @@ unification_annex_casus_belli = {
 
 # Bad Boy
 rude_boy = {
-	sprite_index = 11
+	sprite_index = 24
 	is_triggered_only = no
 	months = 12
 	construction_speed = 2
@@ -2021,22 +2027,176 @@ rude_boy = {
 	}
 }
 
+install_democracy = {
+    sprite_index = 19
+    is_triggered_only = yes
+    months = 12
+    construction_speed = 1.5
+    crisis = no
+
+    badboy_factor = 0.5
+    prestige_factor = 1
+    peace_cost_factor = 50
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 1
+    break_truce_infamy_factor = 1
+    break_truce_militancy_factor = 1
+    truce_months = 48
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    can_use = {
+        THIS = {
+            is_greater_power = yes
+            OR = {
+                government = hms_government
+                government = democracy
+            }
+        }
+        has_global_flag = great_wars_enabled
+        is_vassal = no
+        civilized = yes
+        NOT = { is_our_vassal = THIS }
+        OR = {
+            government = proletarian_dictatorship
+            government = fascist_dictatorship
+        }
+        OR = {
+            war_with = THIS
+            THIS = {
+                military_score = 1
+            }
+        }
+            war_with = THIS
+    }
+
+    po_remove_prestige = yes
+
+    war_name = WAR_NAME
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.05
+        }
+    }
+
+    on_po_accepted = {
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_weighted_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = jefferson_method
+political_parties = non_secret_ballots
+        THIS = {
+            any_country = {
+                limit = {
+                    OR = {
+                        government = proletarian_dictatorship
+                        government = fascist_dictatorship
+                    }
+                }
+                relation = { who = THIS value = -50 }
+            }
+        }
+    }
+}
+
+install_fascism = {
+    sprite_index = 17
+    is_triggered_only = yes
+    months = 12
+    construction_speed = 1.5
+    crisis = no
+
+    badboy_factor = 1
+    prestige_factor = 1
+    peace_cost_factor = 50
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 1
+    break_truce_infamy_factor = 1
+    break_truce_militancy_factor = 1
+    truce_months = 48
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    can_use = {
+        THIS = {
+            government = fascist_dictatorship
+        }
+        is_ideology_enabled = fascist
+        is_vassal = no
+        civilized = yes
+        NOT = { is_our_vassal = THIS }
+        NOT = { government = fascist_dictatorship }
+        OR = {
+            war_with = THIS
+            THIS = {
+                military_score = 1
+            }
+        }
+        OR = {
+            war_with = THIS
+        }
+    }
+
+    po_remove_prestige = yes
+
+    war_name = WAR_NAME
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.05
+        }
+    }
+
+    on_po_accepted = {
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = state_controlled
+		political_reform = underground_parties
+        THIS = {
+            any_country = {
+                limit = {
+                    OR = {
+                        government = hms_government
+                        government = democracy
+                    }
+                }
+                relation = { who = THIS value = -50 }
+            }
+        }
+    }
+}
+
 # Install Communist Government
 install_communist_gov_cb = {
 	sprite_index = 12
 	is_triggered_only = yes
 	months = 12
 	crisis = no
-
 	badboy_factor = 1
 	prestige_factor = 1
-	peace_cost_factor = 1
+	peace_cost_factor = 50
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 12
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2114,7 +2274,7 @@ uninstall_communist_gov_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 12
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2145,6 +2305,69 @@ uninstall_communist_gov_cb = {
 	}
 }
 
+# War Reparations
+war_reparations = {
+    sprite_index = 27
+    is_triggered_only = yes
+    months = 12
+    construction_speed = 0.8
+
+    badboy_factor = 0.4
+    prestige_factor = 1
+    peace_cost_factor = 20
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 1
+    break_truce_infamy_factor = 1
+    break_truce_militancy_factor = 1
+    truce_months = 48
+
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    can_use = {
+            war_with = THIS
+        NOT = {
+            is_our_vassal = THIS
+        }
+        THIS = {
+            civilized = yes
+        }
+    }
+
+    po_reparations = yes
+
+    war_name = WAR_NAME_REPARATIONS
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.2
+        }
+    }
+
+    on_po_accepted = {
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = HAI
+                    FRA = { is_greater_power = yes }
+                    NOT = { year = 1850 }
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    tag = MEX
+                    NOT = { year = 1850 }
+                }
+            }
+        }
+    }
+}
 
 # Great War Penalty
 great_war_penalty_cb = {

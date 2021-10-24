@@ -239,7 +239,7 @@ leader = {
 	date = 1836.1.1
 	type = sea
 	personality = daring
-	background = expert_raider
+	background = attack_5.1
 	prestige = 0.3
 }
 
@@ -248,7 +248,7 @@ leader = {
 	date = 1830.1.1
 	type = land
 	personality = dauntless
-	background = school_of_the_bayonet
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -293,7 +293,7 @@ leader = {
 	date = 1834.1.1
 	type = land
 	personality = efficient
-	background = gifted_administrator
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -320,7 +320,7 @@ leader = {
 	date = 1836.1.1
 	type = land
 	personality = harsh
-	background = cavalry_school
+	background = attack_3.1
 	prestige = 0.0
 }
 
@@ -329,7 +329,7 @@ leader = {
 	date = 1836.1.1
 	type = sea
 	personality = cautious
-	background = elderly
+	background = defence_3.1
 	prestige = 0.0
 }
 

@@ -4,7 +4,7 @@ leader = {
 	date = 1834.1.1
 	type = sea
 	personality = disciplined
-	background = adventurer
+	background = attack_3.1
 	prestige = 0.1
 }
 
@@ -12,8 +12,8 @@ leader = {
 	name = "Carl XIV Johan"
 	date = 1818.1.1
 	type = land
-	personality = charismatic
-	background = elderly
+	personality = defense_2.1
+	background = attack_2.1
 	prestige = 0.5
 }
 

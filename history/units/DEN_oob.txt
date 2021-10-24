@@ -11,7 +11,7 @@ leader = {
 	date = 1836.1.1
 	type = land
 	personality = daring
-	background = adventurer
+	background = attack_4.1
 }
 
 army = {

@@ -892,7 +892,7 @@ BAD;Baden;Bade;Baden;;Baden;;;;;;;;;x;;;;
 BAV;Bavaria;Bavière;Bayern;;Baviera;;;;;;;;;x;;;;
 BRA;Braunschweig;Brunswick;Braunschweig ;;Brunswick;;;;;;;;;x;;;;
 BRE;Bremen;Brême;Bremen;;Bremen;;;;;;;;;x;;;;
-FRM;Frankfurt am Main;Francfort;Frankfurt am Main;;Frankfurt del Main;;;;;;;;;x;;;;
+FRM;Freie Stadt Frankfurt;Francfort;Frankfurt am Main;;Frankfurt del Main;;;;;;;;;x;;;;
 HAM;Hamburg;Hambourg;Hamburg;;Hamburgo;;;;;;;;;x;;;;
 HAN;Hanover;Hanovre;Hannover;;Hannover;;;;;;;;;x;;;;
 HES;Hesse-Darmstadt;Hesse-Darmstadt;Hessen-Darmstadt;;Hesse-Darmstadt;;;;;;;;;x;;;;
@@ -965,7 +965,7 @@ MAK;Makran;Makran;Makran;;Makran;;;;;;;;;x;;;;
 KAL;Kalat;Kalat;Kalat;;Kalat;;;;;;;;;x;;;;
 JAS;Jaisalmer;Jaisalmer;Jaisalmer;;Jaisalmer;;;;;;;;;x;;;;
 BIK;Bikaner;Bikaner;Bikaner;;Bîkâner;;;;;;;;;x;;;;
-PAN;Panjab;Pendjab;Pundschab;;Punjab;;;;;;;;;x;;;;
+PAN;Sikh Empire;Pendjab;Pundschab;;Punjab;;;;;;;;;x;;;;
 SHI;Shimla;Shimla;Shimla;;Simla;;;;;;;;;x;;;;
 LAD;Ladakh;Ladakh;Ladakh;;Ladakh;;;;;;;;;x;;;;
 KAS;Kashmir;Cachemire;Kaschmir;;Cachemira;;;;;;;;;x;;;;
@@ -2103,6 +2103,9 @@ nocasusbelli;No war justification;Aucun motif de guerre;Keine Kriegsrechtfertigu
 conquest;Conquest;Conquête;Eroberung;;Conquista;;;;;;;;;x;;;;
 conquest_setup;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
 conquest_short;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+italian_unification;Italian Unification;Conquête;Eroberung;;Conquista;;;;;;;;;x;;;;
+italian_unification_setup;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+italian_unification_short;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
 add_to_sphere;Add to Sphere;ajouter à la sphère;In Einflusssphäre aufnehmen;;Añadir a esfera;;;;;;;;;x;;;;
 add_to_sphere_short;Add $RECIPIENT$ to Sphere of Influence;ajouter $RECIPIENT$ à la sphère d'influence;$RECIPIENT$ in Einflusssphäre aufnehmen;;Añadir a $RECIPIENT$ a la esfera de influencia;;;;;;;;;x;;;;
 add_to_sphere_setup;Add $RECIPIENT$ to Sphere of Influence;ajouter $RECIPIENT$ à la sphère d'influence;$RECIPIENT$ in Einflusssphäre aufnehmen;;Añadir a $RECIPIENT$ a la esfera de influencia;;;;;;;;;x;;;;
@@ -2118,18 +2121,23 @@ acquire_state_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIEN
 conquer_south_america;Conquer South America;Conquête;Eroberung;;Conquista;;;;;;;;;x;;;;
 conquer_south_america_setup;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
 conquer_south_america_short;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+conquer_south_america_desc;Annex a south american state;Annexer un §Ypays§W à un État ou une §Ynation non civilisée§W;Annektieren Sie ein Einzelstaat-§YLand§W oder eine §Yunzivilisierte Nation§W;;Anexionar un §Ypaís§W o una §Ynación sin civilizar§W de un solo estado;;;;;;;;;x
 conquer_egypt;Conquer Egyptian Lands;;;;;;;;;;;;;x;;;;
-conquer_egypt_setup;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
-conquer_egypt_short;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+conquer_egypt_setup;Acquire $STATE$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+conquer_egypt_short;Acquire $STATE$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+conquer_egypt_desc;Acquire $STATE$ from Egypt;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
 acquire_capital;Acquire capital;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
 acquire_capital_short;Acquire $STATE$; Prendre l'État de $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 acquire_capital_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
+acquire_capital_desc;Aquire an enemy §Ystate§W;Prendre un §YÉtat§W ennemi;Erobern Sie einen feindlichen §YStaat§W.;;Adquirir un §Yestado§W enemigo;;;;;;;;;x
 minor_conquest;Minor Conquest;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
 minor_conquest_short;Acquire $STATE$; Prendre l'État de $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 minor_conquest_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
+minor_conquest_desc;Annex a single-state §Ycountry§W or an §Yuncivilized nation§W;Annexer un §Ypays§W à un État ou une §Ynation non civilisée§W;Annektieren Sie ein Einzelstaat-§YLand§W oder eine §Yunzivilisierte Nation§W;;Anexionar un §Ypaís§W o una §Ynación sin civilizar§W de un solo estado;;;;;;;;;x
 acquire_treaty_port;Acquire treaty port;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
 acquire_treaty_port_short;Acquire $STATE$; Prendre l'État de $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 acquire_treaty_port_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
+acquire_treaty_port_desc;Aquire an enemy §Ystate§W;Prendre un §YÉtat§W ennemi;Erobern Sie einen feindlichen §YStaat§W.;;Adquirir un §Yestado§W enemigo;;;;;;;;;x
 place_in_the_sun;Place in the sun;Une place au soleil;Ein Platz an der Sonne;;Un lugar bajo el sol;;;;;;;;;x;;;;
 place_in_the_sun_short;Acquire $STATE$; Prendre l'État de $STATE$;Kolonie $STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 place_in_the_sun_setup;Acquire colony $STATE$ from $RECIPIENT$;Prendre colonie $STATE$ à $RECIPIENT$;Kolonie $STATE$ von $RECIPIENT$ erobern.;;Adquirir la colonia de $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;

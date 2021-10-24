@@ -1071,7 +1071,7 @@
 	farmers = {
 		culture = asian_minor
 		religion = mahayana
-		size = 298100
+		size = 29810
 	}
 
 	aristocrats = {
@@ -1101,7 +1101,7 @@
 	farmers = {
 		culture = asian_minor
 		religion = mahayana
-		size = 27300
+		size = 2730
 	}
 
 	aristocrats = {
@@ -1149,7 +1149,7 @@
 	farmers = {
 		culture = asian_minor
 		religion = mahayana
-		size = 588250
+		size = 58825
 	}
 
 	aristocrats = {
@@ -2641,7 +2641,7 @@
 	farmers = {
 		culture = asian_minor
 		religion = mahayana
-		size = 844950
+		size = 84495
 	}
 }
 #Hong Kong (6000/1500 POPS)

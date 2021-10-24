@@ -273,7 +273,7 @@ leader = {
 	date = 1813.1.1
 	type = land
 	personality = soldierly
-	background = cavalry_school
+	background = attack_3.1
 	prestige = 0.2
 }
 
@@ -309,7 +309,7 @@ leader = {
 	date = 1829.1.1
 	type = land
 	personality = active_p
-	background = cavalry_school
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -342,10 +342,20 @@ leader = {
 
 leader = {
 	name = "Heinrich von Wrangel"
+	picture="austrian_general_66"
 	date = 1823.1.1
 	type = land
-	personality = efficient
-	background = elderly
+	personality = 	defence_1.200
+	background = attack_3.1
+	prestige = 0.2
+}
+leader = {
+	name = "Helmuth von Moltke"
+	picture="austrian_general_57"
+	date = 1823.1.1
+	type = land
+	personality = defence_2.2 
+	background = attack_3.1
 	prestige = 0.2
 }
 

@@ -108,7 +108,7 @@ leader = {
 	date = 1836.1.1
 	type = land
 	personality = efficient
-	background = powerful_friends
+	background = attack_2.1
 	prestige = 0.0
 }
 
@@ -125,8 +125,8 @@ leader = {
 	name = "Van Halen"
 	date = 1823.1.1
 	type = land
-	personality = merciless
-	background = adventurer
+	personality = defence_3.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -134,8 +134,8 @@ leader = {
 	name = "José Ramón Rodil"
 	date = 1824.1.1
 	type = land
-	personality = merciless
-	background = adventurer
+	personality = defence_4.1
+	background = attack_1.1
 	prestige = 0.1
 }
 

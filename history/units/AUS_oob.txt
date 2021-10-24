@@ -98,19 +98,20 @@ ANH = {
 leader = {
 	name = "Josef Radetzky"
 	picture="austrian_general_20"
-	date = 1805.1.1
+	date = 1825.1.1
 	type = land
 	personality = defence_3.1
-	background = attack_4.1
+	background = attack_3.1
 	prestige = 0.3
 }
 
 leader = {
 	name = "Julius von Haynau"
+	picture="austrian_general_14"
 	date = 1835.1.1
 	type = land
-	personality = wrathful
-	background = natural_born_leader
+	personality = defence_1.1
+	background = attack_3.1
 	prestige = 0.1
 }
 

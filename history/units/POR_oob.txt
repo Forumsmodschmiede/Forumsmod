@@ -10,8 +10,8 @@ leader = {
 	name = "Nunes Vidigal"
 	date = 1808.1.1
 	type = land
-	personality = aggressive
-	background = hated
+	personality = defense_1.1
+	background = attack_2.1
 	prestige = 0.2
 }
 
@@ -20,7 +20,7 @@ leader = {
 	date = 1824.1.1
 	type = land
 	personality = resolute
-	background = gifted_administrator
+	background = defense_2.1
 	prestige = 0.2
 }
 

@@ -6,8 +6,8 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			has_global_flag = south_of_south_america_united
-			has_global_flag = north_of_south_america_united		
+			has_country_flag = south_of_south_america_united
+			has_country_flag = north_of_south_america_united		
 			is_greater_power = yes
 			revolution_n_counterrevolution = 1
 		}

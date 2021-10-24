@@ -3,7 +3,7 @@ leader = {
 	type = land
 	date="1836.1.1"
 	personality = wrathful
-	background = warmonger
+	background = attack_2.1
 	prestige = 0.2
 }
 
@@ -29,7 +29,7 @@ leader = {
 	type = land
 	date="1836.1.1"
 	personality = skilled
-	background = war_college
+	background = attack_2.1
 }
 
 leader = {

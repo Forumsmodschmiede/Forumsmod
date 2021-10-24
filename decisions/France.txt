@@ -125,6 +125,7 @@ political_decisions = {
 		}
 	
 		allow = {
+			money = 100000
 			cheap_steel = 1
 			USA = { slavery = no_slavery 
 			government = democracy
@@ -133,6 +134,7 @@ political_decisions = {
 		}
 	
 		effect = {
+			money = -100000
 			set_global_flag = statue_of_liberty_has_been_built
 			any_pop = {
 				militancy = -0.5
@@ -255,7 +257,7 @@ political_decisions = {
 		
 		allow = {
 			is_greater_power = yes
-			ideological_thought = 1
+			state_n_government = 1
 			MAD = {
 				civilized = no
 				OR = {
@@ -292,6 +294,7 @@ political_decisions = {
 		}
 		
 		allow = {
+			money = 100000
 			MAD = {
 				in_sphere = FRA
 				civilized = no
@@ -303,6 +306,8 @@ political_decisions = {
 		}
 		
 		effect = {
+			badboy = 1
+			money = -100000
 			inherit = MAD
 			set_country_flag = merina_monarchy_is_over
 		}
@@ -378,12 +383,6 @@ political_decisions = {
 
 			}
 			casus_belli = {
-				target = PRU
-				type = humiliate
-				months = 24
-
-			}
-			casus_belli = {
 				target = BAV
 				type = acquire_state
 				months = 24
@@ -398,7 +397,8 @@ political_decisions = {
 		war = {
 			target = PRU
 			attacker_goal = {
-				casus_belli = humiliate
+                        casus_belli = acquire_state
+                        state_province_id = 573
 			}
 			call_ally = no
 		}
