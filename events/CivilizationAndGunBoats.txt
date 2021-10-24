@@ -1480,12 +1480,17 @@ country_event = {
 		casus_belli = {
 			target = HKG
 			type = acquire_treaty_port
-			months = 36
+			months = 48
 		}
 		casus_belli = {
 			target = CHI
 			type = humiliate
-			months = 36
+			months = 48
+		}
+		casus_belli = {
+			target = CHI
+			type = war_reparations
+			months = 48
 		}
 		war = {
 			target = HKG
