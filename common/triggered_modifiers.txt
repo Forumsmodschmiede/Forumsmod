@@ -41,17 +41,18 @@ help_ai = {
 }
 
 nerf_america_war = {
-    trigger = {
-	war = yes
-        capital_scope = { continent = 	OR = { 
-				continent = north_america
-				continent = south_america
-				continent = oceania
-			} 			}
-  		}
-    icon = 10
-	immigrant_attract = -1	
-    mobilisation_size = -0.01	
+	trigger = {
+		war = yes
+		exists = yes
+		OR = {
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america }
+			capital_scope = { continent = oceania }
+		}
+	}
+
+	global_immigrant_attract = -1
+	icon = 16
 }
 
 save_the_nation0.5  = {
@@ -229,4 +230,19 @@ spain_war = {
 	land_organisation = -0.75
 	import_cost = 0.3
    	mobilisation_size = -0.05
+}
+social_reformed_nation = {
+		trigger = {
+			exists = yes
+			wage_reform = good_minimum_wage
+			work_hours = eight_hours
+			safety_regulations = good_safety
+			unemployment_subsidies = good_subsidies
+			pensions = good_pensions
+			health_care = good_health_care
+			school_reforms = good_schools
+		}
+		
+	social_reform_desire = -0.3
+	icon = 13
 }

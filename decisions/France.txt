@@ -222,6 +222,10 @@ political_decisions = {
 				years_of_research = 3
 				money = 300000
 				prestige = 10
+				artillery = 2000
+				canned_food = 2000
+				ammunition = 2000
+				small_arms = 2000
 			}
 			set_country_flag = military_mission_in_japan
 		}

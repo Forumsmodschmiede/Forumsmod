@@ -35,7 +35,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA37200" 
 		relation = { who = SWI value = -50 }
-			prestige = 1
+			prestige = 5
 			casus_belli = {
 				target = SWI
 				type = humiliate
@@ -44,7 +44,7 @@ country_event = {
 			casus_belli = {
 				target = SWI
 				type = add_to_sphere
-				months = 24
+				months = 48
 			}
 		war = {
 			target = SWI

@@ -707,6 +707,7 @@ unite_moldavia_wallachia = {
 	}
 
 	names_of_eastern_poland = {
+        picture = names_of_western_poland
 		potential = {
 			OR = {
 				tag = PRU
@@ -746,6 +747,7 @@ unite_moldavia_wallachia = {
 	}
 
 	names_of_latvia = {
+        picture = names_of_western_poland
 		potential = {
 			OR = {
 				tag = PRU

@@ -19,11 +19,11 @@ country_event = {	id = 99900025
         set_country_flag = carlist_war
 		add_country_modifier = {
 				name = spain_civil_war 
-					duration = 1700
+					duration = 1645
 						}
 			any_pop = {         
 	       militancy = 5
-               consciousness = 5
+               consciousness = -1
 				dominant_issue = {
 					value = moralism
 					factor = 1
@@ -41,6 +41,7 @@ country_event = {	id = 99900025
                     province_id = 495
                     province_id = 485
                     province_id = 509
+                    province_id = 494
                 }
             }
             any_pop = {
@@ -56,7 +57,7 @@ country_event = {	id = 99900025
         }
         any_owned = {             add_province_modifier = {
                 name = spain_immigrant
-                duration = 2200
+                duration = 2500
             }}
         any_owned = {
             limit = {

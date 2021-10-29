@@ -712,6 +712,7 @@ political_decisions = {
 			iron = 2000
 			coal = 2000
 			explosives = 2000
+			wool = 2000
 			years_of_research = 50
 			leadership = 80
 			any_pop = {

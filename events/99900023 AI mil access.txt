@@ -2,7 +2,6 @@
 country_event = {	id = 99900023
 	title = "ai"
 	desc = "ai access"
-    picture = "napoleon_abdicates"
 	
 	trigger = {
 		OR = {
@@ -15,24 +14,38 @@ country_event = {	id = 99900023
 		tag = MAC
 		tag = NAN
 		tag = CHI
+		tag = DAI
 		}
-		OR = {  military_access = BUR
+		OR = {  
+			relation = {
+				who = BUR
+				value = 0
+			}
+			relation = {
+				who = TIB
+				value = 0
+			}
+			relation = {
+				who = PAN
+				value = 0
+			}
+			military_access = BUR
 			military_access = TIB
 			military_access = PAN
 			}
 	}
 
 		mean_time_to_happen =  {
-		months = 0
+		days = 0
 					}
 
         modifier = {
-            factor = 999
+            factor = 99
 		year = 1836
         }
 
 	option = {
-		name = "Vive la Republique!"
+		name = "ai!"
 		end_military_access = BUR
 		end_military_access = TIB
 		end_military_access = PAN	

@@ -279,58 +279,78 @@ naval_firepower_doctrine = {
 		}		
 	}
 }
-#fleet_auxiliary_cv_doctrine = {
-#	limit = { modern_naval_doctrine = 1 }
-#	chance = {
-#		base = 6
-#	}
-#	effect = {
-#	}
-#}
-#fleet_auxiliary_ss_doctrine = {
-#	limit = { modern_naval_doctrine = 1 }
-#	chance = {
-#		base = 6
-#	}
-#	effect = {
-#	}
-#}
-#convoy_sailing = {
-#	limit = { modern_naval_doctrine = 1 }
-#	chance = {
-#		base = 6
-#	}
-#	effect = {
-#	}
-#}
-#integrated_naval_doctrine = {
-#	limit = { modern_naval_doctrine = 1 }
-#	chance = {
-#		base = 5
-#		modifier = {
-#			factor = 2
-#			invention = convoy_sailing
-#		}
-#		modifier = {
-#			factor = 2
-#			invention = fleet_auxiliary_ss_doctrine
-#		}
-#		modifier = {
-#			factor = 2
-#			invention = fleet_auxiliary_cv_doctrine
-#		}
-#		modifier = {
-#			factor = 2
-#			invention = naval_firepower_doctrine
-#		}
-#		modifier = {
-#			factor = 2
-#			invention = modern_cruisers
-#		}
-#	}
-#	effect = {
-#	}
-#}
+fleet_auxiliary_cv_doctrine = {
+	limit = { modern_naval_doctrine = 1 }
+	chance = {
+		base = 6
+	}
+	effect = {
+		navy_base = {
+			gun_power = 1
+		}
+	}
+}
+fleet_auxiliary_ss_doctrine = {
+	limit = { modern_naval_doctrine = 1 }
+	chance = {
+		base = 6
+	}
+	effect = {
+		cruiser = {
+			hull = 2
+		}
+		battleship = {
+			hull = 2
+		}
+		dreadnought = {
+			hull = 2
+		}
+	}
+}
+convoy_sailing = {
+	limit = { modern_naval_doctrine = 1 }
+	chance = {
+		base = 6
+	}
+	effect = {
+		steam_transport = {
+			maximum_speed = 2
+			gun_power = 1
+			hull = 2
+		}
+	}
+}
+integrated_naval_doctrine = {
+	limit = { modern_naval_doctrine = 1 }
+	chance = {
+		base = 5
+		modifier = {
+			factor = 2
+			invention = convoy_sailing
+		}
+		modifier = {
+			factor = 2
+			invention = fleet_auxiliary_ss_doctrine
+		}
+		modifier = {
+			factor = 2
+			invention = fleet_auxiliary_cv_doctrine
+		}
+		modifier = {
+			factor = 2
+			invention = naval_firepower_doctrine
+		}
+		modifier = {
+			factor = 2
+			invention = modern_cruisers
+		}
+	}
+	effect = {
+		navy_base = {
+			build_time = -10 
+		}
+	}
+}
 #clipper_design
 building_station_shipyards = {
 	limit = { clipper_design = 1 }

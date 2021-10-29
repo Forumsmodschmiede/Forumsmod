@@ -847,7 +847,7 @@
 	soldiers = {
 		culture = basque
 		religion = catholic
-		size = 400
+		size = 4000
 		militancy = 8
 		rebel_type = carlist_rebels
 	}
@@ -925,7 +925,7 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 400
+		size = 4000
 	}
 
 	farmers = {
@@ -977,7 +977,7 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 1100
+		size = 5100
 	}
 
 	farmers = {
@@ -989,13 +989,13 @@
 	clergymen = {
 		culture = catalan
 		religion = catholic
-		size = 50
+		size = 500
 	}
 
 	farmers = {
 		culture = catalan
 		religion = catholic
-		size = 1950
+		size = 3950
 	}
 }
 #Huesca (224000/56000 POPS)
@@ -1003,7 +1003,7 @@
 	aristocrats = {
 		culture = spanish
 		religion = catholic
-		size = 450
+		size = 750
 	}
 
 	clergymen = {
@@ -1045,13 +1045,13 @@
 	artisans = {
 		culture = catalan
 		religion = catholic
-		size = 850
+		size = 1850
 	}
 
 	soldiers = {
 		culture = catalan
 		religion = catholic
-		size = 250
+		size = 2500
 	}
 
 	labourers = {
@@ -1065,7 +1065,7 @@
 	aristocrats = {
 		culture = spanish
 		religion = catholic
-		size = 1200
+		size = 1900
 		militancy = 8
 		rebel_type = carlist_rebels
 	}
@@ -1089,7 +1089,7 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 1100
+		size = 5100
 		militancy = 8
 		rebel_type = carlist_rebels
 	}
@@ -1151,13 +1151,13 @@
 	artisans = {
 		culture = catalan
 		religion = catholic
-		size = 1100
+		size = 3100
 	}
 
 	soldiers = {
 		culture = catalan
 		religion = catholic
-		size = 2000
+		size = 5000
 	}
 
 	farmers = {
@@ -1169,7 +1169,7 @@
 	aristocrats = {
 		culture = spanish
 		religion = catholic
-		size = 500
+		size = 1500
 	}
 
 	officers = {
@@ -1199,7 +1199,7 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 300
+		size = 1300
 	}
 
 	farmers = {
@@ -1231,7 +1231,7 @@
 	soldiers = {
 		culture = catalan
 		religion = catholic
-		size = 350
+		size = 1350
 	}
 
 	farmers = {
@@ -1263,7 +1263,7 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 250
+		size = 1250
 	}
 
 	farmers = {
@@ -1277,7 +1277,7 @@
 	aristocrats = {
 		culture = catalan
 		religion = catholic
-		size = 550
+		size = 1550
 		militancy = 8
 		rebel_type = carlist_rebels
 	}
@@ -1301,7 +1301,7 @@
 	soldiers = {
 		culture = catalan
 		religion = catholic
-		size = 275
+		size = 5275
 		militancy = 8
 		rebel_type = carlist_rebels
 	}
@@ -1317,7 +1317,7 @@
 	aristocrats = {
 		culture = spanish
 		religion = catholic
-		size = 200
+		size = 1200
 	}
 
 	clergymen = {
@@ -1335,7 +1335,7 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 150
+		size = 1150
 	}
 
 	farmers = {
@@ -1371,7 +1371,7 @@
 	soldiers = {
 		culture = catalan
 		religion = catholic
-		size = 400
+		size = 1400
 		militancy = 8
 		rebel_type = carlist_rebels
 	}
@@ -1387,7 +1387,7 @@
 	aristocrats = {
 		culture = spanish
 		religion = catholic
-		size = 450
+		size = 1450
 		militancy = 8
 		rebel_type = carlist_rebels
 	}
@@ -1409,7 +1409,7 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 200
+		size = 1200
 	}
 
 	farmers = {
