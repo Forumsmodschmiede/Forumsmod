@@ -1,5 +1,7 @@
 capital = 605
-primary_culture = swiss
+primary_culture = south_german
+culture = french
+culture = north_italian
 religion = protestant
 government = democracy
 plurality = 40.0
@@ -45,11 +47,9 @@ upper_house = {
 	point_defense_system = 1
 	flintlock_rifles = 1
 	bronze_muzzle_loaded_artillery = 1
-	iron_muzzle_loaded_artillery = 1
 	military_staff_system = 1
 	military_plans = 1
 	army_command_principle = 1
-	army_professionalism = 1
 	
 	post_nelsonian_thought = 1
 	

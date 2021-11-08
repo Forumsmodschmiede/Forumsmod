@@ -471,9 +471,10 @@ luderitz_expedition = {
 		effect = {
 			add_country_modifier = {
 				name = prussian_general_staff
-				duration = 3650
+				duration = 10950
 			}
 			prestige = 5
+			badboy = 3
 			set_country_flag = von_moltke
 		}
 		ai_will_do = {

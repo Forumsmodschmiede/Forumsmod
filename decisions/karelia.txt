@@ -1,0 +1,81 @@
+political_decisions = {
+
+	swedish_karelia = {
+		picture = dreams_of_empire
+		potential = {
+			OR = {
+				tag = SWE
+				tag = SCA
+				}
+			civilized = yes
+			NOT = { has_global_flag = swedish_karelia }
+		}
+		allow = {
+			owns = 2587
+			owns = 983
+			owns = 984
+			owns = 988
+			owns = 995
+		}
+		effect = {
+			prestige = 20
+			any_pop = {
+				militancy = -2
+			}
+			add_country_modifier = {
+				name = forced_assimilation
+				duration = 1825
+			}
+			any_country = {
+				limit = {
+					tag = RUS
+				}
+				relation = { who = THIS value = -100 }
+				prestige = -20
+			any_pop = {
+				militancy = 1
+			}
+			}
+			set_global_flag = swedish_karelia
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	russian_karelia = {
+		picture = dreams_of_empire
+		potential = {
+			tag = RUS
+			has_global_flag = swedish_karelia
+		}
+		allow = {
+			owns = 2587
+			owns = 983
+			owns = 984
+			owns = 988
+			owns = 995
+		}
+		effect = {
+			prestige = 20
+			any_pop = {
+				militancy = -2
+			}
+			any_country = {
+				limit = {
+			OR = {
+				tag = SWE
+				tag = SCA
+				}
+				}
+				relation = { who = THIS value = -100 }
+				prestige = -20
+			any_pop = {
+				militancy = 1
+			}
+			}
+			clr_global_flag = swedish_karelia
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+
+}

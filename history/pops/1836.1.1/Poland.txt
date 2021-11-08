@@ -438,7 +438,7 @@
 	}
 
 	farmers = {
-		culture = south_german
+		culture = north_german
 		religion = protestant
 		size = 99900
 	}
@@ -548,7 +548,7 @@
 	}
 
 	farmers = {
-		culture = south_german
+		culture = north_german
 		religion = protestant
 		size = 32375  
 	}
@@ -700,7 +700,7 @@
 	}
 
 	farmers = {
-		culture = south_german
+		culture = north_german
 		religion = catholic
 		size = 17525 
 	}

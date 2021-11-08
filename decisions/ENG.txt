@@ -1,18 +1,19 @@
 political_decisions = {
 	repeal_the_corn_laws = {
-		potential = {NOT = {
-			revolution_n_counterrevolution = 1
-			}
-			tag = ENG
+		potential = {
+				has_country_flag = irish_famine
 			NOT = {
 				has_country_flag = corn_laws_repealed_flag
 			}
 		}
 		allow = {
-			average_militancy = 2
+			average_militancy = 1
 		}
 
 		effect = {
+        any_owned = {
+            remove_province_modifier = irish_potato_blight
+        }
 			add_country_modifier = {
 				name = corn_laws_repealed
 				duration = 3650
@@ -23,8 +24,6 @@ political_decisions = {
 					value = liberal
 					factor = 0.05
 				}
-				militancy = -2
-				consciousness = 3
 			}
 			set_country_flag = corn_laws_repealed_flag
 		}

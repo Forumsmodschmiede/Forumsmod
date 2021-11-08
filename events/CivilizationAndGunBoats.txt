@@ -1498,12 +1498,14 @@ country_event = {
 				casus_belli = acquire_treaty_port
                         	state_province_id = 1496
 			}
+                defender_goal = { casus_belli = status_quo }
 			call_ally = no
 		}
 	}
 	option = { 
 		name = "They are to strong for us..."
-			prestige = -30 }
+			prestige = -30 
+			money = -70000}
 }
 
 

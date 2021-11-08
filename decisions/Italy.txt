@@ -298,6 +298,12 @@ political_decisions = {
 			2582 = {
 				add_core = ITA
 			}
+			2568 = {
+				add_core = ITA
+			}
+			611 = {
+				add_core = ITA
+			}
 		}
 	}
 }

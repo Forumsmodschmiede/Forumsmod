@@ -19,7 +19,7 @@ country_event = {	id = 99900024
         }
 
 	option = {
-		name = "Don't do that!"
+		name = "Operation Tannenberg vorbereiten!"
 		leave_alliance = SWI	
 		relation = { who = SWI value = -400 }
 		}

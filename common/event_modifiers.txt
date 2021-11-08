@@ -763,7 +763,6 @@ corn_laws_repealed = {
 	core_pop_consciousness_modifier = 0.01	
 	import_cost = -0.25
 	prestige = 0.1
-	global_immigrant_attract = 0.3
 	icon = 1
 }
 
@@ -1034,7 +1033,7 @@ German_Navy = {
 	naval_organisation = 0.05
 	naval_unit_start_experience = 5
 	navy_tech_research_bonus = 0.1
-	supply_consumption = 0.1
+	supply_consumption = 0.05
 }
 spain_civil_war = {
     core_pop_militancy_modifier = 0.03
@@ -1063,8 +1062,21 @@ ai_boni = {
 	supply_consumption = -1
 	tax_efficiency = 0.1
 	administrative_efficiency_modifier = 0.1
-	army_tech_research_bonus = 1
+	army_tech_research_bonus = 0.5
 	import_cost = -1
     	min_military_spending = 0.4
 	icon = 15
+}
+irish_potato_blight = {
+    immigrant_attract = -2
+    pop_militancy_modifier = 0.4
+    pop_consciousness_modifier = 0.3
+    immigrant_push = 0.75
+    local_factory_throughput = -0.25
+    local_factory_output = -0.5
+    local_artisan_output = -0.5
+    population_growth = -0.001
+    farm_rgo_size = -0.1
+    mine_rgo_size = -0.1
+    icon = 4
 }
