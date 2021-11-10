@@ -135,8 +135,8 @@ country_event = {
 
 country_event = {
     id = 99900012
-    title = "New Trading Post in Hongkong"
-    desc = "By controlling the important port city of Hongkong, we gained exclusive trading opportunities in the Hongkong Region. Our merchants are already on their way to establish new lucrative trading routes."
+    title = "New Trading Post in Hong Kong"
+    desc = "By controlling the important port city of Hong Kong, we gained exclusive trading opportunities in the Hong Kong Region. Our merchants are already on their way to establish new lucrative trading routes."
     picture = "SeaPower"
 
 	trigger = {

@@ -467,8 +467,11 @@ luderitz_expedition = {
 		}
 		allow = {
 			army_decision_making = 1
+			money = 100000
+			war = no
 		}
 		effect = {
+			money = -100000
 			add_country_modifier = {
 				name = prussian_general_staff
 				duration = 10950

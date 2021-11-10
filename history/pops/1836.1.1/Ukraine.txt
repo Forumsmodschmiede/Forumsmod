@@ -2335,6 +2335,11 @@
 }
 #Sevastopol (60000/15000 POPS)
 967 = {
+	farmers = {
+		culture = south_italian
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = tatar
 		religion = sunni

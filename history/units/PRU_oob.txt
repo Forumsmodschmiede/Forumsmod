@@ -273,7 +273,7 @@ leader = {
 	date = 1813.1.1
 	type = land
 	personality = soldierly
-	background = attack_3.1
+	background = attack_2.1
 	prestige = 0.2
 }
 
@@ -337,25 +337,43 @@ leader = {
 	type = land
 	personality = tactful
 	background = old_school
-	prestige = 0.2
+	prestige = 0.1
 }
 
 leader = {
 	name = "Heinrich von Wrangel"
-	picture="austrian_general_66"
-	date = 1823.1.1
+	picture="austrian_general_71"
+	date = 1830.1.1
 	type = land
 	personality = 	defence_1.200
+	background = attack_4.1
+	prestige = 0.25
+}
+leader = {
+	name = "Albrecht von Roon"
+	picture="austrian_general_68"
+	date = 1830.1.1
+	type = land
+	personality = 	defence_4.2
+	background = attack_2.1
+	prestige = 0.2
+}
+leader = {
+	name = "Edwin von Manteuffel"
+	picture="austrian_general_56"
+	date = 1836.1.1
+	type = land
+	personality = 	defence_3.2
 	background = attack_3.1
 	prestige = 0.2
 }
 leader = {
 	name = "Helmuth von Moltke"
 	picture="austrian_general_57"
-	date = 1823.1.1
+	date = 1836.1.1
 	type = land
-	personality = defence_2.2 
-	background = attack_3.1
+	personality = defence_3.2 
+	background = attack_4.1
 	prestige = 0.2
 }
 
@@ -365,7 +383,7 @@ leader = {
 	type = land
 	personality = gallant
 	background = old_school
-	prestige = 0.1
+	prestige = 0.0
 }
 
 leader = {

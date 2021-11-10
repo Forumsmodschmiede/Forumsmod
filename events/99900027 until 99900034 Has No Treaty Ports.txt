@@ -1,0 +1,232 @@
+# China sphere without port
+country_event = {
+    id = 99900027
+    title = "We have no Treaty Port"
+    desc = "Without controlling the important port city of Zhanjiang, we gained no trading opportunities in the Nanning Region. Our merchants are already on their way home after their failure to establish new trading routes."
+    picture = "SeaPower"
+
+	trigger = {
+		 owns = 1495 
+		sphere_owner = { is_sphere_leader_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+	name = "A bad day for our Empire"
+	#Remove Sphere from existing Sphere Owner
+	NAN = {
+		sphere_owner = {
+			diplomatic_influence = {
+				who = NAN
+				value = -900
+			}
+			clr_country_flag = treatyport_nanning
+			remove_country_modifier = treaty_port_nanning
+		}
+	}
+    }
+country_event = {
+    id = 99900028
+    title = "We have no Treaty Port"
+    desc = "Without controlling the important port city of Macau, we gained no trading opportunities in the Macau Region. Our merchants are already on their way home after their failure to establish new trading routes."
+    picture = "SeaPower"
+
+	trigger = {
+		owns = 1498
+		sphere_owner = { is_sphere_leader_of = THIS }
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+	name = "A bad day for our Empire"
+	#Remove Sphere from existing Sphere Owner
+	MAC = {
+		sphere_owner = {
+			diplomatic_influence = {
+				who = MAC
+				value = -900
+			}
+			clr_country_flag = treatyport_macau
+			remove_country_modifier = treaty_port_macau
+		}
+	}
+    }
+country_event = {
+    id = 99900029
+    title = "We have no Treaty Port"
+    desc = "Without controlling the important port city of Hong Kong, we gained no trading opportunities in the Hong Kong Region. Our merchants are already on their way home after their failure to establish new trading routes."
+    picture = "SeaPower"
+
+	trigger = {
+		owns = 900
+		sphere_owner = { is_sphere_leader_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+	name = "A bad day for our Empire"
+	#Remove Sphere from existing Sphere Owner
+	HKG = {
+		sphere_owner = {
+			diplomatic_influence = {
+				who = HKG
+				value = -900
+			}
+			clr_country_flag = treatyport_hongkong
+			remove_country_modifier = treaty_port_hongkong
+		}
+	}
+    }
+country_event = {
+    id = 99900030
+    title = "We have no Treaty Port"
+    desc = "Without controlling the important port city of Fuzhou, we gained no trading opportunities in the Fuzhou Region. Our merchants are already on their way home after their failure to establish new trading routes."
+    picture = "SeaPower"
+
+	trigger = {
+		owns = 1482
+		sphere_owner = { is_sphere_leader_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+	name = "A bad day for our Empire"
+	#Remove Sphere from existing Sphere Owner
+	FZH = {
+		sphere_owner = {
+			diplomatic_influence = {
+				who = FZH
+				value = -900
+			}
+			clr_country_flag = treatyport_fuzhou
+			remove_country_modifier = treaty_port_fuzhou
+		}
+	}
+    }
+country_event = {
+    id = 99900031
+    title = "We have no Treaty Port"
+    desc = "Without controlling the important port city of Ningbo, we gained no trading opportunities in the Ningbo Region. Our merchants are already on their way home after their failure to establish new trading routes."
+    picture = "SeaPower"
+
+	trigger = {
+		owns = 1608
+		sphere_owner = { is_sphere_leader_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+	name = "A bad day for our Empire"
+	#Remove Sphere from existing Sphere Owner
+	NGB = {
+		sphere_owner = {
+			diplomatic_influence = {
+				who = NGB
+				value = -900
+			}
+			clr_country_flag = treatyport_ningbo
+			remove_country_modifier = treaty_port_ningbo
+		}
+	}
+    }
+country_event = {
+    id = 99900032
+    title = "We have no Treaty Port"
+    desc = "Without controlling the important port city of Shanghai, we gained no trading opportunities in the Shanghai Region. Our merchants are already on their way home after their failure to establish new trading routes."
+    picture = "SeaPower"
+
+	trigger = {
+		owns = 1538
+		sphere_owner = { is_sphere_leader_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+	name = "A bad day for our Empire"
+	#Remove Sphere from existing Sphere Owner
+	SHA = {
+		sphere_owner = {
+			diplomatic_influence = {
+				who = SHA
+				value = -900
+			}
+			clr_country_flag = treatyport_shanghai
+			remove_country_modifier = treaty_port_shanghai
+		}
+	}
+    }
+country_event = {
+    id = 99900033
+    title = "We have no Treaty Port"
+    desc = "Without controlling the important port city of Qingdao, we gained no trading opportunities in the Qingdao Region. Our merchants are already on their way home after their failure to establish new trading routes."
+    picture = "SeaPower"
+
+	trigger = {
+		owns = 1566
+		sphere_owner = { is_sphere_leader_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+	name = "A bad day for our Empire"
+	#Remove Sphere from existing Sphere Owner
+	QNG = {
+		sphere_owner = {
+			diplomatic_influence = {
+				who = QNG
+				value = -900
+			}
+			clr_country_flag = treatyport_qingdao
+			remove_country_modifier = treaty_port_qingdao
+		}
+	}
+    }
+country_event = {
+    id = 99900034
+    title = "We have no Treaty Port"
+    desc = "Without controlling the important port city of Port Arthur, we gained no trading opportunities in the Beijing Region. Our merchants are already on their way home after their failure to establish new trading routes."
+    picture = "SeaPower"
+
+	trigger = {
+		owns = 1481
+		sphere_owner = { is_sphere_leader_of = THIS }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+	name = "A bad day for our Empire"
+	#Remove Sphere from existing Sphere Owner
+	BEI = {
+		sphere_owner = {
+			diplomatic_influence = {
+				who = BEI
+				value = -900
+			}
+			clr_country_flag = treatyport_beijing
+			remove_country_modifier = treaty_port_beijing
+		}
+	}
+    }

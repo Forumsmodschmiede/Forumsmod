@@ -1,0 +1,357 @@
+political_decisions = {
+    italian_renamed_savoy_aosta = {
+        picture = claim_aosta
+        potential = {
+            is_culture_group = italian
+		owns = 470
+		owns = 469
+            OR = {
+                AND = { owns = 466 NOT = { has_global_flag = italian_renamed_savoy } }
+                AND = { owns = 721 NOT = { has_global_flag = italian_renamed_aosta } }
+            }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            prestige = 5
+            random_owned = {
+                limit = {
+                    province_id = 466
+                }
+                466 = {
+                    change_province_name = "Sciamberi"
+                    state_scope = { change_region_name = "Savoia" }
+                }
+                470 = {
+                    change_province_name = "Tolone"
+                }
+                469 = {
+                    change_province_name = "Dinha"
+                }
+                472 = { change_province_name = "Nizza" }
+                owner = {
+                    set_global_flag = italian_renamed_savoy
+                    clr_global_flag = french_renamed_savoy
+                }
+            }
+            random_owned = {
+                limit = {
+                    province_id = 721
+                }
+                721 = {
+                    change_province_name = "Aosta"
+                }
+                owner = {
+                    set_global_flag = italian_renamed_aosta
+                    clr_global_flag = french_renamed_aosta
+                }
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    french_renamed_savoy_aosta = {
+        picture = claim_aosta
+        potential = {
+            primary_culture = french
+		owns = 470
+		owns = 469
+		owns = 472
+            OR = {
+                AND = { owns = 466 NOT = { has_global_flag = french_renamed_savoy } }
+                AND = { owns = 721 NOT = { has_global_flag = french_renamed_aosta } }
+            }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            prestige = 5
+            random_owned = {
+                limit = {
+                    province_id = 466
+                }
+                466 = {
+                    change_province_name = "Chambery"
+                    state_scope = { change_region_name = "Savoie" }
+                }
+                470 = {
+                    change_province_name = "Toulon"
+                }
+                469 = {
+                    change_province_name = "Digne"
+                }
+                472 = { change_province_name = "Nice" }
+                owner = {
+                    set_global_flag = french_renamed_savoy
+                    clr_global_flag = italian_renamed_savoy
+                }
+            }
+            random_owned = {
+                limit = {
+                    province_id = 721
+                }
+                721 = {
+                    change_province_name = "Aoste"
+                }
+                owner = {
+                    set_global_flag = french_renamed_aosta
+                    clr_global_flag = italian_renamed_aosta
+                }
+            }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    germanize_crimea = {
+        picture = retake_crimea
+        potential = {
+            is_culture_group = germanic
+            owns = 964
+            owns = 966
+            owns = 967
+            NOT = {
+                has_global_flag = germanized_crimea
+            }
+        }
+
+        allow = {
+            is_culture_group = germanic
+            owns = 964
+            owns = 966
+            owns = 967
+        }
+
+        effect = {
+            prestige = 5
+            964 = { change_province_name = "Gotenburg" 
+               	    state_scope = { change_region_name = "Gotengau" } }
+            966 = { change_province_name = "Kertsch" }
+            967 = { change_province_name = "Theoderichshafen" }
+            set_global_flag = germanized_crimea
+        }
+    }
+
+    restore_crimea = {
+        picture = retake_crimea
+        potential = {
+            OR = {
+                primary_culture = russian
+                primary_culture = ukrainian
+            }
+            has_global_flag = germanized_crimea
+            owns = 964
+            owns = 966
+            owns = 967
+        }
+        allow = {
+            OR = {
+                primary_culture = russian
+                primary_culture = ukrainian
+            }
+            owns = 964
+            owns = 966
+            owns = 967
+        }
+
+        effect = {
+            prestige = 5
+            964 = {
+                change_province_name = "Simferopol"
+            }
+            966 = {
+                change_province_name = "Kerch"
+            }
+            967 = {
+                change_province_name = "Sevastopol"
+            }
+            clr_global_flag = germanized_crimea
+        }
+    }
+
+        #####################################################
+    #Renaming Constantinople#
+    #####################################################
+
+    renamed_istanbul_constantinople = {
+        picture = constantinople
+        #alert = yes
+        potential = {
+            OR = {
+                is_culture_group = pan_romanian
+                is_culture_group = south_slavic
+                is_culture_group = east_slavic
+                is_culture_group = levantine
+                is_culture_group = czecho_slovak_culture_group
+            }
+            owns = 860
+            NOT = { has_global_flag = istanbul_named_constantinople }
+            NOT = { has_country_flag = istanbul_renamed }
+        }
+
+        allow = {
+            war = no
+            state_n_government = 1
+        }
+
+        effect = {
+            828 = {
+                change_province_name = "Adrianopel"
+            }
+            859 = {
+                change_province_name = "Kallipolis"
+            }
+            858 = {
+                change_province_name = "Ekklesies"
+            }
+            861 = {
+                change_province_name = "Skutarion"
+            }
+            set_global_flag = istanbul_named_constantinople
+            clr_global_flag = istanbul_named_tsargrad
+            any_country = { clr_country_flag = istanbul_renamed }
+            set_country_flag = istanbul_renamed
+            prestige = 5
+            random_owned = {
+                limit = { owner = { primary_culture = greek } }
+                860 = {
+                    change_province_name = "Konstantinoupolis"
+                    any_pop = { limit = { is_culture_group = levantine } militancy = -1 }
+                    state_scope = { change_region_name = "Thraki" }
+                }
+            }
+            random_owned = {
+                limit = { owner = { NOT = { primary_culture = greek } } }
+                860 = {
+                    change_province_name = "Constantinople"
+                    any_pop = { limit = { is_culture_group = levantine } militancy = -1 }
+                    state_scope = { change_region_name = "Thrace" }
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+
+            modifier = {
+                factor = 0
+                OR = {
+                    tag = RUS
+                    tag = BUL
+                }
+            }
+
+        }
+    }
+
+    renamed_istanbul_tsargrad = {
+        picture = constantinople
+        #alert = yes
+        potential = {
+            OR = {
+                is_culture_group = pan_romanian
+                is_culture_group = south_slavic
+                is_culture_group = east_slavic
+                is_culture_group = czecho_slovak_culture_group
+            }
+            owns = 860
+            NOT = { has_global_flag = istanbul_named_tsargrad }
+            NOT = { has_country_flag = istanbul_renamed }
+        }
+
+        allow = {
+            war = no
+            state_n_government = 1
+        }
+
+        effect = {
+            828 = {
+                change_province_name = "Adrianopel"
+            }
+           859 = {
+                change_province_name = "Kallipolis"
+            }
+            858 = {
+                change_province_name = "Ekklesies"
+            }
+            861 = {
+                change_province_name = "Skutarion"
+            }
+            clr_global_flag = istanbul_named_constantinople
+            set_global_flag = istanbul_named_tsargrad
+            any_country = { clr_country_flag = istanbul_renamed }
+            set_country_flag = istanbul_renamed
+            prestige = 5
+            860 = {
+                change_province_name = "Tsargrad"
+                any_pop = {
+                limit = {
+                    OR = {
+                    is_culture_group = south_slavic
+                    is_culture_group = east_slavic
+                        }
+                    }
+                militancy = -1
+                }
+            }
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+    renamed_istanbul_back = {
+        picture = constantinople
+        potential = {
+            is_culture_group = turko_semitic
+            owns = 860
+                OR = {
+                    has_global_flag = istanbul_named_constantinople
+                    has_global_flag = istanbul_named_tsargrad
+                }
+            }
+
+        allow = {
+            war = no
+            state_n_government = 1
+        }
+
+        effect = {
+            828 = {
+                change_province_name = "Edirne"
+            }
+           859 = {
+                change_province_name = "Gallipoli"
+            }
+            858 = {
+                change_province_name = "Kirkkilise"
+            }
+            861 = {
+                change_province_name = "Scutari"
+            }
+            clr_global_flag = istanbul_named_constantinople
+            clr_global_flag = istanbul_named_tsargrad
+            any_country = { clr_country_flag = istanbul_renamed }
+            prestige = 5
+            860 = {
+                change_province_name = "Istanbul"
+                any_pop = { limit = { has_pop_culture = turkish } militancy = -4 }
+            }
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+
+
+
+
+
+
+
+
+
+
+}

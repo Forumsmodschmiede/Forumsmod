@@ -3428,9 +3428,9 @@
 #Nice (Sardinian until 1860) (170800/42700 POPS)
 472 = {
 	aristocrats = {
-		culture = north_italian
+		culture = french
 		religion = catholic
-		size = 4500
+		size = 8500
 	}
 
 	clergymen = {

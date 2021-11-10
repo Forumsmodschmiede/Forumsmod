@@ -92,6 +92,98 @@
 		size = 45720
 	}
 }
+#Brig (560000/140000 POPS)
+3249 = {
+	aristocrats = {
+		culture = south_german
+		religion = protestant
+		size = 450
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = protestant
+		size = 1300
+	}
+
+	capitalists = {
+		culture = south_german
+		religion = protestant
+		size = 100
+	}
+
+	clerks = {
+		culture = south_german
+		religion = protestant
+		size = 60
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = protestant
+		size = 1200
+	}
+
+	artisans = {
+		culture = south_german
+		religion = protestant
+		size = 3300
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = south_german
+		religion = protestant
+		size = 12590
+	}
+
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 250
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 500
+	}
+
+	clerks = {
+		culture = south_german
+		religion = catholic
+		size = 30
+	}
+
+	craftsmen = {
+		culture = south_german
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 1900
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 15720
+	}
+}
 #Basel (272000/68000 POPS)
 604 = {
 	aristocrats = {

@@ -1,5 +1,107 @@
 country_event = {
 
+    id = 45107
+
+	trigger = {
+		tag = FRA
+		war = no
+		OR = {
+		has_recently_lost_war = yes
+		year = 1845
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 36
+	}
+    title = "EVTNAME45107"
+    desc = "EVTDESC45107"
+    picture = "haiti_debts"
+
+    option = {
+        name = "EVT45107OPTA"
+	prestige = 5
+        casus_belli = {
+            target = HAI
+            type = war_reparations
+            months = 12
+        }
+        war = {
+            target = HAI
+            attacker_goal = { casus_belli = war_reparations }
+        }
+        ai_chance = {
+            factor = 90
+        }
+    }
+
+    option = {
+        name = "EVT45107OPTB"
+        badboy = 2
+        relation = { who = USA value = -200 }
+        add_casus_belli = {
+            target = USA
+            type = cut_down_to_size
+            months = 48
+        }
+        casus_belli = {
+            target = HAI
+            type = war_reparations
+            months = 80
+        }
+        casus_belli = {
+            target = HAI
+            type = make_puppet
+            months = 120
+        }
+        war = {
+            target = HAI
+            attacker_goal = { casus_belli = war_reparations }
+        }
+        ai_chance = {
+            factor = 5
+        }
+    }
+    option = {
+        name = "EVT45107OPTC"
+        badboy = 5
+        relation = { who = USA value = -300 }
+        add_casus_belli = {
+            target = USA
+            type = cut_down_to_size
+            months = 48
+        }
+        casus_belli = {
+            target = HAI
+            type = conquest
+            months = 12
+        }
+        war = {
+            target = HAI
+            attacker_goal = { casus_belli = conquest }
+        }
+        ai_chance = {
+            factor = 4
+        }
+    }
+    option = {
+        name = "EVT45107OPTD"
+        badboy = -2
+        prestige = -10
+        relation = { who = HAI value = 200 }
+		diplomatic_influence = {
+			who = HAI
+			value = 200
+		}
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+country_event = {
+
 	id = 37200
 
 	trigger = {
