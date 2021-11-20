@@ -4,6 +4,7 @@ add_core = SHA
 add_core = TPG
 trade_goods = silk
 life_rating = 32
+terrain = kwangchowan
 1861.1.1 = {
 	controller = TPG
 	owner = TPG

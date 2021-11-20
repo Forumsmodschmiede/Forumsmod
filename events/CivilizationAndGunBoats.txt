@@ -1477,6 +1477,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA13270"
 		prestige = 5
+			CHI = { create_alliance = HKG }
 		casus_belli = {
 			target = HKG
 			type = acquire_treaty_port

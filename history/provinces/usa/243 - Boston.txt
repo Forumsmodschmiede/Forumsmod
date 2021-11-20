@@ -4,6 +4,7 @@ owner = USA
 add_core = NEN
 trade_goods = grain
 life_rating = 40
+terrain = boston
 railroad = 1
 naval_base = 1
 fort = 1

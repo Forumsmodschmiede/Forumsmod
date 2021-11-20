@@ -5,6 +5,7 @@ add_core = UKR
 
 trade_goods = grain
 life_rating = 35
+terrain = kiev
 fort = 1
 #state_building = {
 #	level = 1

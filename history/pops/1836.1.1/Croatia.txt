@@ -28,6 +28,11 @@
 	}
 
 	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 2875
+	}
+	farmers = {
 		culture = north_italian
 		religion = catholic
 		size = 20875
@@ -514,6 +519,11 @@
 		culture = croat
 		religion = catholic
 		size = 1200
+	}
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 2200
 	}
 
 	soldiers = {

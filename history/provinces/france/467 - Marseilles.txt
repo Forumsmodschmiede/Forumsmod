@@ -3,6 +3,7 @@ controller = FRA
 add_core = FRA
 trade_goods = fruit
 life_rating = 31
+terrain = marseille
 fort = 1
 #state_building = {
 #	level = 1

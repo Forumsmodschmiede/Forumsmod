@@ -6,6 +6,7 @@ add_core = DZG
 add_core = POL
 trade_goods = fish
 life_rating = 39
+terrain = danzig
 fort = 2
 naval_base = 1
 1861.1.1 = {

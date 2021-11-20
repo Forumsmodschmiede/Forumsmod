@@ -824,6 +824,11 @@
 		religion = catholic
 		size = 2375
 	}
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 2375
+	}
 
 	clergymen = {
 		culture = slovene

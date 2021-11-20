@@ -4,6 +4,7 @@ add_core = BAD
 add_core = GER
 trade_goods = fruit
 life_rating = 39
+terrain = karlsruhe
 fort = 2
 #state_building = {
 #	level = 1

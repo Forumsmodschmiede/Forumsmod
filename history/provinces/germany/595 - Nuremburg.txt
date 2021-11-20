@@ -4,6 +4,7 @@ add_core = BAV
 add_core = GER
 trade_goods = grain
 life_rating = 39
+terrain = nuremberg
 railroad = 1
 #state_building = {
 #	level = 1

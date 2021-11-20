@@ -236,6 +236,7 @@ leader = {
 
 leader = {
 	name = "Sir Edward Codrington"
+	picture="eng_admiral_2"
 	date = 1836.1.1
 	type = sea
 	personality = daring
@@ -290,9 +291,10 @@ leader = {
 
 leader = {
 	name = "Henry Smith"
+	picture="eng_general_19"
 	date = 1834.1.1
 	type = land
-	personality = efficient
+	personality = defence_2.1
 	background = attack_2.1
 	prestige = 0.1
 }
@@ -326,9 +328,10 @@ leader = {
 
 leader = {
 	name = "James Dundas"
+	picture="eng_admiral_3"
 	date = 1836.1.1
 	type = sea
-	personality = cautious
+	personality = attack_2.1
 	background = defence_3.1
 	prestige = 0.0
 }
@@ -737,6 +740,10 @@ army = {
 navy = {
 	name = "Channel Fleet"
 	location = 303
+	ship = {
+		name= "HMS Victory"
+		type = manowar
+	}
 	ship = {
 		name= "HMS Asia"
 		type = manowar

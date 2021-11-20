@@ -3,3 +3,4 @@ controller = ETH
 add_core = ETH
 trade_goods = cattle
 life_rating = 30
+terrain = gonder

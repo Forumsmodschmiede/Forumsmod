@@ -172,20 +172,20 @@ political_decisions = {
 				}
 			}
 			TUR = {
-				average_militancy = 3
+				average_militancy = 2
 			}
 		}
 		
 		effect = {		967 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
 					duration = -1
-			}		}
+						}			}
 			set_country_flag = eastern_christians_up_in_here_yall
 			add_country_modifier = {
 				name = protector_of_eastern_christendom
 				duration = -1
+						}
 			}
-
 	}
 	
 	peking_convention = {
@@ -209,6 +209,9 @@ political_decisions = {
 		
 		effect = {
 			CHI_1082 = {
+				add_core = RUS
+			}
+			1469 = {
 				add_core = RUS
 			}
 			set_country_flag = peking_convention			

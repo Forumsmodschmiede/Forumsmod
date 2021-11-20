@@ -241,7 +241,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			prestige = 20
+			prestige = 30
 			change_tag = ITA
 			capital = 749
 			add_accepted_culture = north_italian

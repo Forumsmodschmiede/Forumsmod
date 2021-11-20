@@ -15,7 +15,7 @@ political_decisions = {
 			OR = {
 				AND = {
 					exists = ITA
-					OR ={exists = NGF
+					OR = {exists = NGF
 						exists = GER}
 				}
 				revolution_n_counterrevolution = 1
@@ -29,6 +29,7 @@ political_decisions = {
 		}
 	
 		effect = {
+			prestige = -10
 			all_core = {
 				add_core = KUK
 			}
@@ -55,7 +56,8 @@ political_decisions = {
 						}
 					}
 				}
-				militancy = 2
+				militancy = 3
+				consciousness = 4
 			}
 						
 			add_accepted_culture = hungarian

@@ -38,6 +38,7 @@ help_ai = {
 	import_cost = -0.5
 	min_tariff = 2
   	tariff_efficiency_modifier = 0.2
+	cb_generation_speed_modifier = -9999
 }
 
 nerf_america_war = {

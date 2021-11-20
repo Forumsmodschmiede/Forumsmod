@@ -3,6 +3,7 @@ controller = FRA
 add_core = FRA
 trade_goods = grain
 life_rating = 32
+terrain = brest
 fort = 2
 naval_base = 2
 #state_building = {

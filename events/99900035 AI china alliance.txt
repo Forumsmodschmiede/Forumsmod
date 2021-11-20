@@ -1,0 +1,66 @@
+# ai alliance
+country_event = {	id = 99900035
+	title = "Alliance with China"
+	desc = "In the mid-19th century, the Qing dynasty experienced Western imperialism in the Opium Wars with Britain and France."
+    picture = "swizz_alliance"
+	
+	trigger = {
+	any_country = { 
+		NOT = { 
+			OR = {
+				tag = NAN
+				tag = MAC
+				tag = HKG
+				tag = FZH
+				tag = NGB
+				tag = SHA
+				tag = QNG
+				tag = BEI
+				tag = CHI
+			}
+		}
+	OR = { alliance_with = BEI
+alliance_with = QNG
+alliance_with = SHA
+alliance_with = NGB
+alliance_with = FZH
+alliance_with = HKG
+alliance_with = MAC
+alliance_with = NAN
+alliance_with = CHI
+				}
+	}
+
+		mean_time_to_happen =  {
+		months = 0
+					}
+
+        modifier = {
+            factor = 999
+		year = 1836
+        }
+
+	option = {
+		name = "China remains isolated"
+		leave_alliance = BEI
+		leave_alliance = QNG
+		leave_alliance = SHA
+		leave_alliance = NGB
+		leave_alliance = FZH
+		leave_alliance = HKG
+		leave_alliance = MAC
+		leave_alliance = NAN
+		leave_alliance = CHI
+		relation = { who = BEI value = -200 }
+		relation = { who = QNG value = -200 }
+		relation = { who = SHA value = -200 }
+		relation = { who = NGB value = -200 }
+		relation = { who = FZH value = -200 }
+		relation = { who = HKG value = -200 }
+		relation = { who = MAC value = -200 }
+		relation = { who = NAN value = -200 }
+		relation = { who = CHI value = -400 }
+		}
+
+
+}

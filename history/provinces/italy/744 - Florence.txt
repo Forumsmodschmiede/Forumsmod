@@ -4,6 +4,7 @@ add_core = TUS
 add_core = ITA
 trade_goods = fruit
 life_rating = 35
+terrain = florence
 fort = 1
 #state_building = {
 #	level = 1

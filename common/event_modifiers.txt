@@ -626,14 +626,14 @@ the_congo_reform_association = {
 ### GER - GERMANY, PRU - PRUSSIA ###
 germania_werft = {
 	local_repair = 0.5
-	local_ship_build = -0.2
+	local_ship_build = -0.1
 	icon = 15
 }
 
 ruhr_boom = {
 
 	mine_rgo_eff = 2
-	population_growth = 0.008
+	population_growth = 0.006
 	life_rating = 0.2
 	icon = 11
 }
@@ -1079,4 +1079,8 @@ irish_potato_blight = {
     farm_rgo_size = -0.1
     mine_rgo_size = -0.1
     icon = 4
+}
+small_immigration_boom = {
+	global_immigrant_attract = 1
+	icon = 17
 }

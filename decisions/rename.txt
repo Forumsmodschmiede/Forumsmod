@@ -3,8 +3,10 @@ political_decisions = {
         picture = claim_aosta
         potential = {
             is_culture_group = italian
+		owns = 465
 		owns = 470
 		owns = 469
+		owns = 472
             OR = {
                 AND = { owns = 466 NOT = { has_global_flag = italian_renamed_savoy } }
                 AND = { owns = 721 NOT = { has_global_flag = italian_renamed_aosta } }
@@ -20,6 +22,9 @@ political_decisions = {
             random_owned = {
                 limit = {
                     province_id = 466
+                }
+                465 = {
+                    change_province_name = "Annesi"
                 }
                 466 = {
                     change_province_name = "Sciamberi"
@@ -57,6 +62,7 @@ political_decisions = {
         picture = claim_aosta
         potential = {
             primary_culture = french
+		owns = 465
 		owns = 470
 		owns = 469
 		owns = 472
@@ -75,6 +81,9 @@ political_decisions = {
             random_owned = {
                 limit = {
                     province_id = 466
+                }
+                465 = {
+                    change_province_name = "Annecy"
                 }
                 466 = {
                     change_province_name = "Chambery"

@@ -3,4 +3,5 @@ controller = NGB
 add_core = NGB
 trade_goods = timber
 life_rating = 32
+terrain = ningbo
 naval_base = 1

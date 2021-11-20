@@ -8,6 +8,7 @@ country_event = {
 		tag = CHI
 		year = 1837
 		NOT = { has_global_flag = treaty_ports_activated }
+		war = no
 	}
 	
 	major = yes
