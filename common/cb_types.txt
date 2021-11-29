@@ -795,7 +795,7 @@ conquer_egypt = {
 	months = 12
 	construction_speed = 1
 	
-	badboy_factor = 0.5
+	badboy_factor = 0.6
 	prestige_factor = 1
 	peace_cost_factor = 0.75
 	penalty_factor = 1
@@ -1616,7 +1616,7 @@ demand_concession_casus_belli = {
 	construction_speed = 1.2
 	crisis = no
 	
-	badboy_factor = 0.8
+	badboy_factor = 1
 	prestige_factor = 0.1
 	peace_cost_factor = 0.6
 	penalty_factor = 1
@@ -1657,6 +1657,7 @@ demand_concession_casus_belli = {
 		any_owned_province = {
 			is_colonial = no
 			not = { is_core = CHI }	
+			not = { is_core = JAP }	
 		}
 			
 		not = { any_owned_province = { is_capital = yes } }
@@ -1671,6 +1672,61 @@ demand_concession_casus_belli = {
 			from = jingoism 
 			to = pro_military
 			value = 0.1
+		}
+	}
+}
+
+# Demand Japan
+demand_japan_casus_belli = {
+	sprite_index = 23
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.5
+	crisis = no
+	
+	badboy_factor = 2.4
+	prestige_factor = 0.1
+	peace_cost_factor = 1.5
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 12
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		THIS = {
+			civilized = yes
+		}
+		civilized = no
+		number_of_states = 2
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			is_colonial = no
+			is_core = JAP	
+		}
+			
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	
+	war_name = WAR_CONCESSION_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
 		}
 	}
 }

@@ -1595,7 +1595,7 @@ province_event = {
 		name = "EVTOPTA36938" 
 		any_pop = {
 			limit = {
-				has_pop_religion = hindu 
+				has_pop_religion = asian_minor
 				}
 			militancy = 1
 			consciousness = 2
@@ -1648,7 +1648,7 @@ country_event = {
 		name = "EVTOPTA36939"
 		any_pop = {
 			limit = {
-				has_pop_religion = hindu
+				has_pop_religion = asian_minor
 			}
 			militancy = 2
 		}
@@ -1670,7 +1670,7 @@ country_event = {
 			}
 		any_pop = {
 			limit = {
-				has_pop_religion = hindu
+				has_pop_religion = asian_minor
 			}
 			militancy = -1
 		}

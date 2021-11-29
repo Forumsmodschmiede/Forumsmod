@@ -3,4 +3,5 @@ controller = BEI
 add_core = BEI
 trade_goods = tea
 life_rating = 32
+terrain = peking
 fort = 1

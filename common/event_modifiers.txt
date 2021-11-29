@@ -238,7 +238,7 @@ colonial_recruitment = {
 }
 
 baby_boom = {
-	population_growth = 0.005
+	population_growth = 0.002
 	icon = 19
 }
 
@@ -953,10 +953,12 @@ Royal_Navy = {
 }
 Rebuild_our_Fleet = {
 	local_repair = 0.5
-	local_ship_build = -0.5
+	local_ship_build = -0.1
 }
 Rebuild_our_Fleets = {
 	naval_unit_start_experience = 5
+	supply_consumption = -0.05
+	navy_tech_research_bonus = 0.05
 }
 Levee_en_masse = {
 	land_organisation = 0.1

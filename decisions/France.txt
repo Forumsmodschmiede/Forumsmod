@@ -504,17 +504,17 @@ political_decisions = {
 
 		470 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
-					duration = 1095
+					duration = 3650
 					}
 }
 		442 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
-					duration = 1095
+					duration = 3650
 					}
 }
 		418 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
-					duration = 1095
+					duration = 3650
 					}
 }
 			}

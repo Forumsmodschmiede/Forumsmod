@@ -19,6 +19,11 @@ country_event = {
 		name = "Heligoland is ours!"
 		prestige = 10
 		relation = { who = GER value = -100 }
+		GER = { casus_belli = {
+			target = ENG
+			type = humiliate
+			months = 48
+			}	}
 	}
 }
 

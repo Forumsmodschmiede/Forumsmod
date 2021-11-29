@@ -278,26 +278,26 @@ Emergency_ship_building_effort = {
 		effect = {	set_country_flag = Emergency_ship_building_efforts_made
 		add_country_modifier = {
 					name = Rebuild_our_Fleets
-					duration = 1095
+					duration = 1825
 					}
 		281 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
-					duration = 1095
+					duration = 1825
 					}
 }
 		303 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
-					duration = 1095
+					duration = 1825
 					}
 }
 		299 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
-					duration = 1095
+					duration = 1825
 					}
 }
 		271 = { add_province_modifier = {
 					name = Rebuild_our_Fleet
-					duration = 1095
+					duration = 1825
 					}
 }
 }

@@ -5,4 +5,5 @@ add_core = CRO
 add_core = YUG
 trade_goods = fruit
 life_rating = 35
+terrain = zadar
 fort = 1

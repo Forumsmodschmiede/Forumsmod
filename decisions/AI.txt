@@ -13,13 +13,14 @@ political_decisions = {
 			tag = SOK
 			tag = ETH
 			tag = CSA
+			tag = ISR
 		}
 		allow = {
 			ai = yes
 		NOT = {
 		has_country_modifier = ai_boni
-}
-}
+			}
+			}
 		effect = {
 			add_country_modifier = {
 				name = ai_boni
@@ -41,20 +42,20 @@ political_decisions = {
 
 
 
-political_decisions = {
-	ai_help = {
+	ai_help2 = {
 		potential = {
 			ai = yes
 			tag = AFG
+				}
 		allow = {
 			ai = yes
 		OR = {  war_with = ENG
 			war_with = RUS }
-			}
+			
 		NOT = {
 		has_country_modifier = ai_boni
-}
-}
+			}
+			}
 		effect = {
 			add_country_modifier = {
 				name = ai_boni
@@ -75,24 +76,17 @@ political_decisions = {
 		}
 
 
-political_decisions = {
-	ai_help = {
+	ai_help3 = {
 		potential = {
 			ai = yes
             	NOT = { has_country_flag = ai }
+				}
 		allow = {
 			ai = yes
-		NOT = {
-		has_country_modifier = ai_boni
-}
-}
+			}
 		effect = {            		
 			set_country_flag = ai
-			add_country_modifier = {
-				name = ai_boni
-				duration = -1
-						}
-			money = 2000000
+			money = 100000
 			artillery = 2000
 			canned_food = 2000
 			ammunition = 2000

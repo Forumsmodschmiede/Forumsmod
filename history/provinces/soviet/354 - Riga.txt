@@ -6,6 +6,7 @@ add_core = UBD
 
 trade_goods = fish
 life_rating = 35
+terrain = riga
 fort = 1
 naval_base = 1
 #state_building = {

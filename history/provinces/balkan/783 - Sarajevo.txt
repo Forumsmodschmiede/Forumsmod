@@ -6,4 +6,5 @@ add_core = YUG
 add_core = SER
 trade_goods = fruit
 life_rating = 35
+terrain = sarajevo
 fort = 1

@@ -4,6 +4,6 @@ add_core = ENG
 add_core = SCH
 trade_goods = fish
 life_rating = 35
-terrain = hills
+terrain = wilhelmshaven
 fort = 1
 naval_base = 1

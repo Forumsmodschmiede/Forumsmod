@@ -3,6 +3,7 @@ controller = AUS
 add_core = AUS
 trade_goods = grain
 life_rating = 35
+terrain = trieste
 naval_base = 2
 #state_building = {
 #	level = 1
