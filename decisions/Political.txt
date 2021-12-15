@@ -326,8 +326,8 @@ enact_liquor_prohibition = {
 		}
 		effect = {
 			money = 300000
-			years_of_research = 5
-			prestige = 20
+			years_of_research = 3
+			prestige = 10
 			add_country_modifier = {
 				name = meiji_restoration_boost
 				duration = 10950
@@ -418,7 +418,7 @@ enact_liquor_prohibition = {
 				country_event = { id=99900020 days=1 }
 					}
 			set_country_flag = sent_iwakura_mission
-			years_of_research = 1
+			years_of_research = 0.6
 			leadership = 80
 		random_owned = {
 				limit = {

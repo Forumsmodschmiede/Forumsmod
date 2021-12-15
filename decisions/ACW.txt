@@ -26,9 +26,10 @@ political_decisions = {
 	commodore_perry_expedition = {
 		picture = commodore_perry_expedition
        		
-		potential = { 			NOT = {
+		potential = { 			
+			NOT = {
 			revolution_n_counterrevolution = 1
-			}
+				}
 			tag = USA
 			NOT = { has_country_flag = commodore_perry_expedition }
 		}
@@ -43,27 +44,27 @@ political_decisions = {
 			government = shogunate
 			is_greater_power = no
 				}
-		}
+			}
 
 		effect = {
 		set_country_flag = commodore_perry_expedition
 					JAP = {
-				country_event = { id=99900021 days=1 }
+				country_event = { id = 99900021 days = 1 }
 						}
 		THIS = {
 		diplomatic_influence = {
 			who = JAP
 			value = 300
-		}
+			}		}
 		random_country = {
 				limit = { 
 					exists = yes
-						tag = JAP
-				}
+					tag = JAP
+					}
 				relation = { who = THIS value = -200 }
-			}
+				}
 			badboy = 5
-			prestige = 10
+			prestige = 5
 			money = 100000
 			years_of_research = 0.6
 		}
@@ -594,11 +595,7 @@ political_decisions = {
 	ostend_manifesto = {
 		potential = {
 			tag = USA
-			average_consciousness = 4
 			slavery = yes_slavery
-			SPA_2209 = {
-				is_slave = yes
-			}
 			NOT = {
 				has_country_flag = ostend_manifesto_published
 				has_global_flag = american_civil_war_has_happened
@@ -606,7 +603,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			average_consciousness = 5
+
 		}
 		
 		effect = {
@@ -619,8 +616,12 @@ political_decisions = {
 			}
 			SPA_2209 = {
 				add_core = USA
+			}
+			SPA_2209 = {
 				add_core = CSA
 			}
+			add_accepted_culture = caribeno
+			add_accepted_culture = afro_caribeno
 			any_state = {
 				limit = {
 					is_slave = yes

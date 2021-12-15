@@ -502,7 +502,6 @@ acquire_core_state = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			is_core = THIS
 		}
@@ -512,7 +511,6 @@ acquire_core_state = {
 		any_owned_province = {
 			is_core = THIS
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 
 	po_demand_state = yes
@@ -921,7 +919,7 @@ place_in_the_sun = {
 	is_triggered_only = yes
 	months = 12
 
-	badboy_factor = 1
+	badboy_factor = 1.6
 	prestige_factor = 2
 	peace_cost_factor = 0.9
 	penalty_factor = 1

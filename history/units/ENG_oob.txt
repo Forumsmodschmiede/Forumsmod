@@ -1,5 +1,9 @@
 #Sphere of Influence
-
+POR = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
 EGY = {
 	value = 125		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
@@ -246,6 +250,7 @@ leader = {
 
 leader = {
 	name = "Hugh Gough"
+	picture="eng_general_7"
 	date = 1830.1.1
 	type = land
 	personality = dauntless
@@ -319,6 +324,7 @@ leader = {
 
 leader = {
 	name = "Sir George Brown"
+	picture="eng_general_1"
 	date = 1836.1.1
 	type = land
 	personality = harsh

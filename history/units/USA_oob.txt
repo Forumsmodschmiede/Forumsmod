@@ -67,9 +67,10 @@ SWI = {
 
 leader = {
 	name = "Winfield Scott"
+	picture="usa_general_11"
 	date = 1836.1.1
 	type = land
-	personality = steadfast
+	personality = defence_1.1
 	background = attack_3.1
 	prestige = 0.3
 }
@@ -78,8 +79,8 @@ leader = {
 	name = "Zachary Taylor"
 	date = 1836.1.1
 	type = land
-	personality = intuitive
-	background = school_of_offense
+	personality = defence_1.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -112,6 +113,7 @@ leader = {
 
 leader = {
 	name = "Isaac Hull"
+	picture="usa_admiral_3"
 	date = 1810.1.1
 	type = sea
 	personality = skilled
@@ -124,7 +126,7 @@ leader = {
 	date = 1836.1.1
 	type = sea
 	personality = efficient
-	background = attack_3.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
@@ -139,10 +141,11 @@ leader = {
 
 leader = {
 	name = "Matthew C. Perry"
+	picture="usa_admiral_6"
 	date = 1836.1.1
 	type = sea
-	personality = openminded
-	background = war_college
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.1
 }
 

@@ -858,6 +858,7 @@ paternalism = {
 		}
 	}
 	org_regain = 0.05
+	colonial_prestige = -0.3 
 }
 constitutionalism = {
 	limit = { enlightenment_thought = 1 }

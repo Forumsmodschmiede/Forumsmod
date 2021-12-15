@@ -16,6 +16,16 @@ leader = {
 }
 
 leader = {
+	name = "Giuseppe Garibaldi"
+	picture="ita_general_10"
+	date = 1831.1.1
+	type = land
+	personality = openminded
+	background = attack_4.1
+	prestige = 0.5
+}
+
+leader = {
 	name = "Emanuele Pes"
 	date = 1820.1.1
 	type = land

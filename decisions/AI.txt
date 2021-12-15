@@ -80,11 +80,26 @@ political_decisions = {
 		potential = {
 			ai = yes
             	NOT = { has_country_flag = ai }
+            	NOT = { OR = {
+				tag = NAN
+				tag = MAC
+				tag = HKG
+				tag = FZH
+				tag = NGB
+				tag = SHA
+				tag = QNG
+				tag = BEI
+				tag = CHI
+			}	}
 				}
 		allow = {
 			ai = yes
 			}
-		effect = {            		
+		effect = {      
+			add_country_modifier = {
+				name = ai_boni2
+				duration = -1
+						}      		
 			set_country_flag = ai
 			money = 100000
 			artillery = 2000

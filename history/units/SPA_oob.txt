@@ -105,6 +105,7 @@ leader = {
 
 leader = {
 	name = "Narváez"
+	picture="spa_general_6"
 	date = 1836.1.1
 	type = land
 	personality = efficient
@@ -123,6 +124,7 @@ leader = {
 
 leader = {
 	name = "Van Halen"
+	picture="spa_general_13"
 	date = 1823.1.1
 	type = land
 	personality = defence_3.1
@@ -132,6 +134,7 @@ leader = {
 
 leader = {
 	name = "José Ramón Rodil"
+	picture="spa_general_10"
 	date = 1824.1.1
 	type = land
 	personality = defence_4.1

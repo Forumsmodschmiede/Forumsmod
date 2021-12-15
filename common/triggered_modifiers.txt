@@ -3,6 +3,20 @@
 #
 # Effects are fully scriptable here.
 
+slave_nation = {
+    trigger = {
+        slavery = yes_slavery
+    }
+    icon = 10
+    core_pop_militancy_modifier = -0.01
+}
+csa_mob = {
+    trigger = {
+        primary_culture = dixie
+    }
+    icon = 10
+    mobilisation_size = 0.05
+}
 democratic_nation = {
     trigger = {
 	government = democracy
@@ -14,31 +28,6 @@ democratic_nation = {
     core_pop_militancy_modifier = -0.01
     pop_consciousness_modifier = 0.01
     research_points_modifier = 0.05
-}
-
-help_ai = {
-    trigger = {
-        ai = yes
-    }
-    icon = 10
-	min_tax = 0.5
-   	tax_efficiency = 0.15
-	supply_consumption = -0.4
-    	min_military_spending = 0.61
-	mobilisation_economy_impact = -1
-	org_regain = 0.5
-	land_organisation = 0.1
-	land_unit_start_experience = 5.0
-	leadership_modifier = -0.3
-	mine_rgo_eff = 0.1
-	farm_rgo_eff = 0.1
-	administrative_efficiency_modifier = 0.4
-	factory_output = 0.1
-	army_tech_research_bonus = 0.3
-	import_cost = -0.5
-	min_tariff = 2
-  	tariff_efficiency_modifier = 0.2
-	cb_generation_speed_modifier = -9999
 }
 
 nerf_america_war = {
@@ -60,6 +49,7 @@ save_the_nation0.5  = {
     trigger = {
         revanchism = 0.05
         NOT = { revanchism = 0.10 }
+        NOT = { has_country_flag = claim_ggr }
     }
 
     suppression_points_modifier = 0.05
@@ -88,6 +78,7 @@ save_the_nation1.5  = {
     trigger = {
         revanchism = 0.15
         NOT = { revanchism = 0.20 }
+        NOT = { has_country_flag = claim_ggr }
     }
 
     suppression_points_modifier = 0.10
@@ -104,6 +95,7 @@ save_the_nation2  = {
     trigger = {
         revanchism = 0.20
         NOT = { revanchism = 0.25 }
+        NOT = { has_country_flag = claim_ggr }
     }
 
     suppression_points_modifier = 0.10
@@ -120,6 +112,7 @@ save_the_nation2.5  = {
     trigger = {
         revanchism = 0.25
         NOT = { revanchism = 0.30 }
+        NOT = { has_country_flag = claim_ggr }
     }
 
     suppression_points_modifier = 0.10
@@ -136,6 +129,7 @@ save_the_nation3  = {
     trigger = {
         revanchism = 0.30
         NOT = { revanchism = 0.35 }
+        NOT = { has_country_flag = claim_ggr }
     }
 
     suppression_points_modifier = 0.10
@@ -152,6 +146,7 @@ save_the_nation3.5  = {
     trigger = {
         revanchism = 0.35
         NOT = { revanchism = 0.40 }
+        NOT = { has_country_flag = claim_ggr }
     }
 
     suppression_points_modifier = 0.10
@@ -168,6 +163,7 @@ save_the_nation4  = {
     trigger = {
         revanchism = 0.40
         NOT = { revanchism = 0.45 }
+        NOT = { has_country_flag = claim_ggr }
     }
 
     suppression_points_modifier = 0.10
@@ -184,6 +180,7 @@ save_the_nation4.5  = {
     trigger = {
         revanchism = 0.45
         NOT = { revanchism = 0.50 }
+        NOT = { has_country_flag = claim_ggr }
     }
 
     suppression_points_modifier = 0.10
@@ -200,6 +197,7 @@ save_the_nation4.5  = {
 save_the_nation5  = {
     trigger = {
         revanchism = 0.50
+        NOT = { has_country_flag = claim_ggr }
     }
 
     suppression_points_modifier = 0.10
@@ -226,11 +224,12 @@ spain_war = {
     	icon = 11
    	tax_efficiency = 0.2
 	administrative_efficiency_modifier = -0.05
-	mobilisation_economy_impact = 1
+   	supply_consumption = 0.1
+	mobilisation_economy_impact = 2
 	org_regain = -0.75
 	land_organisation = -0.75
 	import_cost = 0.3
-   	mobilisation_size = -0.05
+   	mobilisation_size = -0.04
 }
 social_reformed_nation = {
 		trigger = {

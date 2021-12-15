@@ -270,6 +270,7 @@ DEN = {
 
 leader = {
 	name = "von Zieten"
+	picture="austrian_general_72"
 	date = 1813.1.1
 	type = land
 	personality = soldierly
@@ -306,6 +307,7 @@ leader = {
 
 leader = {
 	name = "August von Colomb"
+	picture="austrian_general_47"
 	date = 1829.1.1
 	type = land
 	personality = active_p

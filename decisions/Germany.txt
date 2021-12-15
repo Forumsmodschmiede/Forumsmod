@@ -27,10 +27,85 @@ political_decisions = {
 					}
 			}
 				}
+	claim_ggr = {
+	picture = ggr
+		potential = {
+		tag = GER
+            	NOT = { has_country_flag = claim_ggr }
+			}
+		allow = {        
+			owns = 533
+			is_greater_power = yes
+			revolution_n_counterrevolution = 1
+			war = no
+				}
+		effect = {		
+			badboy = 20
+			add_country_modifier = {
+				name = claim_ggr
+				duration = -1
+			}
+			AUS_619 = {
+				add_core = GER
+			}
+			AUS_612 = {
+				add_core = GER
+			}
+			AUS_613 = {
+				add_core = GER
+			}
+			any_pop = {
+				limit = { is_culture_group = german }
+				dominant_issue = {
+					factor = 0.2
+					value = jingoism
+						}
+				}
+            		set_country_flag = claim_ggr
+			}
+				}
+	proclaim_ggr = {
+	picture = ggr_anschluss
+		potential = {
+		tag = GER
+            	NOT = { has_country_flag = proclaim_ggr }
+	        OR = { owns = 619
+			owns = 612
+			owns = 616 }
+				}
+			allow = {
+	        AND = { owns = 619
+			owns = 612
+			owns = 616 }
+				}
+		effect = {
+			remove_country_modifier = claim_ggr
+			prestige = 10			
+			change_tag = GGR
+			all_core = {
+				add_core = GGR
+			}
+			any_state = {
+				remove_core = GER
+					}
+			any_pop = {
+				limit = { is_culture_group = german }
+				dominant_issue = {
+					factor = 0.2
+					value = jingoism
+						}
+				}
+            		set_country_flag = proclaim_ggr
+            		clr_country_flag = claim_ggr
+			}
+				}
 Establish_the_German_Navy = {
 	picture = german_navy
 		potential = {
-			tag = GER
+			OR = {
+				tag = GER
+				tag = GGR
+			}
 			not = { has_country_modifier = German_Navy }
 		}
 		allow = {
@@ -112,10 +187,17 @@ luderitz_expedition = {
 
 
 	helgoland_treaty = {
+	picture = helgoland_parade
         	potential = {
-			tag = GER
+			OR = {
+				tag = GER
+				tag = GGR
+			}
             		NOT = { has_country_flag = you_did_try_germany }
+			OR = {
             		GER = { is_core = 533 }
+            		GGR = { is_core = 533 }
+			}
         	}
 
         	allow = {
@@ -218,6 +300,7 @@ luderitz_expedition = {
 				tag = PRU
 				tag = GER
 				tag = NGF
+				tag = GGR
 			}
 			owns = 369
 		}
@@ -245,6 +328,7 @@ luderitz_expedition = {
 				tag = PRU
 				tag = GER
 				tag = NGF
+				tag = GGR
 			}
 			NOT = {
 				tech_school = prussian_tech_school
@@ -280,6 +364,7 @@ luderitz_expedition = {
 				tag = GER
 				tag = NGF
 				tag = PRU
+				tag = GGR
 			}
 			exists = FRA
 			FRA = {
@@ -313,7 +398,10 @@ luderitz_expedition = {
 	
 	niederwald_denkmal = {
 		potential = {
+			OR = {
 			tag = GER
+			tag = GGR
+				}
 			has_country_flag = watching_the_rhine
 			war = no
 			NOT = {
@@ -340,6 +428,7 @@ luderitz_expedition = {
 			OR = {
 				tag = SGF
 				tag = GER
+				tag = GGR
 			}
 			owns = 599
 			NOT = {
@@ -358,7 +447,10 @@ luderitz_expedition = {
 	
 	das_buergerliche_gesetzbuch = {
 		potential = {
+			OR = {
 			tag = GER
+			tag = GGR
+				}
 			NOT = {
 				has_country_flag = code_of_laws
 			}
@@ -385,7 +477,10 @@ luderitz_expedition = {
 			owns = 2531
 			owns = 2537
 			owns = 2539
+			OR = {
 			tag = GER
+			tag = GGR
+				}
 			NOT = {
 				has_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
 			}
@@ -429,7 +524,7 @@ luderitz_expedition = {
 		}
 		
 		allow = {
-			OR = {
+			AND = {
 				is_greater_power = yes
 				invention = national_fraternity
 			}
@@ -460,6 +555,7 @@ luderitz_expedition = {
 				tag = PRU
 				tag = GER
 				tag = NGF
+				tag = GGR
 			}
 			NOT = {
 				has_country_flag = von_moltke
@@ -495,6 +591,7 @@ luderitz_expedition = {
 				tag = PRU
 				tag = GER
 				tag = NGF
+				tag = GGR
 			}
 			NOT = {
 				has_country_flag = schlieffen_plan_enacted
@@ -539,6 +636,7 @@ luderitz_expedition = {
 				tag = PRU
 				tag = NGF
 				tag = GER
+				tag = GGR
 			}
 			OR = {
 				government = prussian_constitutionalism
@@ -587,6 +685,7 @@ luderitz_expedition = {
 				tag = PRU
 				tag = GER
 				tag = NGF
+				tag = GGR
 			}
 			owns = 578
 			owns = 2561

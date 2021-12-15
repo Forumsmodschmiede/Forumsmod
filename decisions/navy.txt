@@ -1,6 +1,7 @@
 political_decisions = {
 	Expand_our_Navy = {
 		potential = {
+			raider_group_doctrine = 1
 			is_greater_power = yes
 			not = { has_country_modifier = bigger_Navy }
 		}

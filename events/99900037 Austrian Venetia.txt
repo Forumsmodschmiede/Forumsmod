@@ -1,0 +1,27 @@
+# Austrian Venetia (fired by a bad war)
+country_event = {	id = 99900037
+	title = "We lost Austrian Venice"
+	desc = "While our enemies became stronger and stronger, the imperial gouverment did not enough to stop these dangers beyond our borders. Without the Kingdom of Lombardy and Venetia we have to recover much of our strenght."
+    picture = "AUS_venice"
+	
+	trigger = {
+		tag = AUS
+		has_country_modifier = austrian_lombardy
+		NOT = {
+			owns = 729
+			}
+		
+	}
+	
+	fire_only_once = yes
+
+		mean_time_to_happen =  {
+		months = 0
+					}
+
+	option = {
+		name = "Sapperlot!"
+			prestige = -5		
+			remove_country_modifier = austrian_venice
+	}
+}

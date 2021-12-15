@@ -2,20 +2,20 @@ political_decisions = {
 		form_italy_peacefully = {
 		potential = {
 			is_culture_group = italian
-			
+			ai = no
 			NOT = {
 				exists = ITA
 			}
 		}
 		
 		allow = {
-			prestige = 45
+			prestige = 30
 			war = no
 			revolution_n_counterrevolution = 1
 		}
 		
 		effect = {
-			prestige = -50
+			prestige = -30
 			change_tag = ITA
 			capital = 749
 			add_accepted_culture = north_italian

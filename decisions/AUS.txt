@@ -1,8 +1,13 @@
 political_decisions = {
 	enact_dual_monarchy = {
 		potential = {
+			NOT = {
+				OR = {
+					exists = HUN
+					exists = KUK
+				}
+			}
 			tag = AUS
-			war = no
 			any_owned_province = {
 				is_core = HUN
 			}
@@ -12,24 +17,22 @@ political_decisions = {
 		}
 	
 		allow = {
+			war = no
 			OR = {
 				AND = {
 					exists = ITA
-					OR = {exists = NGF
-						exists = GER}
+					OR = { exists = NGF
+						exists = GER
+						exists = GGR }
 				}
 				revolution_n_counterrevolution = 1
 			     }
-			NOT = {
-				OR = {
-					exists = HUN
-					exists = KUK
-				}
-			}
 		}
 	
 		effect = {
 			prestige = -10
+			remove_country_modifier = austrian_venice
+			remove_country_modifier = austrian_lombardy
 			all_core = {
 				add_core = KUK
 			}

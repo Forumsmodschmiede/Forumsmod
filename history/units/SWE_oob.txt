@@ -1,6 +1,7 @@
 
 leader = {
 	name = "Carl Nordenskjöld"
+	picture="swe_admiral_2"
 	date = 1834.1.1
 	type = sea
 	personality = disciplined
@@ -10,6 +11,7 @@ leader = {
 
 leader = {
 	name = "Carl XIV Johan"
+	picture="swe_general_9"
 	date = 1818.1.1
 	type = land
 	personality = defense_2.1

@@ -1,9 +1,10 @@
 leader = {
 	name = "Antonio Santa Ana"
+	picture="mex_general_9"
 	type = land
 	date="1836.1.1"
-	personality = wrathful
-	background = attack_2.1
+	personality = defense_3.1
+	background = attack_3.1
 	prestige = 0.2
 }
 

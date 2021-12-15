@@ -1,3 +1,267 @@
+CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;HUNGARIAN;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;;x;;;;;;;;;;;;;;;;
+canton;Urban;;;;;;;;x
+annecy;Urban;;;;;;;;x
+kassel;Urban;;;;;;;;x
+nagasaki;Urban;;;;;;;;x
+koblenz;Urban;;;;;;;;x
+rouen;Urban;;;;;;;;x
+lubeck;Urban;;;;;;;;x
+pozan;Urban;;;;;;;;x
+braunschweig;Urban;;;;;;;;x
+linz;Urban;;;;;;;;x
+catania;Urban;;;;;;;;x
+chemnitz;Urban;;;;;;;;x
+stjohn;Taiga;;;;;;;;x
+berlin;Urban;;;;;;;;x
+paris;Urban;;;;;;;;x
+london;Urban;;;;;;;;x
+stpetersburg;Urban;;;;;;;;x
+vienna;Urban;;;;;;;;x
+newyork;Urban;;;;;;;;x
+rome;Urban;;;;;;;;x
+madrid;Urban;;;;;;;;x
+stockholm;Urban;;;;;;;;x
+istanbul;Urban;;;;;;;;x
+warsaw;Urban;;;;;;;;x
+athens;Urban;;;;;;;;x
+lisbon;Urban;;;;;;;;x
+amsterdam;Urban;;;;;;;;x
+brussels;Urban;;;;;;;;x
+copenhagen;Urban;;;;;;;;x
+oslo;Urban;;;;;;;;x
+helsinki;Urban;;;;;;;;x
+munich;Urban;;;;;;;;x
+hanover;Urban;;;;;;;;x
+dublin;Urban;;;;;;;;x
+belgrade;Urban;;;;;;;;x
+turin;Urban;;;;;;;;x
+naples;Urban;;;;;;;;x
+bern;Urban;;;;;;;;x
+pest;Urban;;;;;;;;x
+bukarest;Urban;;;;;;;;x
+cairo;Urban;;;;;;;;x
+prague;Urban;;;;;;;;x
+cologne;Urban;;;;;;;;x
+mexicocity;Urban;;;;;;;;x
+barcelona;Urban;;;;;;;;x
+edinburgh;Urban;;;;;;;;x
+#edo;Urban;;;;;;;;x
+hanseong;Urban;;;;;;;;x
+peking;Urban;;;;;;;;x
+shanghai;Urban;;;;;;;;x
+hongkong;Urban;;;;;;;;x
+macao;Urban;;;;;;;;x
+kiev;Urban;;;;;;;;x
+riga;Urban;;;;;;;;x
+moscow;Urban;;;;;;;;x
+#minsk;Urban;;;;;;;;x
+lyon;Urban;;;;;;;;x
+dc;Urban;;;;;;;;x
+chicago;Urban;;;;;;;;x
+sanfrancisco;Urban;;;;;;;;x
+hamburg;Urban;;;;;;;;x
+dresden;Urban;;;;;;;;x
+boston;Urban;;;;;;;;x
+sofia;Urban;;;;;;;;x
+tehran;Urban;;;;;;;;x
+rennes;Urban;;;;;;;;x
+marseille;Urban;;;;;;;;x
+bordeaux;Urban;;;;;;;;x
+toulouse;Urban;;;;;;;;x
+bilbao;Urban;;;;;;;;x
+milan;Urban;;;;;;;;x
+luxemburg;Urban;;;;;;;;x
+#liechtenstein;Urban;;;;;;;;x
+venice;Urban;;;;;;;;x
+zagreb;Urban;;;;;;;;x
+#salonika;Urban;;;;;;;;x
+ankara;Urban;;;;;;;;x
+tblisi;Urban;;;;;;;;x
+erivan;Urban;;;;;;;;x
+baku;Urban;;;;;;;;x
+jerusalem;Urban;;;;;;;;x
+baghdad;Urban;;;;;;;;x
+damascus;Urban;;;;;;;;x
+lvov;Urban;;;;;;;;x
+krakow;Urban;;;;;;;;x
+karlsruhe;Urban;;;;;;;;x
+stuttgart;Urban;;;;;;;;x
+konigsberg;Urban;;;;;;;;x
+dusseldorf;Urban;;;;;;;;x
+dortmund;Urban;;;;;;;;x
+magdeburg;Urban;;;;;;;;x
+kiel;Urban;;;;;;;;x
+stettin;Urban;;;;;;;;x
+frankfurt;Urban;;;;;;;;x
+nuremberg;Urban;;;;;;;;x
+leipzig;Urban;;;;;;;;x
+breslau;Urban;;;;;;;;x
+#andorra;Urban;;;;;;;;x
+seville;Urban;;;;;;;;x
+fez;Urban;;;;;;;;x
+gibraltar;The Rock;;;;;;;;x
+ceuta;Urban;;;;;;;;x
+#melilla;Urban;;;;;;;;x
+tangier;Urban;;;;;;;;x
+algiers;Urban;;;;;;;;x
+zurich;Urban;;;;;;;;x
+strasburg;Urban;;;;;;;;x
+liverpool;Urban;;;;;;;;x
+manchester;Urban;;;;;;;;x
+cardiff;Urban;;;;;;;;x
+birmingham;Urban;;;;;;;;x
+glasgow;Urban;;;;;;;;x
+southampton;Urban;;;;;;;;x
+newcastle;Urban;;;;;;;;x
+sheffield;Urban;;;;;;;;x
+leeds;Urban;;;;;;;;x
+bristol;Urban;;;;;;;;x
+belfast;Urban;;;;;;;;x
+goteborg;Urban;;;;;;;;x
+vilnius;Urban;;;;;;;;x
+reval;Urban;;;;;;;;x
+montreal;Urban;;;;;;;;x
+ottawa;Urban;;;;;;;;x
+vancouver;Urban;;;;;;;;x
+losangeles;Urban;;;;;;;;x
+atlanta;Urban;;;;;;;;x
+philadelphia;Urban;;;;;;;;x
+cleveland;Urban;;;;;;;;x
+detroit;Urban;;;;;;;;x
+pittsburgh;Urban;;;;;;;;x
+richmond;Urban;;;;;;;;x
+neworleans;Urban;;;;;;;;x
+austin;Urban;;;;;;;;x
+caen;Urban;;;;;;;;x
+lille;Urban;;;;;;;;x
+toronto;Urban;;;;;;;;x
+bogota;Urban;;;;;;;;x
+caracas;Urban;;;;;;;;x
+rio;Urban;;;;;;;;x
+saopaulo;Urban;;;;;;;;x
+montevideo;Urban;;;;;;;;x
+buenosaires;Urban;;;;;;;;x
+santiago;Urban;;;;;;;;x
+#asuncion;Urban;;;;;;;;x
+#lima;Urban;;;;;;;;x
+quito;Urban;;;;;;;;x
+#guantanamo;Urban;;;;;;;;x
+lapaz;Urban;;;;;;;;x
+havana;Urban;;;;;;;;x
+capetown;Urban;;;;;;;;x
+zanzibar;Urban;;;;;;;;x
+calcutta;Urban;;;;;;;;x
+pondicherry;Urban;;;;;;;;x
+bombay;Urban;;;;;;;;x
+delhi;Urban;;;;;;;;x
+madras;Urban;;;;;;;;x
+goa;Urban;;;;;;;;x
+lahore;Urban;;;;;;;;x
+bangkok;Jungle;;;;;;;;x
+saigon;Urban;;;;;;;;x
+hue;Urban;;;;;;;;x
+singapore;Urban;;;;;;;;x
+batavia;Urban;;;;;;;;x
+sydney;Urban;;;;;;;;x
+melbourne;Urban;;;;;;;;x
+perth;Urban;;;;;;;;x
+auckland;Urban;;;;;;;;x
+manila;Jungle;;;;;;;;x
+kwangchowan;Urban;;;;;;;;x
+hainan;Urban;;;;;;;;x
+ningbo;Urban;;;;;;;;x
+qingdao;Urban;;;;;;;;x
+weihaiwei;Urban;;;;;;;;x
+oldtianjin;Urban;;;;;;;;x
+portarthur;Urban;;;;;;;;x
+kyoto;Urban;;;;;;;;x
+tashkent;Urban;;;;;;;;x
+samarkand;Dry Urban;;;;;;;;x
+isfahan;Urban;;;;;;;;x
+alexandria;Urban;;;;;;;;x
+tirana;Urban;;;;;;;;x
+ljubljana;Urban;;;;;;;;x
+bratislava;Urban;;;;;;;;x
+#cluj;Urban;;;;;;;;x
+#cetinje;Urban;;;;;;;;x
+malta;Malta;;;;;;;;x
+tunis;Urban;;;;;;;;x
+florence;Urban;;;;;;;;x
+danzig;Urban;;;;;;;;x
+nanjing;Urban;;;;;;;;x
+mukden;Urban;;;;;;;;x
+yokohama;Urban;;;;;;;;x
+kobe;Urban;;;;;;;;x
+osaka;Urban;;;;;;;;x
+#wuchang;Urban;;;;;;;;x
+xian;Urban;;;;;;;;x
+pyongyang;Urban;;;;;;;;x
+pusan;Urban;;;;;;;;x
+mecca;Urban;;;;;;;;x
+aden;Urban;;;;;;;;x
+#muscat;Urban;;;;;;;;x
+monaco;Urban;;;;;;;;x
+lodz;Urban;;;;;;;;x
+genoa;Urban;;;;;;;;x
+odessa;Urban;;;;;;;;x
+rostov;Urban;;;;;;;;x
+vladivostok;Urban;;;;;;;;x
+sevastopol;Urban;;;;;;;;x
+nikolaev;Urban;;;;;;;;x
+kerch;Urban;;;;;;;;x
+kharkov;Urban;;;;;;;;x
+saratov;Urban;;;;;;;;x
+#chisinau;Urban;;;;;;;;x
+kazan;Urban;;;;;;;;x
+antwerp;Urban;;;;;;;;x
+ekaterinburg;Urban;;;;;;;;x
+irkutsk;Urban;;;;;;;;x
+omsk;Urban;;;;;;;;x
+sarajevo;Urban;;;;;;;;x
+timbuktu;Urban;;;;;;;;x
+palermo;Urban;;;;;;;;x
+lhasa;Urban;;;;;;;;x
+#xining;Urban;;;;;;;;x
+kashgar;Desert;;;;;;;;x
+agra;Urban;;;;;;;;x
+katmandu;Urban;;;;;;;;x
+colombo;Urban;;;;;;;;x
+gonder;Urban;;;;;;;;x
+capecoast;Urban;;;;;;;;x
+grandbassam;Urban;;;;;;;;x
+monrovia;Urban;;;;;;;;x
+stlouis;Urban;;;;;;;;x
+#bissau;Urban;;;;;;;;x
+#lagos;Urban;;;;;;;;x
+suez;Urban;;;;;;;;x
+valencia;Urban;;;;;;;;x
+rotterdam;Urban;;;;;;;;x
+hyderabad;Urban;;;;;;;;x
+nagpur;Urban;;;;;;;;x
+jaipur;Urban;;;;;;;;x
+karachi;Urban;;;;;;;;x
+hanoi;Urban;;;;;;;;x
+dunkirk;Urban;;;;;;;;x
+brest;Urban;;;;;;;;x
+toulon;Urban;;;;;;;;x
+larochelle;Urban;;;;;;;;x
+hanoi;Urban;;;;;;;;x
+trieste;Urban;;;;;;;;x
+pola;Urban;;;;;;;;x
+wilhelmshaven;Helgoland;;;;;;;;x
+nice;Urban;;;;;;;;x
+quebec;Urban;;;;;;;;x
+fort_william;Urban;;;;;;;;x
+panama;Urban;;;;;;;;x
+tripoli;Urban;;;;;;;;x
+essen;Urban;;;;;;;;x
+zadar;Urban;;;;;;;;x
+dubrovnik;Urban;;;;;;;;x
+sanmarino;Urban;;;;;;;;x
+plymouth;Urban;;;;;;;;x
+portsmouth;Urban;;;;;;;;x
+liege;Urban;;;;;;;;x
+namur;Urban;;;;;;;;x
 LEDGER_COUNTRY_NAME;Country;Pays;Land;;País;;;;;;;;;x;;;;
 LEDGER_COUNTRY_MILSCORE;Military Score;Score militaire;Militär;;Puntuación militar;;;;;;;;;x;;;;
 LEDGER_COUNTRY_INDSCORE;Industrial Score;Score industriel;Industrie;;Puntuación industrial;;;;;;;;;x;;;;
@@ -886,6 +1150,7 @@ RUT;Ruthenia;Ruthénie;Ruthenien;;Rutenia;;;;;;;;;x;;;;
 SIE;Siebenbürgen;Transylvanie;Siebenbürgen;;Transilvania;;;;;;;;;x;;;;
 UKR;Ukraine;Ukraine;Ukraine;;Ucrania;;;;;;;;;x;;;;
 GER;Germany;Allemagne;Deutschland;;Alemania;;;;;;;;;x;;;;
+GGR;Großdeutschland;Allemagne;Deutschland;;Alemania;;;;;;;;;x;;;;
 NGF;North German Federation;Fédération de l'Allemagne du nord ;Norddeutscher Bund;;C Alemana Norte;;;;;;;;;x;;;;
 SGF;South German Federation;Fédération de l'Allemagne du sud;Süddeutscher Bund;;C Alemana Sur;;;;;;;;;x;;;;
 BAD;Baden;Bade;Baden;;Baden;;;;;;;;;x;;;;
@@ -1054,6 +1319,7 @@ KUK;Austria-Hungary;Autriche-Hongrie;Österreich-Ungarn;;Imperio Austrohúngaro;;;
 KUK_ADJ;Austro-Hungarian;Austro-Hongrois;Österreich-Ungarisch;;Austrohúngaro;;;;;;;;;x;;;;
 REB_ADJ;Rebel;Rebelle;Rebellisch;;Partisanos;;;;;;;;;x;;;;
 GER_ADJ;German;Allemand;Deutsch;;Alemana;;;;;;;;;x;;;;
+GGR_ADJ;German;Allemand;Deutsch;;Alemana;;;;;;;;;x;;;;
 ENG_ADJ;British;Britannique;Britisch;;Británica;;;;;;;;;x;;;;
 RUS_ADJ;Russian;Russe;Russisch;;Rusa;;;;;;;;;x;;;;
 USA_ADJ;American;Américain;Amerikanisch;;Americana;;;;;;;;;x;;;;
@@ -8130,6 +8396,19 @@ GER_conservative_3;Christsoz. Arbeiterpartei;Christsoz. Arbeiterpartei;Christsoz
 GER_anarcho_liberal;Radikale Arbeiterpartei;Arbeiterpartei radical;Radikale Arbeiterpartei;;Radical Arbeiterpartei;;;;;;;;;x;;;;
 GER_communist;Kommunistische Arbeiterpartei;Arbeiterpartei communiste;Kommunistische Arbeiterpartei;;Communist Arbeiterpartei;;;;;;;;;x;;;;
 GER_fascist;NSDAP;NSDAP;NSDAP;;NSDAP;;;;;;;;;x;;;;
+GGR_liberal;Liberaldem. Partei;Liberaldem. Partei;Liberaldem. Partei;;Liberaldem. Partei;;;;;;;;;x;;;;
+GGR_conservative;Zentrumspartei;Zentrumspartei;Zentrumspartei;;Zentrumspartei;;;;;;;;;x;;;;
+GGR_liberal_2;Nationalliberale ;Nationalliberale ;Nationalliberale ;;Nationalliberale ;;;;;;;;;x;;;;
+GGR_liberal_3;Freisinnige Partei;Freisinnige Partei;Freisinnige Partei;;Freisinnige Partei;;;;;;;;;x;;;;
+GGR_socialist;Deutscher Arbeiterverein;Deutscher Arbeiterverein;Deutscher Arbeiterverein;;Deutscher Arbeiterverein;;;;;;;;;x;;;;
+GGR_socialist_2;Sozialdem. Arbeiterpartei ;Sozialdem. Arbeiterpartei ;Sozialdem. Arbeiterpartei ;;Sozialdem. Arbeiterpartei ;;;;;;;;;x;;;;
+GGR_socialist_3;Sozial. Arbeiterpartei ;Sozial. Arbeiterpartei ;Sozial. Arbeiterpartei ;;Sozial. Arbeiterpartei ;;;;;;;;;x;;;;
+GGR_reactionary;Nationale Partei;Nationale Partei;Nationale Partei;;Nationale Partei;;;;;;;;;x;;;;
+GGR_conservative_2;Konservative Partei;Konservative Partei;Konservative Partei;;Konservative Partei;;;;;;;;;x;;;;
+GGR_conservative_3;Christsoz. Arbeiterpartei;Christsoz. Arbeiterpartei;Christsoz. Arbeiterpartei;;Christsoz. Arbeiterpartei;;;;;;;;;x;;;;
+GGR_anarcho_liberal;Radikale Arbeiterpartei;Arbeiterpartei radical;Radikale Arbeiterpartei;;Radical Arbeiterpartei;;;;;;;;;x;;;;
+GGR_communist;Kommunistische Arbeiterpartei;Arbeiterpartei communiste;Kommunistische Arbeiterpartei;;Communist Arbeiterpartei;;;;;;;;;x;;;;
+GGR_fascist;NSDAP;NSDAP;NSDAP;;NSDAP;;;;;;;;;x;;;;
 GRE_conservative;French Faction;Faction française;Französische Fraktion;;Facción francesa;;;;;;;;;x;;;;
 GRE_reactionary;Russian Faction;Faction russe;Russische Fraktion;;Facción rusa;;;;;;;;;x;;;;
 GRE_liberal;British Faction;Faction britannique;Britische Fraktion;;Facción británica;;;;;;;;;x;;;;
@@ -10557,6 +10836,7 @@ PROV575;Köln;Cologne;Köln;;Colonia;;;;;;;;;x;;;;
 PROV576;Aachen;Aix-la-Chapelle;Aachen;;Aquisgrán;;;;;;;;;x;;;;
 PROV577;Kleve;Clèves;Kleve;;Cleves;;;;;;;;;x;;;;
 PROV578;Düsseldorf;Düsseldorf;Düsseldorf;;Dusseldorf;;;;;;;;;x;;;;
+PROV3250;Essen;Düsseldorf;Düsseldorf;;Dusseldorf;;;;;;;;;x;;;;
 PROV579;Koblenz;Coblence;Koblenz;;Coblenza;;;;;;;;;x;;;;
 PROV580;Dortmund;Dortmund;Dortmund;;Dortmund;;;;;;;;;x;;;;
 PROV581;Münster;Münster;Münster;;Münster;;;;;;;;;x;;;;
@@ -10683,7 +10963,7 @@ PROV701;Gnesen;Gnesen;Gnesen;;Gnesen;;;;;;;;;x;;;;
 PROV702;Lemberg;Lemberg;Lemberg;;Lemberg;;;;;;;;;x;;;;
 PROV703;Krakau;Krakau;Krakau;;Krakau;;;;;;;;;x;;;;
 PROV704;Neu Sandec;Neu Sandec;Neu Sandec;;Neu Sandec;;;;;;;;;x;;;;
-PROV705;Przemysl;Przemysl;Przemysl;;Przemysl;;;;;;;;;x;;;;
+PROV705;Premissel;Przemysl;Przemysl;;Przemysl;;;;;;;;;x;;;;
 PROV706;Warsaw;Varsovie;Warschau;;Varsovia;;;;;;;;;x;;;;
 PROV707;Suwalki;Suwalki;Suwalki;;Suwalki;;;;;;;;;x;;;;
 PROV708;Plock;Plock;Plock;;Plock;;;;;;;;;x;;;;
@@ -15341,4 +15621,336 @@ LEADERDIED_BTN1;OK;OK;OK;$TYPE$ $NAME$ umiera.;Aceptar;$TYPE$ $NAME$ è morto.;$N
 LEADERDIED_BTN2;OK;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x;;;;
 LEADERDIED_BTN3;Goto;ALLER À;Goto;OK;Ir allí;OK;Rendben;OK;;;;;;x;;;;
 LEADERDIED_MAP;*;*;*;IdŸ do;*;Andare;Ugrás;Pøejít na;;;;;;x;;;;
+release_vasall_title;Release Vasalls;;;;;;;;;;;;;;
+release_vasall_desc;We will release all our vasalls that are currently NOT in our sphere;;;;;;;;;;;;;;
+offer_grants_title;Offer grants;;;;;;;;;;;;;;
+offer_grants_desc;Allow other nations to ask us for grants;;;;;;;;;;;;;;
+discontinue_offer_grants_title;Stop offering grants;;;;;;;;;;;;;;
+discontinue_offer_grants_desc;Stop allowing other nations to ask us for grants;;;;;;;;;;;;;;
+request_grants_title;Ask for grants;;;;;;;;;;;;;;
+request_grants_desc;Asks all nations who are currently offering grants for financial aid. Check first if other nations are offering grants!;;;;;;;;;;;;;;
+HND_ADJ;Indish;Indish;Indish;;Indish;;;;;;;;;x;;;;
+country_reforms;Country reforms;;;;;;;;;;;;;;
+country_reforms_desc;We have reformed our country.;;;;;;;;;;;;;;
+democratic_nation;Democratic nation;;;;;;;;;;;;;;
+democratic_nation_desc;We have liberated our country.;;;;;;;;;;;;;;
+IBE;Iberian Union;;;;;;;;;;;;;x;;;;
+IBE_ADJ;Iberian;;;;;;;;;;;;;x;;;;
+IBE_absolute_monarchy;Carlist Union;;;;;;;;;;;;;x;;;;
+IBE_prussian_constitutionalism;Iberian Union;;;;;;;;;;;;;x;;;;
+IBE_hms_government;Iberian Union;;;;;;;;;;;;;x;;;;
+IBE_presidential_dictatorship;Iberian Republic;;;;;;;;;;;;;x;;;;
+IBE_bourgeois_dictatorship;Iberian Republic;;;;;;;;;;;;;x;;;;
+IBE_democracy;Republic of Iberia;;;;;;;;;;;;;x;;;;
+IBE_proletarian_dictatorship;Iberian Commune;;;;;;;;;;;;;x;;;;
+IBE_fascist_dictatorship;Gran Hispania;;;;;;;;;;;;;x;;;;
+form_iberia_title;Form Iberia;;;;;;;;;;;;;x;;;;
+form_iberia_desc;Form Iberia;;;;;;;;;;;;;x;;;;
+OTC;Ottoman Caliphate;;;;;;;;;;;;;x;;;;
+OTC_ADJ;Ottoman;;;;;;;;;;;;;x;;;;
+OTC_absolute_monarchy;Ottoman Caliphate;;;;;;;;;;;;;x;;;;
+OTC_prussian_constitutionalism;Ottoman Caliphate;;;;;;;;;;;;;x;;;;
+OTC_hms_government;Ottoman Caliphate;;;;;;;;;;;;;x;;;;
+OTC_presidential_dictatorship;Greater Caliphate;;;;;;;;;;;;;x;;;;
+OTC_bourgeois_dictatorship;Islamic Republic;;;;;;;;;;;;;x;;;;
+OTC_democracy;Islamic Republic;;;;;;;;;;;;;x;;;;
+OTC_proletarian_dictatorship;People's Caliphate;;;;;;;;;;;;;x;;;;
+OTC_fascist_dictatorship;Islamic State;;;;;;;;;;;;;x;;;;
+SAU;South American Union;;;;;;;;;;;;;x;;;;
+SAU_ADJ;South American;;;;;;;;;;;;;x;;;;
+SAU_absolute_monarchy;Latin Empire;;;;;;;;;;;;;x;;;;
+SAU_prussian_constitutionalism;South American Union;;;;;;;;;;;;;x;;;;
+SAU_hms_government;South American Union;;;;;;;;;;;;;x;;;;
+SAU_presidential_dictatorship;Greater Latin Union;;;;;;;;;;;;;x;;;;
+SAU_bourgeois_dictatorship;Republic of Latin America;;;;;;;;;;;;;x;;;;
+SAU_democracy;Latin Union;;;;;;;;;;;;;x;;;;
+SAU_proletarian_dictatorship;Worker's State of South America;;;;;;;;;;;;;x;;;;
+SAU_fascist_dictatorship;Greater Latin Empire;;;;;;;;;;;;;x;;;;
+BNX;United Netherlands;;;;;;;;;;;;;x;;;;
+BNX_ADJ;United Dutch;;;;;;;;;;;;;x;;;;
+BNX_absolute_monarchy;United Netherlands;;;;;;;;;;;;;x;;;;
+BNX_prussian_constitutionalism;United Netherlands;;;;;;;;;;;;;x;;;;
+BNX_hms_government;United Netherlands;;;;;;;;;;;;;x;;;;
+BNX_presidential_dictatorship;Netherlands United Republic;;;;;;;;;;;;;x;;;;
+BNX_bourgeois_dictatorship;Free United Netherlands;;;;;;;;;;;;;x;;;;
+BNX_democracy;United Provinces;;;;;;;;;;;;;x;;;;
+BNX_proletarian_dictatorship;United Netherlands Syndicates;;;;;;;;;;;;;x;;;;
+BNX_fascist_dictatorship;Greater Netherlands;;;;;;;;;;;;;x;;;;
+BEI;Beijing;;;;;;;;;;;;;x;;;;
+BEI_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+FZH;Fuzhou;;;;;;;;;;;;;x;;;;
+FZH_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+HKG;Hong Kong;;;;;;;;;;;;;x;;;;
+HKG_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+MAC;Macau;;;;;;;;;;;;;x;;;;
+MAC_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+NAN;Nanning;;;;;;;;;;;;;x;;;;
+NAN_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+NGB;Ningbo;;;;;;;;;;;;;x;;;;
+NGB_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+QNG;Qingdao;;;;;;;;;;;;;x;;;;
+QNG_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+SHA;Shanghai;;;;;;;;;;;;;x;;;;
+SHA_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+JAP_absolute_monarchy;Japan;;;;;;;;;;;;;x;;;;
+JAP_prussian_constitutionalism;Japan;;;;;;;;;;;;;x;;;;
+JAP_hms_government;Japan;;;;;;;;;;;;;x;;;;
+JAP_presidential_dictatorship;Japan;;;;;;;;;;;;;x;;;;
+JAP_bourgeois_dictatorship;Japan;;;;;;;;;;;;;x;;;;
+JAP_democracy;Japan;;;;;;;;;;;;;x;;;;
+JAP_proletarian_dictatorship;Union of Nippon;;;;;;;;;;;;;x;;;;
+JAP_fascist_dictatorship;Empire of Japan;;;;;;;;;;;;;x;;;;
+JAP_shogunate;Shogunate Japan;;;;;;;;;;;;;x;;;;
+RUS_imperial;Tsardom of Russia;;;;;;;;;;;;;x;;;;
+GER;German Empire;;;;;;;;;;;;;x;;;;
+GER_ADJ;German Empire;;;;;;;;;;;;;x;;;;
+GER_absolute_monarchy;German Empire;;;;;;;;;;;;;x;;;;
+GER_prussian_constitutionalism;German Empire;;;;;;;;;;;;;x;;;;
+GER_hms_government;German Empire;;;;;;;;;;;;;x;;;;
+GER_presidential_dictatorship;Germany;;;;;;;;;;;;;x;;;;
+GER_bourgeois_dictatorship;Germany;;;;;;;;;;;;;x;;;;
+GER_democracy;Weimarer Republic;;;;;;;;;;;;;x;;;;
+GER_proletarian_dictatorship;Socialist German Republic;;;;;;;;;;;;;x;;;;
+GER_fascist_dictatorship;Third Reich;;;;;;;;;;;;;x;;;;
+FRA_absolute_monarchy;French Empire;;;;;;;;;;;;;x;;;;
+FRA_prussian_constitutionalism;French Empire;;;;;;;;;;;;;x;;;;
+FRA_hms_government;France;;;;;;;;;;;;;x;;;;
+FRA_presidential_dictatorship;France;;;;;;;;;;;;;x;;;;
+FRA_bourgeois_dictatorship;France;;;;;;;;;;;;;x;;;;
+FRA_democracy;French Republic;;;;;;;;;;;;;x;;;;
+FRA_proletarian_dictatorship;Paris Commune;;;;;;;;;;;;;x;;;;
+FRA_fascist_dictatorship;French State;;;;;;;;;;;;;x;;;;
+ENG_proletarian_dictatorship;Union of Britain;;;;;;;;;;;;;x;;;;
+ENG_fascist_dictatorship;British Union;;;;;;;;;;;;;x;;;;
+ITA_absolute_monarchy;Kingdom of Italy;;;;;;;;;;;;;x;;;;
+ITA_proletarian_dictatorship;Italian Union;;;;;;;;;;;;;x;;;;
+ITA_fascist_dictatorship;Italian Social Republic;;;;;;;;;;;;;x;;;;
+RUS_absolute_monarchy;Tsardom of Russia;;;;;;;;;;;;;x;;;;
+RUS_prussian_constitutionalism;Tsardom of Russia;;;;;;;;;;;;;x;;;;
+RUS_hms_government;Tsardom of Russia;;;;;;;;;;;;;x;;;;
+RUS_presidential_dictatorship;Russian Republic;;;;;;;;;;;;;x;;;;
+RUS_bourgeois_dictatorship;Russian Republic;;;;;;;;;;;;;x;;;;
+RUS_democracy;Russian Republic;;;;;;;;;;;;;x;;;;
+RUS_fascist_dictatorship;Russian Empire;;;;;;;;;;;;;x;;;;
+AUS_absolute_monarchy;Austrian Empire;;;;;;;;;;;;;x;;;;
+AUS_prussian_constitutionalism;Austrian Empire;;;;;;;;;;;;;x;;;;
+AUS_hms_government;Austrian Empire;;;;;;;;;;;;;x;;;;
+AUS_presidential_dictatorship;Austria Federal State;;;;;;;;;;;;;x;;;;
+AUS_bourgeois_dictatorship;Austria Federal State;;;;;;;;;;;;;x;;;;
+AUS_democracy;Austria Federal State;;;;;;;;;;;;;x;;;;
+AUS_proletarian_dictatorship;Austrian Commune;;;;;;;;;;;;;x;;;;
+AUS_fascist_dictatorship;Greater German-Austria;;;;;;;;;;;;;x;;;;
+GGR_absolute_monarchy;Großdeutschland;;;;;;;;;;;;;x;;;;
+GGR_prussian_constitutionalism;Großdeutschland;;;;;;;;;;;;;x;;;;
+GGR_hms_government;Großdeutschland;;;;;;;;;;;;;x;;;;
+GGR_presidential_dictatorship;Großdeutsche Republik;;;;;;;;;;;;;x;;;;
+GGR_bourgeois_dictatorship;Großdeutsche Republik;;;;;;;;;;;;;x;;;;
+GGR_democracy;Großdeutsche Republik;;;;;;;;;;;;;x;;;;
+GGR_proletarian_dictatorship;Großdeutsches Syndikat;;;;;;;;;;;;;x;;;;
+GGR_fascist_dictatorship;Großdeutsches Reich;;;;;;;;;;;;;x;;;;
+MEC_HOLSTEIN;Holstein;Holstein;Holstein;;Holstein;;;;;;;;;x;
+HAM_HELGOLAND;Heligoland;Heligoland;Heligoland;;Heligoland;;;;;;;;;x;;;;
+MEC_MECKLEMBURG;Mecklenburg;Mecklenburg;Mecklenburg;;Mecklenburg;;;;;;;;;x;;;;
+PRU_VORPOMMERN;Vorpommern;Vorpommern;Vorpommern;;Vorpommern;;;;;;;;;x;;;;
+SPA_BALEAREN;Balearen;Balearen;Balearen;;Balearen;;;;;;;;;x;;;;
+land_reform_desc;We need a fundamental land reform;Réforme rurale;Landreform;;;;;;;;;;;x
+modern_command_principle;Trained Leadership;;;;;;;;;;;;;x;;;;
+modern_command_principle_desc;We have invested in trained leadership;;;;;;;;;;;x
+modern_rifles;Modern Rifles;;;;;;;;;;;;;x;;;;
+modern_rifles_desc;We equipted our army with modern rifles;;;;;;;;;;;;;x;;;;
+modern_fortifications;Starforts;;;;;;;;;;;;;x;;;;
+modern_fortifications_desc;We have gathered knowledge of western starforts;;;;;;;;;;;;;x;;;;
+modern_land_organisation;Reorganized Army;;;;;;;;;;;;;x;;;;
+modern_land_organisation_desc;We have reorganized our army after western model;;;;;;;;;;;;;x;;;;
+modern_guns;Modern Guns;;;;;;;;;;;;;x;;;;
+modern_guns_desc;Modern guns are very effective on the european theatre, now we use them too;;;;;;;;;;;;;x;;;;
+traditional_navy;Traditional Navy;;;;;;;;;;;;;x;;;;
+traditional_navy_desc;Our navy uses traditional methodes;;;;;;;;;;;;;x;;;;
+modern_naval_thought;Naval Schools;;;;;;;;;;;;;x;;;;
+modern_naval_thought_desc;We need to update our naval schools;;;;;;;;;;;;;x;;;;
+modern_ship_designs;Modern Ships;;;;;;;;;;;;;x;;;;
+modern_ship_designs_desc;We should import modern ships;;;;;;;;;;;;;x;;;;
+modern_export;Merchant Fleet;;;;;;;;;;;;;x;;;;
+modern_export_desc;We need a international connected merchant fleet;;;;;;;;;;;;;x;;;;
+modern_naval_office;Naval Hierachy;;;;;;;;;;;;;x;;;;
+modern_naval_office_desc;A naval hierachy is necessary for a strong fleet;;;;;;;;;;;;;x;;;;
+modern_trade;Private Shipping;;;;;;;;;;;;;x;;;;
+modern_trade_desc;Private shipping has to be encouraged;;;;;;;;;;;;;x;;;;
+modern_machines;Modern Machines;;;;;;;;;;;;;x;;;;
+modern_machines_desc;Modern machines are cruical for a industrial country;;;;;;;;;;;;;x;;;;
+modern_chemistry;Chemistry;;;;;;;;;;;;;x;;;;
+modern_chemistry_desc;Chemistry are important for a modern society;;;;;;;;;;;;;x;;;;
+modern_banks;Institutionalize Banking;;;;;;;;;;;;;x;;;;
+modern_banks_desc;We have to improve our banking;;;;;;;;;;;;;x;;;;
+modern_railroad;Import Railways;;;;;;;;;;;;;x;;;;
+modern_railroad_desc;Modern railway technology is spreding to us;;;;;;;;;;;;;x;;;;
+modern_administration;A new Administration;;;;;;;;;;;;;x;;;;
+modern_administration_desc;A reformed administration is needed;;;;;;;;;;;;;x;;;;
+modern_education;Public Schools;;;;;;;;;;;;;x;;;;
+modern_education_desc;Having public schools brings us a new, better generation;;;;;;;;;;;;;x;;;;
+modern_loan;Create National Bank;;;;;;;;;;;;;x;;;;
+modern_loan_desc;Creating a national bank will help our finances;;;;;;;;;;;;;x;;;;
+modern_theory;New Economic Theory;;;;;;;;;;;;;x;;;;
+modern_theory_desc;New economic theorys are coming to our shores;;;;;;;;;;;;;x;;;;
+modern_thought;Human Rights;;;;;;;;;;;;;x;;;;
+modern_thought_desc;Human rights are a interesting western idea, maybe we can include it in our society;;;;;;;;;;;;;x;;;;
+reform_our_empire;Reform our Empire;;;;;;;;;;;;;;
+reform_our_empire_desc;We reformed our Empire into a modern state.;;;;;;;;;;;;;;
+we_need_to_move_forward_title;We need to move forward;;;;;;;;;;;;;;
+we_need_to_move_forward_desc;Scince the foundation of the Austrian Empire not really much happend internal, exept some small attemts in the napoleonic age to reform the bureaucratic system. Our administrative is today incapable to keep our great country in order, we have to reform it into a truely modern state.;;;;;;;;;;;;;;
+encourage_mining;Intensify Mining;;;;;;;;;;;;;;
+encourage_farming;Intensify Farming;;;;;;;;;;;;;;
+encourage_industry;Intensify Industry;;;;;;;;;;;;;;
+increase_living_standards;Increase living standards;;;;;;;;;;;;;;
+spirit_of_unification;Spirit of Unification;;;;;;;;;;;;;x;;;;
+spirit_of_unification;Our people rejoice: At long last we stand united!;;;;;;;;;;;;;x;;;;
+MAC_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+MAC_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+MAC_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+MAC_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+MAC_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+MAC_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+MAC_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+HKG_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+HKG_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+HKG_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+HKG_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+HKG_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+HKG_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+HKG_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+FZH_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+FZH_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+FZH_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+FZH_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+FZH_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+FZH_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+FZH_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+NGB_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+NGB_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+NGB_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+NGB_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+NGB_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+NGB_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+NGB_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+SHA_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+SHA_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+SHA_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+SHA_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+SHA_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+SHA_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+SHA_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+QNG_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+QNG_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+QNG_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+QNG_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+QNG_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+QNG_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+QNG_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+BEI_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+BEI_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+BEI_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+BEI_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+BEI_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+BEI_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+BEI_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+NAN_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+NAN_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+NAN_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+NAN_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+NAN_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+NAN_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+NAN_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+save_the_nation0.5;Revanchism;;;;;;;;;;;;;
+save_the_nation1;Revanchism;;;;;;;;;;;;;
+save_the_nation1.5;Revanchism;;;;;;;;;;;;;
+save_the_nation2;Revanchism;;;;;;;;;;;;;
+save_the_nation2.5;Revanchism;;;;;;;;;;;;;
+save_the_nation3;Revanchism;;;;;;;;;;;;;
+save_the_nation3.5;Revanchism;;;;;;;;;;;;;
+save_the_nation4;Revanchism;;;;;;;;;;;;;
+save_the_nation4.5;Revanchism;;;;;;;;;;;;;
+save_the_nation5;Revanchism;;;;;;;;;;;;;
+nerf_america_war;america at war;;;;;;;;;;;;;
+treaty_port_nanning;Treaty Port Nanning;;;;;;;;;;;;;;
+treaty_port_nanning_desc;We have secured the Treaty Port of Nanning.;;;;;;;;;;;;;;
+treaty_port_macau;Treaty Port Macau;;;;;;;;;;;;;;
+treaty_port_macau_desc;We have secured the Treaty Port of Macau.;;;;;;;;;;;;;;
+treaty_port_hongkong;Treaty Port Hong Kong;;;;;;;;;;;;;;
+treaty_port_hongkong_desc;We have secured the Treaty Port of Hong Kong.;;;;;;;;;;;;;;
+treaty_port_fuzhou;Treaty Port Fuzhou;;;;;;;;;;;;;;
+treaty_port_fuzhou_desc;We have secured the Treaty Port of Fuzhou.;;;;;;;;;;;;;;
+treaty_port_ningbo;Treaty Port Ningbo;;;;;;;;;;;;;;
+treaty_port_ningbo_desc;We have secured the Treaty Port of Ningbo.;;;;;;;;;;;;;;
+treaty_port_shanghai;Treaty Port Shanghai;;;;;;;;;;;;;;
+treaty_port_shanghai_desc;We have secured the Treaty Port of Shanghai.;;;;;;;;;;;;;;
+treaty_port_qingdao;Treaty Port Qingdao;;;;;;;;;;;;;;
+treaty_port_qingdao_desc;We have secured the Treaty Port of Qingdao.;;;;;;;;;;;;;;
+treaty_port_beijing;Treaty Port Beijing;;;;;;;;;;;;;;
+treaty_port_beijing_desc;We have secured the Treaty Port of Beijing.;;;;;;;;;;;;;;
+unequal_treaty;Unequal Treaty;;;;;;;;;;;;;;
+EVTNAME37711;The First Carlist War;;;;;;;;;;;;;
+EVTDESC37711;The death of King Ferdinand in 1833 and the ascension of young Isabela (only three years old at the time) to the throne of Spain sparked a revolt by supporters of the King's brother, the Infante Carlos. He intends to depose Isabela and establish a separate branch of the Bourbon family, as well as restore the Spanish Empire to its traditional glory -- something liberals say simply cannot be done.;;;;;;;;;;;;;
+EVT37711OPTA;Carlos will bring Spain to ruin!;;;;;;;;;;;;;
+EVT37711OPTB;Put him on the throne!;;;;;;;;;;;;;
+carlist_sympathies;Carlist Sympathies;;;;;;;;;;;;;
+christino_sympathies;Christino Sympathies;;;;;;;;;;;;;
+spain_civil_war;Carlist War;;;;;;;;;;;;;;
+spain_civil_war_desc;The division in the spanish society was so cemented, that the phrase The two Spains become popular.;;;;;;;;;;;;;;
+spain_war;State in Chaos;;;;;;;;;;;;;;
+spain_immigrant;Two Spains;;;;;;;;;;;;;;
+south_of_south_america_united;United the South;;;;;;;;;;;;;;
+north_of_south_america_united;United the North;;;;;;;;;;;;;;
+install_democracy;Install Democracy;Installez la démocratie;Verursachen Sie Demokratie;;;;;;;;;;;
+install_democracy_desc;Install a friendly democracy in the country's capital;Install a friendly democracy§W in the target country's capital;Install a friendly democracy§W in the target country's capital;;;;;;;;;;;
+install_democracy_short;Install a friendly democracy in $RECIPIENT$;Install a friendly democracy in $RECIPIENT$;Install a friendly democracy in $RECIPIENT$;;;;;;;;;;;
+install_democracy_setup;Install a friendly democracy in $RECIPIENT$;Install a friendly democracy in $RECIPIENT$;Install a friendly democracy in $RECIPIENT$;;;;;;;;;;;
+install_fascism;Install Fascism;Installez le fascisme;Bringen Sie Faschismus an;;;;;;;;;;;
+install_fascism_desc;Install a friendly fascist government in the country's capital;Install a friendly fascist government§W in the country's capital;Install a friendly fascist government§W in the country's capital;;;;;;;;;;;
+install_fascism_short;Install a fascist government in $RECIPIENT$;Install a fascist government in $RECIPIENT$;Install a fascist government in $RECIPIENT$;;;;;;;;;;;
+install_fascism_setup;Install a fascist government in $RECIPIENT$;Install a fascist government in $RECIPIENT$;Install a fascist government in $RECIPIENT$;;;;;;;;;;;
+war_reparations;Reparations;;;;;;;;;;;;;
+war_reparations_desc;Demand Reparations from a country.;;;;;;;;;;;;;
+war_reparations_short;Demand Reparations;;;;;;;;;;;;;
+war_reparations_setup;Demand Reparations from a country.;;;;;;;;;;;;;
+nerf_america_war;America at war;;;;;;;;;;;;;;
+offer_grants;Offered Grants;;;;;;;;;;;;;;
+irish_potato_blight;Irish Potato Blight;;;;;;;;;;;;;
+EVTNAME99900026;The Great Irish Famine;;;;;;;;;;;;;
+EVTDESC99900026;The Irish Potato Famine, was a period of mass starvation and disease in Ireland from 1845 to 1852. With the most severely affected areas in the west and south of Ireland, where the Irish language was dominant, the period was contemporaneously known in Irish as an Drochshaol, loosely translated as "the hard times" (or literally "the bad life"). The worst year of the period was 1847, known as "Black '47". During the Great Hunger, about 1 million people died and more than a million fled the country, causing the country's population to fall by 25 percent. Between 1845 and 1855, no fewer than 2.1 million people left Ireland, in the greatest mass exoduses from a single island in history.;;;;;;;;;;;;;
+EVT99900026OPTA;Let them eat cake?;;;;;;;;;;;;;
+PROV3249;Brig;Jan Mayen;Jan Mayen;;Jan Mayen;;;;;;;x;;;;;;
+EVTNAME45107;Haiti Fails to Honour its Debts;;;;;;;;;;;;;
+EVTDESC45107;Haitis legacy of debt began shortly after gaining independence from France in 1804. In 1825, France, with warships at the ready, demanded Haiti compensate France for its loss of slaves and its slave colony. In exchange for French recognition of Haiti as a sovereign republic, France demanded payment of 150 million francs. In addition to the payment, France required that Haiti discount its exported goods to them by 50 percent. In 1838, France agreed to reduce the debt to 90 million francs to be paid over a period of 30 years to compensate former plantation owners who had lost their property. Haiti, however, still refuses to pay what is owed to us and will not do so unless we use force.;;;;;;;;;;;;;
+EVT45107OPTA;We will take what is owed to us.;;;;;;;;;;;;;
+EVT45107OPTB;To safeguard French assets, the Haitian government must be controlled.;;;;;;;;;;;;;
+EVT45107OPTC;Clearly, the Haitians are not fit to rule themselves.;;;;;;;;;;;;;
+EVT45107OPTD;We should finally reconcile with them.;;;;;;;;;;;;;
+french_renamed_savoy_aosta_title;Rename Savoy;;;;;;;;;;;;;
+french_renamed_savoy_aosta_desc;Savoy is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;
+italian_renamed_savoy_aosta_title;Rename Savoy;;;;;;;;;;;;;
+italian_renamed_savoy_aosta_desc;Savoy is rightfully $COUNTRY_ADJ$, and should use $COUNTRY_ADJ$ names.;;;;;;;;;;;;;
+restore_crimea_title;Restore Crimea;;;;;;;;;;;;;
+restore_crimea_desc;Now that the Crimean peninsula is back under our rule, we should give it back its proper Slavic names.;;;;;;;;;;;;;
+germanize_crimea_title;Germanize Crimea;;;;;;;;;;;;;
+germanize_crimea_desc;After acquiring Crimea, we should germanize the names, to show the world who is ruling the peninsula now.;;;;;;;;;;;;;
+renamed_istanbul_back_title;Restore Istanbul;;;;;;;;;;;;;
+renamed_istanbul_back_desc;The city of Istanbul is now under our rule. It is known by many names but to signal our reconquest we should rename it back to Istanbul.;;;;;;;;;;;;;
+renamed_istanbul_tsargrad_title;Tsargrad;;;;;;;;;;;;;
+renamed_istanbul_tsargrad_desc;The city of Istanbul is now under our rule. It is known by many names but to signal our conquest we should rename it to something more appropriate to our culture.;;;;;;;;;;;;;
+renamed_istanbul_constantinople_title;Restore Constantinople;;;;;;;;;;;;;
+renamed_istanbul_constantinople_desc;The city of Istanbul is now under our rule. It is known by many names, but we should restore the old and original name of the city: Constantinople.;;;;;;;;;;;;;
+austrian_venice;Austrian Venetia;;;;;;;;;;;;;
+austrian_lombardy;Austrian Lombardy;;;;;;;;;;;;;
+austrian_venice_desc;The rich lands of Venetia are aiding our empire;;;;;;;;;;;;;
+austrian_lombardy_desc;The rich lands of Lombardy are aiding our empire;;;;;;;;;;;;;
+claim_ggr_title;Claim Greater Germany;;;;;;;;;;;;;
+claim_ggr_desc;Scince the foundation of the HRE in 962 Germany was a kingdom, which streched from the alps to the north sea. In 1806 this bound was destroyed by a corsican warmonger, but was restored as the German Confederation. With the exclusion of Austria we could for the first time unite the people of germany in one state, but we are still missing their german people in our empire, a flaw we should finally dislodge.;;;;;;;;;;;;;
+proclaim_ggr_title;Proclaim Greater Germany;;;;;;;;;;;;;
+proclaim_ggr_desc; Germans, for the most part, had been a loose and disunited people since the Reformation, when the Holy Roman Empire was shattered into a patchwork of states following the end of the Thirty Years' War with the Peace of Westphalia. After acquiring Austria, and with this uniting the german people under one flag, we should change our countries name to the only appropriate one. Deutschland, Deutschland über alles!;;;;;;;;;;;;;
+america_new_world_desc;After all, america is not yet seen in it's full splendor.;;;;;;;;;;;;;
+america_new_world;The Unknown New World;;;;;;;;;;;;;
+slave_nation;Slave Nation;;;;;;;;;;;;;
+small_immigration_boom;Small Immigration Boom;;;;;;;;;;;;;
+claim_ggr;Claimed Großdeutschland;;;;;;;;;;;;;
+WARSCORE_LESS_THAN;warscore less than;;;;;;;;;;;;;
 ;;;;*;;*;*;;;;;;;x;;;;

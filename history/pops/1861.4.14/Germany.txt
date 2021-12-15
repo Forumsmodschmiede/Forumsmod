@@ -3019,6 +3019,69 @@
 #Rhineland Region (1908000)
 #under the rule of Prussia in 1836
 #Cologne (484000/121000 POPS)
+#Essen (364000/91000 POPS)
+3250 = {
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 375
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 2200
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 2000
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 22425
+    }
+
+    aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 200
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 200
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 1100
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 1000
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 39500
+    }
+
+    craftsmen = {
+        culture = north_german
+        religion = protestant
+        size = 200
+    }
+
+}
 575 = {
 	aristocrats = {
 		culture = north_german

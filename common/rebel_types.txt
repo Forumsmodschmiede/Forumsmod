@@ -96,6 +96,10 @@ reactionary_rebels = {
 				 social_movement = yes
 				 political_movement = yes
 				}
+		}
+		modifier = {
+			factor = 0
+			tag = SPA
 		}		
 		modifier = {
 			factor = 1.0115
@@ -1420,7 +1424,7 @@ carlist_rebels = {
 			average_militancy = 8
 		}
 		modifier = {
-			factor = 2.0
+			factor = 5.0
 			is_capital = yes
 		}
 	}

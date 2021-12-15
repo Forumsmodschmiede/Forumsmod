@@ -355,6 +355,13 @@ GER = {
     color3= { 17 16 203  }
 }
 
+# Groﬂdeutschland
+GGR = {
+    color1= { 254 255 255  }
+    color2= { 81 79 88  }
+    color3= { 18 16 203  }
+}
+
 # Austria
 AUS = {
     color1= { 170 43 21  }

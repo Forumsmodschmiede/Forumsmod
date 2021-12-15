@@ -16,17 +16,18 @@ leader = {
 	prestige = 0.1
 }
 
-#leader = {
-#	name = "Andreas Michiels"
-#	date = 1836.1.1
-#	type = land
-#	personality = soldierly
-#	background = school_of_firepower
-#	prestige = 0.0
-#}
+leader = {
+	name = "Andreas Michiels"
+	date = 1836.1.1
+	type = land
+	personality = soldierly
+	background = school_of_firepower
+	prestige = 0.0
+}
 
 leader = {
 	name = "Hendrik de Kock"
+	picture="net_general_20"
 	date = 1807.1.1
 	type = land
 	personality = stout

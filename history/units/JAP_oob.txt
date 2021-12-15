@@ -9,6 +9,7 @@ army = {
 	
 	leader = {
 		name = "Tokugawa Nariaki"
+	picture="asian_general_56"
 		date = 1836.1.1
 		type = land
 		personality = defense_1.1
