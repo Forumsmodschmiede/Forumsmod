@@ -78,58 +78,62 @@ FRA = {
 
 leader = {
 	name = "Baldomero Espartero"
+	picture="spa_general_2"
 	date = 1834.1.1
 	type = land
-	personality = diplomatic
-	background = war_college
-	prestige = 0.1
+	personality = defence_3.1
+	background = attack_2.1
+	prestige = 0.2
 }
 
 leader = {
 	name = "Francisco Serrano"
+	picture="spa_general_11"
 	date = 1833.1.1
 	type = land
-	personality = expert
-	background = war_college
-	prestige = 0.0
+	personality = defence_3.1
+	background = attack_2.1
+	prestige = 0.15
 }
 
 leader = {
 	name = "Leopoldo O'Donnell"
+	picture="spa_general_8"
 	date = 1836.1.1
 	type = land
-	personality = efficient
-	background = rising_star
-	prestige = 0.0
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0.2
 }
 
 leader = {
-	name = "Narváez"
+	name = "Ramón Narváez"
 	picture="spa_general_6"
-	date = 1836.1.1
+	date = 1833.1.1
 	type = land
-	personality = efficient
-	background = attack_2.1
-	prestige = 0.0
+	personality = defence_1.1
+	background = attack_3.1
+	prestige = 0.2
 }
 
 leader = {
 	name = "Gerónimo Valdés"
+	picture="spa_general_12"
 	date = 1836.1.1
 	type = land
-	personality = competent
-	background = generals_aide
-	prestige = 0.0
+	personality = defence_2.1
+	background = attack_3.1
+	prestige = 0.15
 }
 
 leader = {
-	name = "Van Halen"
+	name = "Juan Van Halen"
 	picture="spa_general_13"
 	date = 1823.1.1
 	type = land
-	personality = defence_3.1
-	background = attack_2.1
-	prestige = 0.1
+	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0.25
 }
 
 leader = {
@@ -139,6 +143,36 @@ leader = {
 	type = land
 	personality = defence_4.1
 	background = attack_1.1
+	prestige = 0.3
+}
+
+leader = {
+	name = "Juan Bautista Topete"
+	picture="spa_admiral_0"
+	date = 1836.1.1
+	type = sea
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Gaspar de Vigodet"
+	picture="spa_admiral_4"
+	date = 1810.1.1
+	type = sea
+	personality = defence_4.1
+	background = attack_2.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Miguel Primo de Rivera"
+	picture="spa_admiral_1"
+	date = 1836.1.1
+	type = sea
+	personality = defence_0.1
+	background = attack_4.1
 	prestige = 0.1
 }
 

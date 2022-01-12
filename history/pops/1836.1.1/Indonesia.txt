@@ -1,3 +1,65 @@
+#Bandung (374000/93500 POPS)
+3254 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = animist
+		size = 150
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 800
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 13780
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = animist
+		size = 750
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 750
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 3750
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 1500
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 71670
+	}
+}
 #East Sumatra Region (1188400)
 #East Sumatra Region (1188400)
 #ruled by the Netherlands 1836

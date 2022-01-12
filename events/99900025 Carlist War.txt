@@ -22,8 +22,7 @@ country_event = {	id = 99900025
 					duration = 1645
 						}
 			any_pop = {         
-	       militancy = 5
-               consciousness = -1
+	       militancy = 1
 				dominant_issue = {
 					value = moralism
 					factor = 1
@@ -35,44 +34,37 @@ country_event = {	id = 99900025
         any_owned = {
             limit = {
                 OR = {
-                    controlled_by = REB
-                    province_id = 477
-                    province_id = 480
-                    province_id = 495
-                    province_id = 485
-                    province_id = 509
-                    province_id = 494
+                    region = SPA_492
+                    region = SPA_498
                 }
             }
             any_pop = {
+	       militancy = 10
                 ideology = {
                     value = conservative
-                    factor = 0.4
+                    factor = 0.2
                 }
                 ideology = {
                     value = reactionary
                     factor = 0.6
                 }
             }
-        }
-        any_owned = {             add_province_modifier = {
-                name = spain_immigrant
-                duration = 2500
-            }}
-        any_owned = {
-            limit = {
-                OR = {
-                    province_id = 492
-                    province_id = 493
-                    province_id = 497
-                    province_id = 499
-                    province_id = 500
-                    province_id = 501
-                }
-            }
             add_province_modifier = {
                 name = carlist_sympathies
                 duration = 1700
+            }
+        }
+        any_owned = {      
+       add_province_modifier = {
+                name = spain_immigrant
+                duration = 2500
+         	   }		}
+        any_owned = {
+            limit = {
+                OR = {
+                    region = SPA_492
+                    region = SPA_498
+                }
             }
             any_pop = {
                 limit = {
@@ -87,6 +79,10 @@ country_event = {	id = 99900025
                     value = reactionary
                     factor = 0.3
                 }
+            }
+            add_province_modifier = {
+                name = carlist_sympathies
+                duration = 1700
             }
         }
         ai_chance = {
@@ -118,11 +114,8 @@ country_event = {	id = 99900025
                 OR = {
                     controlled_by = REB
                     region = SPA_474
-                    province_id = 477
-                    province_id = 480
-                    province_id = 495
-                    province_id = 485
-                    province_id = 509
+                    region = SPA_492
+                    region = SPA_498
                 }
             }
             any_pop = {
@@ -132,31 +125,35 @@ country_event = {	id = 99900025
                     factor = 0.3
                 }
             }
+			}
+
         any_owned = {
             limit = {
                 OR = {
-                    province_id = 510 #Cordoba
-                    province_id = 513 #Grenada
-                    province_id = 491 #Ciudad Real
-                    province_id = 506 #Cartagena
-                    province_id = 516 #Jaen
+                    region = SPA_512 #Grenada
+                    region = SPA_487 #Ciudad Real
+                    region = SPA_503 #Cartagena
+                    region = SPA_513
+                }
+            }
+            any_pop = {
+                militancy = 10
+                ideology = {
+                    value = liberal
+                    factor = 0.8
                 }
             }
             add_province_modifier = {
                 name = christino_sympathies
                 duration = 1700
             }
-                any_pop = {
-                    ideology = {
-                        value = liberal
-                        factor = 0.30
-                    }
-                    scaled_militancy = {
-                        ideology = liberal
-                        factor = 8
-                }
-            }
-        }
+			}
+        any_owned = {      
+       add_province_modifier = {
+                name = spain_immigrant
+                duration = 2500
+         	   }		}
+
         ai_chance = {
             factor = 0
         }

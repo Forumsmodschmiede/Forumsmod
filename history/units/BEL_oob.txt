@@ -1,45 +1,50 @@
 leader = {
 	name = "Lambert Nypels"
+	picture="net_general_6"
 	date = 1830.1.1
 	type = land
-	personality = soldierly
-	background = diplomat
+	personality = defence_2.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Louis Evain"
+	picture="net_general_1"
 	date = 1831.1.1
 	type = land
-	personality = able
-	background = artillerist
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Goblet"
+	picture="net_general_2"
 	date = 1831.1.1
 	type = land
-	personality = diplomatic
-	background = engineer
+	personality = defence_4.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Leopold I"
+	picture="net_general_5"
 	date = 1831.1.1
 	type = land
-	personality = competent
-	background = aristocrat
+	personality = defence_4.1
+	background = attack_3.1
 	prestige = 0.5
 }
 
 leader = {
 	name = "Albert Prisse"
+	picture="net_general_7"
 	date = 1834.1.1
 	type = land
-	personality = smart_p
-	background = diplomat
+	personality = defence_3.1
+	background = attack_2.1
 	prestige = 0.1
 }
 

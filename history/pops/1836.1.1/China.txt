@@ -1,3 +1,147 @@
+#Guangzhouwan Region (40000)
+#under the rule of China in 1836
+#Dornogovi Aimag
+3282 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mahayana
+		size = 2000
+	}
+
+	bureaucrats = {
+		culture = asian_minor
+		religion = mahayana
+		size = 225
+	}
+
+	officers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 225
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mahayana
+		size = 1050
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+		size = 4200
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 1050
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 95250
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mahayana
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+		size = 200
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 3625
+	}
+
+	bureaucrats = {
+		culture = asian_minor
+		religion = mahayana
+		size = 25
+	}
+
+	officers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 75
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 1100
+	}
+}
+#Guangzhouwan (40000/10000 POPS)
+3249 = {
+	clergymen = {
+		culture = asian_minor
+		religion = mahayana
+		size = 10
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+		size = 100
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 10
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 250
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = mahayana
+		size = 40
+	}
+	
+	clergymen = {
+		culture = asian_minor
+		religion = mahayana
+		size = 90
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+		size = 1400
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 90
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 8000
+	}
+	
+	bureaucrats = {
+		culture = asian_minor
+		religion = mahayana
+		size = 10
+	}
+}
 #Anhui Region (35244000)
 #under the rule of China in 1836
 #Anqing (5472000/1368000 POPS)

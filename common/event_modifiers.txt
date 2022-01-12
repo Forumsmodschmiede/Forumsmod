@@ -377,7 +377,7 @@ extraterritoriality_granted = {
 }
 
 military_reform = {
-	leadership_modifier = 0.2
+	leadership_modifier = 0.1
 	pop_militancy_modifier = 0.3
 	icon = 18
 }
@@ -644,7 +644,7 @@ prussian_general_staff = {
   	mobilisation_economy_impact = -0.25
 	land_unit_start_experience = 5.0
 	supply_consumption = -0.05
-	leadership_modifier = 0.2
+	leadership_modifier = 0.1
 	icon = 15
 }
 
@@ -778,10 +778,9 @@ the_yard = {
 #### SPA - Spain ####
 la_guardia_civil = {
 	tax_efficiency = 0.05
+	administrative_efficiency_modifier = 0.05
 	suppression_points_modifier = 0.1
 	ruling_party_support = 0.1
-	core_pop_militancy_modifier = -0.01
-	administrative_efficiency_modifier = 0.05
 	icon = 1
 }
 
@@ -860,7 +859,7 @@ the_walhalla = {
  ##
  meiji_restoration_boost = {
 	research_points_modifier = 1
-	global_pop_militancy_modifier = 0.02
+	global_pop_militancy_modifier = 0.03
 	icon = 5
 }
 
@@ -924,9 +923,10 @@ algeria_boom= {
 	icon = 5
 }
 An_mein_Volk = {
-	mobilisation_size = 0.06
-	core_pop_militancy_modifier = -0.01
+	mobilisation_size = 0.04
+	mobilisation_economy_impact = -0.5
 	land_unit_start_experience = 5.0
+	core_pop_militancy_modifier = -0.01
 	icon = 15
 }
 schlieffens_plan = {
@@ -935,7 +935,7 @@ schlieffens_plan = {
 	org_regain = 0.2
 	land_organisation = 0.2
 	land_unit_start_experience = 5.0
-	leadership_modifier = 0.5
+	leadership_modifier = 0.3
 	cb_generation_speed_modifier = 10
 	icon = 15
 }
@@ -1042,18 +1042,19 @@ spain_civil_war = {
 	political_reform_desire = 0.1
 }
 christino_sympathies = {
-    pop_militancy_modifier = 0.15
+    pop_militancy_modifier = 0.1
     local_RGO_throughput = -0.3
     immigrant_push = -1
     icon = 4
 }
 carlist_sympathies = {
-    pop_militancy_modifier = 0.15
+    pop_militancy_modifier = 0.1
     local_RGO_throughput = -0.3
     icon = 4
 }
 spain_immigrant = {
     immigrant_push = -0.8
+    movement_cost = 0.5
     icon = 4
 }
 irish_potato_blight = {
@@ -1074,13 +1075,13 @@ small_immigration_boom = {
 	icon = 17
 }
 austrian_lombardy = {
-	mobilisation_economy_impact = -0.3
-	mobilisation_size = 0.01
+	mobilisation_economy_impact = -0.1
+	mobilisation_size = 0.015
 	icon = 17
 }
 austrian_venice = {
-	mobilisation_economy_impact = -0.3
-	mobilisation_size = 0.01
+	mobilisation_economy_impact = -0.1
+	mobilisation_size = 0.015
 	icon = 17
 }
 america_new_world = {
@@ -1093,17 +1094,17 @@ ai_boni = {
 	org_regain = 1
 	land_organisation = 1
 	supply_consumption = -0.5
-	tax_efficiency = 0.1
+	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.1
 	army_tech_research_bonus = 0.3
 	import_cost = -0.3
-    	min_military_spending = 0.4
+    	min_military_spending = 0.41
 	icon = 15
 }
 ai_boni2 = {
 	min_tax = 0.5
-   	tax_efficiency = 0.15
-	supply_consumption = -0.3
+   	tax_efficiency = 0.05
+	supply_consumption = -0.2
     	min_military_spending = 0.61
 	mobilisation_economy_impact = -1
 	org_regain = 0.5
@@ -1114,10 +1115,12 @@ ai_boni2 = {
 	farm_rgo_eff = 0.1
 	administrative_efficiency_modifier = 0.4
 	factory_output = 0.1
-	army_tech_research_bonus = 0.3
+	army_tech_research_bonus = 0.2
 	import_cost = -0.1
 	min_tariff = 2
-  	tariff_efficiency_modifier = 0.2
+  	tariff_efficiency_modifier = 0.1
+	education_efficiency_modifier = 0.5
+ 	loan_interest = -0.02
     	icon = 10
 }
 claim_ggr = {

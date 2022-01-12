@@ -116,7 +116,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			years_of_research = 0.02
+			years_of_research = 0.2
 			prestige = 2
 			set_country_flag = order_awarded
 		}
@@ -133,12 +133,23 @@ political_decisions = {
 		
 		allow = {
 			average_militancy = 3
+			state_n_government = 1
 		}
 		
 		effect = {
 			any_pop = {
-				militancy = -2
+				militancy = -3
 			}
+			any_pop = { scaled_militancy = {
+				factor = 3
+				ideology = reactionary 
+				}
+			}
+			political_reform = universal_weighted_voting
+			political_reform = proportional_representation
+			political_reform = harassment
+			political_reform = censored_press
+			political_reform = yes_meeting
 			prestige = 5
 			set_country_flag = get_your_statuto_albertino_here
 		}
@@ -146,7 +157,11 @@ political_decisions = {
 	build_vittoriano = {
 		potential = {
 			tag = ITA
-			government = absolute_monarchy
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
 			NOT = {
 				has_country_flag = vittoriano_built
 			}
@@ -154,6 +169,7 @@ political_decisions = {
 		
 		allow = {
 			realism = 1
+			owns = 749
 		}
 		
 		effect = {
@@ -167,7 +183,11 @@ political_decisions = {
 	the_case_of_edgardo_mortara = {
 		potential = {
 			tag = PAP
-			government = absolute_monarchy
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
 			NOT = {
 				has_country_flag = edgardo_mortara
 			}
@@ -193,7 +213,11 @@ political_decisions = {
 	the_first_vatican_council = {
 		potential = {
 			tag = PAP
-			government = absolute_monarchy
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
 			NOT = {
 				has_country_flag = first_vatican_council_held
 			}

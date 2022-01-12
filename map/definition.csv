@@ -395,7 +395,7 @@ province;red;green;blue;x;x
 394;176;160;192;Charleroi;x
 395;239;32;64;Liege;x
 396;72;111;106;Spa;x
-397;81;128;160;Luxemburg;x
+397;81;128;160;Luxembourg;x
 398;208;1;160;Arlon;x
 399;160;160;128;Lille;x
 400;224;160;192;Dunkirk;x
@@ -623,45 +623,45 @@ province;red;green;blue;x;x
 622;144;1;160;Linz;x
 623;240;224;1;Sopron;x
 624;48;160;32;Eisenstadt;x
-625;113;224;65;Prag;x
-626;144;128;160;Königgrätz;x
+625;113;224;65;Prague;x
+626;144;128;160;Hradec Kralove;x
 627;113;97;65;Karlsbad;x
 628;29;107;148;Aussig;x
-629;240;97;65;Pilsen;x
-630;240;224;65;Budweis;x
-631;239;96;128;Brünn;x
-632;113;224;128;Olmütz;x
-633;81;97;97;Pressburg;x
-634;144;224;224;Trentschin;x
-635;208;97;97;Neutra;x
-636;81;48;106;Neusohl;x
-637;81;224;97;Kaschau;x
-638;32;192;0;Rosenau;x
-639;113;97;128;Egersee;x
-640;207;32;32;Fünfkirchen;x
+629;240;97;65;Plzen;x
+630;240;224;65;Budejovice;x
+631;239;96;128;Brno;x
+632;113;224;128;Olomouc;x
+633;81;97;97;Bratislava;x
+634;144;224;224;Trencin;x
+635;208;97;97;Nitra;x
+636;81;48;106;Banska Bystrica;x
+637;81;224;97;Kosice;x
+638;32;192;0;Roznava;x
+639;113;97;128;Zalaegerszeg;x
+640;207;32;32;Pecs;x
 641;81;224;224;Budapest;x
-642;113;95;93;Raab;x
-643;207;223;223;Stuhlweißenburg;x
-644;176;33;33;Kopisch;x
-645;132;97;101;Ketschkemet;x
-646;208;97;224;Mischkolz;x
+642;113;95;93;Gyor;x
+643;207;223;223;Szekesfehevar;x
+644;176;33;33;Kaposvar;x
+645;132;97;101;Kecskemet;x
+646;208;97;224;Miskolc;x
 647;81;97;160;Oradea;x
-648;16;159;159;Debrezin;x
-649;144;160;160;Szegedin;x
-650;80;96;223;Tschabe;x
-651;144;33;160;Sathmar;x
+648;16;159;159;Debrecen;x
+649;144;160;160;Szeged;x
+650;80;96;223;Bekescsaba;x
+651;144;33;160;Szatmar;x
 652;144;224;33;Temesvar;x
-653;17;97;160;Reschitza;x
-654;208;224;160;Klausenburg;x
-655;208;97;160;Weißenburg;x
-656;208;224;33;Diemrich;x
-657;81;224;160;Hermannstadt;x
+653;17;97;160;Resicabanya;x
+654;208;224;160;Cluj;x
+655;208;97;160;Gyulafehervar;x
+656;208;224;33;Deva;x
+657;81;224;160;Nagyszeben;x
 658;96;144;192;Hawaii;x
-659;48;96;96;Kronstadt;x
-660;175;96;159;Oderhellen;x
-661;176;97;97;Bistritz;x
-662;49;160;160;Tschernowitz;x
-663;0;167;244;Sotschen;x
+659;48;96;96;Brasso;x
+660;175;96;159;Udvarhely;x
+661;176;97;97;Beszterce;x
+662;49;160;160;Cernauti;x
+663;0;167;244;Suceava;x
 664;176;224;32;Bucharest;x
 665;224;33;33;Tirgu Jiu;x
 666;81;224;33;Craiova;x
@@ -687,7 +687,7 @@ province;red;green;blue;x;x
 686;177;200;76;Line Islands;x
 687;97;65;33;Gorlitz;x
 688;240;224;128;Troppau;x
-689;16;223;223;Teschen;x
+689;16;223;223;Tesin;x
 690;128;160;160;Danzig;x
 691;148;80;0;Tuchel;x
 692;1;128;160;Deutsch Krone;x
@@ -699,10 +699,10 @@ province;red;green;blue;x;x
 698;64;160;160;Memel;x
 699;33;65;160;Posen;x
 700;192;33;33;Bromberg;x
-701;65;224;160;Gnesen;x
-702;17;160;33;Lemberg;x
-703;144;96;96;Krakau;x
-704;17;97;224;Neu Sandec;x
+701;65;224;160;Gniezno;x
+702;17;160;33;Lvov;x
+703;144;96;96;Krakow;x
+704;17;97;224;Novy Sacz;x
 705;144;224;96;Przemysl;x
 706;65;97;160;Warsaw;x
 707;128;159;96;Suwalki;x
@@ -732,10 +732,10 @@ province;red;green;blue;x;x
 731;176;128;160;Padua;x
 732;81;65;224;Treviso;x
 733;85;72;102;Udine;x
-734;208;191;96;Trient;x
+734;208;191;96;Trent;x
 735;208;64;224;Bozen;x
-736;144;0;33;Triest;x
-737;16;128;33;Görz;x
+736;144;0;33;Trieste;x
+737;16;128;33;Gorizia;x
 738;112;1;32;Parma;x
 739;239;0;33;Modena;x
 740;240;128;33;Massa;x
@@ -765,34 +765,34 @@ province;red;green;blue;x;x
 764;0;208;32;Catania;x
 765;128;208;32;Cagliari;x
 766;48;160;64;Sassari;x
-767;49;224;65;Marburg;x
-768;176;224;64;Laibach;x
-769;48;96;191;Adelsberg;x
+767;49;224;65;Maribor;x
+768;176;224;64;Ljubljana;x
+769;48;96;191;Postojna;x
 770;176;97;192;Pola;x
-771;113;160;65;Agram;x
-772;112;223;0;Sissek;x
-773;240;33;192;Karlstadt;x
-774;113;160;192;Zeng;x
-775;18;77;115;Warasdin;x
-776;81;160;33;Bellovar;x
-777;16;96;32;Poschegg;x
-778;240;160;64;Sankt Veit;x
-779;144;97;33;Esseg;x
+771;113;160;65;Zagreb;x
+772;112;223;0;Sisak;x
+773;240;33;192;Karlovac;x
+774;113;160;192;Senj;x
+775;18;77;115;Varadzin;x
+776;81;160;33;Bjelovar;x
+777;16;96;32;Pozega;x
+778;240;160;64;Fiume;x
+779;144;97;33;Osijek;x
 780;208;160;33;Split;x
 781;239;160;192;Zadar;x
-782;17;160;224;Ragusa;x
+782;17;160;224;Dubrovnik;x
 783;81;160;160;Sarajevo;x
 784;240;97;1;Bihac;x
-785;80;32;159;Luka;x
+785;80;32;159;Banja Luka;x
 786;208;160;160;Tuzla;x
 787;17;33;224;Foca;x
 788;144;33;224;Mostar;x
 789;208;33;160;Livno;x
 790;200;225;201;Kitwe;x
 791;144;33;97;Mitrovica;x
-792;98;105;152;Pantschowa;x
-793;128;207;0;Wukowar;x
-794;16;160;96;Belgrad;x
+792;98;105;152;Pancevo;x
+793;128;207;0;Vukovar;x
+794;16;160;96;Belgrade;x
 795;144;97;160;Bor;x
 796;144;160;97;Kragujevac;x
 797;237;186;32;Uzice;x
@@ -948,10 +948,10 @@ province;red;green;blue;x;x
 947;128;97;97;Pastavy;x
 948;65;160;224;Mogilev;x
 949;128;97;224;Gomel;x
-950;208;224;97;Ungwar;x
+950;208;224;97;Uzgorord;x
 951;143;159;32;Stryi;x
-952;176;33;160;Tarnopol;x
-953;126;221;158;Stanislau;x
+952;176;33;160;Ternopil;x
+953;126;221;158;Stanislavov;x
 954;240;224;33;Vinnitsa;x
 955;113;97;160;Proskorov;x
 956;113;224;160;Rovne;x
@@ -2488,7 +2488,7 @@ province;red;green;blue;x;x
 2487;80;223;80;Townsville;x
 2488;144;192;16;Cooktown;x
 2489;80;128;144;Longreach;x
-2490;16;223;80;Sedan;x
+2490;16;223;80;Charleville;x
 2491;208;160;208;Adelaide;x
 2492;198;208;160;Port Lincolon;x
 2493;160;186;208;Robe;x
@@ -2531,12 +2531,12 @@ province;red;green;blue;x;x
 2530;16;64;144;Lae;x
 2531;87;121;177;Madang;x
 2532;192;65;81;Forte Sao Joaquim;x
-2533;49;97;160;Mieresch;x
+2533;49;97;160;Targu Mures;x
 2534;208;64;144;Solomon Islands;x
 2535;80;64;144;New Hebrides;x
 2536;208;192;16;Santa Cruz Islands;x
 2537;16;192;144;New Britain;x
-2538;17;224;33;Neusatz;x
+2538;17;224;33;Novi Sad;x
 2539;80;192;16;Bougainville;x
 2540;32;128;48;Tonga;x
 2541;128;128;144;Ellice Islands;x
@@ -2582,7 +2582,7 @@ province;red;green;blue;x;x
 2581;160;97;175;Mataka;x
 2582;144;160;224;Kotor;x
 2583;140;98;146;Cetinje;x
-2584;144;97;224;Bielitz;x
+2584;144;97;224;Bielsko;x
 2585;177;3;22;Matan as Sarah;x
 2586;9;6;150;Al-Ahsa;x
 2587;51;9;23;Kola;x
@@ -3247,50 +3247,57 @@ province;red;green;blue;x;x
 3246;49;150;138;Jan Mayen;x
 3247;52;14;236;West Hawaii;x
 3248;53;14;240;West Magellan Strait;x 
-3249;252;255;79;Brig;x
-3250;71;16;232;Essen;x
-;54;14;244;x;
-;55;14;248;x;
-;56;14;232;x;
-;57;14;236;x;
-;58;14;240;x;
-;59;14;244;x;
-;60;14;248;x;
-;61;14;232;x;
-;62;14;236;x
-;63;14;240;x
-;64;14;244;x
-;65;14;248;x
-;66;14;232;x
-;67;14;236;x
-;68;14;240;x
-;69;14;244;x
-;70;14;248;x
-;71;16;232;x
-;72;16;236;x
-;73;16;240;x
-;74;16;244;x
-;75;16;248;x
-;76;16;232;x
-;77;16;236;x
-;78;16;240;x
-;79;16;244;x
-;80;16;248;x
-;81;16;232;x
-;82;16;236;x
-;83;16;240;x
-;84;16;244;x
-;85;16;248;x
-;86;16;232;x
-;87;16;236;x
-;88;16;240;x
-;89;16;244;x
-;90;16;248;x
-;91;16;232;x
-;92;16;236;x
-;93;16;240;x
-;94;16;244;x
-;95;16;248;x
+3249;222;29;42;Guangzhouwan;x
+3250;15;185;6;Ceuta;x
+3251;103;130;176;Trankebar;x
+3252;104;18;91;Vaduz;x
+3253;183;210;36;Diu;x
+3254;123;55;26;Bandung;x
+3255;130;75;46;Cuneo;x
+3256;54;14;244;Kampen;x
+3257;55;14;248;Almere;x
+3258;216;153;42;Benevento;x
+3259;168;122;40;Avellino;x
+3260;167;137;82;Rieta;x
+3261;33;40;150;x;Po River;x
+3262;14;8;110;x;Danube River;x
+3263;40;20;158;x;Rhine River;x
+3264;29;16;160;x;Seine River;x
+3265;40;37;171;x;Rhone River;x
+3266;29;33;155;x;Elbe River;x
+3267;20;32;150;x;Vistula River;x
+3268;30;20;125;x;Dnieper River;x
+3269;48;36;155;x;Daugava River;x
+3270;25;35;137;x;Volga River;x
+3271;39;43;161;x;Loire River;x
+3272;26;17;121;x;Oder River;x
+3273;15;103;176;x;Nile River;x
+3274;64;188;106;x;Elephantine;x
+3275;31;61;172;x;Tigris and Euphrates River;x
+3276;27;68;161;x;Indus River;x
+3277;15;102;145;x;Ganges River;x
+3278;28;108;148;x;Mekong River;x
+3279;18;92;162;x;Pearl River;x
+3280;23;93;159;x;Yangtze River;x
+3281;23;76;175;x;Yellow River;x
+3282;121;154;46;x;Dornogovi Aimag;x
+3283;39;62;182;x;Liao River;x
+3284;27;35;125;x;Amur River;x
+3285;122;38;164;x;Tanchon;x
+3286;25;34;143;x;Amnok and Duman River;x
+3287;43;27;166;x;Mississippi River System;x
+3288;39;54;173;x;StLawrence River;x
+3289;19;38;158;x;Rio Grande River;x
+3290;18;58;164;x;Amazon River;x
+3291;38;14;161;x;Orinoco River;x;
+3292;28;126;165;x;Uruguay River;x;
+3293;72;30;168;x;Paraguay River System;x;
+3294;51;30;167;x;Ebro River;x
+3295;93;16;240;x;Lleida;x
+3296;100;17;170;x;Congo River;x
+3297;30;30;146;x;Niger River;x
+3298;252;255;79;Brig;x
+3299;71;16;232;Essen;x
 ;96;16;232;x
 ;97;16;236;x
 ;98;16;240;x

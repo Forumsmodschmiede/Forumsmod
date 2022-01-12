@@ -1,5 +1,16 @@
 army = {
 	name = "1st Carlist Army"
+
+	leader = {
+		name = "Ramon Cabrera y Grino"
+		picture="european_general_21"
+		date = 1833.1.1
+		type = land
+		personality = defence_4.1
+		background = attack_4.1
+		prestige = 0.5
+	}
+
 	location = 493
 	regiment = {
 		name = "1. Regiment"
@@ -69,6 +80,17 @@ army = {
 }
 army = {
 	name = "2nd Carlist Army"
+
+	leader = {
+		name = "Rafael Maroto"
+		picture="net_general_5"
+		date = 1833.1.1
+		type = land
+		personality = defence_3.1
+		background = attack_4.1
+		prestige = 0.25
+	}
+
 	location = 501
 	regiment = {
 		name = "12. Regiment"

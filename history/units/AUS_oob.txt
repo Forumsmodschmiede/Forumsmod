@@ -94,77 +94,123 @@ ANH = {
 	value = -150
 	level = 0
 }
+leader = {
+	name = "Ludwig von Benedek"
+	picture="austrian_general_8"
+	date = 1836.1.1
+	type = land
+	personality = defence_5.1
+	background = attack_2.1
+	prestige = 0.3
+}
 
 leader = {
 	name = "Josef Radetzky"
 	picture="austrian_general_20"
-	date = 1825.1.1
+	date = 1829.1.1
 	type = land
 	personality = defence_3.1
 	background = attack_4.1
-	prestige = 0.3
+	prestige = 0.35
 }
 
 leader = {
 	name = "Julius von Haynau"
 	picture="austrian_general_14"
-	date = 1835.1.1
+	date = 1820.1.1
 	type = land
 	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0.25
+}
+
+leader = {
+	name = "Ignaz zu Hardegg"
+	picture="austrian_general_13"
+	date = 1826.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_3.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Eugen Wratislaw von Mitrowitz"
+	picture="austrian_general_27"
+	date = 1829.1.1
+	type = land
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Heinrich von Hess"
+	picture="austrian_general_15"
+	date = 1834.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_3.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Konstantin d’Aspre von Hoobreuck"
+	picture="austrian_general_1"
+	date = 1832.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_3.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Georg von Rukavina"
+	picture="austrian_general_23"
+	date = 1819.1.1
+	type = land
+	personality = defence_4.1
+	background = attack_1.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Ludwig von Gablenz"
+	picture="austrian_general_12"
+	date = 1834.1.1
+	type = land
+	personality = defence_2.1
 	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
-	name = "von Mittrowitz-Nettolitzky"
-	date = 1835.1.1
+	name = "Alfred zu Windischgraetz"
+	picture="austrian_general_26"
+	date = 1824.1.1
 	type = land
-	personality = active_p
-	background = aristocrat
-	prestige = 0.1
-}
-
-leader = {
-	name = "Hermann von Hess"
-	date = 1834.1.1
-	type = land
-	personality = aggressive
-	background = generals_aide
-	prestige = 0.1
-}
-
-leader = {
-	name = "d’Aspre und Hoobreuck"
-	date = 1832.1.1
-	type = land
-	personality = bold
-	background = drillmaster
-	prestige = 0.1
-}
-
-leader = {
-	name = "Alfred von Windischgraetz"
-	date = 1826.1.1
-	type = land
-	personality = arrogant
-	background = butcher
-	prestige = 0.3
+	personality = defence_1.1
+	background = attack_3.1
+	prestige = 0.15
 }
 
 leader = {
 	name = "Erzherzog Albrecht"
+	picture="austrian_general_10"
 	date = 1836.1.1
 	type = land
-	personality = active_p
-	background = aristocrat
+	personality = defence_4.1
+	background = attack_2.1
+	prestige = 0.25
 }
 
 leader = {
-	name = "Paolucci delle Roncole"
-	date = 1824.1.1
+	name = "Wilhelm von Tegetthoff"
+	picture="austrian_admiral_0"
+	date = 1836.1.1
 	type = sea
-	personality = competent
-	background = aristocrat
+	personality = defence_1.1
+	background = attack_4.1
 	prestige = 0.1
 }
 
@@ -392,20 +438,103 @@ army = {
 
 navy = {
 	name = "Austrian Imperial Navy"
+
+leader = {
+	name = "Paolucci delle Roncole"
+	picture="european_admiral_9"
+	date = 1824.1.1
+	type = sea
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0.1
+}
+
 	location = 729
 	ship = {
-		name= "1. Klipperflottille"
+		name= "18. Klipperflottille"
 		type = clipper_transport
 	}
 
+	ship = {
+		name= "19. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "20. Klipperflottille"
+		type = clipper_transport
+	}
+	ship = {
+		name= "21. Klipperflottille"
+		type = clipper_transport
+	}
+	ship = {
+		name= "1. Klipperflottille"
+		type = frigate
+	}
 	ship = {
 		name= "2. Klipperflottille"
-		type = clipper_transport
+		type = frigate
 	}
-
 	ship = {
 		name= "3. Klipperflottille"
-		type = clipper_transport
+		type = frigate
+	}
+	ship = {
+		name= "4. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "5. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "6. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "7. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "8. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "9. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "10. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "11. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "12. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "13. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "14. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "15. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "16. Klipperflottille"
+		type = frigate
+	}
+	ship = {
+		name= "17. Klipperflottille"
+		type = frigate
 	}
 
 }

@@ -34,7 +34,7 @@ political_decisions = {
 			any_pop = {
 				militancy = -5
 				}
-			money = 1000000
+			money = 100000
 			years_of_research = 16
 			all_core = {
 				limit = {

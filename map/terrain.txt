@@ -131,6 +131,7 @@ categories =  {
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
+		immigrant_attract = 0.5
 		supply_limit = 10
 	}
 	lisbon = {
@@ -634,6 +635,8 @@ categories =  {
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
+	local_repair = 0.5
+	local_ship_build = -0.1
 		supply_limit = 10
 	}
 
@@ -955,6 +958,7 @@ categories =  {
 		mine_rgo_size = -0.5
 		mine_rgo_eff = 0.25
 		supply_limit = 10
+		combat_width = -0.6
 	}
 
 	ceuta = {
@@ -1843,6 +1847,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 10
+		combat_width = -0.3
 	}
 
 	kyoto = {
@@ -1993,7 +1998,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = -0.6
 		mine_rgo_eff = 0.0
-		supply_limit = 6
+		supply_limit = 10
 		combat_width = -0.3
 		immigrant_attract = -0.75
 	}
@@ -2686,6 +2691,8 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 10
+	local_repair = 0.5
+	local_ship_build = -0.1
 	}
 
 	wilhelmshaven = {
@@ -2697,6 +2704,7 @@ categories =  {
 		mine_rgo_size = -0.5
 		mine_rgo_eff = 0.25
 		supply_limit = 10
+		combat_width = -0.6
 	}
 	
 	pola = {

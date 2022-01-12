@@ -26,8 +26,8 @@ political_decisions = {
                     has_pop_culture = catalan
                     }
                 }
-                consciousness = 9
-                militancy = 9
+                consciousness = 10
+                militancy = 10
             }
             any_pop = {
                 scaled_militancy = {

@@ -269,103 +269,109 @@ DEN = {
 }
 
 leader = {
-	name = "von Zieten"
+	name = "Hans von Zieten"
 	picture="austrian_general_72"
 	date = 1813.1.1
 	type = land
-	personality = soldierly
-	background = attack_2.1
+	personality = defence_2.1
+	background = attack_4.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Hermann von Boyen"
+	picture="austrian_general_46"
 	date = 1814.1.1
 	type = land
-	personality = intelligent
-	background = old_school
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Wilhelm von Krauseneck"
-	date = 1814.1.1
+	picture="austrian_general_53"
+	date = 1816.1.1
 	type = land
-	personality = reserved
-	background = engineer
+	personality = defence_4.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Baron von Müffling"
-	date = 1813.1.1
+	picture="austrian_general_58"
+	date = 1815.1.1
 	type = land
-	personality = diplomatic
-	background = generals_aide
+	personality = defence_3.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "August von Colomb"
 	picture="austrian_general_47"
-	date = 1829.1.1
+	date = 1822.1.1
 	type = land
-	personality = active_p
-	background = attack_2.1
-	prestige = 0.1
+	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0.15
 }
 
 leader = {
-	name = "von Grolman"
-	date = 1816.1.1
+	name = "Karl von Grolman"
+	picture="austrian_general_50"
+	date = 1810.1.1
 	type = land
-	personality = openminded
-	background = warmonger
+	personality = 	defence_1.1
+	background = attack_4.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Rühle von Lilienstern"
+	picture="austrian_general_55"
 	date = 1819.1.1
 	type = land
-	personality = intelligent
-	background = professor
-	prestige = 0.2
+	personality = 	defence_3.1
+	background = attack_1.1
+	prestige = 0.1
 }
 
 leader = {
-	name = "zu Dohna-Schlobitten"
+	name = "Friedrich zu Dohna-Schlobitten"
+	picture="austrian_general_48"
 	date = 1820.1.1
 	type = land
-	personality = tactful
-	background = old_school
+	personality = 	defence_2.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Heinrich von Wrangel"
 	picture="austrian_general_71"
-	date = 1830.1.1
+	date = 1832.1.1
 	type = land
-	personality = 	defence_1.200
+	personality = 	defence_2.1
 	background = attack_4.1
 	prestige = 0.25
 }
 leader = {
 	name = "Albrecht von Roon"
 	picture="austrian_general_68"
-	date = 1830.1.1
+	date = 1835.1.1
 	type = land
 	personality = 	defence_4.2
-	background = attack_2.1
-	prestige = 0.2
+	background = attack_4.1
+	prestige = 0.25
 }
 leader = {
 	name = "Edwin von Manteuffel"
 	picture="austrian_general_56"
 	date = 1836.1.1
 	type = land
-	personality = 	defence_3.2
+	personality = 	defence_4.2
 	background = attack_3.1
 	prestige = 0.2
 }
@@ -374,36 +380,59 @@ leader = {
 	picture="austrian_general_57"
 	date = 1836.1.1
 	type = land
-	personality = defence_3.2 
-	background = attack_4.1
-	prestige = 0.2
+	personality = defence_2.2 
+	background = attack_5.1
+	prestige = 0.3
 }
 
 leader = {
 	name = "Wilhelm von Neumann-Cosel"
-	date = 1836.1.1
+	picture="austrian_general_59"
+	date = 1826.1.1
 	type = land
-	personality = gallant
-	background = old_school
-	prestige = 0.0
+	personality = defence_3.2 
+	background = attack_2.1
+	prestige = 0.1
 }
 
 leader = {
 	name = "Karl von Prittwitz"
-	date = 1836.1.1
+	picture="austrian_general_66"
+	date = 1826.1.1
 	type = land
-	personality = harsh
-	background = powerful_friends
-	prestige = 0.0
+	personality = defence_3.2 
+	background = attack_3.1
+	prestige = 0.1
 }
 
 leader = {
-	name = "von Reyher"
+	name = "Vogel von Falckenstein"
+	picture="austrian_general_49"
 	date = 1836.1.1
 	type = land
-	personality = careful
-	background = exranker
-	prestige = 0.0
+	personality = defence_2.2 
+	background = attack_3.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Karl von Steinmetz"
+	picture="austrian_general_69"
+	date = 1834.1.1
+	type = land
+	personality = defence_2.2 
+	background = attack_4.1
+	prestige = 0.25
+}
+
+leader = {
+	name = "Adalbert von Preußen"
+	picture="austrian_admiral_1"
+	date = 1836.1.1
+	type = sea
+	personality = defence_2.2 
+	background = attack_4.1
+	prestige = 0.1
 }
 
 #Army

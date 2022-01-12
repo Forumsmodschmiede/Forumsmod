@@ -93,7 +93,7 @@
 	}
 }
 #Brig (560000/140000 POPS)
-3249 = {
+3298 = {
 	aristocrats = {
 		culture = south_german
 		religion = protestant

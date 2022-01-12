@@ -55,75 +55,83 @@ WAL = {
 }
 
 leader = {
-	name = "Resid Mehmed Pasha"
-	date = 1809.1.1
+	name = "Helmuth von Moltke"
+	picture="arab_general_62"
+	date = 1807.1.1
 	type = land
-	personality = inefficient
-	background = attack_2.1
+	personality = defence_1.2
+	background = attack_4.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Resid Mehmed Pasha"
+	picture="arab_general_61"
+	date = 1804.1.1
+	type = land
+	personality = defence_3.2 
+	background = attack_3.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Wojciech Chrzanowski"
-	date = 1836.1.1
+	picture="arab_general_58"
+	date = 1816.1.1
 	type = land
-	personality = romantic
-	background = cartographer
-	prestige = 0.1
-}
-
-leader = {
-	name = "Helmuth von Moltke"
-	date = 1833.1.1
-	type = land
-	personality = calm
-	background = debutante
-	prestige = 0.0
+	personality = defence_0.2 
+	background = attack_3.1
+	prestige = 0.2
 }
 
 leader = {
 	name = "Abdi Pasha"
+	picture="arab_general_55"
 	date = 1836.1.1
 	type = land
-	personality = defense_1.1
+	personality = defense_0.1
 	background = attack_3.1
 	prestige = 0.0
 }
 
 leader = {
-	name = "Hafiz Osman Pasha"
+	name = "Abdülkerim Nadir Pascha"
+	picture="arab_general_56"
 	date = 1836.1.1
 	type = land
-	personality = inept
-	background = yesman
+	personality = defence_2.2
+	background = attack_2.1
 	prestige = 0.0
 }
 
 leader = {
 	name = "Namik Pasha"
+	picture="arab_general_60"
 	date = 1836.1.1
 	type = land
-	personality = expert
-	background = diplomat
+	personality = defence_3.2 
+	background = attack_2.1
 	prestige = 0.0
 }
 
 leader = {
-	name = "Abdülkerim Pasha"
+	name = "Omer Pascha Latas"
+	picture="arab_general_63"
 	date = 1836.1.1
 	type = land
-	personality = active_p
-	background = war_college
+	personality = defence_3.2 
+	background = attack_1.1
 	prestige = 0.0
 }
 
 leader = {
-	name = "Yaver Pasha"
+	name = "Halil Rifat Pasha"
+	picture="arab_admiral_16"
 	date = 1836.1.1
 	type = sea
-	personality = diplomatic
-	background = gifted_administrator
-	prestige = 0.1
+	personality = defence_3.2 
+	background = attack_2.1
+	prestige = 0.0
 }
 
 army = {

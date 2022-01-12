@@ -231,10 +231,11 @@ SWI = {
 
 leader = {
 	name = "Thomas Cochrane"
+	picture="eng_admiral_0"
 	date = 1832.1.1
 	type = sea
-	personality = charismatic
-	background = adventurer
+	personality = defence_4.1
+	background = attack_4.1
 	prestige = 0.1
 }
 
@@ -243,7 +244,7 @@ leader = {
 	picture="eng_admiral_2"
 	date = 1836.1.1
 	type = sea
-	personality = daring
+	personality = defence_1.1
 	background = attack_5.1
 	prestige = 0.3
 }
@@ -253,45 +254,49 @@ leader = {
 	picture="eng_general_7"
 	date = 1830.1.1
 	type = land
-	personality = dauntless
-	background = attack_2.1
-	prestige = 0.1
+	personality = defence_2.1
+	background = attack_3.1
+	prestige = 0.15
 }
 
 leader = {
 	name = "Sir George Cockburn"
-	date = 1812.1.1
+	picture="eng_admiral_1"
+	date = 1816.1.1
 	type = sea
-	personality = earnest
-	background = old_school
+	personality = defence_5.1
+	background = attack_3.1
 	prestige = 0.3
 }
 
 leader = {
 	name = "John Seaton"
+	picture="eng_general_18"
 	date = 1825.1.1
 	type = land
-	personality = doughty
-	background = school_of_offense
-	prestige = 0.2
+	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0.3
 }
 
 leader = {
-	name = "Whitworth-Aylmer"
+	name = "Peregrine Maitland"
+	picture="eng_general_12"
 	date = 1825.1.1
 	type = land
-	personality = reserved
-	background = generals_aide
-	prestige = 0.1
+	personality = defence_4.1
+	background = attack_1.1
+	prestige = 0.25
 }
 
 leader = {
 	name = "Henry Hardinge"
+	picture="eng_general_9"
 	date = 1830.1.1
 	type = land
-	personality = tactful
-	background = gifted_administrator
-	prestige = 0.1
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0.2
 }
 
 leader = {
@@ -300,36 +305,38 @@ leader = {
 	date = 1834.1.1
 	type = land
 	personality = defence_2.1
-	background = attack_2.1
-	prestige = 0.1
+	background = attack_3.1
+	prestige = 0.15
 }
 
 leader = {
 	name = "John Fox Burgoyne"
+	picture="eng_general_2"
 	date = 1836.1.1
 	type = land
-	personality = able
-	background = engineer
-	prestige = 0.0
+	personality = defence_3.1
+	background = attack_2.1
+	prestige = 0.15
 }
 
 leader = {
-	name = "Raglan"
-	date = 1836.1.1
+	name = "Fitzroy Somerset Raglan"
+	picture="eng_general_17"
+	date = 1816.1.1
 	type = land
-	personality = mediocre
-	background = aristocrat
-	prestige = 0.0
+	personality = defence_4.1
+	background = attack_2.1
+	prestige = 0.2
 }
 
 leader = {
 	name = "Sir George Brown"
 	picture="eng_general_1"
-	date = 1836.1.1
+	date = 1830.1.1
 	type = land
 	personality = harsh
-	background = attack_3.1
-	prestige = 0.0
+	background = attack_4.1
+	prestige = 0.2
 }
 
 leader = {
@@ -339,7 +346,7 @@ leader = {
 	type = sea
 	personality = attack_2.1
 	background = defence_3.1
-	prestige = 0.0
+	prestige = 0.1
 }
 
 

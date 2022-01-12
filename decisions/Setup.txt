@@ -834,10 +834,19 @@ political_decisions = {
 			1008 = { set_province_flag = moscow_city }
 			1008 = { any_pop = { literacy = 0.1 } }
 			994 = { any_pop = { literacy = 0.1 } }
-			any_pop = { limit = { has_pop_culture = ashkenazi } literacy = 0.54 }
-			any_pop = { limit = { has_pop_culture = volga_german } literacy = 0.4 }
+			any_pop = { limit = { has_pop_culture = ashkenazi } literacy = 0.34 }
 			any_pop = { limit = { has_pop_culture = south_italian } literacy = 0.15 }
 			any_pop = { limit = { has_pop_culture = mongol } literacy = 0.01 }
+			any_pop = {         
+               consciousness = -1
+				dominant_issue = {
+					value = moralism
+					factor = 1
+				}
+				ideology = {
+					value = reactionary
+					factor = 0.65
+				}	}
 			any_pop = {
 				limit = {
 					NOT = { has_pop_religion = orthodox }
@@ -847,7 +856,7 @@ political_decisions = {
 						has_pop_culture = finnish
 					} 
 				}
-				literacy = 0.49
+				literacy = 0.19
 			}
 			any_pop = {
 				limit = {
@@ -859,13 +868,13 @@ political_decisions = {
 						has_pop_culture = finnish
 					} 
 				}
-				literacy = 0.24
+				literacy = 0.14
 			}
 			
 			any_pop = { limit = { OR = { has_pop_culture = polish has_pop_culture = lithuanian } } literacy = 0.19 }
 			any_pop = { limit = { OR = { has_pop_culture = romanian has_pop_culture = serb has_pop_culture = bulgarian } } literacy = 0.03 }
 			any_pop = { limit = { OR = { has_pop_culture = greek has_pop_culture = south_italian has_pop_culture = armenian } } literacy = 0.07 }
-			any_pop = { limit = { has_pop_culture = swedish } literacy = 0.79 }
+			any_pop = { limit = { has_pop_culture = swedish } literacy = 0.29 }
 			any_pop = {
 				limit = {
 					OR = {
@@ -886,11 +895,6 @@ political_decisions = {
 				literacy = -0.02
 			}
 			
-			serfs = {
-				militancy = -9
-				consciousness = -9
-				literacy = -0.99
-			}
 			any_owned = {
 				limit = {
 					OR = {
@@ -921,15 +925,6 @@ political_decisions = {
 				}
 				add_province_modifier = { name = baby_boom duration = 365 }
 			}
-			any_owned = { limit = { is_core = POL } add_province_modifier = { name = baby_boom duration = 1825 } }
-			
-			any_owned = { limit = { is_core = UKR } add_province_modifier = { name = russoification duration = 25550 } }
-			
-			any_owned = { limit = { is_core = BYE } add_province_modifier = { name = russoification duration = 25550 } }
-			
-			any_owned = { limit = { is_core = URA } add_province_modifier = { name = russoification duration = 25550 } }
-			
-			any_owned = { limit = { is_core = SIB } add_province_modifier = { name = russoification duration = 25550 } }
 
 			any_country = {
 				any_owned = {

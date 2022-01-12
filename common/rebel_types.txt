@@ -247,7 +247,7 @@ fascist_rebels = {
 	
 	resilient = yes					# Does not disband on retreat
 	reinforcing = yes				# Receives reinforcements
-	general = no					# Uses generals
+	general = yes					# Uses generals
 	smart = yes					# Assaults forts, tactically withdraws from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
@@ -1316,7 +1316,7 @@ carlist_rebels = {
 	smart = yes
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 5.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 

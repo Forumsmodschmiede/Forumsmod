@@ -79,51 +79,57 @@ DEN = {
 
 leader = {
 	name = "Prince Vasilchikov"
-	date = 1801.1.1
+	picture="russian_general_79"
+	date = 1804.1.1
 	type = land
-	personality = competent
-	background = powerful_friends
+	personality = defence_4.1
+	background = attack_3.1
 	prestige = 0.4
 }
 
 leader = {
 	name = "Prince Mikhail Vorontsov"
+	picture="russian_general_82"
 	date = 1814.1.1
 	type = land
-	personality = daring
+	personality = defence_3.1
 	background = attack_3.1
 	prestige = 0.3
 }
 
 leader = {
 	name = "Pyotr Chicherin"
+	picture="russian_general_61"
 	date = 1835.1.1
 	type = land
-	personality = earnest
-	background = cavalry_school
+	personality = defence_1.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Alexander Chernyshev"
+	picture="russian_general_60"
 	date = 1821.1.1
 	type = land
-	personality = intelligent
-	background = diplomat
+	personality = defence_0.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Prince Menshikov"
+	picture="russian_admiral_45"
 	date = 1833.1.1
 	type = sea
-	personality = lackluster
-	background = clueless
+	personality = defence_3.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
 leader = {
 	name = " Ivan Paskevich"
+	picture="russian_general_65"
 	date = 1812.1.1
 	type = land
 	personality = defence_2.1
@@ -133,74 +139,102 @@ leader = {
 
 leader = {
 	name = "Matvey Khrapovitsky"
+	picture="russian_general_65"
 	date = 1835.1.1
 	type = land
-	personality = able
-	background = war_college
+	personality = defence_3.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Mikhail Lazarev"
+	picture="russian_admiral_44"
 	date = 1827.1.1
 	type = sea
-	personality = au_fait
-	background = innovative_tactician
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "Ivan Davidovich Lazarev"
+	picture="russian_general_66"
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_4.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Muraviev-Karsky"
+	picture="russian_general_71"
 	date = 1832.1.1
 	type = land
-	personality = defiant
+	personality = defence_1.1
 	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Pyotr Volkonsky"
+	picture="russian_general_80"
 	date = 1812.1.1
 	type = land
-	personality = intelligent
-	background = elderly
-	prestige = 0.3
+	personality = defence_2.1
+	background = attack_4.1
+	prestige = 0.4
 }
 
 leader = {
 	name = "Pavel Grabbe"
+	picture="russian_general_64"
 	date = 1836.1.1
 	type = land
-	personality = keen
-	background = school_of_firepower
-	prestige = 0.0
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0.2
 }
 
 leader = {
 	name = "Vasily Bebutov"
+	picture="russian_general_55"
 	date = 1825.1.1
 	type = land
-	personality = stout
-	background = generals_aide
+	personality = defence_4.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Fedor von Berg"
+	picture="russian_general_57"
 	date = 1836.1.1
 	type = land
-	personality = sharp
-	background = cartographer
+	personality = defence_2.1
+	background = attack_3.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Victor von Prendel"
+	picture="russian_general_29"
+	date = 1826.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Ferdinand Wrangel"
+	picture="russian_admiral_43"
 	date = 1836.1.1
 	type = sea
-	personality = active_p
-	background = cartographer
-	prestige = 0.0
+	personality = defence_2.1
+	background = attack_4.1
+	prestige = 0.2
 }
 
 army = {

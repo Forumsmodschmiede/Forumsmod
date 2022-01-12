@@ -3217,49 +3217,49 @@
 #Marseilles (384800/96200 POPS)
 467 = {
 	aristocrats = {
-		culture = french
+		culture = north_italian
 		religion = catholic
 		size = 900
 	}
 
 	officers = {
-		culture = french
+		culture = north_italian
 		religion = catholic
 		size = 300
 	}
 
 	bureaucrats = {
-		culture = french
+		culture = north_italian
 		religion = catholic
 		size = 700
 	}
 
 	clergymen = {
-		culture = french
+		culture = north_italian
 		religion = catholic
 		size = 900
 	}
 
 	artisans = {
-		culture = french
+		culture = north_italian
 		religion = catholic
 		size = 10000
 	}
 
 	artisans = {
-		culture = french
+		culture = north_italian
 		religion = catholic
 		size = 10000
 	}
 
 	artisans = {
-		culture = french
+		culture = north_italian
 		religion = catholic
 		size = 10000
 	}
 
 	artisans = {
-		culture = french
+		culture = north_italian
 		religion = catholic
 		size = 10000
 	}

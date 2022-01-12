@@ -1,5 +1,138 @@
 #India.txt includes modern India, Pakistan and Bangladesh
 #India.txt includes modern India, Pakistan and Bangladesh
+#Under Portuguese Rule 1836
+#Diu (20000/5000 POPS)
+3253 = {
+	bureaucrats = {
+		culture = portuguese
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = catholic
+		size = 25
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = catholic
+		size = 25
+	}
+	
+	aristocrats = {
+		culture = asian_minor
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 2000
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 200
+	}
+	
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 100
+	}
+	
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 2250
+	}
+	
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 250
+	}
+}
+#Under the rule of Denmark 1836
+#Trankebar (14000/4000 POPS)
+3251 = {
+	bureaucrats = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+
+	clergymen = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = danish
+		religion = protestant
+		size = 75
+	}
+
+	soldiers = {
+		culture = danish
+		religion = protestant
+		size = 50
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 125
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 575
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = animist
+		size = 50
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 2650
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = animist
+		size = 75
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = animist
+		size = 275
+	}
+
+}
 #Northwest Frontier Region (1076000)
 #Under the Rule of Panjab 1836
 #Peshawar (476000/119000 POPS)

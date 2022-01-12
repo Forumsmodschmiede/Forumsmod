@@ -57,7 +57,7 @@ political_decisions = {
 			any_pop = {
 				limit = { is_culture_group = german }
 				dominant_issue = {
-					factor = 0.2
+					factor = 0.4
 					value = jingoism
 						}
 				}

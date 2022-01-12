@@ -11,6 +11,7 @@ party_issues = {
 			max_tariff = 0.25
 			min_tariff = -1
 			import_cost = -0.25
+			factory_throughput = 0.1
 		}
 	}
 	economic_policy = {

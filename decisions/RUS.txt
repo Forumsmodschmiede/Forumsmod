@@ -3,10 +3,10 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			has_country_flag = serfdom_not_abolished
-		}
 	OR = {
 		government = imperial
 		government = absolute_monarchy
+		}
 		}
 		allow = {	
 			money = 2000000
