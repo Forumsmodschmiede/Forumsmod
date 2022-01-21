@@ -101,7 +101,7 @@ enact_liquor_prohibition = {
 		}
 		
 		allow = {
-			treasury = 1000
+			treasury = 100000
 			modern_central_bank_system = 1
 		}
 		
@@ -278,7 +278,7 @@ enact_liquor_prohibition = {
 }
 		effect = {	set_country_flag = the_meiji_restoration
 			money = 100000
-			years_of_research = 2
+			years_of_research = 1
 			prestige = 10
 			any_pop = {
 				scaled_militancy = {
@@ -325,13 +325,18 @@ enact_liquor_prohibition = {
 			part_of_sphere = no
 		}
 		effect = {
-			money = 300000
-			years_of_research = 3
+			money = 100000
+			years_of_research = 1
 			prestige = 10
+      			ruling_party_ideology = conservative
 			add_country_modifier = {
 				name = meiji_restoration_boost
 				duration = 10950
 			}
+				any_pop = {
+					ideology = { value = conservative factor = 0.4 }
+					ideology = { value = reactionary factor = 0.6 }
+				}
 			any_pop = {
 				scaled_militancy = {
 					ideology = liberal
@@ -483,7 +488,7 @@ enact_liquor_prohibition = {
 		
 		allow = {
 			war = no
-			positivism = 1
+			empiricism = 1
 			owns = 1649
 			owns = 1640
 			owns = 1646

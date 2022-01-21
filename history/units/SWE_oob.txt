@@ -4,7 +4,7 @@ leader = {
 	picture="swe_admiral_2"
 	date = 1834.1.1
 	type = sea
-	personality = disciplined
+	personality = defense_3.1
 	background = attack_3.1
 	prestige = 0.1
 }
@@ -14,62 +14,68 @@ leader = {
 	picture="swe_general_9"
 	date = 1818.1.1
 	type = land
-	personality = defense_2.1
-	background = attack_2.1
+	personality = defense_3.1
+	background = attack_3.1
 	prestige = 0.5
 }
 
 leader = {
 	name = "Johan Tawast"
+	picture="swe_general_21"
 	date = 1807.1.1
 	type = land
-	personality = soldierly
-	background = old_school
+	personality = defense_4.1
+	background = attack_2.1
 	prestige = 0.3
 }
 
 leader = {
 	name = "Axel Mörner"
+	picture="swe_general_15"
 	date = 1818.1.1
 	type = land
-	personality = unruly
-	background = generals_aide
+	personality = defense_1.1
+	background = attack_4.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Baltzar von Platen"
+	picture="swe_admiral_3"
 	date = 1834.1.1
 	type = sea
-	personality = able
-	background = adventurer
+	personality = defense_1.1
+	background = attack_4.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "C. Cederström"
+	picture="swe_general_10"
 	date = 1824.1.1
 	type = land
-	personality = strange
-	background = hated
+	personality = defense_2.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "af Billbergh"
+	picture="swe_general_5"
 	date = 1814.1.1
 	type = land
-	personality = diplomatic
-	background = toady
+	personality = defense_4.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Gustaf Peyron"
+	picture="swe_general_16"
 	date = 1827.1.1
 	type = land
-	personality = imperious
-	background = exranker
+	personality = defense_2.1
+	background = attack_3.1
 	prestige = 0.1
 }
 

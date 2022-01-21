@@ -3,50 +3,55 @@ leader = {
 	picture="mex_general_9"
 	type = land
 	date="1836.1.1"
-	personality = defense_3.1
-	background = attack_3.1
+	personality = defense_2.1
+	background = attack_4.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Martin de Cos"
+	picture="mex_general_4"
 	type = land
 	date="1836.1.1"
-	personality = impulsive
-	background = aristocrat
+	personality = defence_1.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
-	name = "Nicolas Bravo"
+	name = "Jose de Urrea"
+	picture="mex_general_10"
 	type = land
-	date="1836.1.1"
-	personality = heroic
-	background = politician
+	date="1816.1.1"
+	personality = defence_1.1
+	background = attack_4.1
 }
 
 leader = {
 	name = "Mariano Arista"
+	picture="mex_general_1"
 	type = land
 	date="1836.1.1"
-	personality = skilled
-	background = attack_2.1
+	personality = defence_2.1
+	background = attack_3.1
 }
 
 leader = {
 	name = "Juan Álvarez"
+	picture="mex_general_0"
 	type = land
 	date="1836.1.1"
-	personality = skilled
-	background = elderly
+	personality = defence_4.1
+	background = attack_1.1
 }
 
 leader = {
 	name = "José de Herrera"
+	picture="mex_general_6"
 	type = land
 	date="1836.1.1"
-	personality = soldierly
-	background = exranker
+	personality = defence_3.1
+	background = attack_2.1
 }
 
 army = {

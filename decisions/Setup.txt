@@ -805,10 +805,6 @@ political_decisions = {
 			}
 
 	JAP = {	
-				any_pop = {
-					ideology = { value = conservative factor = 0.6 }
-					ideology = { value = reactionary factor = 0.6 }
-				}
 				aristocrats = { ideology = { value = reactionary factor = 0.6 } }
 				relation = {
 					who = CHI

@@ -269,6 +269,16 @@ DEN = {
 }
 
 leader = {
+	name = "Wilhelm I."
+	picture="austrian_general_65"
+	date = 1836.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_3.1
+	prestige = 0.5
+}
+
+leader = {
 	name = "Hans von Zieten"
 	picture="austrian_general_72"
 	date = 1813.1.1

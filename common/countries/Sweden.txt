@@ -1,6 +1,5 @@
 color = { 87  130  199 }
 graphical_culture = SwedishGC
-proletarian_dictatorship = { 175 12 19 }
 party = {
 	name = "SWE_conservative"
 	start_date = 1830.1.1

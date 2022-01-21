@@ -1,5 +1,4 @@
 color = { 230 200 125 }
-proletarian_dictatorship = { 255 7 44 }
 graphical_culture = ChineseGC
 
 party = {

@@ -740,7 +740,7 @@ great_depression = {
 
 central_bank_established = {
 	loan_interest = -0.02
-   	 max_loan_modifier = 1.0
+	administrative_efficiency_modifier = 0.05
 	icon = 11
 }
 
@@ -794,7 +794,6 @@ the_french_foreign_legion = {
 
 the_eiffel_tower = {
 	prestige = 0.05
-	core_pop_militancy_modifier = -0.001
 	icon = 15
 }
 
@@ -858,7 +857,7 @@ the_walhalla = {
  
  ##
  meiji_restoration_boost = {
-	research_points_modifier = 1
+	research_points_modifier = 0.3
 	global_pop_militancy_modifier = 0.03
 	icon = 5
 }
@@ -997,8 +996,8 @@ commodore_perry = {
 	prestige = -0.1
 	farm_rgo_eff = -0.2
 	import_cost = 0.5
-	research_points_modifier = -0.2
-	ruling_party_support = -0.2
+	research_points_modifier = -0.3
+	ruling_party_support = -0.3
 	max_tariff = -0.25
 	administrative_efficiency_modifier = -0.05
 	icon = 8
@@ -1133,6 +1132,7 @@ supported_partisans = {
 	immigrant_push = -0.8
 	pop_militancy_modifier = 0.01
 	pop_consciousness_modifier = 0.01
+	attrition = 1
 	icon = 20
 }
 encouraged_partisans = {
@@ -1142,4 +1142,25 @@ encouraged_partisans = {
    	tax_efficiency = -0.05
 	global_population_growth = -0.001
 	icon = 18
+}
+eiffel_tower_construction = {
+	icon = 11
+}
+bigben_construction = {
+	icon = 11
+}
+the_big_ben = {
+	local_factory_output = 0.01
+	immigrant_attract = 0.25
+	icon = 5
+}
+war_torn = {
+	local_ruling_party_support = -0.5
+	#pop_militancy_modifier = -0.1
+	local_factory_output = -0.25
+	local_rgo_output = -0.25
+	immigrant_attract = -0.25
+	immigrant_push = 0.5
+	population_growth = -0.001
+	icon = 4
 }

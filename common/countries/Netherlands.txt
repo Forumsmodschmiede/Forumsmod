@@ -1,6 +1,5 @@
 color = { 220  138  57 }
 graphical_culture = EuropeanGC
-proletarian_dictatorship = { 255 7 69 }
 party = {
 	name = "HOL_conservative"
 	start_date = 1830.1.1

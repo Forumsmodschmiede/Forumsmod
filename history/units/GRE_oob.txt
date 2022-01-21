@@ -1,35 +1,39 @@
 leader = {
-	name = "von Heideck"
+	name = "Alexandros Soutsos"
+	picture="french_general_30"
 	type = land
 	date="1833.1.1"
-	personality = romantic
-	background = poet
+	personality = defence_2.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Demetrios Kalergis"
+	picture="french_general_27"
 	type = land
 	date="1836.1.1"
-	personality = impetuous
-	background = cavalry_school
+	personality = defence_4.1
+	background = attack_2.1
 }
 
 leader = {
 	name = "Ioannis Kolokotronis"
+	picture="french_general_28"
 	type = land
 	date="1833.1.1"
-	personality = aweless
-	background = powerful_friends
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Antonios Kriezis"
+	picture="french_admiral_32"
 	type = sea
 	date="1836.1.1"
-	personality = audacious
-	background = expert_raider
+	personality = defence_2.1
+	background = attack_4.1
 }
 
 army = {

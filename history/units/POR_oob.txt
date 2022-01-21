@@ -8,29 +8,42 @@ SWI = {
 }
 leader = {
 	name = "Nunes Vidigal"
+	picture="spa_general_15"
 	date = 1808.1.1
 	type = land
-	personality = defense_1.1
-	background = attack_2.1
+	personality = defense_3.1
+	background = attack_3.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Luís Barreto"
+	picture="spa_general_16"
 	date = 1824.1.1
 	type = land
-	personality = resolute
-	background = defense_2.1
+	background = attack_1.1
+	background = defense_4.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Vicente de Mesquita"
+	picture="spa_general_17"
 	date = 1808.1.1
 	type = land
-	personality = dauntless
-	background = madman
-	prestige = 0.0
+	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Antonio Coutinho"
+	picture="spa_admiral_15"
+	date = 1828.1.1
+	type = sea
+	personality = defence_4.1
+	background = attack_2.1
+	prestige = 0.1
 }
 
 army = {

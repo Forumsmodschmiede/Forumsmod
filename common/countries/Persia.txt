@@ -1,6 +1,5 @@
 color = { 229  170  87 }
 graphical_culture = MiddleEasternGC
-proletarian_dictatorship = { 177 13 22 }
 
 party = {
 	name = "PER_conservative"

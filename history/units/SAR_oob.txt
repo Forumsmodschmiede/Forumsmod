@@ -8,10 +8,11 @@ SWI = {
 
 leader = {
 	name = "Carlo Alberto"
+	picture="ita_general_34"
 	date = 1831.1.1
 	type = land
-	personality = openminded
-	background = attack_2.1
+	personality = defence_2.1
+	background = attack_3.1
 	prestige = 0.5
 }
 
@@ -20,63 +21,79 @@ leader = {
 	picture="ita_general_10"
 	date = 1831.1.1
 	type = land
-	personality = openminded
+	personality = defence_1.1
 	background = attack_4.1
 	prestige = 0.5
 }
 
 leader = {
 	name = "Emanuele Pes"
+	picture="ita_general_40"
 	date = 1820.1.1
 	type = land
-	personality = diplomatic
-	background = politician
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Eusebio Bava"
+	picture="ita_general_33"
 	date = 1832.1.1
 	type = land
-	personality = defense_3.1
+	personality = defense_4.1
 	background = attack_1.1
-	prestige = 0.1
+	prestige = 0.15
 }
 
 leader = {
 	name = "Ettore Gerbaix"
+	picture="ita_general_41"
 	date = 1834.1.1
 	type = land
-	personality = scared
-	background = aristocrat
-	prestige = 0.0
+	personality = defence_3.1
+	background = attack_2.1
+	prestige = 0.1
 }
 
 leader = {
 	name = "Giuseppe Albini"
+	picture="ita_admiral_2"
 	date = 1836.1.1
 	type = sea
-	personality = indifferent
-	background = war_college
-	prestige = 0.0
+	personality = defence_4.1
+	background = attack_1.1
+	prestige = 0.05
 }
 
 leader = {
-	name = "La Marmora-Masserano"
+	name = "Carlo Pellion di Persano"
+	picture="ita_admiral_0"
 	date = 1836.1.1
-	type = land
-	personality = mediocre
-	background = cavalry_school
-	prestige = 0.0
+	type = sea
+	personality = defence_1.1
+	background = attack_3.1
+	prestige = 0.1
 }
 
 leader = {
 	name = "Agostino Chiodo"
+	picture="ita_general_35"
 	date = 1836.1.1
 	type = land
-	personality = careful
-	background = engineer
-	prestige = 0.0
+	personality = defence_3.1
+	background = attack_3.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Agostino Bagliani"
+	picture="ita_general_0"
+	date = 1836.1.1
+	type = land
+	personality = defence_3.1
+	background = attack_2.1
+	prestige = 0.1
 }
 
 army = {

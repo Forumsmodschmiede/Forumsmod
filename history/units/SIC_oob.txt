@@ -1,5 +1,6 @@
 leader = {
 	name = "Carlo Filangieri"
+	picture="ita_general_30"
 	date = 1831.1.1
 	type = land
 	personality = defense_1.1
@@ -9,44 +10,49 @@ leader = {
 
 leader = {
 	name = "Rafaella de Cosa"
+	picture="ita_admiral_1"
 	date = 1836.1.1
 	type = sea
-	personality = gallant
-	background = war_college
+	personality = defence_4.1
+	background = attack_2.1
 }
 
 leader = {
-	name = "Francesco Mendoza"
+	name = "Giosue Ritucci"
+	picture="ita_general_6"
 	date = 1830.1.1
 	type = land
-	personality = arrogant
-	background = aristocrat
+	personality = defence_3.1
+	background = attack_2.1
 	prestige = 0.2
 }
 
 leader = {
 	name = "Leopoldo di Borbone"
+	picture="ita_general_31"
 	date = 1809.1.1
 	type = land
-	personality = calm
-	background = aristocrat
+	personality = defence_4.1
+	background = attack_2.1
 	prestige = 0.3
 }
 
 leader = {
 	name = "Paolo Ruffo"
+	picture="ita_general_32"
 	date = 1836.1.1
 	type = land
-	personality = diplomatic
-	background = generals_aide
+	personality = defence_2.1
+	background = attack_3.1
 }
 
 leader = {
 	name = "Ferdinando II"
+	picture="ita_general_29"
 	date = 1820.1.1
 	type = land
-	personality = bigoted
-	background = gifted_administrator
+	personality = defence_4.1
+	background = attack_1.1
 	prestige = 0.5
 }
 

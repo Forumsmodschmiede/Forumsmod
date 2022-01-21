@@ -684,8 +684,7 @@ unite_moldavia_wallachia = {
 				tag = KUK
 				
 			}
-			owns = 717
-			owns = 712
+			owns = 706
 			NOT = {
 				has_global_flag = germany_has_renamed_western_poland
 			}
@@ -696,8 +695,17 @@ unite_moldavia_wallachia = {
 		}
 		
 		effect = {
+			706 = {
+				change_province_name = "Warschau"
+			}
+			707 = {
+				change_province_name = "Suwalken"
+			}
 			717 = {
 				change_province_name = "Kalisch"
+			}
+			709 = {
+				change_province_name = "Lomscha"
 			}
 			712 = {
 				change_province_name = "Lodsch"
@@ -705,7 +713,7 @@ unite_moldavia_wallachia = {
 					change_region_name = "Westpolen"
 				}
 			}
-			prestige = 1
+			prestige = 5
 			set_global_flag = germany_has_renamed_western_poland
 		}
 	}
@@ -721,9 +729,7 @@ unite_moldavia_wallachia = {
 				tag = AUS
 				tag = KUK
 			}
-			owns = 706
-			owns = 709
-			owns = 709
+			owns = 715
 			NOT = {
 				has_global_flag = germany_has_renamed_eastern_poland
 			}
@@ -734,19 +740,15 @@ unite_moldavia_wallachia = {
 		}
 		
 		effect = {
-			706 = {
-				change_province_name = "Warschau"
-			}
-			707 = {
-				change_province_name = "Suwalken"
-			}
-			709 = {
-				change_province_name = "Lomscha"
+
+
+			711 = {
+				change_province_name = "Seidlitz"
 				state_scope = {
 					change_region_name = "Masowien"
 				}
 			}
-			prestige = 1
+			prestige = 5
 			set_global_flag = germany_has_renamed_eastern_poland
 		}
 	}

@@ -33,8 +33,7 @@ political_decisions = {
 		tag = GER
             	NOT = { has_country_flag = claim_ggr }
 			}
-		allow = {        
-			owns = 533
+		allow = {
 			is_greater_power = yes
 			revolution_n_counterrevolution = 1
 			war = no

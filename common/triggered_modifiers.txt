@@ -252,8 +252,80 @@ social_reformed_nation = {
 			school_reforms = good_schools
 		}
 		
-	social_reform_desire = -0.3
+	social_reform_desire = -0.5
 	icon = 13
+}
+pensions_fully_funded1 = {
+    trigger = {
+        exists = yes
+        pensions = trinket_pensions
+        social_spending = 0.99
+    }
+		core_pop_militancy_modifier = -0.0025
+    icon = 19
+}
+unemployment_subsidies_fully_funded1 = {
+    trigger = {
+        exists = yes
+        unemployment_subsidies = trinket_subsidies 
+        social_spending = 0.99
+    }
+		core_pop_militancy_modifier = -0.0025
+    icon = 19
+}
+pensions_fully_funded2 = {
+    trigger = {
+        exists = yes
+        pensions = low_pensions 
+        social_spending = 0.99
+    }
+		core_pop_militancy_modifier = -0.005
+    icon = 19
+}
+unemployment_subsidies_fully_funded2 = {
+    trigger = {
+        exists = yes
+        unemployment_subsidies = low_subsidies 
+        social_spending = 0.99
+    }
+		core_pop_militancy_modifier = -0.005
+    icon = 19
+}
+pensions_fully_funded3 = {
+    trigger = {
+        exists = yes
+        pensions = acceptable_pensions 
+        social_spending = 0.99
+    }
+		core_pop_militancy_modifier = -0.075
+    icon = 19
+}
+unemployment_subsidies_fully_funded3 = {
+    trigger = {
+        exists = yes
+        unemployment_subsidies = acceptable_subsidies 
+        social_spending = 0.99
+    }
+		core_pop_militancy_modifier = -0.075
+    icon = 19
+}
+pensions_fully_funded4 = {
+    trigger = {
+        exists = yes
+        pensions = good_pensions 
+        social_spending = 0.99
+    }
+		core_pop_militancy_modifier = -0.01
+    icon = 19
+}
+unemployment_subsidies_fully_funded4 = {
+    trigger = {
+        exists = yes
+        unemployment_subsidies = good_subsidies 
+        social_spending = 0.99
+    }
+		core_pop_militancy_modifier = -0.01
+    icon = 19
 }
 trinket_health_care_fully_funded = {
     trigger = {

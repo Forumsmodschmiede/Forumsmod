@@ -2,6 +2,7 @@ political_decisions = {
 
 	luxembourg_crisis = {
 		potential = {
+			year = 1845
 			exists = LUX
 			tag = FRA
 			is_greater_power = yes
@@ -238,6 +239,7 @@ political_decisions = {
 			}
 			tag = FRA
 			owns = 425
+			year = 1845
 		}
 		
 		allow = {
@@ -428,21 +430,17 @@ political_decisions = {
 			NOT = {
 				has_country_flag = the_eiffel_tower_was_built
 			}
-			has_country_flag = world_fair_planner
+	        OR = {	year = 1887
+			has_country_flag = world_fair_planner}
 		}
 		
 		allow = {
 			cheap_steel = 1
+			money = 300000
 		}
 		
 		effect = {
-			425 = {
-				add_province_modifier = {
-					name = the_eiffel_tower
-					duration = -1
-				}
-			}
-			prestige = 20
+			country_event = 37236
 			set_country_flag = the_eiffel_tower_was_built
 		}
 	}
@@ -479,14 +477,15 @@ political_decisions = {
 		potential = {
 			NOT = {
 				has_country_flag = legacy_of_Napoleon
-			}
-		tag = FRA
-			}
+				}
+			tag = FRA
+				}
 		allow = {  
 		military_statistics = 1        
 		 tag = FRA
 	        OR = { war_with = ENG
-			war_with = GER}
+			war_with = GER
+			war_with = GGR}
 		}
 		effect = {			set_country_flag = legacy_of_Napoleon
 			any_pop = {

@@ -3,10 +3,11 @@ army = {
 
 	leader = {
 		name = "Leopoldo II"
+		picture="ita_general_39"
 		date = 1824.1.1
 		type = land
-		personality = soft
-		background = gifted_administrator
+		personality = defense_3.1
+		background = attack_3.1
 		prestige = 0.5
 	}
 	

@@ -74,6 +74,17 @@ SPA = {
 	value = 55
 }
 
+
+leader = {
+	name = "Nicolas Jean-de-Dieu Soult"
+	picture="european_general_38"
+	date = 1814.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_4.1
+	prestige = 0.4
+}
+
 leader = {
 	name = "François Certain de Canrobert"
 	picture="french_general_7"

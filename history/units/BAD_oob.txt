@@ -3,10 +3,11 @@ army = {
 	
 	leader = {
 		name = "Leopold of Baden"
+		picture="austrian_general_97"
 		date = 1830.1.1
 		type = land
-		personality = mediocre
-		background = aristocrat
+	personality = defence_3.1
+	background = attack_3.1
 		prestige = 0.3
 	}
 

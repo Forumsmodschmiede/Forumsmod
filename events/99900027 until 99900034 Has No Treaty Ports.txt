@@ -6,7 +6,7 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		 owns = 1495 
+		 owns = 3249
 		sphere_owner = { is_sphere_leader_of = THIS }
 	}
 	

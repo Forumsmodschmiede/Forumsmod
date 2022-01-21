@@ -9857,24 +9857,24 @@ unemployment_subsidies;Unemployment Subsidies;Allocations chômage;Arbeitslosenhi
 no_subsidies;No Subsidies;Aucune allocation;Keine Hilfe;;Sin subsidios;;;;;;;;;x;;;;
 no_subsidies_desc;No unemployment subsidies.;Il n'existe aucune allocation chômage.;Keine Arbeitslosenunterstützung.;;Sin subsidios de desempleo.;;;;;;;;;x;;;;
 trinket_subsidies;Trinket Subsidies;Allocations dérisoires;Sachleistungen;;Testimoniales;;;;;;;;;x;;;;
-trinket_subsidies_desc;Very low unemployment subsidies.;Très basses allocations chômage.;Äußerst niedrige Arbeitslosenunterstützung.;;Subsidios de desempleo muy bajos.;;;;;;;;;x;;;;
+trinket_subsidies_desc;Very low unemployment subsidies. \n§YFor the full effects of this reform, your social spending needs to be 100%.§W;Très basses allocations chômage.;Äußerst niedrige Arbeitslosenunterstützung.;;Subsidios de desempleo muy bajos.;;;;;;;;;x;;;;
 low_subsidies;Low Subsidies;Basses allocations;Niedrige Hilfe;;Bajos;;;;;;;;;x;;;;
-low_subsidies_desc;Low unemployment subsidies.;Basses allocations chômage.;Niedrige Arbeitslosenunterstützung.;;Subsidios de desempleo bajos.;;;;;;;;;x;;;;
+low_subsidies_desc;Low unemployment subsidies. \n§YFor the full effects of this reform, your social spending needs to be 100%.§W;Basses allocations chômage.;Niedrige Arbeitslosenunterstützung.;;Subsidios de desempleo bajos.;;;;;;;;;x;;;;
 acceptable_subsidies;Extended Subsidies;Allocations étendues;Ausreichende Hilfe;;Amplios;;;;;;;;;x;;;;
-acceptable_subsidies_desc;Extended unemployment subsidies.;Allocations chômage étendues.;Ausgedehnte Arbeitslosenunterstützung.;;Subsidios de desempleo amplios.;;;;;;;;;x;;;;
+acceptable_subsidies_desc;Extended unemployment subsidies. \n§YFor the full effects of this reform, your social spending needs to be 100%.§W;Allocations chômage étendues.;Ausgedehnte Arbeitslosenunterstützung.;;Subsidios de desempleo amplios.;;;;;;;;;x;;;;
 good_subsidies;Generous Subsidies;Allocations généreuses;Großzügige Hilfe;;Generosos;;;;;;;;;x;;;;
-good_subsidies_desc;Generous unemployment subsidies.;Généreuses allocations chômage.;Großzügige Arbeitslosenunterstützung.;;Subsidios de desempleo generosos.;;;;;;;;;x;;;;
+good_subsidies_desc;Generous unemployment subsidies. \n§YFor the full effects of this reform, your social spending needs to be 100%.§W;Généreuses allocations chômage.;Großzügige Arbeitslosenunterstützung.;;Subsidios de desempleo generosos.;;;;;;;;;x;;;;
 pensions;Pensions;Pensions;Renten;;Pensiones;;;;;;;;;x;;;;
 no_pensions;No Pensions;Aucune pension;Keine Renten;;Sin pensiones;;;;;;;;;x;;;;
-no_pensions_desc;No state pensions.;Aucune pension d'État.;Keine staatlichen Renten.;;Sin pensiones públicas.;;;;;;;;;x;;;;
+no_pensions_desc;No state pensions. \n§YFor the full effects of this reform, your social spending needs to be 100%.§W;Aucune pension d'État.;Keine staatlichen Renten.;;Sin pensiones públicas.;;;;;;;;;x;;;;
 trinket_pensions;Trinket Pensions;Pensions dérisoires;Sachrente;;Testimoniales;;;;;;;;;x;;;;
-trinket_pensions_desc;Very low state pensions.;Très basses pensions d'État.;Äußerst geringe staatliche Renten.;;Pensiones públicas muy bajas.;;;;;;;;;x;;;;
+trinket_pensions_desc;Very low state pensions. \n§YFor the full effects of this reform, your social spending needs to be 100%.§W;Très basses pensions d'État.;Äußerst geringe staatliche Renten.;;Pensiones públicas muy bajas.;;;;;;;;;x;;;;
 low_pensions;Low Pensions;Basses pensions;Niedrige Renten;;Bajas;;;;;;;;;x;;;;
-low_pensions_desc;Low state pensions.;Basses pensions d'État.;Geringe staatliche Renten.;;Pensiones públicas bajas.;;;;;;;;;x;;;;
+low_pensions_desc;Low state pensions. \n§YFor the full effects of this reform, your social spending needs to be 100%.§W;Basses pensions d'État.;Geringe staatliche Renten.;;Pensiones públicas bajas.;;;;;;;;;x;;;;
 acceptable_pensions;Acceptable Pensions;Pensions acceptables;Akzeptable Renten;;Aceptables;;;;;;;;;x;;;;
-acceptable_pensions_desc;Acceptable state pensions.;Pensions d'État acceptables.;Akzeptable staatliche Renten.;;Pensiones públicas aceptables.;;;;;;;;;x;;;;
+acceptable_pensions_desc;Acceptable state pensions. \n§YFor the full effects of this reform, your social spending needs to be 100%.§W;Pensions d'État acceptables.;Akzeptable staatliche Renten.;;Pensiones públicas aceptables.;;;;;;;;;x;;;;
 good_pensions;Good Pensions;Bonnes pensions;Gute Renten;;Buenas;;;;;;;;;x;;;;
-good_pensions_desc;High state pensions.;Bonnes pensions d'État.;Hohe staatliche Renten.;;Pensiones públicas altas.;;;;;;;;;x;;;;
+good_pensions_desc;High state pensions. \n§YFor the full effects of this reform, your social spending needs to be 100%.§W;Bonnes pensions d'État.;Hohe staatliche Renten.;;Pensiones públicas altas.;;;;;;;;;x;;;;
 health_care;Health Care;Système de santé;Gesundheitsschutz;;Sanidad pública;;;;;;;;;x;;;;
 no_health_care;No Health Care;Aucun système de santé;Keine Hilfe;;Inexistente;;;;;;;;;x;;;;
 no_health_care_desc;No public healthcare.;Aucun système de santé public.;Keine öffentliche Gesundheitsfürsorge.;;Sin sanidad pública.;;;;;;;;;x;;;;
@@ -15753,47 +15753,36 @@ HAM_HELGOLAND;Heligoland;Heligoland;Heligoland;;Heligoland;;;;;;;;;x;;;;
 MEC_MECKLEMBURG;Mecklenburg;Mecklenburg;Mecklenburg;;Mecklenburg;;;;;;;;;x;;;;
 PRU_VORPOMMERN;Vorpommern;Vorpommern;Vorpommern;;Vorpommern;;;;;;;;;x;;;;
 SPA_BALEAREN;Balearen;Balearen;Balearen;;Balearen;;;;;;;;;x;;;;
-land_reform_desc;We need a fundamental land reform;Réforme rurale;Landreform;;;;;;;;;;;x
-modern_command_principle;Trained Leadership;;;;;;;;;;;;;x;;;;
-modern_command_principle_desc;We have invested in trained leadership;;;;;;;;;;;x
-modern_rifles;Modern Rifles;;;;;;;;;;;;;x;;;;
-modern_rifles_desc;We equipted our army with modern rifles;;;;;;;;;;;;;x;;;;
-modern_fortifications;Starforts;;;;;;;;;;;;;x;;;;
-modern_fortifications_desc;We have gathered knowledge of western starforts;;;;;;;;;;;;;x;;;;
-modern_land_organisation;Reorganized Army;;;;;;;;;;;;;x;;;;
-modern_land_organisation_desc;We have reorganized our army after western model;;;;;;;;;;;;;x;;;;
-modern_guns;Modern Guns;;;;;;;;;;;;;x;;;;
-modern_guns_desc;Modern guns are very effective on the european theatre, now we use them too;;;;;;;;;;;;;x;;;;
-traditional_navy;Traditional Navy;;;;;;;;;;;;;x;;;;
-traditional_navy_desc;Our navy uses traditional methodes;;;;;;;;;;;;;x;;;;
-modern_naval_thought;Naval Schools;;;;;;;;;;;;;x;;;;
-modern_naval_thought_desc;We need to update our naval schools;;;;;;;;;;;;;x;;;;
-modern_ship_designs;Modern Ships;;;;;;;;;;;;;x;;;;
-modern_ship_designs_desc;We should import modern ships;;;;;;;;;;;;;x;;;;
-modern_export;Merchant Fleet;;;;;;;;;;;;;x;;;;
-modern_export_desc;We need a international connected merchant fleet;;;;;;;;;;;;;x;;;;
-modern_naval_office;Naval Hierachy;;;;;;;;;;;;;x;;;;
-modern_naval_office_desc;A naval hierachy is necessary for a strong fleet;;;;;;;;;;;;;x;;;;
-modern_trade;Private Shipping;;;;;;;;;;;;;x;;;;
-modern_trade_desc;Private shipping has to be encouraged;;;;;;;;;;;;;x;;;;
-modern_machines;Modern Machines;;;;;;;;;;;;;x;;;;
-modern_machines_desc;Modern machines are cruical for a industrial country;;;;;;;;;;;;;x;;;;
-modern_chemistry;Chemistry;;;;;;;;;;;;;x;;;;
-modern_chemistry_desc;Chemistry are important for a modern society;;;;;;;;;;;;;x;;;;
-modern_banks;Institutionalize Banking;;;;;;;;;;;;;x;;;;
-modern_banks_desc;We have to improve our banking;;;;;;;;;;;;;x;;;;
-modern_railroad;Import Railways;;;;;;;;;;;;;x;;;;
-modern_railroad_desc;Modern railway technology is spreding to us;;;;;;;;;;;;;x;;;;
-modern_administration;A new Administration;;;;;;;;;;;;;x;;;;
-modern_administration_desc;A reformed administration is needed;;;;;;;;;;;;;x;;;;
-modern_education;Public Schools;;;;;;;;;;;;;x;;;;
-modern_education_desc;Having public schools brings us a new, better generation;;;;;;;;;;;;;x;;;;
-modern_loan;Create National Bank;;;;;;;;;;;;;x;;;;
-modern_loan_desc;Creating a national bank will help our finances;;;;;;;;;;;;;x;;;;
-modern_theory;New Economic Theory;;;;;;;;;;;;;x;;;;
-modern_theory_desc;New economic theorys are coming to our shores;;;;;;;;;;;;;x;;;;
-modern_thought;Human Rights;;;;;;;;;;;;;x;;;;
-modern_thought_desc;Human rights are a interesting western idea, maybe we can include it in our society;;;;;;;;;;;;;x;;;;
+land_reform_two;Title and Deed system;;;;;;;;;;;;;x;;;;;;;;;;;
+land_reform_two_desc;The state guarantees private property and land development rights;;;;;;;;;;;;;x;;;;;;;;;;;
+admin_reform_two;Foreign-Trained Civil Service;;;;;;;;;;;;;x;;;;;;;;;;;
+admin_reform_two_desc;The national administration is now run by western-educated bureaucrats;;;;;;;;;;;;;x;;;;;;;;;;;
+education_reform_two;Universities;;;;;;;;;;;;;x;;;;;;;;;;;
+education_reform_two_desc;Western-style schools of higher learning are established;;;;;;;;;;;;;x;;;;;;;;;;;
+transport_improv_two;Advanced railroads;;;;;;;;;;;;;x;;;;;;;;;;;
+transport_improv_two_desc;Our transportation system can move people and goods as never before!;;;;;;;;;;;;;x;;;;;;;;;;;
+no_western_science;Traditional learning;;;;;;;;;;;;;x;;;;;;;;;;;
+no_western_science_desc;We rely on the old ideas;;;;;;;;;;;;;x;;;;;;;;;;;
+yes_western_science;Basic Western learning;;;;;;;;;;;;;x;;;;;;;;;;;
+yes_western_science_desc;We send our students to learn foreign ideas in science from the West;;;;;;;;;;;;;x;;;;;;;;;;;
+western_science_two;Scientific Research;;;;;;;;;;;;;x;;;;;;;;;;;
+western_science_two_desc;We promote research into scientific and economic theories in our schools;;;;;;;;;;;;;x;;;;;;;;;;;
+foreign_training_two;Foreign Tactics;;;;;;;;;;;;;x;;;;;;;;;;;
+foreign_training_two_desc;Our troops learn western military tactics before going into battle;;;;;;;;;;;;;x;;;;;;;;;;;
+foreign_weapons_two;Advanced foreign weapons;;;;;;;;;;;;;x;;;;;;;;;;;
+foreign_weapons_two_desc;Our BOOMSTICKS are better!;;;;;;;;;;;;;x;;;;;;;;;;;
+military_constructions_two;Modern Constructions;;;;;;;;;;;;;x;;;;;;;;;;;
+military_constructions_two_desc;Our forts are modern and more defensible ;;;;;;;;;;;;;x;;;;;;;;;;;
+foreign_officers_two;Domestic officer training;;;;;;;;;;;;;x;;;;;;;;;;;
+foreign_officers_two_desc;Our own officers will now lead our troops!;;;;;;;;;;;;;x;;;;;;;;;;;
+army_schools_two;Military academies;;;;;;;;;;;;;x;;;;;;;;;;;
+army_schools_two_desc;Our offcers are instructed in advanced military tactics before leading men into battle;;;;;;;;;;;;;x;;;;;;;;;;;
+foreign_naval_officers_two;Domestic naval officers;;;;;;;;;;;;;x;;;;;;;;;;;
+foreign_naval_officers_two_desc;Our captains lead without foreign advisors;;;;;;;;;;;;;x;;;;;;;;;;;
+naval_schools_two;Naval academies;;;;;;;;;;;;;x;;;;;;;;;;;
+naval_schools_two_desc;Our captains are instructed in advanced naval tactics before leading men into battle;;;;;;;;;;;;;x;;;;;;;;;;;
+foreign_navies_two;Advanced warships;;;;;;;;;;;;;x;;;;;;;;;;;
+foreign_navies_two_desc;We can construct our own modern warships;;;;;;;;;;;;;x;;;;;;;;;;;
 reform_our_empire;Reform our Empire;;;;;;;;;;;;;;
 reform_our_empire_desc;We reformed our Empire into a modern state.;;;;;;;;;;;;;;
 we_need_to_move_forward_title;We need to move forward;;;;;;;;;;;;;;
@@ -16012,4 +16001,36 @@ PROV2281;Esmeraldas;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 PROV1363;Pakse;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 PROV1364;Phnom Penh;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 PROV1464;Jolo;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
-;;;;*;;*;*;;;;;;;x;;;;
+EVTNAME37236;The Construction of the Eiffel Tower;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC37236;Work on the foundations of the Eiffel Tower began. Those for the east and south legs were straightforward, each leg resting on four 2 m (6.6 ft) concrete slabs, one for each of the principal girders of each leg but the other two, being closer to the river Seine, were more complicated: each slab needed two piles installed by using compressed-air caissons 15 m (49 ft) long and 6 m (20 ft) in diameter driven to a depth of 22 m (72 ft) to support the concrete slabs, which were 6 m (20 ft) thick. Each of these slabs supported a block built of limestone each with an inclined top to bear a supporting shoe for the ironwork. Each shoe was anchored into the stonework by a pair of bolts 10 cm (4 in) in diameter and 7.5 m (25 ft) long. The foundations were complete by $YEAR$ and the erection of the ironwork began. For this part, we need to set a budget for the construction.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT37236OPTA;Invest more than is planned.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT37236OPTB;Invest what is planned.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT37236OPTC;Invest the minimum possible.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME37237;The Eiffel Tower Is Finished;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC37237;The main structural work was completed at the end of March 1889 and today Eiffel celebrated this by leading a group of government officials, accompanied by representatives of the press, to the top of the tower. Since the lifts were not yet in operation, the ascent was made by foot, and took over an hour, Eiffel frequently stopping to make explanations of various features. Most of the party chose to stop at the lower levels, but a few, including Nouguier, Compagnon, the President of the City Council and reporters from Le Figaro and Le Monde Illustré completed the climb. At 2:35 Eiffel hoisted a large French flag, to the accompaniment of a 25-gun salute fired from the lower level. There was still work to be done, particularly on the lifts and the fitting out of the facilities for visitors, and the tower was not opened to the public. The tower was an immediate success with the public, and nearly 30,000 visitors made the 1,710-step climb to the top using the stairs before the lifts entered service.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT37237OPTA;Vive la Tour Eiffel!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME3697000;The Construction of the Clock Tower;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC3697000;During the rebuilding of the Palace of Westminster in the wake of the fire of 1834, the parliament determined that the new buildings should incorporate an impressive clock tower and passed a bill to that end in $YEAR$. This clock tower will take years to be built but it will be a massive accomplishment for out country. The only thing left for the building to start is to define the budget.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME3697001;The Clock Tower Is Finished;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC3697001;The completion of the Clock Tower marks the end of the reconstruction of the Palace of Westminster. The clock tower was constructed on the northern extremity of the new Houses of Parliament that were built next to Westminster Hall. The commission for the clock itself demanded a high level of accuracy, the specifications drafted by the Royal Astronomer required that "the first stroke of the hour bell should register the time, correct to within one second per day, and furthermore that it should telegraph its performance twice a day to Greenwich Observatory, where a record would be kept." The second and final version of the hour bell was the largest ever cast in the UK. It was so colossal that a team of 16 horses was needed to pull the wagon upon which it rested from the foundry to the Tower. The transportation took on the character of a parade, with enthusiastic crowds lining the streets as the caravan made its way through London. The bell and tower got nicknamed "Big Ben".
+the_big_ben;The Big Ben;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+the_big_ben_desc;The Clock Tower derives its nickname from the bell, the Big Ben. With an extreme accuracy, the clock tower dominates life and work in London, always striking on time.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+bigben_construction;Reconstruction of the Palace of Westminster;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+bigben_construction_desc;The Palace of Westminster is being reconstructed and with it, a huge clock tower.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+eiffel_tower_construction;Eiffel Tower Under Construction;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+eiffel_tower_construction_desc;Our great nation is dedicating its resources and workers to build a magnificent tower.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+destroy_westminster_title;Destroy the Palace of Westminster;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+destroy_westminster_desc;By giving the order for our troops occupying London to destroy the Palace of Westminster we can deal a huge blow to our enemy's prestige and make it so it's more likely for the war to end sooner. This will be seen as an incredible act of aggression, however, and will forever damage our relations with them and some of our citizens, as well as their citizens, will be extremely angry by such heinous act against their parliament.;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+destroy_eiffel_tower_title;Destroy the Eiffel Tower;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+destroy_eiffel_tower_desc;By giving the order for our troops occupying Paris to destroy the Eiffel Tower we can deal a huge blow to our enemy's prestige and make it so it's more likely for the war to end sooner. This will be seen as an incredible act of aggression, however, and will forever damage our relations with them and some of our citizens, as well as their citizens, will be extremely angry by such heinous act against one of their national monuments.;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+build_the_big_ben_title;Rebuild the Palace of Westminster;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+build_the_big_ben_desc;In 1834, an accidental fire destroyer large parts of the Palace of Westminster. Both Houses of the Parliament were destroyed along with most of the other buildings on the site. Westminster Hall was saved largely due to heroic fire fighting efforts, and a change in the direction of the wind during the night. The only other parts of the Palace to survive were the Jewel Tower, the Undercroft Chapel, the Cloisters and Chapter House of St Stephen's and Westminster Hall. A recent bill is on discussion on the parliament to rebuild the palace along with a huge clock tower nicknamed "Big Ben".;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+EVT3697001OPTA;A proud day for the $COUNTRY_ADJ$.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME152009874;The Destruction of the Eiffel Tower;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC152009874;Heavy street fighting erupts in the small streets of Paris as $FROMCOUNTRY_ADJ$ forces advance into in a bid to capture the city. Artillery is moved to the Chaillot Hill, past improvised barriers while infantry run away from the 7th arrondissement and move systematically from house to house, block by block, fighting a running battle against armed irregulars. The Arc de Triomphe is demolished by $FROMCOUNTRY_ADJ$ pioneers while the artillery in Chaillot hill set their sights on the Eiffel Tower. For several minutes the city is taken by the roar of artillery until silence falls and the only sound is the screeching of retorted metal slowly bending. $FROMCOUNTRY_ADJ$ soldiers shout excitedly as they watch the Eiffel Tower bend and fall into the Seine, now reduced to an amorphous lump of metal. \n \n Fires rage out of control in the eastern parts of the city, lighting up the skyline as the fighting continues into the night.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVT152009874OPTA;A dark day for $COUNTRY$.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME152009875;The Fall of the Palace of Westminster;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC152009875;Scattered gunfire can be heard echoing through the empty streets of London as the last pockets of resistance to the $FROMCOUNTRY_ADJ$ occupation are quelled. The parliament houses in the Palace of Westminster lay empty while $FROMCOUNTRY_ADJ$ soldiers run up and down placing explosives in the silent corridors. A $FROMCOUNTRY_ADJ$ general silently read the orders that came from the $FROMCOUNTRY_ADJ$ capital with instructions to destroy the Palace in an attempt to crush the $COUNTRY_ADJ$ spirit. The explosives are detonated at the same time as the Clock Tower bell strike its precise hourly strike. The tower is engulfed by flames as parts of the western palace collapse, with pieces of the Big Ben landing on the Thames along with other debris while nearby buildings are hit by flaming debris and catch fire. $FROMCOUNTRY_ADJ$ soldiers watch and cherish from a safe distance as the glass that once contained the phrase "DOMINE SALVAM FAC REGINAM NOSTRAM VICTORIAM PRIMAM" rains on the ground. Nearby, $FROMCOUNTRY_ADJ$ soldiers storm the Buckingham Palace just to find out that the $MONARCHTITLE$ has already fled the country. They hoist the $FROMCOUNTRY_ADJ$ flag and turn to see the smoke rising in the horizon. London is lost.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+war_torn;War Torn;;;;;;;;;;;;x,,,,
+war_torn_desc;This province has been devastated by the rebellion.;;;;;;;;;;;;x,,,,
+;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,

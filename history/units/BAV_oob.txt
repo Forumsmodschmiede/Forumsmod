@@ -1,36 +1,40 @@
 leader = {
 	name = "Pappenheim"
+	picture="austrian_general_3"
 	date = 1815.1.1
 	type = land
-	personality = careful
-	background = elderly
+	personality = defence_1.1
+	background = attack_4.1
 	prestige = 0.3
 }
 
 leader = {
 	name = "von Washington"
+	picture="austrian_general_0"
 	date = 1825.1.1
 	type = land
-	personality = gallant
-	background = powerful_friends
+	personality = defence_3.1
+	background = attack_2.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Karl von Heideck"
+	picture="austrian_general_98"
 	date = 1832.1.1
 	type = land
-	personality = polite
-	background = poet
+	personality = defence_1.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Prinz Karl"
+	picture="austrian_general_2"
 	date = 1825.1.1
 	type = land
-	personality = mediocre
-	background = aristocrat
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.1
 }
 

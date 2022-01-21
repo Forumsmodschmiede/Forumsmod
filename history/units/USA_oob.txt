@@ -66,76 +66,102 @@ SWI = {
 }
 
 leader = {
+	name = "William Sherman"
+	picture="usa_general_13"
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_4.1
+	prestige = 0.2
+}
+
+leader = {
+	name = "George B. McClellan"
+	picture="usa_general_7"
+	date = 1836.1.1
+	type = land
+	personality = defence_4.1
+	background = attack_1.1
+	prestige = 0.2
+}
+
+leader = {
 	name = "Winfield Scott"
 	picture="usa_general_11"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
+	personality = defence_4.1
 	background = attack_3.1
 	prestige = 0.3
 }
 
 leader = {
-	name = "Zachary Taylor"
+	name = "Ulysses S. Grant"
+	picture="usa_general_3"
 	date = 1836.1.1
 	type = land
-	personality = defence_1.1
-	background = attack_2.1
-	prestige = 0.1
+	personality = defence_2.1
+	background = attack_4.1
+	prestige = 0.2
 }
 
 leader = {
 	name = "Thomas Jesup"
+	picture="usa_general_5"
 	date = 1836.1.1
 	type = land
-	personality = meticulous
-	background = toady
+	personality = defence_2.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Edmund P. Gaines"
+	picture="usa_general_2"
 	date = 1828.1.1
 	type = land
-	personality = soldierly
-	background = drillmaster
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
 	name = "Alexander Macomb"
+	picture="usa_general_6"
 	date = 1812.1.1
 	type = land
-	personality = heroic
-	background = engineer
-	prestige = 0.3
+	personality = defence_5.1
+	background = attack_2.1
+	prestige = 0.35
 }
 
 leader = {
 	name = "Isaac Hull"
 	picture="usa_admiral_3"
-	date = 1810.1.1
+	date = 1814.1.1
 	type = sea
-	personality = skilled
-	background = elderly
+	personality = defence_4.1
+	background = attack_3.1
 	prestige = 0.2
 }
 
 leader = {
-	name = "William B. Shubrick"
+	name = "David Farragut"
+	picture="usa_admiral_1"
 	date = 1836.1.1
 	type = sea
-	personality = efficient
-	background = attack_2.1
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.1
 }
 
 leader = {
-	name = "James Biddle"
+	name = "Andrew Hull Foote"
+	picture="usa_admiral_2"
 	date = 1830.1.1
 	type = sea
-	personality = tactful
-	background = diplomat
+	personality = defence_1.1
+	background = attack_4.1
 	prestige = 0.1
 }
 
@@ -144,9 +170,9 @@ leader = {
 	picture="usa_admiral_6"
 	date = 1836.1.1
 	type = sea
-	personality = defence_3.1
-	background = attack_3.1
-	prestige = 0.1
+	personality = defence_2.1
+	background = attack_4.1
+	prestige = 0.15
 }
 
 army = {

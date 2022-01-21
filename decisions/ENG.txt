@@ -1,4 +1,29 @@
 political_decisions = {
+
+	build_the_big_ben = {
+		picture = bigben
+		potential = {
+			tag = ENG
+			year = 1844
+			NOT = { has_country_flag = big_ben_construction }
+			300 = { NOT = { has_province_modifier = the_big_ben } }
+		}
+		
+		allow = {
+			war = no
+			realism = 1
+			money = 300000
+
+		}
+		
+		effect = {
+			set_country_flag = big_ben_construction
+			country_event = 3697000
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+
 	repeal_the_corn_laws = {
 		potential = {
 				has_country_flag = irish_famine

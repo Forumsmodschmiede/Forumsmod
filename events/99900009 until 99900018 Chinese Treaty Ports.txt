@@ -39,7 +39,7 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		owns = 1495
+		owns = 3249
 		NOT = { has_country_flag = treatyport_nanning }	
 		is_greater_power = yes
 	}

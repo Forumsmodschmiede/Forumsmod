@@ -1,6 +1,5 @@
 color = { 255  176  140 }
 graphical_culture = SouthAmericanGC
-proletarian_dictatorship = { 198 20 49 }
 party = {
 	name = "VNZ_conservative"
 	start_date = 1830.1.1

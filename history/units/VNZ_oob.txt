@@ -1,3 +1,23 @@
+	leader = {
+		name = "Santiago Marino"
+		picture="mex_general_22"
+		date = 1825.1.1
+		type = land
+		personality = defence_2.1
+		background = attack_4.1
+		prestige = 0.2
+	}
+
+	leader = {
+		name = "Jose Antonio Paez"
+		picture="mex_general_23"
+		date = 1835.1.1
+		type = land
+		personality = defence_3.1
+		background = attack_3.1
+		prestige = 0.2
+	}
+
 army = {
 	name = "Ejército de Venezuela"
 	location = 2264

@@ -1,12 +1,53 @@
+	leader = {
+		name = "Juan de Courten"
+		picture="ita_general_23"
+		date = 1836.1.1
+		type = land
+		personality = defense_2.1
+		background = attack_3.1
+		prestige = 0.1
+	}
+
+	leader = {
+		name = "Hermann Kanzler"
+		picture="ita_general_25"
+		date = 1836.1.1
+		type = land
+		personality = defense_4.1
+		background = attack_1.1
+		prestige = 0.1
+	}
+
+	leader = {
+		name = "Louis Juchault de Lamoriciere"
+		picture="ita_general_26"
+		date = 1835.1.1
+		type = land
+		personality = defense_1.1
+		background = attack_4.1
+		prestige = 0.2
+	}
+
+	leader = {
+		name = "Georges de Pimodan"
+		picture="ita_general_27"
+		date = 1835.1.1
+		type = land
+		personality = defense_3.1
+		background = attack_3.1
+		prestige = 0.2
+	}
+
 army = {
 	name = "Esercito Pontificio"
 	
 	leader = {
 		name = "Filippo Resta"
+		picture="ita_general_28"
 		date = 1815.1.1
 		type = land
-		personality = defense_2.1
-		background = attack_1.1
+		personality = defense_4.1
+		background = attack_2.1
 		prestige = 0.5
 	}
 	
