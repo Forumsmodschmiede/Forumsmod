@@ -16,7 +16,8 @@ political_decisions = {
 			civilized = yes
 		}
 		allow = {
-			425 = { country_units_in_province = THIS controlled_by = THIS owner = { war_with = THIS } }
+			FRA = { war_with = THIS }
+			controls = 425
 			nationalism_n_imperialism = 1
 			OR = {
 				indirect_artillery_fire = 1
@@ -32,6 +33,46 @@ political_decisions = {
 			prestige = -5
 			set_global_flag = eiffel_tower_destroyed
 			425 = { owner = { country_event = 152009874 } }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_country_modifier = malevolent_ai }
+			}
+		}
+	}
+
+	destroy_the_kremlin = {
+		picture = kremlin
+		potential = {
+			is_greater_power = yes
+			1008 = { controlled_by = THIS
+				owner = { war_with = THIS }
+			}
+			NOT = { has_global_flag = kremlin_destroyed }
+			NOT = { owns = 1008 }
+			NOT = { is_culture_group = east_slavic }
+			civilized = yes
+		}
+		allow = {
+			RUS = { war_with = THIS }
+			controls = 1008
+			nationalism_n_imperialism = 1
+			OR = {
+				indirect_artillery_fire = 1
+				AND = {
+					steel_breech_loaded_artillery = 1
+					invention = nitroglycerin
+				}
+			}
+		}
+		
+		effect = {
+			badboy = 5
+			prestige = -5
+			set_global_flag = kremlin_destroyed
+			1008 = { owner = { country_event = 152009876 } }
 		}
 		ai_will_do = {
 			factor = 1
@@ -61,11 +102,8 @@ political_decisions = {
 		}
 		
 		allow = {
-			300 = {
-				country_units_in_province = THIS 
-				controlled_by = THIS
-				owner = { war_with = THIS } 
-			}
+			ENG = { war_with = THIS }
+			controls = 300
 			nationalism_n_imperialism = 1
 			OR = {
 				indirect_artillery_fire = 1

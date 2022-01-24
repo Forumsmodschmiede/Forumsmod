@@ -766,7 +766,6 @@ political_decisions = {
 			NOT = {
 				OR = {
 					has_country_flag = bonnie_blue_flag
-					has_country_flag = 1861CSAstart
 					}
 			}
 		}
@@ -811,7 +810,7 @@ political_decisions = {
 			
 			add_country_modifier = {
 				name = the_bonnie_blue_flag
-				duration = 3650
+				duration = 730
 			}
 			
 			set_country_flag = bonnie_blue_flag

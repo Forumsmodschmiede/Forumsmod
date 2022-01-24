@@ -378,24 +378,28 @@ social_reforms = {
 		trinket_wage = {
 			minimum_wage = 0.20
 			administrative_multiplier = 1
+			unemployment_benefit = 0.1
 			global_immigrant_attract = 0.01
 			poor_life_needs = -0.05
 		}
 		low_minimum_wage = {
 			minimum_wage = 0.40
 			administrative_multiplier = 2
+			unemployment_benefit = 0.2
 			global_immigrant_attract = 0.02
 			poor_life_needs = -0.1
 		}
 		acceptable_minimum_wage = {
 			minimum_wage = 0.60
 			administrative_multiplier = 3
+			unemployment_benefit = 0.3
 			global_immigrant_attract = 0.03
 			poor_life_needs = -0.15
 		}
 		good_minimum_wage = {
 			minimum_wage = 0.80
 			administrative_multiplier = 4
+			unemployment_benefit = 0.4
 			global_immigrant_attract = 0.04
 			poor_life_needs = -0.2
 		}
@@ -482,22 +486,22 @@ social_reforms = {
 		no_subsidies = {
 		}
 		trinket_subsidies = {
-			unemployment_benefit = 0.25
+			unemployment_benefit = 0.5
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.01
 		}
 		low_subsidies = {
-			unemployment_benefit = 0.50
+			unemployment_benefit = 1
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.02
 		}
 		acceptable_subsidies = {
-			unemployment_benefit = 0.75
+			unemployment_benefit = 1.5
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.03
 		}
 		good_subsidies = {
-			unemployment_benefit = 1.0
+			unemployment_benefit = 2
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.04
 		}
@@ -533,19 +537,19 @@ social_reforms = {
 		no_health_care = {
 		}
 		trinket_health_care = {
-			administrative_multiplier = 1
+			administrative_multiplier = 2
 			global_immigrant_attract = 0.01
 		}
 		low_health_care = {
-			administrative_multiplier = 2
+			administrative_multiplier = 4
 			global_immigrant_attract = 0.02
 		}
 		acceptable_health_care = {
-			administrative_multiplier = 3
+			administrative_multiplier = 6
 			global_immigrant_attract = 0.03
 		}
 		good_health_care = {
-			administrative_multiplier = 4
+			administrative_multiplier = 8
 			global_immigrant_attract = 0.04
 		}
 	}
@@ -557,15 +561,15 @@ social_reforms = {
 		}
 		low_schools = {
 			global_immigrant_attract = 0.02
-			administrative_multiplier = 1
+			administrative_multiplier = 2
 		}
 		acceptable_schools = {
 			global_immigrant_attract = 0.03
-			administrative_multiplier = 2
+			administrative_multiplier = 4
 		}
 		good_schools = {
 			global_immigrant_attract = 0.04
-			administrative_multiplier = 3
+			administrative_multiplier = 6
 		}
 	}	
 }

@@ -1,0 +1,28 @@
+# 50 Infamy Punishment (fired by 50 infamy)
+country_event = { id = 99900040
+	title = "50 Infamy Punishment"
+	desc = "After long years of war and and agression, the people look down to us. We should get under 50 infamy to deal with this issue."
+    picture = "bad_badboy"
+	
+	trigger = {
+		badboy = 2
+			NOT = {
+				has_country_flag = infamy_punishment
+			}
+	}
+	
+		mean_time_to_happen =  {
+		months = 1
+					}
+
+	option = {
+		name = "How dare you?"
+        set_country_flag = infamy_punishment
+		add_country_modifier = {
+				name = infamy_punishment
+					duration = -1
+						}
+			prestige_factor = -0.5
+			war_exhaustion = 20
+	}
+}

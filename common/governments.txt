@@ -133,3 +133,14 @@ directorate = {
 	appoint_ruling_party = yes
 
 }
+
+provisional_congress = {
+	liberal = yes
+	conservative = yes
+	reactionary = yes
+	
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = monarchy
+}

@@ -1,0 +1,23 @@
+# 50 Infamy Punishment Remove (fired by under 50 infamy)
+country_event = { id = 99900041
+	title = "50 Infamy Punishment Removed"
+	desc = "After long years of war and and agression, the people look finnaly again up to us. We should take care that this doesn't happen again."
+    picture = "bad_badboy"
+	
+	trigger = {
+		NOT = { badboy = 2 }
+		has_country_flag = infamy_punishment
+	}
+	
+
+		mean_time_to_happen =  {
+		months = 1
+					}
+
+	option = {
+		name = "A surprise to be sure, but a welcome one."
+      		clr_country_flag = infamy_punishment
+		remove_country_modifier = infamy_punishment
+							
+	}
+}

@@ -219,6 +219,7 @@ luderitz_expedition = {
 			NOT = {
 				has_country_flag = ems_dispatch_sent
 			}
+            		war = no
 			OR = {
 				tag = PRU
 				tag = NGF
