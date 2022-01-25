@@ -41764,25 +41764,25 @@
 } # Moscow
 
 1008 = {
+    text_position = {
+        x = 3387.550000
+        y = 1745.250000
+    }
+
+    text_scale = 3.299999
     unit = {
         x = 3389.000000
         y = 1749.000000
     }
 
-    text_position = {
-        x = 3389.000000
-        y = 1744.900024
-    }
-
-    text_scale = 3.299999
-    building_construction = {
-        x = 3379.600098
-        y = 1749.500000
-    }
-
     factory = {
         x = 3397.899902
         y = 1750.000000
+    }
+
+    building_construction = {
+        x = 3379.600098
+        y = 1749.500000
     }
 
 } # Borodino

@@ -1,5 +1,4 @@
 #Surinam : 56640
-#Surinam : 56640
 #Ruled by The Netherlands 1836
 #Paramaribo (48640/12160 POPS)
 2240 = {
@@ -60,31 +59,31 @@
 #Aperina (8000/2000 POPS)
 2245 = {
 	aristocrats = {
-		culture = amazonian
+		culture = brazilian
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = amazonian
+		culture = brazilian
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = amazonian
+		culture = brazilian
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = amazonian
+		culture = brazilian
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = amazonian
+		culture = brazilian
 		religion = animist
 		size = 1750
 	}

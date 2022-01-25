@@ -158,7 +158,7 @@ categories =  {
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.75
+		mine_rgo_eff = 0.25
 		supply_limit = 10
 	}
 	copenhagen = {
@@ -313,7 +313,7 @@ categories =  {
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 1.25
+		mine_rgo_eff = 0.5
 		supply_limit = 10
 	}
 	mexicocity = {
@@ -504,9 +504,9 @@ categories =  {
 	hamburg = {
 		movement_cost = 1.0
 		color = { 22 44 66 }
-		farm_rgo_size = 1.5
+		farm_rgo_size = 0.5
 		farm_rgo_eff = 0.00
-		mine_rgo_size = 1.5
+		mine_rgo_size = 0.5
 		mine_rgo_eff = 0.0
 		supply_limit = 10
 	}
@@ -611,7 +611,7 @@ categories =  {
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.75
+		mine_rgo_eff = 0.25
 		supply_limit = 6
 		combat_width = -0.20
 	}
@@ -820,7 +820,7 @@ categories =  {
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.75
+		mine_rgo_eff = 0.5
 		supply_limit = 10
 	}
 
@@ -1058,7 +1058,7 @@ categories =  {
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 1.25
+		mine_rgo_eff = 0.5
 		supply_limit = 10
 	}
 
@@ -1138,7 +1138,7 @@ categories =  {
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.75
+		mine_rgo_eff = 0.25
 		supply_limit = 10
 	}
 
@@ -1274,7 +1274,7 @@ categories =  {
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.5
+		mine_rgo_eff = 0.25
 		supply_limit = 6
 		combat_width = -0.20
 	}
@@ -2782,7 +2782,7 @@ categories =  {
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 1.25
+		mine_rgo_eff = 0.75
 		supply_limit = 10
 	}
 	
@@ -2837,7 +2837,7 @@ categories =  {
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.75
+		mine_rgo_eff = 0.5
 		supply_limit = 10
 	}
 	
@@ -2847,7 +2847,7 @@ categories =  {
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 1.25
+		mine_rgo_eff = 0.5
 		supply_limit = 10
 	}
 	
@@ -2857,7 +2857,7 @@ categories =  {
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 1.25
+		mine_rgo_eff = 0.5
 		supply_limit = 10
 	}
 	
@@ -2877,7 +2877,7 @@ categories =  {
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.75
+		mine_rgo_eff = 0.5
 		supply_limit = 10
 	}
 	
@@ -2906,7 +2906,7 @@ categories =  {
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 1.5
+		mine_rgo_eff = 0.5
 		
 		supply_limit = 6
 		min_build_railroad = 1
@@ -2971,7 +2971,7 @@ categories =  {
 		farm_rgo_size = 0.2
 		farm_rgo_eff = 0.00
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.75
+		mine_rgo_eff = 0.25
 		supply_limit = 10
 	}
 	
@@ -2992,7 +2992,7 @@ categories =  {
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.5
+		mine_rgo_eff = 0.25
 		supply_limit = 10
 	}	
 	
@@ -3003,7 +3003,7 @@ categories =  {
 		farm_rgo_size = -0.2
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.1
-		mine_rgo_eff = 0.5
+		mine_rgo_eff = 0.25
 		supply_limit = 2
 		
 		combat_width = -0.6

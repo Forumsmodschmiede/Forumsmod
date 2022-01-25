@@ -31,7 +31,7 @@ political_decisions = {
 			}
 			relation = {
 				who = PRU
-				value = 30
+				value = 50
 			}
 		}
 	}
@@ -54,7 +54,6 @@ political_decisions = {
 				personality = defence_5.1
 				background = attack_3.1
 			}	
-			money = 2000000
 			money = 2000000
 			artillery = 2000
 			canned_food = 2000

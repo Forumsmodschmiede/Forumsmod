@@ -468,12 +468,12 @@ the_bonnie_blue_flag = {
 	land_organisation = 1
 	land_unit_start_experience = 50.0
 	leadership_modifier = 1
-	research_points_modifier = 5
+	research_points_modifier = 3
 	mine_rgo_eff = 1
 	farm_rgo_eff = 1
 	supply_consumption = -1
 	tax_efficiency = 0.1
-	administrative_efficiency_modifier = 0.1
+	administrative_efficiency_modifier = 0.2
 	factory_output = 0.1
 	army_tech_research_bonus = 3
 	import_cost = -1
@@ -632,18 +632,21 @@ germania_werft = {
 
 ruhr_boom = {
 
-	mine_rgo_eff = 2
+	mine_rgo_eff = 0.5
+	local_factory_throughput = 0.3
 	population_growth = 0.006
 	life_rating = 0.2
+	immigrant_attract = 0.3
 	icon = 11
 }
 
 prussian_general_staff = {
    	org_regain = 0.2
   	land_organisation = 0.1
-  	mobilisation_economy_impact = -0.25
+  	mobilisation_economy_impact = -0.2
 	land_unit_start_experience = 5.0
 	supply_consumption = -0.05
+	army_tech_research_bonus = 0.05
 	leadership_modifier = 0.1
 	icon = 15
 }
@@ -1166,7 +1169,7 @@ war_torn = {
 	icon = 4
 }
 infamy_punishment = {
-	prestige = -1
+	prestige = -0.5
 	ruling_party_support = -0.5
 	pop_militancy_modifier = 0.01
 	pop_consciousness_modifier = 0.01
@@ -1175,6 +1178,7 @@ infamy_punishment = {
 	immigrant_attract = -2
  	loan_interest = 0.1
 	mobilisation_economy_impact = 1
+	supply_consumption = 0.3
 	org_regain = -0.5
 	land_organisation = -0.5
 	land_unit_start_experience = -5.0
@@ -1182,5 +1186,6 @@ infamy_punishment = {
 	import_cost = 1
 	research_points_modifier = -0.3
 	cb_generation_speed_modifier = -0.5
+	diplomatic_points_modifier = -0.5
 	icon = 4
 }

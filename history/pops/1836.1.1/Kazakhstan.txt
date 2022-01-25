@@ -1,5 +1,4 @@
 #Western Kazakh Steppes Region (72000)
-#Western Kazakh Steppes Region (72000)
 #under the rule of Russia in 1836
 #Guryev (19000/4750 POPS)
 1182 = {
@@ -442,31 +441,31 @@
 	}
 
 	aristocrats = {
-		culture = uighur
+		culture = kazak
 		religion = sunni
 		size = 200
 	}
 
 	clergymen = {
-		culture = uighur
+		culture = kazak
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = uighur
+		culture = kazak
 		religion = sunni
 		size = 550
 	}
 
 	soldiers = {
-		culture = uighur
+		culture = kazak
 		religion = sunni
 		size = 125
 	}
 
 	farmers = {
-		culture = uighur
+		culture = kazak
 		religion = sunni
 		size = 10025
 	}

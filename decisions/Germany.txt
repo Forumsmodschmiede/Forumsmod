@@ -696,75 +696,77 @@ luderitz_expedition = {
 		}
 		
 		allow = {
-			experimental_railroad = 1
+			market_structure = 1
+			organized_factories = 1
+			early_railroad = 1
 		}
 		
 		effect = {
 575 = {
-railroad  = 5
+railroad  = 3
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
 }
 578 = {
-railroad  = 5
+railroad  = 3
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
 }
 2561 = {
-railroad  = 5
+railroad  = 3
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
 }
 577 = {
-railroad  = 5
+railroad  = 3
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
 }
 576 = {
-railroad  = 5
+railroad  = 3
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
 }
 572 = {
-railroad  = 5
+railroad  = 3
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
 }
 573 = {
-railroad  = 5
+railroad  = 3
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
 }
 574 = {
-railroad  = 5
+railroad  = 3
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
 }
 570 = {
-railroad  = 5
+railroad  = 3
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
 }
 579 = {
-railroad  = 5
+railroad  = 3
 				add_province_modifier = {
 
 					name = ruhr_boom

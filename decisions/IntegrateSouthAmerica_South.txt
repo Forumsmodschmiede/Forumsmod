@@ -29,7 +29,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			add_accepted_culture = south_andean 
+			add_accepted_culture = platinean
 			prestige = 10
 			set_country_flag = south_of_south_america_united	
 

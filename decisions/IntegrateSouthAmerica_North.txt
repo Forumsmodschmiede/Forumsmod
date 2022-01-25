@@ -25,7 +25,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			add_accepted_culture = north_andean 
+			add_accepted_culture = andean
 			prestige = 10
 			set_country_flag = north_of_south_america_united	
 			any_owned = {
