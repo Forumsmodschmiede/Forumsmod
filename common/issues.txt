@@ -1391,7 +1391,7 @@ military_reforms = {
 		}
 	}
 	naval_schools = {
-
+		next_step_only = yes
 		no_naval_schools = {
 				global_pop_militancy_modifier = -0.005
 		}

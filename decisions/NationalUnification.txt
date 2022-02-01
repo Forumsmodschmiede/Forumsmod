@@ -150,10 +150,9 @@ political_decisions = {
 		effect = {
 			prestige = 30
 			badboy = 20
-			SGF = {
+			AUS = {
 				all_core = {
-					add_core = THIS
-					remove_core = SGF
+					add_core = SGF
 				}
 			}
 			inherit = SGF

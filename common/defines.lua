@@ -523,7 +523,7 @@ diplomacy = {
 	
 	-- effects of manually releasing a nation
 	RELEASE_NATION_PRESTIGE = -15,
-	RELEASE_NATION_INFAMY = -1,
+	RELEASE_NATION_INFAMY = 0,
 	
 	INFAMY_CLEAR_UNION_SPHERE = 0, -- Infamy for asserting hegemony
 	

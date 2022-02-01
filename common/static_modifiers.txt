@@ -99,8 +99,7 @@ land_province = {
 
 blockaded = 
 {
-	war_exhaustion = 0.01
-	local_rgo_output = -0.3
+	local_rgo_output = -0.2
 }
 
 no_adjacent_controlled = {
@@ -132,7 +131,6 @@ infrastructure = {
 	local_factory_throughput = 1		#each % of infra boost throughput 1%
 	local_rgo_output = 1			#each % of infra boost throughput 1%
 	supply_limit = 4
-    immigrant_attract = 0.05
 }
 
 
@@ -147,7 +145,7 @@ base_values = {
 
 war = {
 	max_war_exhaustion = 100	#base max at war.
-	supply_consumption = -0.45
+	supply_consumption = -0.5
 	#war_exhaustion = 0.1
 	badboy = -0.033
 }
@@ -157,7 +155,7 @@ peace = {
 	supply_consumption = -0.5
 	war_exhaustion = -1
 	badboy = -0.1
-	mobilisation_economy_impact = 2.0
+	mobilisation_economy_impact = 1.0
 }
 
 disarming = {
@@ -165,13 +163,9 @@ disarming = {
 }
 
 war_exhaustion = {
-    org_regain = -0.01
     factory_throughput = -0.01
-    tax_efficiency = -0.0005
-    import_cost = 0.01
-    administrative_efficiency_modifier = -0.001
     cb_generation_speed_modifier = -0.01
-    RGO_throughput = -0.01
+    RGO_throughput = -0.005
 }
 
 
@@ -238,9 +232,7 @@ total_occupation = {
 
 total_blockaded = {
     war_exhaustion = 0.1    #increased by war exhaustion.
-    global_population_growth = -0.0001
     import_cost = 0.05
-    prestige = -0.1
 }
 
 in_bankrupcy = {
