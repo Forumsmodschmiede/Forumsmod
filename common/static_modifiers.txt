@@ -165,7 +165,7 @@ disarming = {
 war_exhaustion = {
     factory_throughput = -0.01
     cb_generation_speed_modifier = -0.01
-    RGO_throughput = -0.005
+    RGO_throughput = -0.01
 }
 
 
@@ -232,7 +232,6 @@ total_occupation = {
 
 total_blockaded = {
     war_exhaustion = 0.1    #increased by war exhaustion.
-    import_cost = 0.05
 }
 
 in_bankrupcy = {

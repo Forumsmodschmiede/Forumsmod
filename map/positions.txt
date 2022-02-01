@@ -18270,6 +18270,11 @@
 
     text_rotation = 6.283185
     text_scale = 2.000000
+    factory = {
+        x = 2881.899902
+        y = 1623.099976
+    }
+
     building_construction = {
         x = 2882.100098
         y = 1617.800049
@@ -18280,15 +18285,10 @@
         y = 1620.000000
     }
 
-    factory = {
-        x = 2881.899902
-        y = 1623.099976
-    }
-
     building_position = {
         fort = {
-            x = 2870.300049
-            y = 1620.000000
+            x = 2880.200000
+            y = 1625.650000
         }
 
     }
@@ -19069,21 +19069,26 @@
 } # Paris
 
 425 = {
+    text_position = {
+        x = 2838.300000
+        y = 1598.950000
+    }
+
+    text_rotation = 5.323253
+    text_scale = 2.500000
     unit = {
         x = 2839.000000
         y = 1602.000000
     }
 
-    text_rotation = 5.323253
-    text_position = {
-        x = 2838.000000
-        y = 1598.900024
-    }
-
-    text_scale = 2.500000
     city = {
         x = 2835.699951
         y = 1605.199951
+    }
+
+    factory = {
+        x = 2847.399902
+        y = 1607.099976
     }
 
     building_construction = {
@@ -19094,11 +19099,6 @@
     military_construction = {
         x = 2843.300049
         y = 1600.000000
-    }
-
-    factory = {
-        x = 2847.399902
-        y = 1607.099976
     }
 
     building_position = {
@@ -24530,8 +24530,8 @@
 
 558 = {
     text_position = {
-        x = 3022.350000
-        y = 1652.400000
+        x = 3021.950000
+        y = 1651.800000
     }
 
     text_rotation = 5.934414
@@ -25339,8 +25339,8 @@
 
 580 = {
     text_position = {
-        x = 2930.200000
-        y = 1662.750000
+        x = 2929.950000
+        y = 1662.350000
     }
 
     text_scale = 1.800000
@@ -36045,11 +36045,6 @@
 } # Gallipoli
 
 859 = {
-    unit = {
-        x = 3231.000000
-        y = 1454.000000
-    }
-
     text_position = {
         x = 3231.199951
         y = 1451.199951
@@ -36057,9 +36052,9 @@
 
     text_rotation = 0.698132
     text_scale = 2.300000
-    building_construction = {
-        x = 3227.199951
-        y = 1453.199951
+    unit = {
+        x = 3231.000000
+        y = 1454.000000
     }
 
     factory = {
@@ -36067,7 +36062,17 @@
         y = 1457.599976
     }
 
+    building_construction = {
+        x = 3227.199951
+        y = 1453.199951
+    }
+
     building_position = {
+        fort = {
+            x = 3221.440000
+            y = 1443.230000
+        }
+
         naval_base = {
             x = 3214.000000
             y = 1440.599976
@@ -41746,7 +41751,7 @@
 1008 = {
     text_position = {
         x = 3387.550000
-        y = 1744.950000
+        y = 1744.700000
     }
 
     text_scale = 3.299999
@@ -68414,20 +68419,25 @@
 } # Edo
 
 1649 = {
+    text_position = {
+        x = 4985.600000
+        y = 1353.950000
+    }
+
+    text_scale = 2.200000
     unit = {
         x = 4986.000000
         y = 1357.000000
     }
 
-    text_position = {
-        x = 4985.899902
-        y = 1354.000000
-    }
-
-    text_scale = 2.200000
     city = {
         x = 4981.399902
         y = 1355.000000
+    }
+
+    factory = {
+        x = 4988.299805
+        y = 1358.500000
     }
 
     building_construction = {
@@ -68438,11 +68448,6 @@
     military_construction = {
         x = 4985.100098
         y = 1354.800049
-    }
-
-    factory = {
-        x = 4988.299805
-        y = 1358.500000
     }
 
     building_position = {

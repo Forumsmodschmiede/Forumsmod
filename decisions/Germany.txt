@@ -116,7 +116,7 @@ Establish_the_German_Navy = {
 			money = -2000000
 			leadership = 80
 			533 = {
-				naval_base = 4
+				naval_base = 5
 				add_province_modifier = { name = germania_werft duration = -1 }
 				}
 		533 = { add_province_modifier = {
@@ -240,6 +240,13 @@ luderitz_expedition = {
 		
 		effect = {
 			prestige = 5
+			any_pop = {
+				limit = { is_culture_group = german }
+				dominant_issue = {
+					factor = 0.2
+					value = jingoism
+				}
+			}
 			FRA = {
 				country_event = { id=19200 days=0 }
 			}
@@ -315,7 +322,7 @@ luderitz_expedition = {
 			prestige = 10
 			treasury = -50000
 			369 = {
-				naval_base = 4
+				naval_base = 5
 				add_province_modifier = { name = germania_werft duration = -1 }
 			}
 		}

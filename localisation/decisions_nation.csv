@@ -1,4 +1,4 @@
-;;;;*;;*;*;;;;;;;x;;;;
+CODE;ENGLISH;FRENCH;GERMAN;POLISH;SPANISH;HUNGARIAN;CZECH;HUNGARIAN;DUTCH;PORTUGUESE;RUSSIAN;FINNISH;;x;;;;;;;;;;;;;;;;
 Royal_Navy;Royal Navy;;;;;;;;;;;;;;
 Royal_Navy_desc;We have established the Royal Navy.;;;;;;;;;;;;;;
 German_Navy;German Navy;;;;;;;;;;;;;;
@@ -63,7 +63,7 @@ abolish_the_han_system_title;Abolish the Han System;;;;;;;;;;;;;x,,,,,,,,,,,,,,,
 abolish_the_han_system_desc;The han system, under which the daimyo rule as feudal lords with very little central authority remaining to the government, is an antiquated relic that must be eliminated. The domains shall be replaced with prefectures, and the daimyos given roles as governors and bureaucrats. There will be resistance, but all will come to understand that this is for the greater good of Japan.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
 bonin_administration_title;Japanese Bonin;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 bonin_administration_desc;Japan now controls the archipelago, and our modern administration will get rid of Gaijin names and change them accordingly.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
-unshakable_autocracy;Unshakable autocracy;;;;;;;;;;;;;x;;;;
+unshakable_autocracy;Unshakable Autocracy;;;;;;;;;;;;;x;;;;
 japanese_sakhalin_title;Japanese Sakhalin;;;;;;;;;;;;;x,,,,,,,,,,,,,
 japanese_sakhalin_desc;With Japan now in full control of Sakhalin and the Kurils, the world must recognize that these islands are essentially part of the Japanese archipelago and know them by their Japanese names.;;;;;;;;;;;;;x,,,,,,,,,,,,
 russian_sakhalin_title;Russian Sakhalin;;;;;;;;;;;;;x,,,,,,,,,,,,,

@@ -28,6 +28,7 @@ country_event = {
 		}
 	}
     }
+}
 country_event = {
     id = 99900028
     title = "We have no Treaty Port"
@@ -56,6 +57,7 @@ country_event = {
 		}
 	}
     }
+}
 country_event = {
     id = 99900029
     title = "We have no Treaty Port"
@@ -63,7 +65,7 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		owns = 900
+		owns = 1496
 		sphere_owner = { is_sphere_leader_of = THIS }
 	}
 	
@@ -85,6 +87,7 @@ country_event = {
 		}
 	}
     }
+}
 country_event = {
     id = 99900030
     title = "We have no Treaty Port"
@@ -114,6 +117,7 @@ country_event = {
 		}
 	}
     }
+}
 country_event = {
     id = 99900031
     title = "We have no Treaty Port"
@@ -143,6 +147,7 @@ country_event = {
 		}
 	}
     }
+}
 country_event = {
     id = 99900032
     title = "We have no Treaty Port"
@@ -172,6 +177,7 @@ country_event = {
 		}
 	}
     }
+}
 country_event = {
     id = 99900033
     title = "We have no Treaty Port"
@@ -201,6 +207,7 @@ country_event = {
 		}
 	}
     }
+}
 country_event = {
     id = 99900034
     title = "We have no Treaty Port"
@@ -230,3 +237,4 @@ country_event = {
 		}
 	}
     }
+}

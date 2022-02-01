@@ -261,7 +261,10 @@ female_suffrage = {
 	poor_vote = 0.05
 	middle_vote = 0.02
 	rich_vote = -0.01
-	core_pop_militancy_modifier = -0.02
+	core_pop_militancy_modifier = -0.01
+	political_reform_desire = 0.1
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
 	icon = 7
 }
 
@@ -557,7 +560,7 @@ destitution_and_poverty = {
 liquor_prohibition = {
 	pop_militancy_modifier = 0.01
 	tax_efficiency = -0.05
-	global_population_growth = 0.01
+	global_population_growth = 0.001
 
 	icon = 2
 }
@@ -1100,14 +1103,15 @@ ai_boni = {
 	administrative_efficiency_modifier = 0.2
 	army_tech_research_bonus = 0.3
 	import_cost = -0.3
-    	min_military_spending = 0.41
+    	min_military_spending = 0.51
+	min_tariff = 0.5
 	icon = 15
 }
 ai_boni2 = {
 	min_tax = 0.5
    	tax_efficiency = 0.05
 	supply_consumption = -0.1
-    	min_military_spending = 0.61
+    	min_military_spending = 0.51
 	mobilisation_economy_impact = -1
 	org_regain = 0.5
 	land_organisation = 0.2
@@ -1119,7 +1123,6 @@ ai_boni2 = {
 	factory_output = 0.1
 	army_tech_research_bonus = 0.2
 	import_cost = -0.05
-	min_tariff = 0.1
   	tariff_efficiency_modifier = 0.1
 	education_efficiency_modifier = 0.3
  	loan_interest = -0.02

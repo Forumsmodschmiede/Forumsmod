@@ -983,7 +983,7 @@ military_logistics = {
 		supply_consumption = 0.20
 	}
 	mobilisation_size = 0.05
-	mobilisation_economy_impact = 1
+	mobilisation_economy_impact = 0.5
 	
 	ai_chance = {
 		factor = 1.1
