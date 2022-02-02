@@ -2372,6 +2372,7 @@ conquest_short;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;An
 italian_unification;Italian Unification;Conquête;Eroberung;;Conquista;;;;;;;;;x;;;;
 italian_unification_setup;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
 italian_unification_short;Annex $RECIPIENT$;Annexer $RECIPIENT$;$RECIPIENT$ annektieren;;Anexión de $RECIPIENT$;;;;;;;;;x;;;;
+italian_unification_desc;Annex an §Yitalian country§W;Annexer un §Ypays§W à un État ou une §Ynation non civilisée§W;Annektieren Sie ein Einzelstaat-§YLand§W oder eine §Yunzivilisierte Nation§W;;Anexionar un §Ypaís§W o una §Ynación sin civilizar§W de un solo estado;;;;;;;;;x
 add_to_sphere;Add to Sphere;ajouter à la sphère;In Einflusssphäre aufnehmen;;Añadir a esfera;;;;;;;;;x;;;;
 add_to_sphere_short;Add $RECIPIENT$ to Sphere of Influence;ajouter $RECIPIENT$ à la sphère d'influence;$RECIPIENT$ in Einflusssphäre aufnehmen;;Añadir a $RECIPIENT$ a la esfera de influencia;;;;;;;;;x;;;;
 add_to_sphere_setup;Add $RECIPIENT$ to Sphere of Influence;ajouter $RECIPIENT$ à la sphère d'influence;$RECIPIENT$ in Einflusssphäre aufnehmen;;Añadir a $RECIPIENT$ a la esfera de influencia;;;;;;;;;x;;;;
@@ -2403,7 +2404,7 @@ minor_conquest_desc;Annex a single-state §Ycountry§W or an §Yuncivilized nation§
 acquire_treaty_port;Acquire treaty port;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
 acquire_treaty_port_short;Acquire $STATE$; Prendre l'État de $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 acquire_treaty_port_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
-acquire_treaty_port_desc;Aquire an enemy §Ystate§W;Prendre un §YÉtat§W ennemi;Erobern Sie einen feindlichen §YStaat§W.;;Adquirir un §Yestado§W enemigo;;;;;;;;;x
+acquire_treaty_port_desc;Aquire an enemy §Ytreaty port§W;Prendre un §YÉtat§W ennemi;Erobern Sie einen feindlichen §YStaat§W.;;Adquirir un §Yestado§W enemigo;;;;;;;;;x
 place_in_the_sun;Place in the sun;Une place au soleil;Ein Platz an der Sonne;;Un lugar bajo el sol;;;;;;;;;x;;;;
 place_in_the_sun_short;Acquire $STATE$; Prendre l'État de $STATE$;Kolonie $STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 place_in_the_sun_setup;Acquire colony $STATE$ from $RECIPIENT$;Prendre colonie $STATE$ à $RECIPIENT$;Kolonie $STATE$ von $RECIPIENT$ erobern.;;Adquirir la colonia de $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
@@ -14974,6 +14975,7 @@ REMOVE_small_arms_production_desc;TODO;TODO;TODO;;POR HACER;;;;;;;;;x;;;;
 explosives_production;Explosives Production;Production d'explosifs;Sprengstoffproduktion;;Producción de explosivos;;;;;;;;;x;;;;
 REMOVE_explosives_production_desc;TODO;TODO;TODO;;POR HACER;;;;;;;;;x;;;;
 artillery_production;Artillery Production;Production de pièces d'artillerie;Artillerieproduktion;;Producción de artillería;;;;;;;;;x;;;;
+charcoal_production;Charcoal Production;Production de pièces d'artillerie;Artillerieproduktion;;Producción de artillería;;;;;;;;;x;;;;
 REMOVE_artillery_production_desc;TODO;TODO;TODO;;POR HACER;;;;;;;;;x;;;;
 clean_coal;Clean Coal;Charbon purifié;Reinkohle;;Limp. carbón;;;;;;;;;x;;;;
 clean_coal_desc;Clean Coal;Charbon purifié;Reinkohle;;Limp. carbón;;;;;;;;;x;;;;

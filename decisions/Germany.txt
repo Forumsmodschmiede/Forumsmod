@@ -525,6 +525,7 @@ luderitz_expedition = {
 	the_heligoland_question = {
 		potential = {
 			tag = GER
+			tag = GGR
 			NOT = {
 				has_country_flag = has_questioned_heligoland
 			}

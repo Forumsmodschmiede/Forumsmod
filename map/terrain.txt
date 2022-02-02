@@ -2720,6 +2720,8 @@ categories =  {
 		supply_limit = 6
 		min_build_railroad = 1
 		combat_width = -0.33
+	local_repair = 0.5
+	local_ship_build = -0.1
 	}
 
 	nice = {

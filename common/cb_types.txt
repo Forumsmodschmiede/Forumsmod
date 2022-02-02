@@ -994,6 +994,12 @@ italian_unification = {
 				tag = SAR 
 				tag = SIC
 				tag = PAP
+				tag = TUS
+				tag = VEN
+				tag = MOD
+				tag = LUC
+				tag = PAR
+				tag = LOM
 			}
 		}
 		OR = {
