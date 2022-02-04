@@ -387,6 +387,8 @@ categories =  {
 	}
 	shanghai = {
 		movement_cost = 1.0
+		combat_width = -0.3
+		defence = 2
 		color = { 22 44 66 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.00
@@ -396,6 +398,7 @@ categories =  {
 	}
 	hongkong = {
 		movement_cost = 1.0
+		combat_width = -0.3
 		defence = 2
 		color = { 140 150 130 }
 		farm_rgo_size = -0.5
@@ -406,6 +409,7 @@ categories =  {
 	}
 	macao = {
 		movement_cost = 1.0
+		combat_width = -0.3
 		defence = 2
 		color = { 140 150 130 }
 		farm_rgo_size = -0.5
@@ -1801,6 +1805,8 @@ categories =  {
 
 	ningbo = {
 		movement_cost = 1.0
+		combat_width = -0.3
+		defence = 2
 		color = { 22 44 66 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
@@ -1811,6 +1817,8 @@ categories =  {
 
 	qingdao = {
 		movement_cost = 1.0
+		combat_width = -0.3
+		defence = 2
 		color = { 22 44 66 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
@@ -1831,6 +1839,8 @@ categories =  {
 
 	oldtianjin = {
 		movement_cost = 1.0
+		combat_width = -0.3
+		defence = 2
 		color = { 22 44 66 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
@@ -1841,13 +1851,14 @@ categories =  {
 
 	portarthur = {
 		movement_cost = 1.0
+		combat_width = -0.3
+		defence = 2
 		color = { 22 44 66 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 10
-		combat_width = -0.3
 	}
 
 	kyoto = {

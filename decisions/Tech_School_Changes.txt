@@ -15,8 +15,6 @@ political_decisions = {
 				ruling_party_ideology = reactionary
 				ruling_party_ideology = fascist
 			}
-			jingoism = 5
-			pro_military = 5
 			prestige = 45
 			military_score = 100
 		}
@@ -45,8 +43,6 @@ political_decisions = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = anarcho_liberal
 			}
-			pro_military = 5
-			laissez_faire = 5
 			prestige = 45
 			military_score = 100
 			total_amount_of_ships = 30
@@ -76,8 +72,6 @@ political_decisions = {
 				ruling_party_ideology = fascist
 				ruling_party_ideology = communist
 			}
-			pacifism = 5
-			secularized = 5
 			prestige = 45
 			average_consciousness = 4
 		}
@@ -105,8 +99,6 @@ political_decisions = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = anarcho_liberal
 			}
-			laissez_faire = 5
-			free_trade = 5
 			prestige = 45
 			industrial_score = 100
 		}
@@ -135,8 +127,6 @@ political_decisions = {
 				ruling_party_ideology = socialist
 				ruling_party_ideology = communist
 			}
-			interventionism = 5
-			protectionism = 5
 			prestige = 45
 			industrial_score = 100
 		}

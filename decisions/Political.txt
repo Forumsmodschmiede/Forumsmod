@@ -393,6 +393,12 @@ enact_liquor_prohibition = {
 		}
 		effect = {
 			money = -1000000
+		random_owned = {
+				limit = {
+					owner = { school_reforms = no_schools }
+					}
+				owner = { social_reform = low_schools }
+			}
 			add_country_modifier = {
 				name = created_a_national_language
 				duration = 10950
@@ -425,12 +431,6 @@ enact_liquor_prohibition = {
 			set_country_flag = sent_iwakura_mission
 			years_of_research = 0.6
 			leadership = 80
-		random_owned = {
-				limit = {
-					owner = { school_reforms = no_schools }
-					}
-				owner = { social_reform = low_schools }
-			}
 		}
 		
 		ai_will_do = { factor = 1 }

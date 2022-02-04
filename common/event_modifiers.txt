@@ -925,6 +925,7 @@ created_a_national_language = {
 }
 algeria_boom= {
 	immigrant_attract = 1
+	global_assimilation_rate = 0.1
 	icon = 5
 }
 An_mein_Volk = {
@@ -1108,21 +1109,18 @@ ai_boni = {
 	icon = 15
 }
 ai_boni2 = {
-	min_tax = 0.5
+	min_tax = 0.4
    	tax_efficiency = 0.05
-	supply_consumption = -0.1
+	supply_consumption = -0.05
     	min_military_spending = 0.51
-	mobilisation_economy_impact = -1
+	mobilisation_economy_impact = -0.5
 	org_regain = 0.5
 	land_organisation = 0.2
 	land_unit_start_experience = 5.0
 	leadership_modifier = -0.3
-	mine_rgo_eff = 0.05
-	farm_rgo_eff = 0.05
 	administrative_efficiency_modifier = 0.4
-	factory_output = 0.1
+	factory_output = 0.05
 	army_tech_research_bonus = 0.2
-	import_cost = -0.05
   	tariff_efficiency_modifier = 0.1
 	education_efficiency_modifier = 0.3
  	loan_interest = -0.02

@@ -11,7 +11,7 @@ political_decisions = {
 		}
 		effect = {
 			any_pop = {
-				limit = { is_culture_group = german }
+				limit = { is_culture_group = germanic }
 				dominant_issue = {
 					factor = 0.2
 					value = jingoism
@@ -54,12 +54,13 @@ political_decisions = {
 				add_core = GER
 			}
 			any_pop = {
-				limit = { is_culture_group = german }
+				limit = { is_culture_group = germanic }
+				militancy = -1
 				dominant_issue = {
 					factor = 0.4
 					value = jingoism
-						}
 				}
+			}
             		set_country_flag = claim_ggr
 			}
 				}
@@ -88,12 +89,13 @@ political_decisions = {
 				remove_core = GER
 					}
 			any_pop = {
-				limit = { is_culture_group = german }
+				limit = { is_culture_group = germanic }
+				militancy = -1
 				dominant_issue = {
-					factor = 0.2
+					factor = 0.4
 					value = jingoism
-						}
 				}
+			}
             		set_country_flag = proclaim_ggr
             		clr_country_flag = claim_ggr
 			}
@@ -230,6 +232,8 @@ luderitz_expedition = {
 		allow = {
 			prestige = 30
 			military_statistics = 1
+			NOT = { truce_with = FRA }
+			war = no
 			NOT = {
 				relation = {
 					who = FRA
@@ -241,7 +245,7 @@ luderitz_expedition = {
 		effect = {
 			prestige = 5
 			any_pop = {
-				limit = { is_culture_group = german }
+				limit = { is_culture_group = germanic }
 				dominant_issue = {
 					factor = 0.2
 					value = jingoism
@@ -391,7 +395,7 @@ luderitz_expedition = {
 		}
 		effect = {
 			any_pop = {
-				limit = { is_culture_group = german }
+				limit = { is_culture_group = germanic }
 				dominant_issue = {
 					factor = 0.2
 					value = jingoism
@@ -432,6 +436,7 @@ luderitz_expedition = {
 	
 	schwabing_circles = {
 		potential = {
+			year = 1865
 			OR = {
 				tag = SGF
 				tag = GER
@@ -454,6 +459,7 @@ luderitz_expedition = {
 	
 	das_buergerliche_gesetzbuch = {
 		potential = {
+			year = 1890
 			OR = {
 			tag = GER
 			tag = GGR
@@ -524,8 +530,10 @@ luderitz_expedition = {
 	
 	the_heligoland_question = {
 		potential = {
+			OR = {
 			tag = GER
 			tag = GGR
+				}
 			NOT = {
 				has_country_flag = has_questioned_heligoland
 			}
@@ -619,7 +627,7 @@ luderitz_expedition = {
 			leadership = 80
 			badboy = 5
 			any_pop = {
-				limit = { is_culture_group = german }
+				limit = { is_culture_group = germanic }
 				militancy = -1
 				dominant_issue = {
 					factor = 0.1

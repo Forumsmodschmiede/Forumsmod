@@ -620,6 +620,12 @@ political_decisions = {
 			SPA_2209 = {
 				add_core = CSA
 			}
+			2222 = {
+				add_core = USA
+			}
+			2222 = {
+				add_core = CSA
+			}
 			add_accepted_culture = caribeno
 			add_accepted_culture = afro_caribeno
 			any_state = {

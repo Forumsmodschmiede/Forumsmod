@@ -26,7 +26,7 @@ political_decisions = {
 				name = ai_boni
 				duration = -1
 						}
-			money = 2000000
+			money = 20000
 			artillery = 2000
 			canned_food = 2000
 			ammunition = 2000
@@ -61,7 +61,7 @@ political_decisions = {
 				name = ai_boni
 				duration = -1
 						}
-			money = 2000000
+			money = 200000
 			artillery = 2000
 			canned_food = 2000
 			ammunition = 2000
@@ -101,7 +101,7 @@ political_decisions = {
 				duration = -1
 						}      		
 			set_country_flag = ai
-			money = 100000
+			money = 10000
 			artillery = 2000
 			canned_food = 2000
 			ammunition = 2000

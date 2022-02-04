@@ -17,6 +17,7 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = maghrebi
 			add_accepted_culture = misri
+			add_accepted_culture = berber
 			EGY = { 
 				all_core = {
 					add_core = OTC

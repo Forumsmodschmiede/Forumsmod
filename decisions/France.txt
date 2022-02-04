@@ -220,8 +220,8 @@ political_decisions = {
 				value = 100
 			}
 			JAP = {
-				years_of_research = 3
-				money = 300000
+				years_of_research = 1
+				money = 100000
 				prestige = 10
 				artillery = 2000
 				canned_food = 2000
@@ -357,6 +357,8 @@ political_decisions = {
 		
 		allow = {
 			ideological_thought = 1
+			NOT = { truce_with = PRU }
+			war = no
 		}
 		
 		effect = {

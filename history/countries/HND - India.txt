@@ -1,9 +1,5 @@
 capital = 1251
 primary_culture = asian_minor
-culture = avadhi
-culture = bihari
-culture = tamil
-culture = kanauji
 
 religion = animist
 government = directorate
