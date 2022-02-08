@@ -1059,7 +1059,7 @@ carlist_sympathies = {
     icon = 4
 }
 spain_immigrant = {
-    immigrant_push = -0.8
+    immigrant_push = -0.9
     movement_cost = 0.5
     icon = 4
 }
@@ -1077,7 +1077,7 @@ irish_potato_blight = {
     icon = 4
 }
 small_immigration_boom = {
-	global_immigrant_attract = 1
+	immigrant_attract = 1
 	icon = 17
 }
 austrian_lombardy = {
@@ -1101,10 +1101,10 @@ ai_boni = {
 	land_organisation = 1
 	supply_consumption = -0.5
 	tax_efficiency = 0.05
-	administrative_efficiency_modifier = 0.2
+	administrative_efficiency_modifier = 0.4
 	army_tech_research_bonus = 0.3
 	import_cost = -0.3
-    	min_military_spending = 0.51
+    	min_military_spending = 0.6
 	min_tariff = 0.5
 	icon = 15
 }
@@ -1112,14 +1112,13 @@ ai_boni2 = {
 	min_tax = 0.4
    	tax_efficiency = 0.05
 	supply_consumption = -0.05
-    	min_military_spending = 0.51
+    	min_military_spending = 0.41
 	mobilisation_economy_impact = -0.5
 	org_regain = 0.5
 	land_organisation = 0.2
 	land_unit_start_experience = 5.0
 	leadership_modifier = -0.3
-	administrative_efficiency_modifier = 0.4
-	factory_output = 0.05
+	administrative_efficiency_modifier = 0.6
 	army_tech_research_bonus = 0.2
   	tariff_efficiency_modifier = 0.1
 	education_efficiency_modifier = 0.3

@@ -204,6 +204,62 @@ alliance=
 	}
 alliance=
 	{
+		first="BAD"
+		second="AUS"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="WUR"
+		second="AUS"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="BAV"
+		second="AUS"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="KRA"
+		second="AUS"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="PAR"
+		second="AUS"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="MOD"
+		second="AUS"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="TUS"
+		second="AUS"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="LUC"
+		second="AUS"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
 		first="ENG"
 		second="POR"
 		end_date="1936.1.1"

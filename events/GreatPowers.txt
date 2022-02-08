@@ -200,7 +200,7 @@ province_event = {
 
 		owner = {
 			prestige = 5
-			treasury = -100
+			treasury = -10000
 		}
 		any_country = {
 			limit = {
@@ -265,7 +265,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTB19023"
-		treasury = -100
+		treasury = -10000
 	}
 }
 
@@ -655,7 +655,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA19043"
-		treasury = -20000
+		treasury = -2000000
 	}
 
 	option = {
