@@ -1,6 +1,5 @@
 capital = 1483
 primary_culture = asian_minor
-culture = nanfaren
 religion = animist
 government = absolute_monarchy
 plurality = 0.0

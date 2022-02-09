@@ -697,7 +697,7 @@ economic_reforms = {
 		yes_finance_reform = {
 			technology_cost = 4000 #was 7000
 			civilization_progress_modifier = 0.05 #was 0.15
-			max_loan_modifier = -1.0 # no loan 4 u
+			max_loan_modifier = -0.6
 			
 			on_execute = {
 				effect = {
@@ -755,7 +755,7 @@ economic_reforms = {
 		}
 		yes_education_reform = {
 			technology_cost = 4000 #was 10000
-			education_efficiency_modifier = 0.10
+			education_efficiency_modifier = 0.05
 			civilization_progress_modifier = 0.05
 			
 			on_execute = {
@@ -1224,7 +1224,7 @@ military_reforms = {
 				global_pop_militancy_modifier = -0.005
 		}
 		yes_army_schools = {
-			land_unit_start_experience = 10
+			land_unit_start_experience = 5
 			technology_cost = 4000 #was 10000
 		
 			on_execute = {
@@ -1397,7 +1397,7 @@ military_reforms = {
 				global_pop_militancy_modifier = -0.005
 		}
 		yes_naval_schools = {
-			naval_unit_start_experience = 10
+			naval_unit_start_experience = 5
 			technology_cost = 4000 #was 10000
 			research_points_on_conquer = 0.05 #new
 			
@@ -1423,6 +1423,7 @@ military_reforms = {
 		naval_schools_two = { #new
 			technology_cost = 4000 #because player can skip level 1, cost is for both levels
 			civilization_progress_modifier = 0.05
+			naval_unit_start_experience = 10
 			research_points_on_conquer = 0.1
 
 			on_execute = {

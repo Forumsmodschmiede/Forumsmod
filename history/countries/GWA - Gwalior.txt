@@ -1,6 +1,5 @@
 capital = 1270
 primary_culture = asian_minor
-culture = avadhi
 religion = animist
 government = absolute_monarchy
 plurality = 0.0

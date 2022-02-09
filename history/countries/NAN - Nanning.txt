@@ -1,6 +1,5 @@
 capital = 1502
-primary_culture = asian_minor 
-culture = zhuang
+primary_culture = asian_minor
 religion = animist
 government = absolute_monarchy
 plurality = 0.0

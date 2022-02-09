@@ -267,6 +267,20 @@ alliance=
 	}
 alliance=
 	{
+		first="ENG"
+		second="GRE"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="ENG"
+		second="BEL"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
 		first="FRA"
 		second="PAP"
 		end_date="1936.1.1"

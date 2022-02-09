@@ -1050,12 +1050,13 @@ spain_civil_war = {
 christino_sympathies = {
     pop_militancy_modifier = 0.1
     local_RGO_throughput = -0.3
-    immigrant_push = -1
+    immigrant_push = -0.1
     icon = 4
 }
 carlist_sympathies = {
     pop_militancy_modifier = 0.1
     local_RGO_throughput = -0.3
+    immigrant_push = -0.1
     icon = 4
 }
 spain_immigrant = {
@@ -1077,7 +1078,7 @@ irish_potato_blight = {
     icon = 4
 }
 small_immigration_boom = {
-	immigrant_attract = 1
+	immigrant_attract = 0.3
 	icon = 17
 }
 austrian_lombardy = {
