@@ -7,7 +7,7 @@ country = {
 	YEARS_OF_NATIONALISM 	= 20,   -- Years of Nationalism
 	MONTHS_UNTIL_BROKEN 		= 3,    -- OBSOLETE! (Months until rebel held capital results in broken country.)
 	REBEL_ACCEPTANCE_MONTHS = 60,
-	BASE_COUNTRY_TAX_EFFICIENCY = 0.15, -- Basic efficiency for taxes without 'crats and tech
+	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.1,
 	GOLD_TO_CASH_RATE = 0.5, -- Amount of money generated per gold unit
 	GOLD_TO_WORKER_PAY_RATE = 3.5, -- Multiplier for how much money gold pays to pops
@@ -644,7 +644,7 @@ pops = {
 	MIL_IDEOLOGY = -0.1,
 	MIL_RULING_PARTY = -0.1,
 	MIL_REFORM_IMPACT = 2,
-	MIL_WAR_EXHAUSTION = 0.005,
+	MIL_WAR_EXHAUSTION = 0.003,
 	MIL_NON_ACCEPTED = 0.05,
 		
 	CON_LITERACY = 0.1,
@@ -667,7 +667,7 @@ pops = {
 	MIL_TO_JOIN_RISING = 8, -- Rebels over this will join a general rising
 	MIL_TO_AUTORISE = 9, -- Rebels over this rise no matter what
 	REDUCTION_AFTER_RISEING = 0.0, -- After a pop spawns a rebellion, its militancy will be reduced this much
-	REDUCTION_AFTER_DEFEAT = 5.0, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
+	REDUCTION_AFTER_DEFEAT = 6.0, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
 																-- (if value < 1.0, the MIL will be increased) (Beware! value must be > 0)
 	
 	POP_TO_LEADERSHIP = 0.00005, -- how much leadership every 1000 officers gives each day.

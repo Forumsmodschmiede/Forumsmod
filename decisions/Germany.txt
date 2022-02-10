@@ -117,11 +117,9 @@ Establish_the_German_Navy = {
 		effect = {
 			money = -2000000
 			leadership = 80
-			533 = {
+		533 = { 
 				naval_base = 5
-				add_province_modifier = { name = germania_werft duration = -1 }
-				}
-		533 = { add_province_modifier = {
+				add_province_modifier = {
 					name = Rebuild_our_Fleet
 					duration = -1
 			}		}

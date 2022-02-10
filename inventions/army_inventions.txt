@@ -807,7 +807,7 @@ colonial_negotiations = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 10
+			factor = 1
 			machine_guns = 1
 		}
 		modifier = {

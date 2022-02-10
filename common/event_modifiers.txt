@@ -981,6 +981,7 @@ otto_von_bismarck = {
 	badboy = -0.01
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.05
+	suppression_points_modifier = 0.25
 	icon = 17
 }
 louis_napoleon_iii = {

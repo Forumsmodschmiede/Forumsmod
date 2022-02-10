@@ -58,7 +58,7 @@ save_the_nation0.5  = {
     trigger = {
         revanchism = 0.05
         NOT = { revanchism = 0.10 }
-        NOT = { has_country_flag = claim_ggr }
+
     }
 
     suppression_points_modifier = 0.05
@@ -87,7 +87,7 @@ save_the_nation1.5  = {
     trigger = {
         revanchism = 0.15
         NOT = { revanchism = 0.20 }
-        NOT = { has_country_flag = claim_ggr }
+
     }
 
     suppression_points_modifier = 0.10
@@ -104,7 +104,7 @@ save_the_nation2  = {
     trigger = {
         revanchism = 0.20
         NOT = { revanchism = 0.25 }
-        NOT = { has_country_flag = claim_ggr }
+
     }
 
     suppression_points_modifier = 0.10
@@ -121,7 +121,7 @@ save_the_nation2.5  = {
     trigger = {
         revanchism = 0.25
         NOT = { revanchism = 0.30 }
-        NOT = { has_country_flag = claim_ggr }
+
     }
 
     suppression_points_modifier = 0.10
@@ -138,7 +138,7 @@ save_the_nation3  = {
     trigger = {
         revanchism = 0.30
         NOT = { revanchism = 0.35 }
-        NOT = { has_country_flag = claim_ggr }
+
     }
 
     suppression_points_modifier = 0.10
@@ -155,7 +155,7 @@ save_the_nation3.5  = {
     trigger = {
         revanchism = 0.35
         NOT = { revanchism = 0.40 }
-        NOT = { has_country_flag = claim_ggr }
+
     }
 
     suppression_points_modifier = 0.10
@@ -172,7 +172,7 @@ save_the_nation4  = {
     trigger = {
         revanchism = 0.40
         NOT = { revanchism = 0.45 }
-        NOT = { has_country_flag = claim_ggr }
+
     }
 
     suppression_points_modifier = 0.10
@@ -189,7 +189,7 @@ save_the_nation4.5  = {
     trigger = {
         revanchism = 0.45
         NOT = { revanchism = 0.50 }
-        NOT = { has_country_flag = claim_ggr }
+
     }
 
     suppression_points_modifier = 0.10
@@ -206,7 +206,7 @@ save_the_nation4.5  = {
 save_the_nation5  = {
     trigger = {
         revanchism = 0.50
-        NOT = { has_country_flag = claim_ggr }
+
     }
 
     suppression_points_modifier = 0.10
