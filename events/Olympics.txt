@@ -57,7 +57,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA23400" # Join the IOC
 		ai_chance = { factor = 99 }
-		money = -10000
+		money = -100000
 		prestige = 5
 		set_country_flag = IOCMember
 	}
@@ -107,7 +107,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA23401" # Send invites to other IOC members
-		money = -1000
+		money = -10000
 		set_global_flag = Host1Olympiad
 		set_country_flag = Host1Olympiad
 		set_country_flag = Attend1Olympiad

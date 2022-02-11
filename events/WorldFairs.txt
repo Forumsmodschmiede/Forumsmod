@@ -41,7 +41,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA30000" # let's organize it
-		money = -1000
+		money = -100000
 		set_global_flag = PlanWorldFair
 		set_country_flag = world_fair_planner
 	}
@@ -146,7 +146,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA30000" # let's organize it
-		money = -250
+		money = -25000
 		set_global_flag = PlanRegionalFair
 		set_country_flag = regionalfairplanner
 	}
@@ -243,7 +243,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA30000" # let's organize it
-		money = -500
+		money = -50000
 		set_global_flag = PlanColonialFair
 		set_country_flag = colonialfairplanner
 	}

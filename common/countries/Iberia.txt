@@ -246,7 +246,9 @@ unit_names = {
 		"Marqués de la Victoria" Pelayo "Príncipe de Asturias" Requesens "Reyes Católicos" "Rodrigo Díaz de Vivar" "Sánchez de Tovar" "Sancho III" "Villa de Barcelona" "Villa de Madrid"
 	}
 	battleship = {
-			Pelayo
+			Pelayo 	Arapiles Bailén Barcelona Cazadora Covadonga Duero Ebro Galerna Giralda Guadalete
+		"Mar Caribe" Mistral "Navas de Tolosa" Numancia Resolución Sagunto "San Quintín" "Santa María" Segura Sella
+		Siroco Tajo Tambre Tetuán Tramontana Turia Vencedora Viriato Vitoria Zaragoza
 	}
 	ironclad = {
 		Arapiles Bailén Barcelona Cazadora Covadonga Duero Ebro Galerna Giralda Guadalete

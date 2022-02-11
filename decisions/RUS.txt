@@ -368,7 +368,7 @@ political_decisions = {
 
 	colonize_uriankhai = {
 		picture = uriankhai_colony
-		potential = { year = 1850
+		potential = { year = 1840
 			tag = RUS
 			NOT = { has_country_flag = colonize_uriankhai }
 		}

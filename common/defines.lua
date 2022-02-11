@@ -171,15 +171,15 @@ military = {
 	NAVAL_COMBAT_STACKING_TARGET_CHANGE = 0.03, -- increase chance to change/drop target when suffering stacking penalty
 	NAVAL_COMBAT_STACKING_TARGET_SELECT = 0.2, -- modifier for how much the stacking penalty affects the target selection.
 	NAVAL_COMBAT_MAX_TARGETS = 6, -- max number of ships that may target the same enemy ship
-	AI_BIGSHIP_PROPORTION = 0.4, -- fraction of ships in the navy that should be ships of the line
-	AI_LIGHTSHIP_PROPORTION = 0.4, -- fraction of ships in the navy that should be cruisers, frigates etc
+	AI_BIGSHIP_PROPORTION = 0.3, -- fraction of ships in the navy that should be ships of the line
+	AI_LIGHTSHIP_PROPORTION = 0.5, -- fraction of ships in the navy that should be cruisers, frigates etc
 	AI_TRANSPORT_PROPORTION = 0.2, -- fraction of ships in the navy that should be should be transports
 	AI_CAVALRY_PROPORTION = 0.05, -- fraction of brigades that should be cavalry
 	AI_SUPPORT_PROPORTION = 0.65, -- fraction of brigades that should be artillery and other support units
 	AI_SPECIAL_PROPORTION = 0.05, -- fraction of brigades that should be engineers and tanks
 	AI_ESCORT_RATIO = 2.0, -- ratio of escorts to transports in invasion fleets
-	AI_ARMY_TAXBASE_FRACTION = 0.3, -- max of tax base that AI will spend on army supply costs (based on peacetime costs)
-	AI_NAVY_TAXBASE_FRACTION = 0.3, -- max of tax base that AI will spend on navy supply costs (based on peacetime costs)
+	AI_ARMY_TAXBASE_FRACTION = 0.2, -- max of tax base that AI will spend on army supply costs (based on peacetime costs)
+	AI_NAVY_TAXBASE_FRACTION = 0.1, -- max of tax base that AI will spend on navy supply costs (based on peacetime costs)
 	AI_BLOCKADE_RANGE = 200, -- max distance the AI will send out blockade fleets from their home base
 	RECON_UNIT_RATIO = 0.1, -- the % of units in the army that must have a recon value to get the full bonus
 	ENGINEER_UNIT_RATIO = 0.1, -- the % of units in the army that must have a fort attack value to get the full bonus
@@ -509,13 +509,13 @@ diplomacy = {
 	
 	GUNBOAT_DIPLOMATIC_COST = 1,
 	GUNBOAT_RELATION_ON_ACCEPT = 1,
-	WARGOAL_JINGOISM_REQUIREMENT = 0,
+	WARGOAL_JINGOISM_REQUIREMENT = 0.06,
 
 	LIBERATE_STATE_RELATION_INCREASE = 50,
 	DISHONORED_CALLALLY_PRESTIGE_PENALTY = 0,
 	BASE_TRUCE_MONTHS = 60,
 	MAX_INFLUENCE = 100,
-	WARSUBSIDIES_PERCENT = 30, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
+	WARSUBSIDIES_PERCENT = 20, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
 	NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.25, -- Bonus to neighbouring countries when influencing
 	SPHERE_NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.1, -- Bonus to countries in your sphere neighbouring when influencing
 	OTHER_CONTINENT_BONUS_INFLUENCE_PERCENT = -0.25, -- Bonus to neighbouring countries when influencing
@@ -672,7 +672,7 @@ pops = {
 	
 	POP_TO_LEADERSHIP = 0.00005, -- how much leadership every 1000 officers gives each day.
 	ARTISAN_MIN_PRODUCTIVITY = 1, -- Minimum efficieny of an artisan
-	SLAVE_GROWTH_DIVISOR = 10, -- Slaves have N times lower growth
+	SLAVE_GROWTH_DIVISOR = 5, -- Slaves have N times lower growth
 	
 	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxuary goods
@@ -695,7 +695,7 @@ pops = {
 ai =
 {
 	COLONY_WEIGHT = 5.0, -- ai weight for colonising
-	ADMINISTRATOR_WEIGHT = 10.0, -- ai weight for new bureaucrat
+	ADMINISTRATOR_WEIGHT = 15.0, -- ai weight for new bureaucrat
 	INDUSTRYWORKER_WEIGHT = 10.0, -- ai weight for new industry workers
 	EDUCATOR_WEIGHT = 10.0, -- ai weigth for new clergy
 	SOLDIER_WEIGHT = 30.0, -- ai weight for soldiers
@@ -707,10 +707,10 @@ ai =
 	POP_PROJECT_INVESTMENT_MAX_BUDGET_FACTOR = 0.25, -- how much % of our current budget can be spend on the pop project investments.
 	RELATION_LIMIT_NO_ALLIANCE_OFFER = 0, -- if relation lower then this value, AI will not ally
 	NAVAL_SUPPLY_PENALTY_LIMIT = 0.2, -- AI will allow to have max X% of supply penalty (when too little naval bases)
-	CHANCE_BUILD_RAILROAD = 0.5, -- chances in % of AI decisions (max value 1.0)
-	CHANCE_BUILD_NAVAL_BASE = 0.75,
-	CHANCE_BUILD_FORT = 0.5,
-	CHANCE_INVEST_POP_PROJ = 0.25,
+	CHANCE_BUILD_RAILROAD = 0.7, -- chances in % of AI decisions (max value 1.0)
+	CHANCE_BUILD_NAVAL_BASE = 0.5,
+	CHANCE_BUILD_FORT = 0.3,
+	CHANCE_INVEST_POP_PROJ = 0.35,
 	CHANCE_FOREIGN_INVEST = 0.25,
 	TWS_AWARENESS_SCORE_LOW_CAP = 0, -- AI will always add CBs if current warscore is less then that number (including TWS)
 	TWS_AWARENESS_SCORE_ASPECT = 0, -- AI will not add any more CBs when TWS is more then X% of total WS. (to not destroy the progress)
@@ -732,7 +732,7 @@ ai =
 	FLEET_SIZE = 50, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
 	MIN_FLEETS = 1, -- Minimum amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
 	MAX_FLEETS = 5, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
-	MONTHS_BEFORE_DISBAND = 6, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)
+	MONTHS_BEFORE_DISBAND = 3, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)
 },
 
 graphics =

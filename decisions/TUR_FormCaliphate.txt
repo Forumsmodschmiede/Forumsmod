@@ -45,6 +45,7 @@ political_decisions = {
 		effect = {
 			change_tag = OTC
 			TUR = { all_core = { remove_core = TUR } }
+			add_accepted_culture = azerbaijani
 
 			any_country = {
 				limit = {

@@ -1,218 +1,410 @@
-Feb 03, 2022 11:55:05 PM posed.PositionsEditor main
+Feb 11, 2022 5:39:50 AM posed.PositionsEditor main
 INFORMATION: Java version: 1.8.0_311
-Feb 03, 2022 11:55:06 PM posed.Map loadData
+Feb 11, 2022 5:39:51 AM posed.Map loadData
 INFORMATION: Map file is C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map\default.map
-Feb 03, 2022 11:55:06 PM posed.PositionsEditorUI load
+Feb 11, 2022 5:39:51 AM posed.PositionsEditorUI load
 INFORMATION: Loading positions from C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map\positions.txt
-Feb 03, 2022 11:55:06 PM posed.MapPanel createMapImage
+Feb 11, 2022 5:39:51 AM posed.MapPanel createMapImage
 INFORMATION: Reading map from C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map/provinces.bmp
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Did not expect list: railroad_visibility
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Did not expect list: railroad_visibility
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Did not expect list: railroad_visibility
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 255 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 257 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 258 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 259 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 260 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 261 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 262 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 263 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 265 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 273 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 274 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 275 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 280 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 281 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 282 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 284 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 286 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 290 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 296 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 297 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 298 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 299 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 301 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 302 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 303 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 387 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 388 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 389 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 391 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 392 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 398 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 401 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 416 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 417 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 418 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 420 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 421 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 422 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 424 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 435 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Did not expect list: railroad_visibility
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Did not expect list: railroad_visibility
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2570 (land): town
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Did not expect list: railroad_visibility
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Did not expect list: railroad_visibility
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2716 (sea): factory
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2716 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2717 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2724 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2725 (sea): military_construction
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2726 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2733 (sea): building_rotation
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2755 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2761 (sea): building_construction
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2765 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2781 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2782 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2811 (sea): city
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2829 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2843 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2845 (sea): factory
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2852 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2896 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2897 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2903 (sea): building_construction
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2903 (sea): military_construction
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2927 (sea): building_construction
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2933 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2935 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2936 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2938 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2968 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2971 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2980 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2992 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 2993 (sea): factory
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3001 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3001 (sea): building_rotation
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:52 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3048 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:53 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3107 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:53 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3127 (sea): building_construction
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:53 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3127 (sea): military_construction
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:53 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3159 (sea): factory
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:53 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3190 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:53 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3219 (sea): spawn_railway_track
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:53 AM posed.PositionsEditorUI validateObject
 WARNUNG: Did not expect list: railroad_visibility
-Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+Feb 11, 2022 5:39:53 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3230 (sea): spawn_railway_track
-Feb 03, 2022 11:55:20 PM posed.ProvincePanel setImage
+Feb 11, 2022 5:39:57 AM posed.ProvincePanel setImage
 INFORMATION: Province image scale: 20
-Feb 03, 2022 11:55:30 PM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Province 1.093:
-Feb 03, 2022 11:55:30 PM posed.PositionsEditorUI provinceListMouseClicked
+Feb 11, 2022 5:40:11 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 628:
+Feb 11, 2022 5:40:11 AM posed.PositionsEditorUI provinceListMouseClicked
 INFORMATION: Old entry:
-1093 = { 
-    unit = { x = 3486.000000 y = 1465.000000 } 
-    text_position = { x = 3485.000000 y = 1460.800049 } 
-    text_rotation = 6.021386
-    text_scale = 2.600000
-    building_construction = { x = 3491.100098 y = 1464.199951 } 
-    factory = { x = 3476.000000 y = 1466.300049 } 
-} # Poti
+628 = { 
+    text_position = { x = 3037.593750 y = 1642.843750 } 
+    text_scale = 1.600000
+    unit = { x = 3032.500000 y = 1643.000000 } 
+    factory = { x = 3035.100000 y = 1640.950000 } 
+    building_construction = { x = 3038.000000 y = 1643.099976 } 
+    military_construction = { x = 3039.050000 y = 1644.450000 } 
+    building_position = { fort = { x = 3031.700000 y = 1647.300000 } } 
+} # Plzen
 
-Feb 03, 2022 11:55:30 PM posed.PositionsEditorUI provinceListMouseClicked
+Feb 11, 2022 5:40:11 AM posed.PositionsEditorUI provinceListMouseClicked
 INFORMATION: New entry:
 ################################################################################
-# Akhaltsikhe
+# Aussig
 ################################################################################
-1093 = { 
-    text_position = { x = 3485.000000 y = 1460.800049 } 
-    text_rotation = 6.021386
-    text_scale = 2.600000
-    unit = { x = 3486.000000 y = 1465.000000 } 
-    factory = { x = 3476.000000 y = 1466.300049 } 
-    building_construction = { x = 3491.100098 y = 1464.199951 } 
-    building_position = { fort = { x = 3484.500000 y = 1458.000000 } railroad = { x = 3480.500000 y = 1466.550000 } } 
+628 = { 
+    text_position = { x = 3037.500000 y = 1642.500000 } 
+    text_scale = 1.800000
+    unit = { x = 3032.500000 y = 1643.000000 } 
+    factory = { x = 3035.100000 y = 1640.950000 } 
+    building_construction = { x = 3038.000000 y = 1643.099976 } 
+    military_construction = { x = 3039.050000 y = 1644.450000 } 
+    building_position = { fort = { x = 3031.700000 y = 1647.300000 } } 
+}
+
+Feb 11, 2022 5:40:13 AM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 20
+Feb 11, 2022 5:40:26 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 627:
+Feb 11, 2022 5:40:26 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+627 = { 
+    text_position = { x = 3014.650000 y = 1636.050000 } 
+    text_rotation = 0.389791
+    text_scale = 2.100000
+    unit = { x = 3022.800000 y = 1638.300000 } 
+    factory = { x = 3004.350000 y = 1634.850000 } 
+    building_construction = { x = 3014.400000 y = 1633.400000 } 
+    building_position = { fort = { x = 3021.150000 y = 1640.750000 } railroad = { x = 3008.000000 y = 1633.000000 } } 
+} # Aussig
+
+Feb 11, 2022 5:40:26 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Karlsbad
+################################################################################
+627 = { 
+    text_position = { x = 3014.750000 y = 1635.700000 } 
+    text_rotation = 0.389791
+    text_scale = 2.200000
+    unit = { x = 3022.800000 y = 1638.300000 } 
+    factory = { x = 3004.350000 y = 1634.850000 } 
+    building_construction = { x = 3014.400000 y = 1633.400000 } 
+    building_position = { fort = { x = 3021.150000 y = 1640.750000 } railroad = { x = 3008.000000 y = 1633.000000 } } 
+}
+
+Feb 11, 2022 5:40:59 AM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 20
+Feb 11, 2022 5:41:49 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 649:
+Feb 11, 2022 5:41:49 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+649 = { 
+    unit = { x = 3124.000000 y = 1556.000000 } 
+    text_position = { x = 3124.300049 y = 1553.400024 } 
+    text_scale = 2.100000
+    building_construction = { x = 3118.399902 y = 1556.500000 } 
+    factory = { x = 3124.000000 y = 1561.000000 } 
+} # Békéscsaba
+
+Feb 11, 2022 5:41:49 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Szeged
+################################################################################
+649 = { 
+    text_position = { x = 3122.750000 y = 1554.400000 } 
+    text_scale = 2.100000
+    unit = { x = 3124.000000 y = 1556.000000 } 
+    factory = { x = 3124.000000 y = 1561.000000 } 
+    building_construction = { x = 3118.399902 y = 1556.500000 } 
+    building_position = { fort = { x = 3119.850000 y = 1559.000000 } } 
+}
+
+Feb 11, 2022 5:42:01 AM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 17,647
+Feb 11, 2022 5:42:12 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 652:
+Feb 11, 2022 5:42:12 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+652 = { 
+    unit = { x = 3142.000000 y = 1552.000000 } 
+    text_position = { x = 3142.100098 y = 1548.599976 } 
+    text_rotation = 6.283185
+    text_scale = 2.500000
+    building_construction = { x = 3153.000000 y = 1550.599976 } 
+    military_construction = { x = 3136.000000 y = 1545.000000 } 
+    factory = { x = 3132.699951 y = 1550.699951 } 
+    building_position = { fort = { x = 3139.000000 y = 1539.000000 } } 
+} # Resicabánya
+
+Feb 11, 2022 5:42:12 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Temesvar
+################################################################################
+652 = { 
+    text_position = { x = 3142.103333 y = 1547.566667 } 
+    text_rotation = 6.283185
+    text_scale = 2.500000
+    unit = { x = 3142.000000 y = 1552.000000 } 
+    factory = { x = 3132.699951 y = 1550.699951 } 
+    building_construction = { x = 3153.000000 y = 1550.599976 } 
+    military_construction = { x = 3136.000000 y = 1545.000000 } 
+    building_position = { fort = { x = 3139.000000 y = 1539.000000 } } 
+}
+
+Feb 11, 2022 5:42:30 AM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 20
+Feb 11, 2022 5:42:38 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 654:
+Feb 11, 2022 5:42:38 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+654 = { 
+    text_position = { x = 3167.250000 y = 1564.350000 } 
+    text_scale = 2.300000
+    factory = { x = 3182.000000 y = 1564.900024 } 
+    building_construction = { x = 3165.000000 y = 1566.000000 } 
+    building_position = { fort = { x = 3169.600098 y = 1568.400024 } } 
+} # Gyulafehervar
+
+Feb 11, 2022 5:42:38 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Cluj
+################################################################################
+654 = { 
+    text_position = { x = 3167.800000 y = 1564.350000 } 
+    text_scale = 2.300000
+    factory = { x = 3182.000000 y = 1564.900024 } 
+    building_construction = { x = 3165.000000 y = 1566.000000 } 
+    building_position = { fort = { x = 3169.600098 y = 1568.400024 } } 
+}
+
+Feb 11, 2022 5:43:05 AM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 20
+Feb 11, 2022 5:43:17 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 3.252:
+Feb 11, 2022 5:43:17 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+3252 = { 
+    text_position = { x = 2956.750000 y = 1571.150000 } 
+    text_scale = 1.000000
+    unit = { x = 2957.300000 y = 1570.800000 } 
+    city = { x = 2955.500000 y = 1571.850000 } 
+    factory = { x = 2956.100000 y = 1574.800000 } 
+    building_construction = { x = 2958.000000 y = 1572.900000 } 
+    military_construction = { x = 2957.950000 y = 1572.900000 } 
+    building_position = { fort = { x = 2958.200000 y = 1572.350000 } railroad = { x = 2958.000000 y = 1570.350000 } } 
+} # Diu
+
+Feb 11, 2022 5:43:17 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Vaduz
+################################################################################
+3252 = { 
+    text_position = { x = 2956.600000 y = 1571.100000 } 
+    text_scale = 1.000000
+    unit = { x = 2957.300000 y = 1570.800000 } 
+    city = { x = 2955.500000 y = 1571.850000 } 
+    factory = { x = 2956.100000 y = 1574.800000 } 
+    building_construction = { x = 2958.000000 y = 1572.900000 } 
+    military_construction = { x = 2957.950000 y = 1572.900000 } 
+    building_position = { fort = { x = 2958.200000 y = 1572.350000 } railroad = { x = 2958.000000 y = 1570.350000 } } 
+}
+
+Feb 11, 2022 5:43:17 AM posed.MapPanel getProvinceAt
+WARNUNG: No province registered for 17,20,233
+Feb 11, 2022 5:43:17 AM posed.MapPanel getProvinceAt
+WARNUNG: No province registered for 17,20,233
+Feb 11, 2022 5:43:17 AM posed.MapPanel getProvinceAt
+WARNUNG: No province registered for 17,20,233
+Feb 11, 2022 5:43:17 AM posed.MapPanel getProvinceAt
+WARNUNG: No province registered for 17,20,233
+Feb 11, 2022 5:43:17 AM posed.MapPanel getProvinceAt
+WARNUNG: No province registered for 17,20,233
+Feb 11, 2022 5:43:17 AM posed.MapPanel getProvinceAt
+WARNUNG: No province registered for 17,20,233
+Feb 11, 2022 5:43:17 AM posed.MapPanel getProvinceAt
+WARNUNG: No province registered for 17,20,233
+Feb 11, 2022 5:43:19 AM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 20
+Feb 11, 2022 5:43:41 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 614:
+Feb 11, 2022 5:43:41 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+614 = { 
+    text_position = { x = 2960.900000 y = 1575.300000 } 
+    text_scale = 1.600000
+    factory = { x = 2962.600098 y = 1568.900024 } 
+    building_construction = { x = 2960.600098 y = 1577.199951 } 
+} # Lienz
+
+Feb 11, 2022 5:43:41 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Bregenz
+################################################################################
+614 = { 
+    text_position = { x = 2960.900000 y = 1575.100000 } 
+    text_scale = 1.600000
+    factory = { x = 2962.600098 y = 1568.900024 } 
+    building_construction = { x = 2960.600098 y = 1577.199951 } 
 }
 
