@@ -234,6 +234,7 @@ spain_war = {
 	administrative_efficiency_modifier = -0.05
    	supply_consumption = 0.5
 	mobilisation_economy_impact = 10
+   	suppression_points_modifier = 1
 	org_regain = -0.75
 	land_organisation = -0.75
 	import_cost = 0.5

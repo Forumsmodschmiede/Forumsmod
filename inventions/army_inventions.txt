@@ -276,6 +276,10 @@ gas_attack_capability = {
 		modifier = {
 			factor = 3
 			invention = carbon_soil_enrichment
+		}
+		modifier = {
+			factor = 1
+			indirect_artillery_fire = 1
 		}		
 	}
 	effect = {
@@ -290,6 +294,12 @@ gas_defense_capability = {
 			factor = 15
 			war = yes
 			war_countries = { invention = gas_attack_capability }
+		}
+		modifier = {
+			factor = 1
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+			indirect_artillery_fire = 1
 		}		
 	}
 	effect = {
@@ -1395,7 +1405,7 @@ army_political_lobbying = {
 		}
 	}
 	effect = {
-		mobilisation_economy_impact = -0.05
+		mobilisation_economy_impact = -0.5
 	}
 }
 

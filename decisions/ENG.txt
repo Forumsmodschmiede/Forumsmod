@@ -79,6 +79,7 @@ political_decisions = {
 		diplomatic_influence = {
 			who = HND
 			value = 300    }
+			create_vassal = HND
 		
 				inherit = BER
 				inherit = MYS
@@ -158,7 +159,7 @@ political_decisions = {
 		}
 
 		allow = {
-			realism = 1
+			phenomenalism = 1
 			money = 1000000
 		}
 

@@ -1329,7 +1329,7 @@ southeast_asian = {
 		}
 	}
 	filipino = {
-		color = {200 220 30}
+		color = {170 183 25}
 		first_names = { Emilio Apolinario Andrés José Hermano Jacinto Mariano Deodato Ladislao Teodoro Valentíne Antonio León Simeón Arcadio Artemio Manuel
 			
 		}

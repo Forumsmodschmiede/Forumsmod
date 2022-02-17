@@ -8,6 +8,7 @@ country_event = {	id = 99900035
 	any_country = { 
 		NOT = { 
 			OR = {
+				tag = KOR
 				tag = NAN
 				tag = MAC
 				tag = HKG

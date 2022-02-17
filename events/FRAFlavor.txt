@@ -165,12 +165,12 @@ country_event = {
         }
         casus_belli = {
             target = HAI
-            type = conquest
+            type = minor_conquest
             months = 12
         }
         war = {
             target = HAI
-            attacker_goal = { casus_belli = conquest }
+            attacker_goal = { casus_belli = minor_conquest }
         }
         ai_chance = {
             factor = 4

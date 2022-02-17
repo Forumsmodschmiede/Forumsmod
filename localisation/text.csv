@@ -124,7 +124,7 @@ montreal;Montreal;;;;;;;;x
 ottawa;Ottawa;;;;;;;;x
 vancouver;Vancouver;;;;;;;;x
 losangeles;Los Angeles;;;;;;;;x
-atlanta;Atlanta;;;;;;;;x
+atlanta;Atlantic City;;;;;;;;x
 philadelphia;Philadelphia;;;;;;;;x
 cleveland;Cleveland;;;;;;;;x
 detroit;Detroit;;;;;;;;x
@@ -2400,7 +2400,7 @@ acquire_capital_desc;Aquire an enemy §Ystate§W;Prendre un §YÉtat§W ennemi;Erober
 minor_conquest;Minor Conquest;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
 minor_conquest_short;Acquire $STATE$; Prendre l'État de $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 minor_conquest_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
-minor_conquest_desc;Annex a single-state §Ycountry§W or an §Yuncivilized nation§W;Annexer un §Ypays§W à un État ou une §Ynation non civilisée§W;Annektieren Sie ein Einzelstaat-§YLand§W oder eine §Yunzivilisierte Nation§W;;Anexionar un §Ypaís§W o una §Ynación sin civilizar§W de un solo estado;;;;;;;;;x
+minor_conquest_desc;Annex a single-state §Ycountry§W;Annexer un §Ypays§W à un État ou une §Ynation non civilisée§W;Annektieren Sie ein Einzelstaat-§YLand§W oder eine §Yunzivilisierte Nation§W;;Anexionar un §Ypaís§W o una §Ynación sin civilizar§W de un solo estado;;;;;;;;;x
 acquire_treaty_port;Acquire treaty port;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
 acquire_treaty_port_short;Acquire $STATE$; Prendre l'État de $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
 acquire_treaty_port_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
@@ -13580,7 +13580,7 @@ USA_200;Florida;Floride;Florida;;Florida;;;;;;;;;x;;;;
 USA_201;Georgia;Géorgie;Georgia;;Georgia;;;;;;;;;x;;;;
 USA_211;Virginia;Virginie;Virginia;;Virginia;;;;;;;;;x;;;;
 REMOVE_USA_220;West Virginia;Virgine-Occidentale;West Virginia;;Virginia Occidental;;;;;;;;;x;;;;
-USA_223;Pennsylvania;Pennsylvanie;Pennsylvania;;Pennsylvania;;;;;;;;;x;;;;
+USA_223;Pennsylvania & New Jersey;Pennsylvanie;Pennsylvania;;Pennsylvania;;;;;;;;;x;;;;
 USA_231;New Jersey;New Jersey;New Jersey;;Nueva Jersey;;;;;;;;;x;;;;
 USA_232;New York;New York;New York;;Nueva York;;;;;;;;;x;;;;
 USA_243;Massachusetts;Massachusetts;Massachusetts;;Massachusets;;;;;;;;;x;;;;
@@ -14609,6 +14609,7 @@ tech_organization;Organization;Organisation;Organisation;;Organización;;;;;;;;;x
 tech_organization_desc;This area concerns the internal development of the firms. Internal production procedures and business styles changed over time and cooperated with the changes in economic science.;Ce domaine concerne le développement interne des entreprises. Les procédures de production et les modes de vente ont changé au fil du temps en accompagnant l'évolution des sciences économiques.;Dieser Bereich konzentriert sich auf die interne Entwicklung von Firmen. Die internen Produktionsverfahren und Geschäftsmodelle veränderten sich im Laufe der Zeit und wirkten mit der Evolution der Wirtschaftswissenschaften zusammen.;;Esta área se ocupa del desarrollo interno de las empresas. Los procedimientos internos de producción y los estilos de negocio cambiaron con el tiempo y cooperaron en los cambios de la ciencia económica.;;;;;;;;;x;;;;
 guild_based_production;Guild-based Production;Production corporatiste;Zunftbasierte Produktion;;Produc. basada en gremios;;;;;;;;;x;;;;
 guild_based_production_desc;Guild-based Production;Production corporatiste;Zunftbasierte Produktion;;Produc. basada en gremios;;;;;;;;;x;;;;
+charcoal_burner_production_desc;Charcoal Burner Production;Production corporatiste;Zunftbasierte Produktion;;Produc. basada en gremios;;;;;;;;;x;;;;
 organized_factories;Organized Factories;Usines;Organisierte Fabriken;;Fábricas organizadas;;;;;;;;;x;;;;
 organized_factories_desc;Organized Factories;Usines;Organisierte Fabriken;;Fábricas organizadas;;;;;;;;;x;;;;
 work_classification;Work Classification;Classification du travail;Arbeitsklassifizierung;;Clasif. del trabajo;;;;;;;;;x;;;;

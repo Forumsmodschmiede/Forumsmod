@@ -999,7 +999,6 @@ military_reforms = {
 			technology_cost = 4000 #was 8000
 			#unit stats improve
 			land_organisation = 0.1
-			civilization_progress_modifier = 0.05
 
 			
 			on_execute = {
@@ -1057,7 +1056,6 @@ military_reforms = {
 		yes_foreign_weapons = {
 			land_defense_modifier = 0.1
 			technology_cost = 4000 #was 10000
-			civilization_progress_modifier = 0.05 #was 0.10
 
 			on_execute = {
 				effect = {
@@ -1392,14 +1390,13 @@ military_reforms = {
 		}
 	}
 	naval_schools = {
-		next_step_only = yes
 		no_naval_schools = {
 				global_pop_militancy_modifier = -0.005
 		}
 		yes_naval_schools = {
 			naval_unit_start_experience = 5
-			technology_cost = 4000 #was 10000
-			research_points_on_conquer = 0.05 #new
+			technology_cost = 2000 #was 10000
+			research_points_on_conquer = 0.1 #new
 			
 			on_execute = {
 				effect = {
@@ -1421,7 +1418,7 @@ military_reforms = {
 			}
 		}
 		naval_schools_two = { #new
-			technology_cost = 4000 #because player can skip level 1, cost is for both levels
+			technology_cost = 8000 #because player can skip level 1, cost is for both levels
 			civilization_progress_modifier = 0.05
 			naval_unit_start_experience = 10
 			research_points_on_conquer = 0.1

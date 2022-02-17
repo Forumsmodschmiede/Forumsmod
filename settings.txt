@@ -41,7 +41,7 @@ lastplayer="Player"
 lasthost=""
 serveradress="diplomacy.valkyrienet.com"
 debug_saves=0
-autosave="MONTHLY"
+autosave="FIVE_YEAR"
 simple=no
 categories=
 {

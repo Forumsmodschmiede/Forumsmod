@@ -776,7 +776,7 @@ the_yard = {
 	tax_efficiency = 0.01
 	suppression_points_modifier = 0.1
 	ruling_party_support = 0.05
-	core_pop_militancy_modifier = -0.001
+	core_pop_militancy_modifier = -0.01
 	prestige = 0.01
 	icon = 1
 }
@@ -794,7 +794,7 @@ la_guardia_civil = {
 the_french_foreign_legion = {	
 	prestige = 0.01
 	leadership_modifier = 0.05
-	global_immigrant_attract = 0.2
+	global_immigrant_attract = 0.3
 	icon = 17
 }
 
@@ -925,7 +925,7 @@ created_a_national_language = {
 }
 algeria_boom= {
 	immigrant_attract = 1
-	global_assimilation_rate = 0.1
+	assimilation_rate = 0.1
 	icon = 5
 }
 An_mein_Volk = {
@@ -1176,10 +1176,11 @@ infamy_punishment = {
 	ruling_party_support = -0.5
 	pop_militancy_modifier = 0.01
 	pop_consciousness_modifier = 0.01
+	war_exhaustion = 1
 	factory_output = -0.25
 	rgo_output = -0.25
 	immigrant_attract = -2
- 	loan_interest = 0.1
+ 	loan_interest = 0.5
 	mobilisation_economy_impact = 1
 	supply_consumption = 0.3
 	org_regain = -0.5

@@ -174,6 +174,7 @@ conquest = {
 				tag = QNG
 				tag = BEI
 				tag = CHI
+				tag = TPG
 			}
 		}
 		NOT = { is_our_vassal = THIS }
@@ -181,13 +182,9 @@ conquest = {
 		NOT = { number_of_states = 4 }
 		OR = {
 			AND = {
-				civilized = yes
-				NOT = { number_of_states = 2 }
-			}
-			AND = {
 				civilized = no
 				THIS = { civilized = no }
-				NOT = { number_of_states = 2 }
+				NOT = { number_of_states = 3 }
 			}
 			AND = {
 				civilized = no
@@ -203,7 +200,7 @@ conquest = {
 		is_independant = yes
 	}
 
-	badboy_factor = 2.2
+	badboy_factor = 2.0
 	prestige_factor = 5
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -301,7 +298,6 @@ minor_conquest = {
 		NOT = { is_our_vassal = THIS }
 		civilized = yes
 		NOT = { number_of_states = 2 }
-		NOT = { num_of_cities = 5 }
 
 
 		is_independant = yes
@@ -760,6 +756,7 @@ acquire_state = {
 		any_owned_province = {
 			not = {	is_core = THIS }
 			not = { is_core = CHI }
+			not = { is_core = TPG }	
 			is_colonial = no
 		}
 		not = { any_owned_province = { is_capital = yes } }
@@ -857,8 +854,10 @@ acquire_capital = {
 				tag = QNG
 				tag = BEI
 				tag = CHI
+				tag = TPG
 			}
 		}
+		number_of_states = 2
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
 			not = { is_core = THIS }
@@ -1668,6 +1667,7 @@ demand_concession_casus_belli = {
 		any_owned_province = {
 			is_colonial = no
 			not = { is_core = CHI }	
+			not = { is_core = TPG }	
 			not = { is_core = JAP }	
 		}
 			
@@ -1692,7 +1692,7 @@ demand_japan_casus_belli = {
 	sprite_index = 23
 	is_triggered_only = yes
 	months = 12
-	construction_speed = 0.5
+	construction_speed = 0.7
 	crisis = no
 	
 	badboy_factor = 2.4

@@ -14,6 +14,8 @@ political_decisions = {
 			tag = ETH
 			tag = CSA
 			tag = ISR
+			tag = DEN
+			tag = EGY
 		}
 		allow = {
 			ai = yes

@@ -45,7 +45,14 @@ political_decisions = {
 		effect = {
 			change_tag = OTC
 			TUR = { all_core = { remove_core = TUR } }
+			SER = { all_core = { add_core = OTC } }
+			GRE = { all_core = { add_core = OTC } }
 			add_accepted_culture = azerbaijani
+			add_accepted_culture = turkmen
+			add_accepted_culture = uzbek
+			add_accepted_culture = kazak
+			add_accepted_culture = kirgiz
+
 
 			any_country = {
 				limit = {

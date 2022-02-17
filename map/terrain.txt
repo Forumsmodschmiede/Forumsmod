@@ -68,6 +68,7 @@ categories =  {
 		
 		supply_limit = 6
 		immigrant_attract = 0.5
+		assimilation_rate = -0.5
 		min_build_railroad = 1
 		combat_width = -0.33
 	}
@@ -79,6 +80,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 10
+		immigrant_attract = 0.25
 	}
 	rome = {
 		movement_cost = 1.0
@@ -505,6 +507,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 10
+		immigrant_attract = 0.25
 	}
 	hamburg = {
 		movement_cost = 1.0
@@ -1294,6 +1297,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 6
 		combat_width = -0.20
+		immigrant_attract = 0.25
 	}
 
 	pittsburgh = {
@@ -2711,10 +2715,8 @@ categories =  {
 		movement_cost = 1.0
 		defence = 3
 		color = { 22 44 66 }
-		farm_rgo_size = -0.5
-		farm_rgo_eff = 0.25
-		mine_rgo_size = -0.5
-		mine_rgo_eff = 0.25
+		immigrant_attract = -0.5
+		assimilation_rate = -0.5
 		supply_limit = 10
 		combat_width = -0.6
 	}

@@ -1,5 +1,5 @@
 game=v2
-use_localization=no
+use_localization=yes
 recent={ 
 	v2={ "C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map\default.map" "C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map\provinces.bmp" "C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\MapTest\map\default.map" "C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\The Heirs to Aqutiania\map\default.map" "C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\test\map\default.map" "C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\The Heirs to Aquitania\map\default.map" }
 }

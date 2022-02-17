@@ -507,7 +507,7 @@ enact_liquor_prohibition = {
 				limit = { is_primary_culture = yes }
 				ideology = {
 					value = liberal
-					factor = 0.1
+					factor = 0.05
 				}
 				scaled_militancy = {
 					ideology = liberal
