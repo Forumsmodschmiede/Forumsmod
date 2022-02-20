@@ -33,7 +33,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 60000
+		months = 16000
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -94,7 +94,7 @@ country_event = {
 		}
 		upper_house = {
 			ideology = liberal
-			value = 0.05
+			value = 0.2
 		}
 	}
 }
@@ -126,7 +126,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 90000
+		months = 19000
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -175,7 +175,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA17010"
-		prestige = -5
+		prestige = -1
 		capital_scope = {
 			poor_strata = {
 				consciousness = 4
@@ -191,7 +191,7 @@ country_event = {
 			consciousness = 1
 			ideology = {
 				value = liberal
-				factor = 0.05
+				factor = 0.01
 			}
 		}
 	}
@@ -225,7 +225,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 90000
+		months = 19000
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -277,7 +277,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = liberal
-				factor = 0.1
+				factor = 0.01
 			}
 			consciousness = 1
 		}
@@ -322,7 +322,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 70000
+		months = 17000
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -416,7 +416,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 30000
+		months = 13000
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -468,7 +468,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = liberal
-				factor = 0.05
+				factor = 0.01
 			}
 			consciousness = 0.5
 		}
@@ -515,7 +515,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 25000
+		months = 12500
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -574,7 +574,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = liberal
-				factor = 0.05
+				factor = 0.01
 			}
 		}
 	}
@@ -881,7 +881,7 @@ country_event = {
 				consciousness = 1
 				ideology = {
 					value = liberal
-					factor = 0.20
+					factor = 0.05
 				}
 			}
 		}
@@ -893,7 +893,7 @@ country_event = {
 			consciousness = 0.2
 			ideology = {
 				value = liberal
-				factor = 0.02
+				factor = 0.01
 			}
 		}
 	}
@@ -1130,7 +1130,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 36000
+		months = 13600
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1182,7 +1182,7 @@ country_event = {
 		prestige = 5
 		any_pop = {
 			ideology = {
-				factor = 0.03
+				factor = 0.02
 				value = liberal
 			}
 			consciousness = 1
@@ -1225,7 +1225,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 22000
+		months = 12200
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1285,7 +1285,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = liberal
-				factor = 0.1
+				factor = 0.01
 			}
 			consciousness = 1
 		}
@@ -1319,7 +1319,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 90000
+		months = 15000
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1418,7 +1418,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 35000
+		months = 13500
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1527,7 +1527,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 35000
+		months = 13500
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1633,7 +1633,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 35000
+		months = 13500
 		modifier = {
 			factor = 0.5
 			social_science = 1
@@ -1728,7 +1728,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 60000
+		months = 16000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3

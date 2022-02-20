@@ -7,7 +7,7 @@ country_event = {
 	major = yes
 
     option = {
-        name = "We shall welcome the ambassadors of nippon."
+        name = "We shall welcome the ambassadors of Dai-Nippon."
 		prestige = 1
 		random_country = {
 				limit = { 

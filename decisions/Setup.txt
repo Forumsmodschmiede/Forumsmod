@@ -1640,6 +1640,14 @@ political_decisions = {
 				}
 			}
 			CHI = {
+				add_country_modifier = {
+					name = eight_banners
+					duration = -1
+				}
+				add_country_modifier = {
+					name = outdated_bureaucracy
+					duration = -1
+				}
 				any_owned = {
 					limit = {
 						OR = { 

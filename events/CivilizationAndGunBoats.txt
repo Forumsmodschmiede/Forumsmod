@@ -296,7 +296,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 5000
+		months = 15000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -391,7 +391,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 1200
 	}
 
 	option = {
@@ -447,7 +447,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 1200
 		modifier = {
 			factor = 1.4
 			owner = {
@@ -485,7 +485,7 @@ province_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 2400
+		months = 24000
 		modifier = {
 			factor = 1.5
 			owner = {
@@ -536,7 +536,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 2400
+		months = 24000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -701,7 +701,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 600
+		months = 16000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 3
@@ -771,7 +771,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 80
+		months = 8000
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -822,7 +822,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 50
+		months = 5000
 		modifier = {
 			factor = 0.9
 			average_militancy = 3
@@ -1313,7 +1313,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 2000
+		months = 20000
 		modifier = {
 			factor = 0.9
 			average_militancy = 4
@@ -1390,7 +1390,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 9000
+		months = 19000
 	}
 
 	option = {

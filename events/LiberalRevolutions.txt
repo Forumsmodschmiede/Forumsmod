@@ -316,7 +316,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 2500
 		modifier = {
 			factor = 0.8
 			any_owned_province = {
@@ -402,7 +402,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 12
+		months = 120
 		modifier = {
 			factor = 0.9
 			political_reform_want = 0.02
@@ -471,7 +471,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 25
+		months = 250
 		modifier = {
 			factor = 0.8
 			liberal = 5
@@ -538,7 +538,7 @@ country_event = {
 		
 	}
 	mean_time_to_happen = {
-		months = 100
+		months = 1000
 		modifier = {
 			factor = 0.9
 			average_consciousness = 4
@@ -639,7 +639,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 150
+		months = 350
 		modifier = {
 			factor = 0.9
 			conservative = 15
@@ -1358,7 +1358,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 480
+		months = 4800
 		modifier = {
 			factor = 0.1
 			has_country_flag = liberal_revolution_in_progress

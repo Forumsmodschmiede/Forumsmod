@@ -137,7 +137,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 360
+		months = 3600
 		
 		modifier = {
 			factor = 0.7
@@ -173,8 +173,8 @@ province_event = {
 		name = "EVTOPTA160502"
 		any_pop = {
 			limit = { is_primary_culture = no }
-			militancy = 5
-			consciousness = 3
+			militancy = 7
+			consciousness = 4
 			reduce_pop = 0.98
 		}
 		ai_chance = {
@@ -186,8 +186,8 @@ province_event = {
 		name = "EVTOPTB160502"
 		any_pop = {
 			limit = { is_primary_culture = no }
-			consciousness = 5
-			militancy = 3
+			consciousness = 9
+			militancy = 6
 		}
 		ai_chance = {
 			factor = 25

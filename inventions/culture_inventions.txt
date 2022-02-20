@@ -986,7 +986,7 @@ hierarchical_order = {
 			government = prussian_constitutionalism
 		}
 	}
-	core_pop_militancy_modifier = -0.01
+	core_pop_militancy_modifier = -0.02
 	core_pop_consciousness_modifier = 0.01
 }
 traditionalism = {
@@ -1245,7 +1245,6 @@ national_fraternity = {
 	effect = {
 		war_exhaustion = -0.05
 		plurality = 0.05
-		core_pop_militancy_modifier = -0.01
 	}
 }
 biased_multiculturalism = {
@@ -1605,7 +1604,7 @@ the_doctrine_of_fascism = {
 	effect = {
 		rebel_org_gain = {
 			faction = fascist_rebels
-			value = 0.8
+			value = 1.5
 		}
 	}
 }
@@ -1626,7 +1625,7 @@ paramilitary_groups = {
 	effect = {
 		rebel_org_gain = {
 			faction = fascist_rebels
-			value = 0.5
+			value = 1.0
 		} 
 	}
 }

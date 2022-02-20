@@ -270,7 +270,6 @@ TPG		="countries/Taiping.txt"
 ARA		="countries/Arabia.txt"
 UBD		= "countries/United Baltic Provinces.txt"
 BYE		= "countries/Belarus.txt"
-PLC		= "countries/Poland-Lithuania.txt"
 GCO		="countries/Gran Colombia.txt"
 
 ##HoD

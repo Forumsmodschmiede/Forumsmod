@@ -1,169 +1,168 @@
 #Taiwan Region (2980000) 
-#Taiwan Region (2980000) 
 #under the rule of China in 1836  
 #Taipei (1452000/363000 POPS) #now part of Taiwan   
 1485 = {
 	aristocrats = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 1500
 	}
 
 	bureaucrats = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 400
 	}
 
 	officers = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 725
 	}
 
 	clergymen = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 1225
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 6150
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 1250
 	}
 
 	farmers = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 110625
 	}
 
 	aristocrats = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 3000
 	}
 
 	clergymen = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 2400
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 2000
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 2400
 	}
 
 	farmers = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 220200
 	}
 
 	bureaucrats = {
-		culture = asian_minor
-		religion = animist
+		culture = manchu
+		religion = mahayana
 		size = 50
 	}
 
 	officers = {
-		culture = asian_minor
-		religion = animist
+		culture = manchu
+		religion = mahayana
 		size = 25
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = manchu
+		religion = mahayana
 		size = 50
 	}
 }
 #Tainan (1528000/382000 POPS) #now part of Taiwan  
 2562 = {
 	aristocrats = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 1525
 	}
 
 	clergymen = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 1325
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 6600
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 1325
 	}
 
 	farmers = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 121225
 	}
 
 	aristocrats = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 3500
 	}
 
 	clergymen = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 2500
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 2500
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 2500
 	}
 
 	farmers = {
-		culture = asian_minor
-		religion = animist
+		culture = nanfaren
+		religion = mahayana
 		size = 229000
 	}
 

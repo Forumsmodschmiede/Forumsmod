@@ -8121,20 +8121,21 @@ CHE_reactionary;Nationalist Party;Parti nationaliste;Nationalist Party;;Partido 
 CHE_anarcho_liberal;Radical Party;Parti radical;Radical Party;;Partido Radical;;;;;;;;;x;;;;
 CHE_communist;Communist Party;Parti communiste ;Communist Party;;Partido Comunista;;;;;;;;;x;;;;
 CHE_fascist;Fascist Party;Parti fasciste;Fascist Party;;Partido Fascista;;;;;;;;;x;;;;
-CHI_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
-CHI_conservative_2;Zhiqiang;Zhiqiang;Zhiqiang;;Zhiqiang;;;;;;;;;x;;;;
-CHI_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
-CHI_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
-CHI_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
-CHI_conservative_3;Beiyang;Beiyang;Beiyang;;Beiyang;;;;;;;;;x;;;;
-CHI_liberal_2;Kuomintang Sun;Kuomintang Sun;Kuomintang Sun;;Kuomintang Sun;;;;;;;;;x;;;;
-CHI_liberal_3;Feng Yuxiang;Feng Yuxiang;Feng Yuxiang;;Feng Yuxiang;;;;;;;;;x;;;;
-CHI_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
-CHI_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
-CHI_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
-CHI_conservative_4;Kuomintang Chiang;Kuomintang Chiang;Kuomintang Chiang;;Kuomintang Chiang;;;;;;;;;x;;;;
-CHI_reactionary_2;Yuan Shi Kai;Yuan Shi Kai;Yuan Shi Kai;;Yuan Shi Kai;;;;;;;;;x;;;;
-CHL_conservative;Conservadores;Conservadores;Conservadores;;Conservadores;;;;;;;;;x;;;;
+CHI_conservative;Junjichu;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_conservative_2;Zhiqiang Yundong;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_conservative_3;Beiyang;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_conservative_4;Kuomintang;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_conservative_5;Mínzhudang;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_liberal;Gai Liang Pai;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_liberal_2;Xingzhonghui;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_liberal_3;Zhongguó Mínzhu Tóngméng;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_liberal_4;Yang Wu Pai;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_reactionary;Kongjiào Yundong;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_reactionary_2;Jìnbùdang;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_anarcho_liberal;Zhongguó Mínzhu Jiànguó Huì;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_socialist;Zhongguó Guójia Shèhuì Dang;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_communist;Zhongguó Gòngchandang;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHI_fascist;Kai-tsu P'ai;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 CHL_liberal;Liberales;Liberales;Liberales;;Liberales;;;;;;;;;x;;;;
 CHL_conservative_2;Partido Conservador;Partido Conservador;Partido Conservador;;Partido Conservador;;;;;;;;;x;;;;
 CHL_liberal_2;Partido Liberal;Partido Liberal;Partido Liberal;;Partido Liberal;;;;;;;;;x;;;;
@@ -9405,15 +9406,28 @@ TUN_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;
 TUN_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facción Socialista;;;;;;;;;x;;;;
 TUN_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facción Comunista;;;;;;;;;x;;;;
 TUN_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La Facción Fascista;;;;;;;;;x;;;;
-TUR_reactionary;Janitschars;Janitschars;Janitscharen;;Janitschars;;;;;;;;;x;;;;
-TUR_conservative;Imperial Party;Parti impérial;Kaiserliche Partei;;Partido Imperial;;;;;;;;;x;;;;
-TUR_liberal;Young Turk Party;Parti de la jeunesse turque;Jungtürkenpartei;;Partido de los Jóvenes Turcos;;;;;;;;;x;;;;
-TUR_socialist;Kurdish Party;Parti kurde;Kurdenpartei;;Partido Kurdo;;;;;;;;;x;;;;
-TUR_communist;Revolutionary Party;Parti révolutionnaire;Revolutionspartei;;Partido Revolucionario;;;;;;;;;x;;;;
-TUR_liberal_2;People's Union;Union populaire;Volksunion;;Unión Popular;;;;;;;;;x;;;;
-TUR_socialist_2;Democratic Front;Front démocratique;Demokratische Front;;Frente Democrático;;;;;;;;;x;;;;
-TUR_anarcho_liberal;Radical Party;Parti radical;Radikale Partei;;Partido Radical;;;;;;;;;x;;;;
-TUR_fascist;Fascist Party;Parti fasciste;Faschistische Partei;;Partido Fascista;;;;;;;;;x;;;;
+TUR_reactionary;Nizam-i Alem;;;;;;;;;;;;;x
+TUR_reactionary_2;Ittihad-i Muhammedi Firkasi;;;;;;;;;;;;;x
+TUR_reactionary_3;Halâskâr Zabitân;;;;;;;;;;;;;x
+TUR_reactionary_4;Fedailer Cemiyeti;;;;;;;;;;;;;x
+TUR_conservative;Hükumet-i Hümayun;;;;;;;;;;;;;x
+TUR_conservative_2;Selamet-i Osmaniye;;;;;;;;;;;;;x
+TUR_conservative_3;Hürriyet ve Itilâf Firkasi;;;;;;;;;;;;;x
+TUR_liberal_2;Tanzimat Firkasi;;;;;;;;;;;;;x
+TUR_liberal_4;Osmanli Demokrat Firkasi;;;;;;;;;;;;;x
+TUR_liberal_5;Halk Firkasi;;;;;;;;;;;;;x
+TUR_socialist;Osmanli Köylü ve Amele Firkasi;;;;;;;;;;;;;x
+TUR_socialist_3;Sosyalist Firka;;;;;;;;;;;;;x
+TUR_communist;Ihtilalci Avam Firkasi;;;;;;;;;;;;;x
+TUR_communist_2;Komünist Firka;;;;;;;;;;;;;x
+TUR_communist_3;Halk Istirakiyun Firkasi;;;;;;;;;;;;;x
+TUR_liberal;Ittihat ve Terakki Firkasi;;;;;;;;;;;;;x
+TUR_liberal_3;Yeni Osmanlilar Cemiyeti;;;;;;;;;;;;;x
+TUR_socialist_2;Osmanli Ahali Firkasi;;;;;;;;;;;;;x
+TUR_anarcho_liberal;Osmanli Ahrar Firkasi;;;;;;;;;;;;;x
+TUR_fascist;Ittihat ve Terakki Firkasi;;;;;;;;;;;;;x
+TUR_fascist_2;Türk Ocagi;;;;;;;;;;;;;x
+TUR_fascist_3;Milli Firka;;;;;;;;;;;;;x
 TUS_reactionary;Restaurazionisti;Ristorazionista;Ristorazionista;;Ristorazionista;;;;;;;;;x;;;;
 TUS_conservative;Moderati ;Moderati ;Moderati;;Moderati ;;;;;;;;;x;;;;
 TUS_liberal;Riformisti ;Reformisti ;Reformisti;;Reformisti ;;;;;;;;;x;;;;
@@ -13756,7 +13770,7 @@ PRU_553;Magdeburg;Magdeburg;Magdeburg;;Magdeburgo;;;;;;;;;x;;;;
 PRU_549;Brandenburg;Brandenbourg;Brandenburg;;Brandenburgo;;;;;;;;;x;;;;
 PRU_546;Hinterpommern;Hinterpommern;Hinterpommern;;Hinterpommern;;;;;;;;;x;;;;
 PRU_682;Schlesien;Silésie;Schlesien;;Silesia;;;;;;;;;x;;;;
-PRU_701;Posen;Posnanie;Posen;;Poznán;;;;;;;;;x;;;;
+PRU_701;Wartheland;Posnanie;Posen;;Poznán;;;;;;;;;x;;;;
 PRU_690;Westpreußen;Westpreußen;Westpreußen;;Westpreußen;;;;;;;;;x;;;;
 PRU_695;Ostpreußen;Ostpreußen;Ostpreußen;;Ostpreußen;;;;;;;;;x;;;;
 DEN_367;Jylland;Jutland;Jylland;;Jutlandia;;;;;;;;;x;;;;
@@ -14437,8 +14451,8 @@ buying_on_margin;Buying on Margin;Achat sur marge;Käufe auf Gewinnmarge;;Compra 
 buying_on_margin_desc;As more individuals became involved in investing in securities markets in the early twentieth century, the practice of buying on margin developed to increase the amount of shares that could be bought with minimal initial overhead. The principal of buying on margin is that if the investment makes a profit, the profit would cover the cost of the commission charged for allowing the purchase of large amounts of securities with only a minimal initial investment. The risk involved in this type of investment is that if the investment shows a loss, the difference between the initial investment and the commission charged for the purchase must be made up by the investor. How low an initial margin was prudent for the securities industry to accept would be the subject of intense debate, as lower margins both allowed investors with limited capital to invest in markets, but raised the risk of default by these limited-capital investors should the investments fail to produce profits;Comme de plus en plus de personnes participaient à l'investissement sur les marchés des valeurs mobilières au début du XXe siècle, la pratique des achats sur marge fut mis au point pour augmenter la quantité d'actions pouvant être achetée avec des frais généraux initiaux minimum. Le principal de l'achat sur marge, c'est que si l'investissement rapporte un bénéfice, le profit doit couvrir le coût de la commission chargée de permettre l'achat de montants important de titres avec un investissement minimal. Le risque inhérent à ce type d'investissement est que si l'investissement représente une perte, la différence entre l'investissement initial et la commission chargée de l'achat doit être supportée par l'investisseur. Quel niveau de marge initiale restait prudent pour le secteur des valeurs mobilières faisait l'objet d'un intense débat, car la baisse des marges a permis aux investisseurs avec un capital limité d'investir sur les marchés, mais a soulevé le risque de défaillance que ces investissements ne produisent pas les bénéfices attendus. ;Da Anfang des 20. Jahrhunderts immer mehr Privatpersonen in Wertpapiere investierten, verbreiteten sich Käufe auf Gewinnmarge zusehends, da so mehr Aktien mit minimalem Startkapital gekauft werden konnten. Das Prinzip des Aktienkaufs auf Gewinnmarge beruht darauf, dass eventuelle Erträge der Investition die Kaufkommission für große Aktienpakete tragen, und so nur geringes Startkapital vonnöten ist. Das Risiko bei dieser Investitionsart ist, dass der Investor im Falle von Verlusten seiner Anlagen für die Differenz zwischen der anfänglichen Investition und der Kommission aufkommen muss. Die minimal akzeptierbare Startkapitalhöhe wurde an der Wertpapierbörse intensiv diskutiert, da geringe Margen auch Investoren mit eingeschränktem Kapitel ermöglichten, in Märkte zu investieren. Die Involvierung dieser Investoren war es aber gleichzeitig auch, die für Verlustfälle das Risiko erhöhte.;;A medida que crecía la cantidad de individuos que participaban en los mercados de bonos a comienzos del siglo XX se desarrolló la práctica de la compra en descubierto para aumentar la cantidad de acciones que se podían adquirir con unos gastos iniciales mínimos. El fundamento de esta práctica es que si la inversión obtiene beneficios, estos cubrirán el coste de la comisión cobrada por permitir la compra de gran cantidad de valores con apenas una inversión inicial mínima. El riesgo que implica es que si la inversión registra pérdidas, la diferencia entre la inversión inicial y la comisión de la compra la debe cubrir el inversor. Hasta dónde era prudente reducir el margen inicial sería un tema objeto de profunda controversia entre los especialistas, puesto que un margen más reducido, si bien permitía invertir en los mercados a capitales más reducidos, también aumentaba el riesgo de impagos por parte de estos en caso de no haber beneficios.;;;;;;;;;x;;;;
 monetary_system;Monetary System;Système monétaire;Währungssystem;;Sistema monetario;;;;;;;;;x;;;;
 monetary_system_desc;A functional economy needs a working monetary system. It needs a balanced money stock for the economic transactions to be done smoothly. Also an effective regulation of this is also needed.;Une économie a besoin d'un système monétaire fiable. Une masse monétaire équilibrée permet des transactions sans à-coups. Il faut donc aussi la réguler.;Eine leistungsfähige Wirtschaft benötigt ein funktionierendes Währungssystem. Außerdem benötigt sie ausgewogene Geldvorräte für reibungslose Wirtschaftstransaktionen. Hierfür war auch ein effizientes Regulierungssystem vonnöten.;;Una Economía funcional necesita un sistema monetario que funcione, así como un fondo monetario equilibrado para que las transacciones económicas se realicen sin problemas. También resulta necesaria una reglamentación eficaz.;;;;;;;;;x;;;;
-no_standard;No Standard;Pas de normes;Kein Standard;;No estándar;;;;;;;;;x;;;;
-no_standard_desc;No Standard;Pas de normes;Kein Standard;;No estándar;;;;;;;;;x;;;;
+no_standard;Standardized Currency;Pas de normes;Kein Standard;;No estándar;;;;;;;;;x;;;;
+no_standard_desc;Standardized Currency;Pas de normes;Kein Standard;;No estándar;;;;;;;;;x;;;;
 ad_hoc_money_bill_printing;Ad-Hoc Money Bill Printing;Émission monétaire selon les besoins;Ad-Hoc-Notenpressung;;Emisión papel moneda ad hoc;;;;;;;;;x;;;;
 ad_hoc_money_bill_printing_desc;Ad-Hoc Money Bill Printing;Émission monétaire selon les besoins;Ad-Hoc-Notenpressung;;Emisión papel moneda ad hoc;;;;;;;;;x;;;;
 silver_standard;Silver Standard;Étalon argent;Silberstandard;;El patrón plata;;;;;;;;;x;;;;
@@ -14609,7 +14623,7 @@ tech_organization;Organization;Organisation;Organisation;;Organización;;;;;;;;;x
 tech_organization_desc;This area concerns the internal development of the firms. Internal production procedures and business styles changed over time and cooperated with the changes in economic science.;Ce domaine concerne le développement interne des entreprises. Les procédures de production et les modes de vente ont changé au fil du temps en accompagnant l'évolution des sciences économiques.;Dieser Bereich konzentriert sich auf die interne Entwicklung von Firmen. Die internen Produktionsverfahren und Geschäftsmodelle veränderten sich im Laufe der Zeit und wirkten mit der Evolution der Wirtschaftswissenschaften zusammen.;;Esta área se ocupa del desarrollo interno de las empresas. Los procedimientos internos de producción y los estilos de negocio cambiaron con el tiempo y cooperaron en los cambios de la ciencia económica.;;;;;;;;;x;;;;
 guild_based_production;Guild-based Production;Production corporatiste;Zunftbasierte Produktion;;Produc. basada en gremios;;;;;;;;;x;;;;
 guild_based_production_desc;Guild-based Production;Production corporatiste;Zunftbasierte Produktion;;Produc. basada en gremios;;;;;;;;;x;;;;
-charcoal_burner_production_desc;Charcoal Burner Production;Production corporatiste;Zunftbasierte Produktion;;Produc. basada en gremios;;;;;;;;;x;;;;
+charcoal_production_desc;Charcoal Burner Production;Production corporatiste;Zunftbasierte Produktion;;Produc. basada en gremios;;;;;;;;;x;;;;
 organized_factories;Organized Factories;Usines;Organisierte Fabriken;;Fábricas organizadas;;;;;;;;;x;;;;
 organized_factories_desc;Organized Factories;Usines;Organisierte Fabriken;;Fábricas organizadas;;;;;;;;;x;;;;
 work_classification;Work Classification;Classification du travail;Arbeitsklassifizierung;;Clasif. del trabajo;;;;;;;;;x;;;;
@@ -16053,4 +16067,10 @@ EVT152009876OPTA;A dark day for $COUNTRY$.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 andean;Andean;;;;;;;;;;;;x,,,,
 das_buergerliche_gesetzbuch_title;Das Bürgerliche Gesetzbuch;;;;;;;;;;;;;;
 das_buergerliche_gesetzbuch_desc;The introduction in France of the Napoleonic code in 1804 created in Germany a similar desire for obtaining a civil code, which would systematize and unify the various heterogeneous laws that were in effect in the country.A first draft code, in 1888, did not meet with favour. A second committee of 22 members, comprising not only jurists but also representatives of financial interests and of the various ideological currents of the time, compiled a second draft. After significant revisions, the BGB was passed by the Reichstag in 1896. It was put into effect on 1 January 1900, and has been the central codification of Germany's civil law ever since.;;;;;;;;;;;;;;
+ai_boni;AI Boni;;;;;;;;;;;;;;
+ai_boni2;AI Boni;;;;;;;;;;;;;;
+ai_boni3;AI Boni;;;;;;;;;;;;;;
+ai_boni_title;AI Boni;;;;;;;;;;;;;;
+ai_boni2_title;AI Boni;;;;;;;;;;;;;;
+ai_boni3_title;AI Boni;;;;;;;;;;;;;;
 ;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,

@@ -10,11 +10,6 @@ political_decisions = {
 			}
 		}
 		allow = {
-			OR = {
-				ruling_party_ideology = conservative
-				ruling_party_ideology = reactionary
-				ruling_party_ideology = fascist
-			}
 			prestige = 45
 			military_score = 100
 		}
@@ -38,11 +33,6 @@ political_decisions = {
 			}
 		}
 		allow = {
-			OR = {
-				ruling_party_ideology = conservative
-				ruling_party_ideology = liberal
-				ruling_party_ideology = anarcho_liberal
-			}
 			prestige = 45
 			military_score = 100
 			total_amount_of_ships = 30
@@ -67,11 +57,6 @@ political_decisions = {
 			}
 		}
 		allow = {
-			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = fascist
-				ruling_party_ideology = communist
-			}
 			prestige = 45
 			average_consciousness = 4
 		}
@@ -95,10 +80,6 @@ political_decisions = {
 			}
 		}
 		allow = {
-			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = anarcho_liberal
-			}
 			prestige = 45
 			industrial_score = 100
 		}
@@ -122,11 +103,6 @@ political_decisions = {
 			}
 		}
 		allow = {
-			OR = {
-				ruling_party_ideology = conservative
-				ruling_party_ideology = socialist
-				ruling_party_ideology = communist
-			}
 			prestige = 45
 			industrial_score = 100
 		}

@@ -89,7 +89,7 @@ country = {
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_DAY = 0.08,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
 	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.95, -- Drops the ruling party loyalty if war is lost.
-	RESEARCH_POINTS_ON_CONQUER_MULT = 360, -- multiplier to RP got by conquering as unciv when got enacted military reforms
+	RESEARCH_POINTS_ON_CONQUER_MULT = 180, -- multiplier to RP got by conquering as unciv when got enacted military reforms
 	MAX_RESEARCH_POINTS = 25000, -- max RP you can store for uncivs
 },
 
@@ -522,7 +522,7 @@ diplomacy = {
 	PUPPET_BONUS_INFLUENCE_PERCENT = 1.0, -- bonus if they are our puppet
 	
 	-- effects of manually releasing a nation
-	RELEASE_NATION_PRESTIGE = -10,
+	RELEASE_NATION_PRESTIGE = -5,
 	RELEASE_NATION_INFAMY = 0,
 	
 	INFAMY_CLEAR_UNION_SPHERE = 0, -- Infamy for asserting hegemony
@@ -620,7 +620,7 @@ diplomacy = {
 pops = {
 	BASE_CLERGY_FOR_LITERACY = 0.005, 
 	MAX_CLERGY_FOR_LITERACY = 0.04, 
-	LITERACY_CHANGE_SPEED = 0.1,
+	LITERACY_CHANGE_SPEED = 0.08,
 
 
 	ASSIMILATION_SCALE = 0.004,

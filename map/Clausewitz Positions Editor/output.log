@@ -1,9 +1,9 @@
-Feb 16, 2022 10:12:28 PM posed.PositionsEditor main
+Feb 19, 2022 4:27:46 PM posed.PositionsEditor main
 INFORMATION: Java version: 1.8.0_311
-Feb 16, 2022 10:12:30 PM posed.Text initTextFromFolder
+Feb 19, 2022 4:27:47 PM posed.Text initTextFromFolder
 WARNUNG: Malformed line in file C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\localisation\text.csv:
 EVTDESC3697001;The completion of the Clock Tower marks the end of the reconstruction of the Palace of Westminster. The clock tower was constructed on the northern extremity of the new Houses of Parliament that were built next to Westminster Hall. The commission for the clock itself demanded a high level of accuracy, the specifications drafted by the Royal Astronomer required that "the first stroke of the hour bell should register the time, correct to within one second per day, and furthermore that it should telegraph its performance twice a day to Greenwich Observatory, where a record would be kept." The second and final version of the hour bell was the largest ever cast in the UK. It was so colossal that a team of 16 horses was needed to pull the wagon upon which it rested from the foundry to the Tower. The transportation took on the character of a parade, with enthusiastic crowds lining the streets as the caravan made its way through London. The bell and tower got nicknamed "Big Ben".
-Feb 16, 2022 10:12:30 PM posed.PositionsEditor lambda$main$2
+Feb 19, 2022 4:27:47 PM posed.PositionsEditor lambda$main$2
 SCHWERWIEGEND: Uncaught exception
 java.lang.StringIndexOutOfBoundsException: String index out of range: -16
 	at java.lang.String.substring(Unknown Source)

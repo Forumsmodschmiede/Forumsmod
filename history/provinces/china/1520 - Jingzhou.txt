@@ -1,5 +1,5 @@
-owner = MAC
-controller = MAC
-add_core = MAC
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = tea
 life_rating = 32

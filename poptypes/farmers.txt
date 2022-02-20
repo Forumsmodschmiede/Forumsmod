@@ -714,7 +714,7 @@ promote_to =
 	craftsmen = {
 		factor = 0.01
 			modifier = {
-				factor = -5
+				factor = -15
 				not = { literacy = 0.1 }
 			}
 			modifier = {
@@ -972,10 +972,10 @@ promote_to =
 ideologies = {
 	
 	fascist = {
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 0.5
-			not = { militancy = 6 }
+			not = { militancy = 5 }
 		}
 		modifier = {
 			factor = 1.1
@@ -994,7 +994,7 @@ ideologies = {
 		 	revanchism = 0.04
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.5
 		 	revanchism = 0.05
 		}
 		modifier = {
@@ -1469,7 +1469,7 @@ ideologies = {
 		}
 	}
 	anarcho_liberal = {
-		factor = 1
+		factor = 0.5
 		modifier = {
 			factor = 2
 			ruling_party_ideology = anarcho_liberal

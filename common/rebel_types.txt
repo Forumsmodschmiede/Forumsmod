@@ -251,12 +251,12 @@ fascist_rebels = {
 	smart = yes					# Assaults forts, tactically withdraws from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
-	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 2.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
 	{
-		factor = 0.5
+		factor = 0.6
 		
 		modifier = {
 			war = yes
@@ -288,7 +288,7 @@ fascist_rebels = {
 	
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
-		factor = 1.02
+		factor = 1.12
 		
 		modifier = {
 			factor = 0
@@ -297,7 +297,7 @@ fascist_rebels = {
 			}
 		}
 		modifier = {
-			factor = 0
+			factor = 0.1
 			OR = {
 				 social_movement = yes
 				 political_movement = yes
@@ -315,7 +315,7 @@ fascist_rebels = {
 			country = { civilized = no }
 		}
 		modifier = {
-			factor = 0.01
+			factor = 0.1
 			NOT = {
 				OR = {
 					pop_majority_ideology = fascist
@@ -324,11 +324,11 @@ fascist_rebels = {
 			}
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			pop_majority_ideology = fascist
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.01
 			is_primary_culture = no
 			is_accepted_culture = no
 		}
@@ -339,7 +339,7 @@ fascist_rebels = {
 			}
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.9
 			is_accepted_culture = yes
 		}
 		modifier = {
@@ -347,13 +347,13 @@ fascist_rebels = {
 			country = { plurality = 10 }
 		}
 		modifier = {
-			factor = 1.15
+			factor = 1.35
 			country = {
 				has_unclaimed_cores = yes
 			}
 		}
 		modifier = {
-			factor = 1.015
+			factor = 1.215
 			location = {
 				minorities = yes
 			}
@@ -376,15 +376,15 @@ fascist_rebels = {
 			average_militancy = 4
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2.5
 			average_militancy = 6
 		}
 		modifier = {
-			factor = 1.5
+			factor = 3.5
 			average_militancy = 8
 		}
 		modifier = {
-			factor = 2.0
+			factor = 3.0
 			is_capital = yes
 		}
 	}

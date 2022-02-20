@@ -1276,7 +1276,7 @@ country_event = {
 				}
 				scaled_militancy = {
 					ideology = fascist
-					factor = 3
+					factor = 4
 				}
 			}
 		}
@@ -1397,7 +1397,7 @@ country_event = {
 			any_pop = {
 				scaled_militancy = {
 					ideology = fascist
-					factor = 5
+					factor = 6
 				}
 			}
 		}
@@ -1409,7 +1409,7 @@ country_event = {
 			any_pop = {
 				ideology = {
 					value = fascist
-					factor = 0.1
+					factor = 0.15
 				}
 			}
 		}
@@ -1513,7 +1513,7 @@ country_event = {
 		random_state = {
 			poor_strata = {
 				militancy = 4
-				consciousness = 2
+				consciousness = 3
 			}
 		}
 	}
@@ -1533,7 +1533,7 @@ country_event = {
 	trigger = {
 		is_ideology_enabled = fascist
 		civilized = yes
-		fascist = 30
+		fascist = 25
 		average_militancy = 4
 		OR = {
 			government = prussian_constitutionalism
@@ -1833,7 +1833,7 @@ country_event = {
 			middle_strata = {
 				ideology = {
 					value = fascist
-					factor = 0.2
+					factor = 0.3
 				}
 				militancy = 1
 				consciousness = 1
@@ -2048,11 +2048,11 @@ country_event = {
 			}
 			dominant_issue = {
 				value = residency
-				factor = 0.07
+				factor = 0.1
 			}
 			ideology = {
 				value = fascist
-				factor = 0.07
+				factor = 0.1
 			}
 		}
 	}
@@ -2175,7 +2175,7 @@ country_event = {
 				}
 				ideology = {
 					value = fascist
-					factor = 0.3
+					factor = 0.4
 				}
 				militancy = 3
 				consciousness = 3

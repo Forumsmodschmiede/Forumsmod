@@ -8,8 +8,8 @@ research_optimum = 0.002	#used for leadership as well.
 
 rebel =
 {
-	cavalry = 0.2
-	artillery = 0.01
+	cavalry = 0.1
+	artillery = 0.11
 	cuirassier = 0.05
 	dragoon = 0.05
 	guard = 0.15
@@ -788,10 +788,10 @@ soldiers =
 ideologies = {
 	
 	fascist = {
-		factor = 1
+		factor = 1.5
 		modifier = {
 			factor = 0.5
-			not = { militancy = 6 }
+			not = { militancy = 4 }
 		}
 		modifier = {
 			factor = 1.1
@@ -810,7 +810,7 @@ ideologies = {
 		 	revanchism = 0.04
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.5
 		 	revanchism = 0.05
 		}
 		modifier = {
@@ -838,7 +838,7 @@ ideologies = {
 			NOT = { political_reform_want = 0.10 }
 		}	
 		modifier = {
-			factor = 2
+			factor = 3
 			ruling_party_ideology = fascist
 		}
 		modifier = {
@@ -1285,7 +1285,7 @@ ideologies = {
 		}
 	}
 	anarcho_liberal = {
-		factor = 1
+		factor = 0.1
 		modifier = {
 			factor = 2
 			ruling_party_ideology = anarcho_liberal

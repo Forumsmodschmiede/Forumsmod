@@ -30,6 +30,44 @@ country_event = {
 			country_event = { id=90901 days=0 }
 		}
 		prestige = 10
+		activate_technology = post_napoleonic_thought
+		activate_technology = strategic_mobility
+		activate_technology = flintlock_rifles
+		activate_technology = muzzle_loaded_rifles
+		activate_technology = bronze_muzzle_loaded_artillery
+		activate_technology = iron_muzzle_loaded_artillery
+		activate_technology = army_command_principle
+		activate_technology = army_professionalism
+		activate_technology = military_staff_system
+		activate_technology = military_plans
+		activate_technology = post_nelsonian_thought
+		activate_technology = alphabetic_flag_signaling
+		activate_technology = battleship_column_doctrine
+		activate_technology = naval_design_bureaus
+		activate_technology = clipper_design
+		activate_technology = steamers
+		activate_technology = the_command_principle
+		activate_technology = naval_professionalism
+		activate_technology = mechanized_mining
+		activate_technology = water_wheel_power
+		activate_technology = freedom_of_trade
+		activate_technology = practical_steam_engine
+		activate_technology = no_standard
+		activate_technology = ad_hoc_money_bill_printing
+		activate_technology = private_banks
+		activate_technology = stock_exchange
+		activate_technology = early_classical_theory_and_critique
+		activate_technology = malthusian_thought
+		activate_technology = positivism
+		activate_technology = enlightenment_thought
+		activate_technology = experimental_railroad
+		activate_technology = early_railroad
+		set_country_flag = earlyid_flag
+		activate_technology = guild_based_production
+		activate_technology = organized_factories
+		activate_technology = late_enlightenment_philosophy
+		activate_technology = basic_chemistry
+		activate_technology = medicine
 			remove_country_modifier = educational_reform
 			remove_country_modifier = military_reform
 			remove_country_modifier = western_influences
@@ -180,6 +218,6 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA90902"
-		civilized = yes
+		prestige = 5
 	}
 }

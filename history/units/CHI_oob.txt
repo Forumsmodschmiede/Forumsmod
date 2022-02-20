@@ -121,7 +121,7 @@ army = {
 
 army = {
 	name = "Army of The Steppe"
-	location = 1612
+	location = 1513
 
 	regiment = {
 		name= "1.Tatar Cavalry"
@@ -280,7 +280,7 @@ army = {
 
 army = {
 	name = "3rd Green Standard Army"
-	location = 1525
+	location = 1512
 
 	regiment = {
 		name= "19th Green Standard"
@@ -345,12 +345,6 @@ army = {
 		name= "28th Green Standard"
 		type = irregular
 		home = 1482
-	}
-
-	regiment = {
-		name= "29th Green Standard"
-		type = irregular
-		home = 1519
 	}
 
 	regiment = {
@@ -423,22 +417,11 @@ army = {
 		home = 1487
 	}
 
-	regiment = {
-		name= "41st Green Standard"
-		type = irregular
-		home = 1523
-	}
 
 	regiment = {
 		name= "42nd Green Standard"
 		type = irregular
 		home = 1568
-	}
-
-	regiment = {
-		name= "43rd Green Standard"
-		type = irregular
-		home = 1488
 	}
 
 	regiment = {
@@ -457,7 +440,18 @@ army = {
 
 army = {
 	name = "6th Green Standard Army"
-	location = 1502
+	location = 1517
+	regiment = {
+		name= "41st Green Standard"
+		type = irregular
+		home = 1523
+	}
+
+	regiment = {
+		name= "43rd Green Standard"
+		type = irregular
+		home = 1488
+	}
 	regiment = {
 		name= "46th Green Standard"
 		type = irregular
@@ -530,12 +524,6 @@ army = {
 	}
 
 	regiment = {
-		name= "57th Green Standard"
-		type = irregular
-		home = 1574
-	}
-
-	regiment = {
 		name= "58th Green Standard"
 		type = irregular
 		home = 1614
@@ -545,12 +533,6 @@ army = {
 		name= "59th Green Standard"
 		type = irregular
 		home = 1529
-	}
-
-	regiment = {
-		name= "60th Green Standard"
-		type = irregular
-		home = 1575
 	}
 
 	regiment = {
@@ -607,11 +589,6 @@ army = {
 		home = 2221
 	}
 
-	regiment = {
-		name= "69th Green Standard"
-		type = irregular
-		home = 1579
-	}
 
 	regiment = {
 		name= "70th Green Standard"
@@ -634,7 +611,7 @@ army = {
 
 army = {
 	name = "9th Green Standard Army"
-	location = 1536
+	location = 1511
 
 	regiment = {
 		name= "73rd Green Standard"
@@ -708,12 +685,6 @@ army = {
 	}
 
 	regiment = {
-		name= "84th Green Standard"
-		type = irregular
-		home = 1584
-	}
-
-	regiment = {
 		name= "85th Green Standard"
 		type = irregular
 		home = 1506
@@ -752,7 +723,7 @@ army = {
 
 army = {
 	name = "10th Green Standard Army"
-	location = 1082
+	location = 1559
 
 	regiment = {
 		name= "91st Green Standard"

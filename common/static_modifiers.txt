@@ -146,7 +146,7 @@ base_values = {
 war = {
 	max_war_exhaustion = 100	#base max at war.
 	supply_consumption = -0.5
-	#war_exhaustion = 0.1
+	war_exhaustion = -0.05
 	badboy = -0.033
 }
 
@@ -239,6 +239,5 @@ in_bankrupcy = {
     min_tariff = 0.75
     min_tax = 0.45
     max_military_spending = -0.2
-    max_social_spending = 0.5
     ruling_party_support = -0.5
 }
