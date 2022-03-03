@@ -6,6 +6,7 @@ country_event = {	id = 99900035
 	
 	trigger = {
 	any_country = { 
+		ai = yes
 		NOT = { 
 			OR = {
 				tag = KOR

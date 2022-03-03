@@ -1221,7 +1221,7 @@ south_asian = {
 		}
 	}
 	marathi = {
-		color = {190 220 10}
+		color = { 255 106 0}
 		first_names = { Venkatji Shahuji Pratapsinha Rajaram Shivaji Shambhaji Balaji Bajirao Madhava Narayan Raghunath Sawai 
 			
 		}

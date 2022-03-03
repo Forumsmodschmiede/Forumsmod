@@ -397,7 +397,7 @@ political_decisions = {
 			war = no
 				AND = {
 					owns = 343
-					owns = 338
+					owns = 982
 					owns = 372
 					owns = 322
 			}

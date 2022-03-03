@@ -4,73 +4,73 @@
 #Thimbpu (136000/34000 POPS)   
 1329 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 575
 	}
 
 	bureaucrats = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 25
 	}
 
 	officers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 300
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 1500
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 1100
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 26575
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 200
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 3650
 	}

@@ -17,7 +17,7 @@ political_decisions = {
 			set_global_flag = mexican_claim_on_central_america
 
 			UCA = {
-				any_core = {
+				all_core = {
 					add_core = MEX
 				}
 			}

@@ -32,7 +32,7 @@ political_decisions = {
 			badboy = 5
 			prestige = -5
 			set_global_flag = eiffel_tower_destroyed
-			425 = { owner = { country_event = 152009874 } }
+			FRA = { country_event = 152009874 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -72,7 +72,7 @@ political_decisions = {
 			badboy = 5
 			prestige = -5
 			set_global_flag = kremlin_destroyed
-			1008 = { owner = { country_event = 152009876 } }
+			RUS = { country_event = 152009876 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -115,7 +115,7 @@ political_decisions = {
 			set_global_flag = bigben_destroyed 
 			badboy = 5
 			prestige = -5
-			300 = { owner = { country_event = 152009875 } clr_province_flag = big_ben_built }
+			ENG = { country_event = 152009875 } clr_province_flag = big_ben_built
 		}
 		ai_will_do = {
 			factor = 1

@@ -51,7 +51,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					tag = UBD
+				OR = {
 					vassal_of = THIS
+					in_sphere = THIS
+					}
 				}
 				annex_to = THIS
 			}
@@ -59,6 +62,7 @@ political_decisions = {
 			set_country_flag = Conceded_Finland
 		    add_accepted_culture = latvian
 		    add_accepted_culture = estonian
+		    add_accepted_culture = lithuanian
 			badboy = 4
 			prestige = 10
 			any_pop = {
@@ -70,14 +74,15 @@ political_decisions = {
 				}
 				militancy = 3
             }
-			994 = { remove_core = RUS }
-			996 = { remove_core = RUS }
-			349 = { remove_core = RUS }
-			350 = { remove_core = RUS }
-			351 = { remove_core = RUS }
-			352 = { remove_core = RUS }
-			353 = { remove_core = RUS }
-			354 = { remove_core = RUS }
+			994 = { add_core = THIS }
+			996 = { add_core = THIS }
+			997 = { add_core = THIS }
+			349 = { add_core = THIS }
+			350 = { add_core = THIS }
+			351 = { add_core = THIS }
+			352 = { add_core = THIS }
+			353 = { add_core = THIS }
+			354 = { add_core = THIS }
 		}
 		ai_will_do = { factor = 1 }
     }

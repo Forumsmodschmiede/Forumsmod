@@ -4,103 +4,103 @@
 #Katmandu (540000/135000 POPS)   
 1326 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 2000
 	}
 
 	bureaucrats = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 175
 	}
 
 	officers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 225
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 1100
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 4050
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 7000
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 86250
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 200
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 475
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 10125
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 400
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 225
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 1050
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 21125
 	}
@@ -108,91 +108,91 @@
 #Jumla (412000/103000 POPS)   
 1327 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 900
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 450
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 2300
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 1100
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 49250
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 700
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 375
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 1850
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 350
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 33725
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 350
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 200
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 950
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = marathi
 		religion = animist
 		size = 18300
 	}

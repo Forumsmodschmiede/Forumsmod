@@ -1130,7 +1130,7 @@ ai_boni2 = {
 }
 claim_ggr = {
 	prestige = -0.1
-	badboy = 0.05
+	badboy = 0.03
 	icon = 4
 }
 supported_partisans = {
@@ -1197,8 +1197,6 @@ infamy_punishment = {
 eight_banners = {
 	ruling_party_support = -0.1
 	non_accepted_pop_militancy_modifier = 0.02
-	core_pop_militancy_modifier = 0.01
-	war_exhaustion = 0.1
 	factory_output = -0.3
 	rgo_output = -0.3
 	mobilisation_economy_impact = 2
@@ -1207,13 +1205,12 @@ eight_banners = {
 	land_organisation = -0.5
 	land_unit_start_experience = -5.0
 	leadership_modifier = -0.2
-	cb_generation_speed_modifier = -0.4
+	cb_generation_speed_modifier = -0.5
 	mobilisation_size = -0.05
 	icon = 16
 }
 outdated_bureaucracy = {
 	ruling_party_support = -0.1
-	non_accepted_pop_militancy_modifier = 0.02
 	core_pop_militancy_modifier = 0.01
 	war_exhaustion = 0.1
 	factory_output = -0.1
@@ -1224,7 +1221,7 @@ outdated_bureaucracy = {
 	administrative_efficiency_modifier = -0.6
 	global_population_growth = -0.002
 	education_efficiency_modifier = -0.8
-	research_points_modifier = -0.3
+	research_points_modifier = -0.1
  	loan_interest = 0.1
 	icon = 6
 }

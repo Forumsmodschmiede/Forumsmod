@@ -1,65 +1,64 @@
 #Mawarannahr Region (200000) #see Kazakhstan.txt, Uzbekistan.txt, Kirghizstan.txt and Turkmenistan.txt for balance of region 
-#Mawarannahr Region (200000) #see Kazakhstan.txt, Uzbekistan.txt, Kirghizstan.txt and Turkmenistan.txt for balance of region 
 #under the rule of Kokand in 1836  
 #Khujand (200000/50000 POPS) #now part of Tajikistan  
 1201 = {
 	aristocrats = {
-		culture = asian_minor
-		religion = animist
+		culture = uzbek
+		religion = sunni
 		size = 775
 	}
 
 	clergymen = {
-		culture = asian_minor
-		religion = animist
+		culture = uzbek
+		religion = sunni
 		size = 400
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = uzbek
+		religion = sunni
 		size = 2000
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = uzbek
+		religion = sunni
 		size = 400
 	}
 
 	farmers = {
-		culture = asian_minor
-		religion = animist
+		culture = uzbek
+		religion = sunni
 		size = 36425
 	}
 
 	aristocrats = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 175
 	}
 
 	clergymen = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 9150
 	}
 }
@@ -68,94 +67,94 @@
 #Kulob (120000/30000 POPS)   
 1207 = {
 	aristocrats = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 575
 	}
 
 	clergymen = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 275
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 1450
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 250
 	}
 
 	farmers = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 27450
 	}
 }
 #Khorugh (92000/23000 POPS)   
 1208 = {
 	aristocrats = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 350
 	}
 
 	clergymen = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 175
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 850
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 175
 	}
 
 	farmers = {
-		culture = asian_minor
-		religion = animist
+		culture = tajik
+		religion = sunni
 		size = 17450
 	}
 
 	aristocrats = {
-		culture = asian_minor
-		religion = animist
+		culture = kirgiz
+		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
-		culture = asian_minor
-		religion = animist
+		culture = kirgiz
+		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = kirgiz
+		religion = sunni
 		size = 175
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = kirgiz
+		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = asian_minor
-		religion = animist
+		culture = kirgiz
+		religion = sunni
 		size = 3650
 	}
 

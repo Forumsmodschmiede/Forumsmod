@@ -1639,6 +1639,57 @@ political_decisions = {
 					duration = -1
 				}
 			}
+
+			NAN = {
+				add_country_modifier = {
+					name = outdated_bureaucracy
+					duration = -1
+				}
+				}
+			MAC = {
+				add_country_modifier = {
+					name = outdated_bureaucracy
+					duration = -1
+				}
+				}
+			HKG = {
+				add_country_modifier = {
+					name = outdated_bureaucracy
+					duration = -1
+				}
+				}
+			FZH = {
+				add_country_modifier = {
+					name = outdated_bureaucracy
+					duration = -1
+				}
+				}
+			NGB = {
+				add_country_modifier = {
+					name = outdated_bureaucracy
+					duration = -1
+				}
+				}
+			SHA = {
+				add_country_modifier = {
+					name = outdated_bureaucracy
+					duration = -1
+				}
+				}
+			QNG = {
+				add_country_modifier = {
+					name = outdated_bureaucracy
+					duration = -1
+				}
+				}
+			BEI = {
+				add_country_modifier = {
+					name = outdated_bureaucracy
+					duration = -1
+				}
+				}
+
+
 			CHI = {
 				add_country_modifier = {
 					name = eight_banners

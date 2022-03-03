@@ -1469,7 +1469,7 @@ ideologies = {
 		}
 	}
 	anarcho_liberal = {
-		factor = 0.5
+		factor = 0.4
 		modifier = {
 			factor = 2
 			ruling_party_ideology = anarcho_liberal

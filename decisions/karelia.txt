@@ -31,7 +31,7 @@ political_decisions = {
 					tag = RUS
 				}
 				relation = { who = THIS value = -100 }
-				prestige = -20
+				prestige = -25
 			any_pop = {
 				militancy = 1
 			}
@@ -67,7 +67,7 @@ political_decisions = {
 				}
 				}
 				relation = { who = THIS value = -100 }
-				prestige = -20
+				prestige = -25
 			any_pop = {
 				militancy = 1
 			}

@@ -89,7 +89,7 @@ country = {
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_DAY = 0.08,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
 	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.95, -- Drops the ruling party loyalty if war is lost.
-	RESEARCH_POINTS_ON_CONQUER_MULT = 180, -- multiplier to RP got by conquering as unciv when got enacted military reforms
+	RESEARCH_POINTS_ON_CONQUER_MULT = 100, -- multiplier to RP got by conquering as unciv when got enacted military reforms
 	MAX_RESEARCH_POINTS = 25000, -- max RP you can store for uncivs
 },
 
@@ -515,7 +515,7 @@ diplomacy = {
 	DISHONORED_CALLALLY_PRESTIGE_PENALTY = 0,
 	BASE_TRUCE_MONTHS = 60,
 	MAX_INFLUENCE = 100,
-	WARSUBSIDIES_PERCENT = 20, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
+	WARSUBSIDIES_PERCENT = 10, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
 	NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.25, -- Bonus to neighbouring countries when influencing
 	SPHERE_NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.1, -- Bonus to countries in your sphere neighbouring when influencing
 	OTHER_CONTINENT_BONUS_INFLUENCE_PERCENT = -0.25, -- Bonus to neighbouring countries when influencing
