@@ -1,5 +1,5 @@
 capital = 1221
-primary_culture = asian_minor
+primary_culture = baluchi
 religion = animist
 government = absolute_monarchy
 plurality = 0.0

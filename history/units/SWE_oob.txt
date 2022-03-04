@@ -4,7 +4,7 @@ leader = {
 	picture="swe_admiral_2"
 	date = 1834.1.1
 	type = sea
-	personality = defense_3.1
+	personality = defence_3.1
 	background = attack_3.1
 	prestige = 0.1
 }
@@ -14,7 +14,7 @@ leader = {
 	picture="swe_general_9"
 	date = 1818.1.1
 	type = land
-	personality = defense_3.1
+	personality = defence_3.1
 	background = attack_3.1
 	prestige = 0.5
 }
@@ -24,7 +24,7 @@ leader = {
 	picture="swe_general_21"
 	date = 1807.1.1
 	type = land
-	personality = defense_4.1
+	personality = defence_4.1
 	background = attack_2.1
 	prestige = 0.3
 }
@@ -34,7 +34,7 @@ leader = {
 	picture="swe_general_15"
 	date = 1818.1.1
 	type = land
-	personality = defense_1.1
+	personality = defence_1.1
 	background = attack_4.1
 	prestige = 0.2
 }
@@ -44,7 +44,7 @@ leader = {
 	picture="swe_admiral_3"
 	date = 1834.1.1
 	type = sea
-	personality = defense_1.1
+	personality = defence_1.1
 	background = attack_4.1
 	prestige = 0.1
 }
@@ -54,7 +54,7 @@ leader = {
 	picture="swe_general_10"
 	date = 1824.1.1
 	type = land
-	personality = defense_2.1
+	personality = defence_2.1
 	background = attack_3.1
 	prestige = 0.1
 }
@@ -64,7 +64,7 @@ leader = {
 	picture="swe_general_5"
 	date = 1814.1.1
 	type = land
-	personality = defense_4.1
+	personality = defence_4.1
 	background = attack_1.1
 	prestige = 0.2
 }
@@ -74,7 +74,7 @@ leader = {
 	picture="swe_general_16"
 	date = 1827.1.1
 	type = land
-	personality = defense_2.1
+	personality = defence_2.1
 	background = attack_3.1
 	prestige = 0.1
 }

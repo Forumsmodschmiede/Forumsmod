@@ -1,11 +1,9 @@
 owner = PRU
 controller = PRU
 add_core = PRU
-#add_core = GER
-add_core = PLC
-#add_core = PLC
+add_core = GER
 trade_goods = grain
-life_rating = 40
+life_rating = 39
 fort = 1
 1861.1.1 = {
 	state_building = {
@@ -14,4 +12,3 @@ fort = 1
 		upgrade = yes
 	}
 }
-set_province_flag = farm

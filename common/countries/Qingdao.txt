@@ -1,4 +1,4 @@
-color = { 260  234  152 }
+color = { 242  232  132 }
 
 graphical_culture = ChineseGC
 
@@ -144,7 +144,7 @@ party = {
 
 party = {
 	name = "CHI_fascist"
-	start_date = 1905.1.1
+	start_date = 1900.1.1
 	end_date = 2000.1.1
 
 	ideology = fascist

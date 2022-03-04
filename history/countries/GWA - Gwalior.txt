@@ -1,5 +1,5 @@
 capital = 1270
-primary_culture = asian_minor
+primary_culture = marathi
 religion = animist
 government = absolute_monarchy
 plurality = 0.0

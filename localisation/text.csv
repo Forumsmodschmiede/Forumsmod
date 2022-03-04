@@ -15,7 +15,7 @@ stjohn;St.John;;;;;;;;x
 berlin;Berlin;;;;;;;;x
 paris;Paris;;;;;;;;x
 london;London;;;;;;;;x
-stpetersburg;St.Petersburg;;;;;;;;x
+stpetersburg;St. Petersburg;;;;;;;;x
 vienna;Vienna;;;;;;;;x
 newyork;New York;;;;;;;;x
 rome;Rome;;;;;;;;x
@@ -13671,9 +13671,9 @@ AUS_736;Istria;Istrie;Istrien;;Istria;;;;;;;;;x;;;;
 AUS_729;Venetia;Vénétie;Venedig;;Venecia;;;;;;;;;x;;;;
 AUS_625;Böhmen;Bohême;Böhmen;;Bohemia;;;;;;;;;x;;;;
 AUS_626;Mähren;Moravie;Mähren;;Moravia;;;;;;;;;x;;;;
-AUS_654;Western Siebenbürgen;Transylvanie occidentale;Westsiebenbürgen;;Siebenbürgen Occidental;;;;;;;;;x;;;;
-AUS_657;Eastern Siebenbürgen;Transylvanie orientale;Ostsiebenbürgen;;Siebenbürgen Oriental;;;;;;;;;x;;;;
-AUS_647;Alföld;Alföld;Alföld;;Alföld;;;;;;;;;x;;;;
+AUS_654;North Siebenbürgen;Transylvanie occidentale;Westsiebenbürgen;;Siebenbürgen Occidental;;;;;;;;;x;;;;
+AUS_657;Siebenbürgen;Transylvanie orientale;Ostsiebenbürgen;;Siebenbürgen Oriental;;;;;;;;;x;;;;
+AUS_647;South Siebenbürgen;Alföld;Alföld;;Alföld;;;;;;;;;x;;;;
 AUS_623;Transdanubia;Transdanubie;Transdanubien;;Transdanubia;;;;;;;;;x;;;;
 AUS_619;Ostmark;Autriche;Österreich;;Austria;;;;;;;;;x;;;;
 AUS_641;Central Hungary;Hongrie centrale;Zentralungarn;;Hungría Central;;;;;;;;;x;;;;

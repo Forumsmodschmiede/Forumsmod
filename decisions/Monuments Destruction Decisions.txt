@@ -29,8 +29,8 @@ political_decisions = {
 		}
 		
 		effect = {
-			badboy = 5
-			prestige = -5
+			badboy = 3
+			prestige = 5
 			set_global_flag = eiffel_tower_destroyed
 			FRA = { country_event = 152009874 }
 		}
@@ -69,8 +69,8 @@ political_decisions = {
 		}
 		
 		effect = {
-			badboy = 5
-			prestige = -5
+			badboy = 3
+			prestige = 5
 			set_global_flag = kremlin_destroyed
 			RUS = { country_event = 152009876 }
 		}
@@ -113,8 +113,8 @@ political_decisions = {
 		
 		effect = {
 			set_global_flag = bigben_destroyed 
-			badboy = 5
-			prestige = -5
+			badboy = 3
+			prestige = 5
 			ENG = { country_event = 152009875 } clr_province_flag = big_ben_built
 		}
 		ai_will_do = {

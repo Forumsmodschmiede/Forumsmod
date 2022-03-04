@@ -51,8 +51,8 @@ political_decisions = {
 				}
 		allow = {
 			ai = yes
-		OR = {  war_with = ENG
-			war_with = RUS }
+		#OR = {  war_with = ENG
+		#	war_with = RUS }
 			
 		NOT = {
 		has_country_modifier = ai_boni

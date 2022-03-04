@@ -1,6 +1,5 @@
 capital = 1236
-primary_culture = asian_minor
-
+primary_culture = marathi
 religion = animist
 government = directorate
 plurality = 0.0

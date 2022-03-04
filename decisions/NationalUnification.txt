@@ -395,12 +395,10 @@ political_decisions = {
 		allow = {
 			prestige = 45
 			war = no
-				AND = {
 					owns = 343
 					owns = 982
 					owns = 372
 					owns = 322
-			}
 		}
 		
 		effect = {
@@ -418,9 +416,12 @@ political_decisions = {
 						is_greater_power = yes
 					}
 					is_culture_group = scandinavian
-					in_sphere = THIS
+				OR = {
+					is_vassal = no
+					is_our_vassal = THIS
+					}
 				}
-				country_event = { id=11101 days=0 }
+				annex_to = THIS
 			}
 			SWE = { all_core = { remove_core = SWE } }
 		}

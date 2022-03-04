@@ -1,6 +1,6 @@
 capital = 1328
-primary_culture = asian_minor
-religion = mahayana
+primary_culture = marathi
+religion = animist
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
