@@ -17,14 +17,14 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 6
 		modifier = {
 			factor = 10
 			year = 1845
 			NOT = { year = 1850 }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 2.5
 			year = 1855
 			NOT = { year = 1860 }
 		}
@@ -44,6 +44,18 @@ country_event = {
 			secede_province = TPG
 		}
 		TPG = {
+		add_country_modifier = {
+			name = outdated_bureaucracy
+			duration = -1
+		}
+		add_country_modifier = {
+			name = eight_banners
+			duration = -1
+		}
+			money = 200000
+			wool = 2000
+			research_points = 15000
+			leadership = 80
 			capital = 2221
 			any_pop = {
 				consciousness = -5
@@ -51,15 +63,13 @@ country_event = {
 			}
 		}
 		soldiers = {
-			militancy = 8
+			militancy = 9
 		}
 		any_pop = {
 			limit = {
 				OR = {
 					has_pop_religion = sunni
 					has_pop_culture = nanfaren
-					has_pop_culture = zhuang
-					has_pop_culture = yue
 				}
 			}
 			militancy = 5
@@ -88,21 +98,31 @@ country_event = {
 		}
 		TPG = {
 			capital = 2221
+			money = 200000
+			wool = 2000
+			research_points = 15000
+			leadership = 80
+		add_country_modifier = {
+			name = outdated_bureaucracy
+			duration = -1
+		}
+		add_country_modifier = {
+			name = eight_banners
+			duration = -1
+		}
 			any_pop = {
 				consciousness = -5
 				militancy = -5
 			}
 		}
 		soldiers = {
-			militancy = 8
+			militancy = 9
 		}
 		any_pop = {
 			limit = {
 				OR = {
 					has_pop_religion = sunni
 					has_pop_culture = nanfaren
-					has_pop_culture = zhuang
-					has_pop_culture = yue
 				}
 			}
 			militancy = 5
@@ -123,49 +143,45 @@ country_event = {
 }
 
 #Anti-Manchu feeling
-province_event = {
+country_event = {
 	id = 160502
 	title = "EVTNAME160502"
 	desc = "EVTDESC160502"
 	picture = rebellion
 	
 	trigger = {
-		owner = { tag = CHI }
+		tag = CHI
 		not = { average_consciousness = 3 }
 		NOT = { has_global_flag = taiping_has_happened }
 		year = 1840
 	}
 	
 	mean_time_to_happen = {
-		months = 3600
+		months = 48
 		
 		modifier = {
-			factor = 0.7
-			has_province_modifier = local_opium_habit
+			factor = 10
+			year = 1845
+			NOT = { year = 1850 }
 		}
 		modifier = {
-			factor = 0.7
-			has_province_modifier = western_presence		
+			factor = 10
+			year = 1846
+			NOT = { year = 1850 }
 		}
 		modifier = {
-			factor = 0.7
-			has_province_modifier = foreign_smugglers
+			factor = 10
+			year = 1847
+			NOT = { year = 1850 }
 		}
 		modifier = {
-			factor = 0.7
-			has_province_modifier = foreign_trading_post
+			factor = 0.5
+			year = 1855
+			NOT = { year = 1860 }
 		}
 		modifier = {
-			factor = 0.7
-			has_province_modifier = european_military_mission
-		}
-		modifier = {
-			factor = 0.7
-			has_province_modifier = legation_quarter
-		}
-		modifier = {
-			factor = 0.7
-			has_province_modifier = kettler_denkmal
+			factor = 0.1
+			year = 1860
 		}
 	}
 	
@@ -173,8 +189,8 @@ province_event = {
 		name = "EVTOPTA160502"
 		any_pop = {
 			limit = { is_primary_culture = no }
-			militancy = 7
-			consciousness = 4
+			militancy = 2
+			consciousness = 1
 			reduce_pop = 0.98
 		}
 		ai_chance = {
@@ -186,8 +202,8 @@ province_event = {
 		name = "EVTOPTB160502"
 		any_pop = {
 			limit = { is_primary_culture = no }
-			consciousness = 9
-			militancy = 6
+			consciousness = 3
+			militancy = 4
 		}
 		ai_chance = {
 			factor = 25

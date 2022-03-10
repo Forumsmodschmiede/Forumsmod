@@ -11,7 +11,7 @@ leader = {
 	picture="spa_general_15"
 	date = 1808.1.1
 	type = land
-	personality = defense_3.1
+	personality = defence_3.1
 	background = attack_3.1
 	prestige = 0.2
 }
@@ -21,8 +21,8 @@ leader = {
 	picture="spa_general_16"
 	date = 1824.1.1
 	type = land
-	background = attack_1.1
-	background = defense_4.1
+	personality = defence_4.1
+	background = attack_2.1
 	prestige = 0.2
 }
 

@@ -8,6 +8,7 @@ country_event = {
 	trigger = {
 		 owns = 3249
 		sphere_owner = { is_sphere_leader_of = THIS }
+		is_greater_power = yes
 	}
 	
 	mean_time_to_happen = {
@@ -38,7 +39,8 @@ country_event = {
 	trigger = {
 		owns = 1498
 		sphere_owner = { is_sphere_leader_of = THIS }
-	
+		is_greater_power = yes	
+
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -67,6 +69,7 @@ country_event = {
 	trigger = {
 		owns = 1496
 		sphere_owner = { is_sphere_leader_of = THIS }
+		is_greater_power = yes
 	}
 	
 	mean_time_to_happen = {
@@ -97,6 +100,7 @@ country_event = {
 	trigger = {
 		owns = 1482
 		sphere_owner = { is_sphere_leader_of = THIS }
+		is_greater_power = yes
 	}
 	
 	mean_time_to_happen = {
@@ -127,6 +131,7 @@ country_event = {
 	trigger = {
 		owns = 1608
 		sphere_owner = { is_sphere_leader_of = THIS }
+		is_greater_power = yes
 	}
 	
 	mean_time_to_happen = {
@@ -157,6 +162,7 @@ country_event = {
 	trigger = {
 		owns = 1538
 		sphere_owner = { is_sphere_leader_of = THIS }
+		is_greater_power = yes
 	}
 	
 	mean_time_to_happen = {
@@ -187,6 +193,7 @@ country_event = {
 	trigger = {
 		owns = 1566
 		sphere_owner = { is_sphere_leader_of = THIS }
+		is_greater_power = yes
 	}
 	
 	mean_time_to_happen = {
@@ -217,6 +224,7 @@ country_event = {
 	trigger = {
 		owns = 1481
 		sphere_owner = { is_sphere_leader_of = THIS }
+		is_greater_power = yes
 	}
 	
 	mean_time_to_happen = {

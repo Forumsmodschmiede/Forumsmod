@@ -18,7 +18,7 @@ political_decisions = {
 				}
 			}
             		set_country_flag = prussia_mobilizes
-			money = 500000
+			money = 200000
 			leadership = 80
 		add_country_modifier = {
 

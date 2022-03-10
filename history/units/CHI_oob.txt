@@ -342,7 +342,7 @@ army = {
 	location = 1576
 
 	regiment = {
-		name= "28th Green Standard"
+		name= "32th Green Standard"
 		type = irregular
 		home = 1482
 	}
@@ -357,12 +357,6 @@ army = {
 		name= "31st Green Standard"
 		type = irregular
 		home = 1483
-	}
-
-	regiment = {
-		name= "32nd Green Standard"
-		type = irregular
-		home = 1520
 	}
 
 	regiment = {

@@ -755,8 +755,20 @@ acquire_state = {
 		is_colonial = no
 		any_owned_province = {
 			not = {	is_core = THIS }
+		AND = {
 			not = { is_core = CHI }
+			OR = { 
+			CHI = { has_country_flag = heavenly_kingdom }
+			TPG = { has_country_flag = heavenly_kingdom }
+				}
+			}
+		AND = {
 			not = { is_core = TPG }	
+			OR = { 
+			CHI = { has_country_flag = heavenly_kingdom }
+			TPG = { has_country_flag = heavenly_kingdom }
+				}
+			}
 			is_colonial = no
 		}
 		not = { any_owned_province = { is_capital = yes } }
@@ -1666,8 +1678,20 @@ demand_concession_casus_belli = {
 	allowed_states = {
 		any_owned_province = {
 			is_colonial = no
-			not = { is_core = CHI }	
+		AND = {
+			not = { is_core = CHI }
+			OR = { 
+			CHI = { has_country_flag = heavenly_kingdom }
+			TPG = { has_country_flag = heavenly_kingdom }
+				}
+			}
+		AND = {
 			not = { is_core = TPG }	
+			OR = { 
+			CHI = { has_country_flag = heavenly_kingdom }
+			TPG = { has_country_flag = heavenly_kingdom }
+				}
+			}
 			not = { is_core = JAP }	
 		}
 			

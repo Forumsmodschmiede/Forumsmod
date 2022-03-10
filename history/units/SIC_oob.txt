@@ -3,7 +3,7 @@ leader = {
 	picture="ita_general_30"
 	date = 1831.1.1
 	type = land
-	personality = defense_1.1
+	personality = defence_1.1
 	background = attack_2.1
 	prestige = 0.2
 }

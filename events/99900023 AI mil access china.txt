@@ -4,6 +4,7 @@ country_event = {	id = 99900023
 	desc = "ai access"
 	
 	trigger = {
+		ai = yes
 		OR = {
 		tag = BEI
 		tag = QNG
@@ -15,6 +16,7 @@ country_event = {	id = 99900023
 		tag = NAN
 		tag = CHI
 		tag = DAI
+		tag = TPG
 		}
 		OR = {  
 			relation = {

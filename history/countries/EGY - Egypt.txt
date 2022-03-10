@@ -1,5 +1,6 @@
 capital = 1745
 primary_culture = misri
+culture = mashriqi
 culture = bedouin
 religion = sunni
 government = absolute_monarchy
@@ -22,9 +23,13 @@ upper_house = {
 foreign_training = yes_foreign_training
 foreign_weapons = yes_foreign_weapons
 land_reform = yes_land_reform
+naval_schools = yes_naval_schools
 # Technology
 flintlock_rifles = 1
+post_napoleonic_thought = 1
 post_nelsonian_thought = 1
+mechanized_mining = 1
+water_wheel_power = 1
 
 # Starting Consciousness
 consciousness = 0

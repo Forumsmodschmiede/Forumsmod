@@ -1,7 +1,6 @@
 owner = SHA
 controller = SHA
 add_core = SHA
-add_core = TPG
 trade_goods = tea
 life_rating = 32
 terrain = nanjing

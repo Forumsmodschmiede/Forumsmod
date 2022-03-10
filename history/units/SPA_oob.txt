@@ -171,7 +171,7 @@ leader = {
 	picture="spa_admiral_1"
 	date = 1836.1.1
 	type = sea
-	personality = defence_0.1
+	personality = defence_1.1
 	background = attack_4.1
 	prestige = 0.1
 }

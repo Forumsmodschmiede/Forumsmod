@@ -1,4 +1,37 @@
 political_decisions = {
+
+	risorgimento = {
+		potential = {
+
+		tag = SAR
+            	NOT = { has_country_flag = sardinia_mobilizes }
+			}
+
+			allow = { 
+		 tag = SAR
+	        OR = { war_with = FRA
+			war_with = AUS }
+		}
+		effect = {
+			any_pop = {
+				limit = { is_culture_group = italian }
+				dominant_issue = {
+					factor = 0.2
+					value = jingoism
+				}
+			}
+            		set_country_flag = sardinia_mobilizes
+			money = 200000
+			leadership = 80
+		add_country_modifier = {
+
+					name = italian_liberation
+					duration = 730
+					}
+			}
+				}
+
+
 		form_italy_peacefully = {
 		potential = {
 			is_culture_group = italian
@@ -87,14 +120,17 @@ political_decisions = {
 				add_core = SAR
 			}
 			465 = {
+				remove_core = SAR
 				add_core = FRA
 				secede_province = FRA
 			}
 			466 = {
+				remove_core = SAR
 				add_core = FRA
 				secede_province = FRA
 			}
 			472 = {
+				remove_core = SAR
 				add_core = FRA
 				secede_province = FRA
 			}
@@ -287,6 +323,15 @@ political_decisions = {
 			}
 
 			set_country_flag = italia_ulterior
+			726 = {
+				add_core = ITA
+			}
+			727 = {
+				add_core = ITA
+			}
+			728 = {
+				add_core = ITA
+			}
 			473 = {
 				add_core = ITA
 			}

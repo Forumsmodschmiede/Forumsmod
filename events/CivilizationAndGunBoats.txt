@@ -1583,7 +1583,7 @@ country_event = {
 	}
 }
 
-#CHI -- Torching of The Summer Palace
+#Torching of The Summer Palace
 country_event = {
 	id = 13355
 	title = "EVTNAME13355"
@@ -1594,13 +1594,14 @@ country_event = {
 	news_desc_short = "EVTDESC13355_NEWS_SHORT"
 	major = yes
 	picture = "cityfire"
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EVTOPTA13355"
 		prestige = -25
 		war_exhaustion = 5
+		1612 = { clr_province_flag = summer_palace }
 	}
 }
 

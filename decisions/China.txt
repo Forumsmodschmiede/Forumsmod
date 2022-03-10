@@ -1,0 +1,161 @@
+political_decisions = {
+
+	form_china = {
+		potential = {
+			OR = {
+				tag = TPG
+				tag = CHI
+			}
+			NOT = { has_country_flag = heavenly_kingdom }
+		}
+		
+		allow = {
+			war = no
+			civilization_progress = 0.5
+		}
+		
+		effect = {
+			prestige = 20
+			set_country_flag = heavenly_kingdom
+			add_accepted_culture = nanfaren
+			NAN = { all_core = { add_core = THIS } }	
+			MAC = { all_core = { add_core = THIS } }	
+			HKG = { all_core = { add_core = THIS } }	
+			FZH = { all_core = { add_core = THIS } }	
+			NGB = { all_core = { add_core = THIS } }	
+			SHA = { all_core = { add_core = THIS } }	
+			QNG = { all_core = { add_core = THIS } }	
+			BEI = { all_core = { add_core = THIS } }	
+		leave_alliance = BEI
+		leave_alliance = QNG
+		leave_alliance = SHA
+		leave_alliance = NGB
+		leave_alliance = FZH
+		leave_alliance = HKG
+		leave_alliance = MAC
+		leave_alliance = NAN
+			random_country = {
+				limit = {
+					tag = TIB
+					vassal_of = THIS
+				}
+				THIS = { inherit = TIB }
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+
+
+	torching_of_the_summer_palace = {
+		potential = {
+				NOT = { tag = TPG }
+				NOT = { tag = BEI }
+				NOT = { tag = CHI }
+			CHI = { owns = 1616 }
+			civilized = yes
+			is_greater_power = yes
+			OR = {
+			war_with = TPG
+			war_with = CHI
+			war_with = BEI
+			}
+			NOT = { has_global_flag = summer_palace_torched }
+		}
+		allow = {
+			state_n_government = 1
+			controls = 1616
+		}
+		effect = {
+			set_global_flag = summer_palace_torched
+			badboy = 3
+			prestige = 10
+            1616 = { owner = { country_event = 13355 } }
+		}
+	}
+	
+	clear_out_the_manchu_elite = {
+		picture = clear_out_the_manchu_elite
+		potential = {
+			OR = {
+				tag = TPG
+				tag = CHI
+			}
+			government = absolute_monarchy
+			is_greater_power = no
+			civilized = no
+			OR = { has_global_flag = taiping_has_happened
+				year = 1860
+				}
+			NOT = { has_country_flag = manchu_elite_cleared_out }
+		}
+		
+		allow = { average_consciousness = 1 }
+		
+		effect = {
+			years_of_research = 0.1
+			add_accepted_culture = beifaren
+			any_pop = {
+				limit = { has_pop_culture = manchu }
+				militancy = 2
+				consciousness = 1
+			}
+			any_pop = {
+				limit = {
+					NOT = { has_pop_culture = manchu }
+				}
+				militancy = -2
+				consciousness = -1
+			}
+			set_country_flag = manchu_elite_cleared_out
+		}
+	}
+	
+
+
+	
+	claim_sakhalin_china = {
+	picture = map_yellow_sea
+		potential = {
+			OR = {
+				tag = TPG
+				tag = CHI
+			}
+			1086 = { NOT = { is_core = THIS } }
+			NOT = { has_global_flag = sakhalin_claimed_chinese }
+			NOT = { owns = 1086 }
+			NOT = { owns = 1087 }
+			civilized = yes
+		}
+		
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			owns = 1496
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = sakhalin_claimed_chinese
+			badboy = 5
+			1086 = { add_core = THIS }
+			1087 = { add_core = THIS }
+			CHI_1082 = { add_core = THIS }
+			1086 = { add_core = CHI }
+			1087 = { add_core = CHI }
+			CHI_1082 = { add_core = CHI }
+			1086 = { owner = { relation = { who = THIS value = -200 } } }
+			1087 = { owner = { relation = { who = THIS value = -200 } } }
+		}
+		
+		ai_will_do = {
+			factor = 1 
+			modifier = {
+				factor = 0
+				badboy = 0.8
+			}
+		}
+	}
+	
+
+}

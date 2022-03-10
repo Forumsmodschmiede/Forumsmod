@@ -112,7 +112,7 @@ leader = {
 	picture="russian_general_60"
 	date = 1821.1.1
 	type = land
-	personality = defence_0.1
+	personality = defence_1.1
 	background = attack_3.1
 	prestige = 0.1
 }

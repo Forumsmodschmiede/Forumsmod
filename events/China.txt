@@ -103,10 +103,10 @@ country_event = {
 			inherit = THIS
 		}
 		ai_chance = {
-			factor = 10
+			factor = 99
 			 modifier = {
 				factor = 1000
-				relation = { who = FROM value = 100 }
+				relation = { who = FROM value = -100 }
 			} 
 		}
 	}
@@ -114,7 +114,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB90100"
 		ai_chance = {
-			factor = 100
+			factor = 1
 		}
 		prestige = 10
 		relation = {

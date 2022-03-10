@@ -90,7 +90,7 @@ leader = {
 	picture="french_general_7"
 	date = 1834.1.1
 	type = land
-	personality = defence_0.1
+	personality = defence_1.1
 	background = attack_3.1
 	prestige = 0.1
 }
@@ -100,7 +100,7 @@ leader = {
 	picture="french_general_5"
 	date = 1814.1.1
 	type = land
-	personality = defence_0.1
+	personality = defence_1.1
 	background = attack_4.1
 	prestige = 0.25
 }
@@ -150,7 +150,7 @@ leader = {
 	picture="french_general_26"
 	date = 1823.1.1
 	type = land
-	personality = relentless
+	personality = defence_1.1
 	background = attack_3.1
 	prestige = 0.2
 }
@@ -180,7 +180,7 @@ leader = {
 	picture="european_general_38"
 	date = 1836.1.1
 	type = land
-	personality = defence_0.1
+	personality = defence_1.1
 	background = attack_3.1
 	prestige = 0.1
 }

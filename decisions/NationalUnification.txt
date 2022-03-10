@@ -368,7 +368,10 @@ political_decisions = {
 			any_country = {
 				limit = {
 					is_culture_group = italian
+				OR = {
 					in_sphere = THIS
+					is_our_vassal = THIS
+					}
 				}
 				country_event = { id=11101 days=0 }
 			}

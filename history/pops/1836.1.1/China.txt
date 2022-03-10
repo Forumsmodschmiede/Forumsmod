@@ -4215,13 +4215,19 @@
 #Huaiqing (4524000/1131000 POPS)
 1511 = {
 	aristocrats = {
-		culture = beifaren
+		culture = manchu
 		religion = mahayana
 		size = 21500
 	}
 
+	bureaucrats = {
+		culture = manchu
+		religion = mahayana
+		size = 6600
+	}
+
 	clergymen = {
-		culture = beifaren
+		culture = manchu
 		religion = mahayana
 		size = 10775
 	}
