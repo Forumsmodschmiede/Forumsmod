@@ -12,12 +12,12 @@ substate = {
 	end_date = 1937.1.1
 }
 
-vassal = {
-	first = CHI
-	second = KOR
-	start_date = 1836.1.1
-	end_date = 1895.5.17 #Treaty of Shimonoseki
-}
+#vassal = {
+#	first = CHI
+#	second = KOR
+#	start_date = 1836.1.1
+#	end_date = 1895.5.17 #Treaty of Shimonoseki
+#}
 
 # Denmark-Holstein
 vassal = {

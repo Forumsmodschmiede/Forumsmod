@@ -754,21 +754,13 @@ acquire_state = {
 	allowed_states = {
 		is_colonial = no
 		any_owned_province = {
+
 			not = {	is_core = THIS }
-		AND = {
+
 			not = { is_core = CHI }
-			OR = { 
-			CHI = { has_country_flag = heavenly_kingdom }
-			TPG = { has_country_flag = heavenly_kingdom }
-				}
-			}
-		AND = {
+
 			not = { is_core = TPG }	
-			OR = { 
-			CHI = { has_country_flag = heavenly_kingdom }
-			TPG = { has_country_flag = heavenly_kingdom }
-				}
-			}
+
 			is_colonial = no
 		}
 		not = { any_owned_province = { is_capital = yes } }
@@ -1678,20 +1670,11 @@ demand_concession_casus_belli = {
 	allowed_states = {
 		any_owned_province = {
 			is_colonial = no
-		AND = {
+
 			not = { is_core = CHI }
-			OR = { 
-			CHI = { has_country_flag = heavenly_kingdom }
-			TPG = { has_country_flag = heavenly_kingdom }
-				}
-			}
-		AND = {
+
 			not = { is_core = TPG }	
-			OR = { 
-			CHI = { has_country_flag = heavenly_kingdom }
-			TPG = { has_country_flag = heavenly_kingdom }
-				}
-			}
+
 			not = { is_core = JAP }	
 		}
 			
@@ -1749,6 +1732,76 @@ demand_japan_casus_belli = {
 			is_colonial = no
 			is_core = JAP	
 		}
+			
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	
+	war_name = WAR_CONCESSION_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+
+# Demand China
+demand_china_casus_belli = {
+	sprite_index = 23
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.7
+	crisis = no
+	
+	badboy_factor = 2.4
+	prestige_factor = 0.1
+	peace_cost_factor = 1.5
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 12
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		THIS = {
+			civilized = yes
+		}
+		number_of_states = 2
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			is_colonial = no
+OR = {
+		AND = {
+			is_core = CHI
+			OR = { 
+			CHI = { has_country_flag = heavenly_kingdom }
+			TPG = { has_country_flag = heavenly_kingdom }
+				}
+			}
+		AND = {
+			is_core = TPG	
+			OR = { 
+			CHI = { has_country_flag = heavenly_kingdom }
+			TPG = { has_country_flag = heavenly_kingdom }
+				}
+			}
+		}
+	}
 			
 		not = { any_owned_province = { is_capital = yes } }
 	}

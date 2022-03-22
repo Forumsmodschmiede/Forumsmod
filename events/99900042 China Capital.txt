@@ -1,0 +1,38 @@
+# China Capital
+country_event = { id = 99900042
+	title = "The Capital of China"
+	desc = "After long years of war and and suffering, the people look finally again up to us. But now we should decide, which the new capital of our empire shall be."
+    picture = "puyi_child"
+	
+	trigger = {
+		OR = { 
+		tag = CHI
+		tag = TPG
+			}
+		owns = 1612
+		owns = 2221
+		NOT = { has_country_flag = china_capital }
+	}
+	
+
+		mean_time_to_happen =  {
+		months = 1
+					}
+
+	option = {
+		name = "The emperor shall residence in Beijing."
+			capital = 1612
+			prestige = 5	
+			set_country_flag = china_capital							
+	}
+	option = {
+		name = "The emperor shall residence in Nanning."
+			capital = 2221
+			prestige = 5
+			set_country_flag = china_capital								
+	}
+	option = {
+		name = "It's fine how it is."	
+			set_country_flag = china_capital				
+	}
+}

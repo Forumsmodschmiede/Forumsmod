@@ -16,6 +16,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 20
+			badboy = 25
 			set_country_flag = heavenly_kingdom
 			add_accepted_culture = nanfaren
 			NAN = { all_core = { add_core = THIS } }	
