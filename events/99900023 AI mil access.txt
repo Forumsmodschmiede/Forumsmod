@@ -1,0 +1,56 @@
+# ai acsess
+country_event = {	id = 99900023
+	title = "ai"
+	desc = "ai access"
+	
+	trigger = {
+		OR = {
+		tag = BEI
+		tag = QNG
+		tag = SHA
+		tag = NGB
+		tag = FZH
+		tag = HKG
+		tag = MAC
+		tag = NAN
+		tag = CHI
+		tag = DAI
+		}
+		OR = {  
+			relation = {
+				who = BUR
+				value = 0
+			}
+			relation = {
+				who = TIB
+				value = 0
+			}
+			relation = {
+				who = PAN
+				value = 0
+			}
+			military_access = BUR
+			military_access = TIB
+			military_access = PAN
+			}
+	}
+
+		mean_time_to_happen =  {
+		days = 0
+					}
+
+        modifier = {
+            factor = 99
+		year = 1836
+        }
+
+	option = {
+		name = "ai!"
+		end_military_access = BUR
+		end_military_access = TIB
+		end_military_access = PAN	
+		relation = { who = BUR value = -400 }
+		relation = { who = TIB value = -400 }
+		relation = { who = PAN value = -400 }	
+	}
+}

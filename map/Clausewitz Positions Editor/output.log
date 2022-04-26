@@ -1,63 +1,218 @@
-Feb 19, 2022 4:27:46 PM posed.PositionsEditor main
+Feb 03, 2022 11:55:05 PM posed.PositionsEditor main
 INFORMATION: Java version: 1.8.0_311
-Feb 19, 2022 4:27:47 PM posed.Text initTextFromFolder
-WARNUNG: Malformed line in file C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\localisation\text.csv:
-EVTDESC3697001;The completion of the Clock Tower marks the end of the reconstruction of the Palace of Westminster. The clock tower was constructed on the northern extremity of the new Houses of Parliament that were built next to Westminster Hall. The commission for the clock itself demanded a high level of accuracy, the specifications drafted by the Royal Astronomer required that "the first stroke of the hour bell should register the time, correct to within one second per day, and furthermore that it should telegraph its performance twice a day to Greenwich Observatory, where a record would be kept." The second and final version of the hour bell was the largest ever cast in the UK. It was so colossal that a team of 16 horses was needed to pull the wagon upon which it rested from the foundry to the Tower. The transportation took on the character of a parade, with enthusiastic crowds lining the streets as the caravan made its way through London. The bell and tower got nicknamed "Big Ben".
-Feb 19, 2022 4:27:47 PM posed.PositionsEditor lambda$main$2
-SCHWERWIEGEND: Uncaught exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -16
-	at java.lang.String.substring(Unknown Source)
-	at posed.Text.initTextFromFolder(Text.java:77)
-	at posed.Text.initText(Text.java:39)
-	at posed.PositionsEditorUI.load(PositionsEditorUI.java:76)
-	at posed.PositionsEditorUI.<init>(PositionsEditorUI.java:62)
-	at posed.PositionsEditor.lambda$showDialog$5(PositionsEditor.java:160)
-	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
-	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
-	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
-	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
-	at java.awt.Component.processMouseEvent(Unknown Source)
-	at javax.swing.JComponent.processMouseEvent(Unknown Source)
-	at java.awt.Component.processEvent(Unknown Source)
-	at java.awt.Container.processEvent(Unknown Source)
-	at java.awt.Component.dispatchEventImpl(Unknown Source)
-	at java.awt.Container.dispatchEventImpl(Unknown Source)
-	at java.awt.Component.dispatchEvent(Unknown Source)
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
-	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
-	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
-	at java.awt.Container.dispatchEventImpl(Unknown Source)
-	at java.awt.Window.dispatchEventImpl(Unknown Source)
-	at java.awt.Component.dispatchEvent(Unknown Source)
-	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
-	at java.awt.EventQueue.access$500(Unknown Source)
-	at java.awt.EventQueue$3.run(Unknown Source)
-	at java.awt.EventQueue$3.run(Unknown Source)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
-	at java.awt.EventQueue$4.run(Unknown Source)
-	at java.awt.EventQueue$4.run(Unknown Source)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
-	at java.awt.EventQueue.dispatchEvent(Unknown Source)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
-	at java.awt.WaitDispatchSupport$2.run(Unknown Source)
-	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
-	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
-	at java.awt.EventQueue.access$500(Unknown Source)
-	at java.awt.EventQueue$3.run(Unknown Source)
-	at java.awt.EventQueue$3.run(Unknown Source)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
-	at java.awt.EventQueue.dispatchEvent(Unknown Source)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
-	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
-	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
-	at java.awt.EventDispatchThread.run(Unknown Source)
+Feb 03, 2022 11:55:06 PM posed.Map loadData
+INFORMATION: Map file is C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map\default.map
+Feb 03, 2022 11:55:06 PM posed.PositionsEditorUI load
+INFORMATION: Loading positions from C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map\positions.txt
+Feb 03, 2022 11:55:06 PM posed.MapPanel createMapImage
+INFORMATION: Reading map from C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map/provinces.bmp
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Did not expect list: railroad_visibility
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Did not expect list: railroad_visibility
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Did not expect list: railroad_visibility
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 255 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 257 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 258 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 259 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 260 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 261 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 262 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 263 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 265 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 273 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 274 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 275 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 280 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 281 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 282 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 284 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 286 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 290 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 296 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 297 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 298 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 299 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 301 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 302 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 303 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 387 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 388 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 389 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 391 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 392 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 398 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 401 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 416 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 417 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 418 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 420 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 421 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 422 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 424 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 435 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Did not expect list: railroad_visibility
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Did not expect list: railroad_visibility
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2570 (land): town
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Did not expect list: railroad_visibility
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Did not expect list: railroad_visibility
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2716 (sea): factory
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2716 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2717 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2724 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2725 (sea): military_construction
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2726 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2733 (sea): building_rotation
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2755 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2761 (sea): building_construction
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2765 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2781 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2782 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2811 (sea): city
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2829 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2843 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2845 (sea): factory
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2852 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2896 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2897 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2903 (sea): building_construction
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2903 (sea): military_construction
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2927 (sea): building_construction
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2933 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2935 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2936 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2938 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2968 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2971 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2980 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2992 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 2993 (sea): factory
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3001 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3001 (sea): building_rotation
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3048 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3107 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3127 (sea): building_construction
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3127 (sea): military_construction
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3159 (sea): factory
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3190 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3219 (sea): spawn_railway_track
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Did not expect list: railroad_visibility
+Feb 03, 2022 11:55:07 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3230 (sea): spawn_railway_track
+Feb 03, 2022 11:55:20 PM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 20
+Feb 03, 2022 11:55:30 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 1.093:
+Feb 03, 2022 11:55:30 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+1093 = { 
+    unit = { x = 3486.000000 y = 1465.000000 } 
+    text_position = { x = 3485.000000 y = 1460.800049 } 
+    text_rotation = 6.021386
+    text_scale = 2.600000
+    building_construction = { x = 3491.100098 y = 1464.199951 } 
+    factory = { x = 3476.000000 y = 1466.300049 } 
+} # Poti
+
+Feb 03, 2022 11:55:30 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Akhaltsikhe
+################################################################################
+1093 = { 
+    text_position = { x = 3485.000000 y = 1460.800049 } 
+    text_rotation = 6.021386
+    text_scale = 2.600000
+    unit = { x = 3486.000000 y = 1465.000000 } 
+    factory = { x = 3476.000000 y = 1466.300049 } 
+    building_construction = { x = 3491.100098 y = 1464.199951 } 
+    building_position = { fort = { x = 3484.500000 y = 1458.000000 } railroad = { x = 3480.500000 y = 1466.550000 } } 
+}
 
