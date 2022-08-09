@@ -298,7 +298,7 @@ pensions_fully_funded3 = {
         pensions = acceptable_pensions 
         social_spending = 0.99
     }
-		core_pop_militancy_modifier = -0.075
+		core_pop_militancy_modifier = -0.0075
     icon = 19
 }
 unemployment_subsidies_fully_funded3 = {
@@ -307,7 +307,7 @@ unemployment_subsidies_fully_funded3 = {
         unemployment_subsidies = acceptable_subsidies 
         social_spending = 0.99
     }
-		core_pop_militancy_modifier = -0.075
+		core_pop_militancy_modifier = -0.0075
     icon = 19
 }
 pensions_fully_funded4 = {

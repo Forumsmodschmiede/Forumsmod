@@ -35,5 +35,16 @@ country_event = {
 					militancy = 6
 				}
 		}
+			HND = { 		
+			any_owned = {
+			limit = { is_core = HND }
+				poor_strata = {
+					limit = {
+						is_culture_group = south_asian
+					}
+					militancy = 6
+				}
+		}	}
+
 }
 }

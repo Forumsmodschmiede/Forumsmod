@@ -1533,8 +1533,7 @@ country_event = {
 	trigger = {
 		is_ideology_enabled = fascist
 		civilized = yes
-		fascist = 25
-		average_militancy = 4
+		fascist = 20
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
@@ -1544,7 +1543,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 150
+		months = 100
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1606,7 +1605,7 @@ country_event = {
 		any_pop = {
 			ideology = {
 				value = fascist
-				factor = 0.05
+				factor = -0.05
 			}
 			scaled_militancy = {
 				ideology = fascist
@@ -1642,7 +1641,7 @@ country_event = {
 		civilized = yes
 		war = no
 		war_exhaustion = 1
-		unemployment = 0.04
+		unemployment = 0.02
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
@@ -2106,7 +2105,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 100
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -2205,7 +2204,7 @@ country_event = {
 	trigger = {
 		is_ideology_enabled = fascist
 		civilized = yes
-		fascist = 20
+		fascist = 15
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
@@ -2334,7 +2333,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 250
+		months = 150
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5

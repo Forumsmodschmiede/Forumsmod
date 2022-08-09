@@ -611,6 +611,10 @@ ammunition_production = {
 	chance = {
 		base = 2
 		modifier = {
+			factor = -20
+			not = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			invention = whitney_n_colts_standardized_small_arms
 		}
@@ -627,6 +631,10 @@ small_arms_production = {
 	limit = { mechanized_mining = 1 }
 	chance = {
 		base = 2
+		modifier = {
+			factor = -20
+			not = { civilized = yes }
+		}
 		modifier = {
 			factor = 2
 			strategic_mobility = 1
@@ -645,6 +653,10 @@ explosives_production = {
 	chance = {
 		base = 2
 		modifier = {
+			factor = -20
+			not = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			medicine = 1
 		}
@@ -662,6 +674,10 @@ artillery_production = {
 	chance = {
 		base = 2
 		modifier = {
+			factor = -20
+			not = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			invention = explosives_production
 		}
@@ -678,6 +694,10 @@ charcoal_production = {
 	limit = { mechanized_mining = 1 }
 	chance = {
 		base = 4
+		modifier = {
+			factor = -20
+			not = { civilized = yes }
+		}
 		modifier = {
 		}
 		modifier = {

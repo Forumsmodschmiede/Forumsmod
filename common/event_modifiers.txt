@@ -478,7 +478,8 @@ the_bonnie_blue_flag = {
 	tax_efficiency = 0.1
 	administrative_efficiency_modifier = 0.2
 	factory_output = 0.1
-	army_tech_research_bonus = 3
+	army_tech_research_bonus = 0.3
+	research_points_modifier = 0.5
 	import_cost = -1
 	min_military_spending = 1
 	icon = 15
@@ -559,7 +560,7 @@ destitution_and_poverty = {
 
 liquor_prohibition = {
 	pop_militancy_modifier = 0.01
-	tax_efficiency = -0.05
+	tax_efficiency = -0.1
 	global_population_growth = 0.001
 
 	icon = 2
@@ -897,7 +898,7 @@ liberian_research_boost = {
 
 ##Mod
 reform_our_empire = {
-	education_efficiency_modifier = 0.20
+	education_efficiency_modifier = 0.10
 	mobilisation_size = 0.01
 	research_points_modifier = 0.15
 	tax_efficiency = 0.05
@@ -1012,10 +1013,10 @@ commodore_perry = {
 	prestige = -0.1
 	farm_rgo_eff = -0.2
 	import_cost = 0.5
-	research_points_modifier = -0.3
+	research_points_modifier = -0.1
 	ruling_party_support = -0.3
 	max_tariff = -0.25
-	administrative_efficiency_modifier = -0.05
+	administrative_efficiency_modifier = -0.1
 	icon = 8
 }
 country_reforms = {	
@@ -1110,11 +1111,11 @@ ai_boni = {
 	org_regain = 1
 	land_organisation = 1
 	supply_consumption = -0.5
-	tax_efficiency = 0.05
+	tax_efficiency = 0.1
 	administrative_efficiency_modifier = 0.4
 	army_tech_research_bonus = 0.3
 	import_cost = -0.3
-    	min_military_spending = 0.6
+    	min_military_spending = 0.1
 	min_tariff = 0.5
 	icon = 15
 }
@@ -1193,6 +1194,7 @@ infamy_punishment = {
 	supply_consumption = 0.5
 	org_regain = -0.5
 	land_organisation = -0.5
+	naval_organisation = -0.5
 	land_unit_start_experience = -5.0
 	leadership_modifier = -0.3
 	import_cost = 1

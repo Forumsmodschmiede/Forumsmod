@@ -30,7 +30,11 @@ country_event = {	id = 99900022
 			government = democracy
 				prestige = 5
 			war_exhaustion = -10	
-			militancy = -1		
+			any_pop = {
+				limit = { is_culture_group = french }
+				militancy = -3	
+				}
+
 			remove_country_modifier = louis_napoleon_iii		
 	}
 }
