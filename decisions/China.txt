@@ -75,6 +75,7 @@ political_decisions = {
 		}
 	}
 	
+
 	clear_out_the_manchu_elite = {
 		picture = clear_out_the_manchu_elite
 		potential = {
