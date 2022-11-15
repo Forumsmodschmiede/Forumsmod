@@ -1,4 +1,4 @@
-province;red;green;blue;x;x
+;red;green;blue;x;x
 1;204;229;152;Sitka;x
 2;204;179;153;Yakutat;x
 3;153;230;153;Kenai;x
@@ -2588,8 +2588,8 @@ province;red;green;blue;x;x
 2587;51;9;23;Kola;x
 2588;93;12;151;Onega;x
 2589;135;15;24;Kanin;x
-2590;177;18;152;Chukchi;x
-2591;51;24;153;Sisimiut;x
+2590;177;18;152;Ceuta;x
+2591;51;24;153;Tranquebar;x
 2592;93;27;26;Ungava;x
 2593;135;30;154;Fort George;x
 2594;177;33;27;Pickle;x
@@ -2630,7 +2630,7 @@ province;red;green;blue;x;x
 2629;0;60;10;Beatton River;x
 2630;42;63;138;Fairbanks;x
 2631;84;66;11;Yukon;x
-2632;126;69;139;Isortoq;x
+2632;126;69;139;Kwangchowan;x
 2633;168;72;12;Palana;x
 2634;0;75;140;Khatyrka;x
 2635;42;78;13;Kariba;x
@@ -2645,7 +2645,7 @@ province;red;green;blue;x;x
 2644;0;105;145;Tommot;x
 2645;42;108;18;Artemovskij;x
 2646;42;153;153;Niznevartovsk;x
-2647;126;114;19;Deputackij;x
+2647;126;114;19;Lifau;x
 2648;168;117;147;Handyga;x
 2649;0;120;20;Tomtor;x
 2650;42;123;148;Malykaj;x
@@ -2679,7 +2679,7 @@ province;red;green;blue;x;x
 2678;168;207;12;Bulgan;x
 2679;0;210;140;Khovd;x
 2680;84;33;146;Dudinka;x
-2681;126;36;19;Taz;x
+2681;126;36;19;Kikkiakki;x
 2682;168;39;147;Nadym;x
 2683;0;42;20;Vasjugan;x
 2684;42;45;148;Aksarka;x
@@ -3247,57 +3247,72 @@ province;red;green;blue;x;x
 3246;49;150;138;Jan Mayen;x
 3247;52;14;236;West Hawaii;x
 3248;53;14;240;West Magellan Strait;x 
-3249;222;29;42;Guangzhouwan;x
-3250;15;185;6;Ceuta;x
-3251;103;130;176;Trankebar;x
-3252;104;18;91;Vaduz;x
-3253;183;210;36;Diu;x
-3254;123;55;26;Bandung;x
-3255;130;75;46;Cuneo;x
-3256;54;14;244;Kampen;x
-3257;55;14;248;Almere;x
-3258;216;153;42;Benevento;x
-3259;168;122;40;Avellino;x
-3260;167;137;82;Rieta;x
-3261;33;40;150;x;Po River;x
-3262;14;8;110;x;Danube River;x
-3263;40;20;158;x;Rhine River;x
-3264;29;16;160;x;Seine River;x
-3265;40;37;171;x;Rhone River;x
-3266;29;33;155;x;Elbe River;x
-3267;20;32;150;x;Vistula River;x
-3268;30;20;125;x;Dnieper River;x
-3269;48;36;155;x;Daugava River;x
-3270;25;35;137;x;Volga River;x
-3271;39;43;161;x;Loire River;x
-3272;26;17;121;x;Oder River;x
-3273;15;103;176;x;Nile River;x
-3274;64;188;106;x;Elephantine;x
-3275;31;61;172;x;Tigris and Euphrates River;x
-3276;27;68;161;x;Indus River;x
-3277;15;102;145;x;Ganges River;x
-3278;28;108;148;x;Mekong River;x
-3279;18;92;162;x;Pearl River;x
-3280;23;93;159;x;Yangtze River;x
-3281;23;76;175;x;Yellow River;x
-3282;121;154;46;x;Dornogovi Aimag;x
-3283;39;62;182;x;Liao River;x
-3284;27;35;125;x;Amur River;x
-3285;122;38;164;x;Tanchon;x
-3286;25;34;143;x;Amnok and Duman River;x
-3287;43;27;166;x;Mississippi River System;x
-3288;39;54;173;x;StLawrence River;x
-3289;19;38;158;x;Rio Grande River;x
-3290;18;58;164;x;Amazon River;x
-3291;38;14;161;x;Orinoco River;x;
-3292;28;126;165;x;Uruguay River;x;
-3293;72;30;168;x;Paraguay River System;x;
-3294;51;30;167;x;Ebro River;x
-3295;93;16;240;x;Lleida;x
-3296;100;17;170;x;Congo River;x
-3297;30;30;146;x;Niger River;x
-3298;252;255;79;Brig;x
-3299;71;16;232;Essen;x
+3249;54;14;244;Old Tianjin;x
+3250;55;14;248;Fribourg;x
+3251;56;14;232;Monaco(Bardonecchia);x
+3252;57;14;236;Andorra(Longville);x
+3253;58;14;240;Liechtenstein(Boca do Acre);x
+3254;59;14;244;Buckeburg;x
+3255;62;14;236;Reuss;x
+3256;61;14;232;Schwarzburg;x
+3257;62;14;237;Waldeck;x
+3258;63;14;240;Altona;x
+3259;64;14;244;Wilhelmshaven;x
+3260;65;14;248;Sado;x
+3261;66;14;232;Pescara;x
+3262;67;14;236;Belluno;x
+3263;69;14;244;Fort William;x
+3264;70;14;248;Nicobar Islands;x
+3265;71;16;232;Essen;x
+3266;72;16;236;San Marino(Birmingham);x
+3267;73;16;240;Bielefeld;x
+3268;74;16;244;Exeter;x
+3269;75;16;248;Portsmouth;x
+3270;76;16;232;Wetzlar;x
+3271;77;16;236;Jura;x
+3272;78;16;240;Brig;x
+3273;79;16;244;Thohoyandu;x
+3274;80;16;248;Svaneti;x
+3275;80;16;252;Gringotts;x
+3276;80;16;254;Hasakh;x
+3277;82;16;254;al-Zubayr;x
+3278;84;16;254;Lar;x
+3279;86;16;254;Panjdeh;x
+3280;88;16;254;Karakum;x
+3281;90;16;254;Kohsan;x
+3282;92;16;254;Qaleh-ye Kah;x
+3283;94;16;254;Zabol;x
+3284;96;16;254;Zaranj;x
+3285;98;16;254;Panjgur;x
+3286;100;16;254;Turbat;x
+3287;102;16;254;Jaliq;x
+3288;104;16;254;Qaleh Ganj;x
+3289;106;16;254;Saqqiz;x
+3290;108;16;254;Quchen;x
+3291;110;16;254;Ghaen;x
+3292;112;16;254;Tabas;x
+3293;114;16;254;Faraj;x
+3294;116;16;254;Maymana;x
+3295;118;16;254;Ghor;x
+3296;120;16;254;Shela;x
+3297;161;161;161;Corumba;x
+3298;113;61;204;Milk River;x
+3299;204;63;67;Big Muddy Creek;x
+3300;81;16;232;East Calcutta;x
+3301;82;16;236;North Bardwan;x
+3302;83;16;240;North Darjeeling;x
+3303;84;16;244;North Chittagong;x
+3304;85;16;248;North Dacca;x
+3305;86;16;232;South Gibraltar Strait;x
+3306;87;16;236;Tangshan;x
+3307;88;16;240;Kalgan;x
+3308;89;16;244;Cangzhou;x
+3309;90;16;248;Liaocheng;x
+;91;16;232;x
+;92;16;236;x
+;93;16;240;x
+;94;16;244;x
+;95;16;248;x
 ;96;16;232;x
 ;97;16;236;x
 ;98;16;240;x
@@ -3312,3 +3327,8 @@ province;red;green;blue;x;x
 ;107;16;236;x
 ;108;16;240;x
 ;109;16;244;x
+;111;17;244;x
+;111;17;245;Lake of the Woods;x
+;111;17;246;Lake Nipissing;x
+;111;17;247;Lake Simcoe;x
+;111;17;248;Lake Winnebago ;x
