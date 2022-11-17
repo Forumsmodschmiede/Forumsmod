@@ -1102,7 +1102,7 @@ austrian_venice = {
 	icon = 17
 }
 america_new_world = {
-	prestige = -0.5
+	prestige = -0.2
 	icon = 8
 }
 ai_boni = {

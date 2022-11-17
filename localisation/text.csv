@@ -56,7 +56,7 @@ riga;Riga;;;;;;;;x
 moscow;Moscow;;;;;;;;x
 #minsk;Urban;;;;;;;;x
 lyon;Lyon;;;;;;;;x
-dc;Washington;;;;;;;;x
+dc;District of Columbia;;;;;;;;x
 chicago;Chicago;;;;;;;;x
 sanfrancisco;San Francisco;;;;;;;;x
 hamburg;Hamburg;;;;;;;;x
@@ -10337,7 +10337,7 @@ PROV56;Kingston;Kingston;Kingston;;Kingston;;;;;;;;;x;;;;
 PROV57;Ottawa;Ottawa;Ottawa;;Ottawa;;;;;;;;;x;;;;
 PROV58;Montreal;Montréal;Montreal;;Montreal;;;;;;;;;x;;;;
 PROV59;Nitchequon;Nitchequon;Nitchequon;;Nitchequon;;;;;;;;;x;;;;
-PROV60;Fort Rupert;Fort Rupert;Fort Rupert;;Fuerte Rupert;;;;;;;;;x;;;;
+PROV60;Richmond;Fort Rupert;Fort Rupert;;Fuerte Rupert;;;;;;;;;x;;;;
 PROV61;Chicoutimi;Chicoutimi;Chicoutimi;;Chicoutimi;;;;;;;;;x;;;;
 PROV62;Sept-Îles;Sept-Îles;Sept-Iles;;Sept-Iles;;;;;;;;;x;;;;
 PROV63;Temiscaming;Temiscaming;Temiscaming;;Temiscaming;;;;;;;;;x;;;;
@@ -10856,7 +10856,7 @@ PROV575;Köln;Cologne;Köln;;Colonia;;;;;;;;;x;;;;
 PROV576;Aachen;Aix-la-Chapelle;Aachen;;Aquisgrán;;;;;;;;;x;;;;
 PROV577;Kleve;Clèves;Kleve;;Cleves;;;;;;;;;x;;;;
 PROV578;Düsseldorf;Düsseldorf;Düsseldorf;;Dusseldorf;;;;;;;;;x;;;;
-PROV3299;Essen;Düsseldorf;Düsseldorf;;Dusseldorf;;;;;;;;;x;;;;
+PROV3299;Big Muddy Creek;Düsseldorf;Düsseldorf;;Dusseldorf;;;;;;;;;x;;;;
 PROV579;Koblenz;Coblence;Koblenz;;Coblenza;;;;;;;;;x;;;;
 PROV580;Dortmund;Dortmund;Dortmund;;Dortmund;;;;;;;;;x;;;;
 PROV581;Münster;Münster;Münster;;Münster;;;;;;;;;x;;;;
@@ -12424,7 +12424,7 @@ PROV2142;Chihuahua;Chihuahua;Chihuahua;;Chihuahua;;;;;;;;;x;;;;
 PROV2143;Paso del Norte;Paso del Norte;Paso del Norte;;Paso del Norte;;;;;;;;;x;;;;
 PROV2144;Delicias;Delicias;Delicias;;Delicias;;;;;;;;;x;;;;
 PROV2145;Parral;Parral;Parral;;Parral;;;;;;;;;x;;;;
-PROV2146;Monterrey;Monterrey;Monterrey;;Monterrey;;;;;;;;;x;;;;
+PROV2146;DC;Monterrey;Monterrey;;Monterrey;;;;;;;;;x;;;;
 PROV2147;Morelos;Morelos;Morelos;;Morelos;;;;;;;;;x;;;;
 PROV2148;Reynosa;Reynosa;Reynosa;;Reinosa;;;;;;;;;x;;;;
 PROV2149;Matamoros;Matamoros;Matamoros;;Matamoros;;;;;;;;;x;;;;
@@ -15933,7 +15933,7 @@ EVTDESC99900026;The Irish Potato Famine, was a period of mass starvation and dis
 EVT99900026OPTA;Let them eat cake?;;;;;;;;;;;;;
 PROV3250;Ceuta;Jan Mayen;Jan Mayen;;Jan Mayen;;;;;;;x;;;;;;
 PROV3249;Guangzhouwan;Jan Mayen;Jan Mayen;;Jan Mayen;;;;;;;x;;;;;;
-PROV3298;Brig;Jan Mayen;Jan Mayen;;Jan Mayen;;;;;;;x;;;;;;
+PROV3298;Milk River;Jan Mayen;Jan Mayen;;Jan Mayen;;;;;;;x;;;;;;
 EVTNAME45107;Haiti Fails to Honour its Debts;;;;;;;;;;;;;
 EVTDESC45107;Haitis legacy of debt began shortly after gaining independence from France in 1804. In 1825, France, with warships at the ready, demanded Haiti compensate France for its loss of slaves and its slave colony. In exchange for French recognition of Haiti as a sovereign republic, France demanded payment of 150 million francs. In addition to the payment, France required that Haiti discount its exported goods to them by 50 percent. In 1838, France agreed to reduce the debt to 90 million francs to be paid over a period of 30 years to compensate former plantation owners who had lost their property. Haiti, however, still refuses to pay what is owed to us and will not do so unless we use force.;;;;;;;;;;;;;
 EVT45107OPTA;We will take what is owed to us.;;;;;;;;;;;;;

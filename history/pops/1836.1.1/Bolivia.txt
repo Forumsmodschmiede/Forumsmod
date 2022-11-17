@@ -568,6 +568,38 @@
         size = 9180
     }
 }
+#Robore (12000/3000 POPS)
+3297 = {
+    aristocrats = {
+        culture = platinean
+        religion = animist
+        size = 170
+    }
+
+    clergymen = {
+        culture = platinean
+        religion = animist
+        size = 254
+    }
+
+    artisans = {
+        culture = platinean
+        religion = animist
+        size = 510
+    }
+
+    soldiers = {
+        culture = platinean
+        religion = animist
+        size = 84
+    }
+
+    farmers = {
+        culture = platinean
+        religion = animist
+        size = 5180
+    }
+}
 #Beni Region (116000) #see Brazil.txt for balance of region
 #Ruled by Bolivia 1836
 #Santa Ana (76000/19000 POPS)

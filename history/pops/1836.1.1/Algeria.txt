@@ -1115,92 +1115,92 @@
 #Bechar (20000/5000 POPS)
 1714 = {
 	aristocrats = {
-		culture = berber
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = berber
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = berber
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 40
 	}
 
 	soldiers = {
-		culture = berber
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = berber
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 920
 	}
 
 	aristocrats = {
-		culture = maghrebi
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 20
 	}
 
 	clergymen = {
-		culture = maghrebi
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 40
 	}
 
 	artisans = {
-		culture = maghrebi
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = maghrebi
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 30
 	}
 
 	farmers = {
-		culture = maghrebi
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 1810
 	}
 
 	aristocrats = {
-		culture = african_minor
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = african_minor
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = african_minor
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 35
 	}
 
 	soldiers = {
-		culture = african_minor
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = african_minor
-		religion = sunni
+        culture = platinean
+        religion = animist
 		size = 1900
 	}
 }

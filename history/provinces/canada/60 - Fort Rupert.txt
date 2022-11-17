@@ -1,7 +1,16 @@
-owner = ENG
-controller = ENG
-add_core = CAN
-add_core = QUE
-trade_goods = fish
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = tobacco
+terrain = richmond
 life_rating = 35
-colonial = 2
+railroad = 1
+
+party_loyalty = {
+	ideology = conservative
+	loyalty_value = 25
+}
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 25
+}

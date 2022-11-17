@@ -291,68 +291,43 @@
 		size = 360
 	}
 }
-#Arviat (3200/800 POPS)
-43 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 20
-	}
 
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 30
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 75
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 20
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 1355
-	}
-}
-#Baker Lake (2000/500 POPS)
+#Baker/Repulse Bay/ Echo Bay - Now Guantanamo Bay (5036/1259 POPS)
 44 = {
 	aristocrats = {
-		culture = anglo_canadian
+		culture = caribeno
 		religion = catholic
 		size = 5
 	}
 
 	clergymen = {
-		culture = anglo_canadian
+		culture = caribeno
 		religion = catholic
 		size = 10
 	}
 
 	artisans = {
-		culture = anglo_canadian
+		culture = caribeno
 		religion = catholic
 		size = 25
 	}
 
 	soldiers = {
-		culture = anglo_canadian
+		culture = caribeno
 		religion = catholic
-		size = 5
+		size = 100
 	}
 
 	farmers = {
-		culture = anglo_canadian
+		culture = caribeno
 		religion = catholic
-		size = 450
+		size = 240
+	}
+	
+	farmers = {
+		culture = afro_caribeno
+		religion = catholic
+		size = 879
 	}
 }
 #Baffin Island (4000/1000 POPS)
@@ -2540,100 +2515,75 @@
 		size = 360
 	}
 }
-#Fort Chimo (2400/600 POPS)
+#Coudersport - Formerly Fort Chimo (2400/600 POPS)
 2627 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 5
-	}
-
 	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 10
+		culture = yankee
+		religion = protestant
+		size = 100
 	}
 
 	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 20
+		culture = yankee
+		religion = protestant
+		size = 500
 	}
 
 	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 5
+		culture = yankee
+		religion = protestant
+		size = 150
 	}
 
 	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 360
-	}
-
-	aristocrats = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 2
+		culture = yankee
+		religion = protestant
+		size = 14000
 	}
 
 	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 3
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 10
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 5
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 180
-	}
-}
-#Fort Rupert (2400/600 POPS)
-60 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 15
-	}
-
-	clergymen = {
-		culture = anglo_canadian
+		culture = yankee
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = anglo_canadian
+		culture = yankee
 		religion = catholic
-		size = 30
+		size = 200
 	}
 
 	soldiers = {
-		culture = anglo_canadian
+		culture = yankee
 		religion = catholic
-		size = 10
+		size = 55
 	}
 
 	farmers = {
-		culture = anglo_canadian
+		culture = yankee
 		religion = catholic
-		size = 520
+		size = 6225
+	}
+
+	clergymen = {
+		culture = irish
+		religion = catholic
+		size = 15
+	}
+
+	artisans = {
+		culture = irish
+		religion = catholic
+		size = 75
+	}
+
+	farmers = {
+		culture = irish
+		religion = catholic
+		size = 1000
 	}
 }
+
 #Fort George (1600/400 POPS)
 2593 = {
 	aristocrats = {
@@ -3458,4 +3408,77 @@
 		size = 450
 	}
 
+}
+3298 = {
+	labourers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 35
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 70
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1260
+	}
+}
+
+3299 = {
+	labourers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 35
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 70
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1260
+	}
 }

@@ -1074,8 +1074,8 @@
     }
 
     farmers = {
-        culture = platinean
-        religion = animist
+        culture = brazilian
+        religion = catholic
         size = 15554
     }
 }
@@ -3775,8 +3775,8 @@
     }
 
     farmers = {
-        culture = platinean
-        religion = animist
+        culture = brazilian
+        religion = catholic
         size = 15554
     }
 }
