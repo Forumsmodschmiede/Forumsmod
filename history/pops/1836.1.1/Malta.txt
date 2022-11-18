@@ -54,11 +54,11 @@
 	farmers = {
 		culture = maltese
 		religion = catholic
-		size = 50475
+		size = 40475
 	}
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 44825
+		size = 34825
 	}
 }

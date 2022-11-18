@@ -1496,66 +1496,37 @@
 		size = 3800
 	}
 }
-#Tamanrasset (16000/4000 POPS)
+#Orkney & Shetland - former Tamanrasset
 1724 = {
+
 	aristocrats = {
-		culture = berber
-		religion = sunni
-		size = 25
+		culture = british
+		religion = protestant
+		size = 40
 	}
 
 	clergymen = {
-		culture = berber
-		religion = sunni
-		size = 20
-	}
-
-	artisans = {
-		culture = berber
-		religion = sunni
-		size = 80
+		culture = british
+		religion = protestant
+		size = 225
 	}
 
 	soldiers = {
-		culture = berber
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = berber
-		religion = sunni
-		size = 1850
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 15
+		culture = british
+		religion = protestant
+		size = 375
 	}
 
 	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 35
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 25
+		culture = british
+		religion = protestant
+		size = 1000
 	}
 
 	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 1900
+		culture = british
+		religion = protestant
+		size = 5860
 	}
 
 }

@@ -2657,7 +2657,7 @@
 		size = 100300
 	}
 	farmers = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 84825
 	}
@@ -3217,49 +3217,49 @@
 #Marseilles (384800/96200 POPS)
 467 = {
 	aristocrats = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 900
 	}
 
 	officers = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 300
 	}
 
 	bureaucrats = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 700
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 900
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 10000
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 10000
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 10000
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 10000
 	}
@@ -3340,7 +3340,7 @@
 		size = 28600
 	}
 	farmers = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 24825
 	}
@@ -3383,7 +3383,7 @@
 		size = 40950
 	}
 	farmers = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 44825
 	}
@@ -3420,7 +3420,7 @@
 		size = 30400
 	}
 	farmers = {
-		culture = north_italian
+		culture = french
 		religion = catholic
 		size = 24825
 	}

@@ -19,12 +19,4 @@ army = {
 	}
 }
 
-army = {
-	name = "Taureg"
-	location = 1743
-	regiment = {
-		name= "1.Ihajenem"
-		type = irregular
-		home = 1743
-	}
 }

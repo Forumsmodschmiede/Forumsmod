@@ -1071,39 +1071,7 @@
 		size = 900
 	}
 }
-#Medicine Hat (8000/2000 POPS)
-29 = {
-	aristocrats = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
 
-	clergymen = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 100
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 25
-	}
-
-	farmers = {
-		culture = anglo_canadian
-		religion = catholic
-		size = 1750
-	}
-
-}
 #Fort Vermillion (3200/800 POPS)
 2597 = {
 	aristocrats = {

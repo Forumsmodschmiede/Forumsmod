@@ -1688,7 +1688,7 @@
 		size = 11850
 	}
 }
-#uncolonized in 1836/dominated by the Gaza Nguni
+#uncolonized in 1836/dominated by the Gaza african_minor
 #Thohoyandu (28200/7050 POPS)
 2110 = {
 	clergymen = {
@@ -2002,4 +2002,71 @@
 		size = 11850
 	}
 
+}
+3273 = {
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 100
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 150
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 2700
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = animist
+		size = 100
+	}
+	
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 1350
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = animist
+		size = 175
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = animist
+		size = 1750
+	}
 }

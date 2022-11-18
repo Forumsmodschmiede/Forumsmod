@@ -1980,7 +1980,7 @@ categories =  {
 
 	malta = {
 		movement_cost = 1.0
-		attrition = 1
+		defence = 2
 		color = { 22 44 66 }
 
 		farm_rgo_size = -0.6
@@ -2680,6 +2680,7 @@ categories =  {
 
 	wilhelmshaven = {
 		movement_cost = 1.0
+		defence = 2
 		color = { 22 44 66 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
@@ -2979,7 +2980,7 @@ categories =  {
 	
 	annecy = {
 		movement_cost = 1.4
-		defence = 3
+		defence = 2
 		color = { 117 108 119 }
 		farm_rgo_size = -0.2
 		farm_rgo_eff = 0.0
@@ -3127,7 +3128,7 @@ categories =  {
 	
 	mountain = {
 		movement_cost = 1.4
-		defence = 3
+		defence = 2
 		color = { 117 108 119 }
 		farm_rgo_size = -0.2
 		farm_rgo_eff = 0.0

@@ -27,11 +27,7 @@
 		size = 35400
 	}
 
-	aristocrats = {
-		culture = north_german
-		religion = catholic
-		size = 1050
-	}
+
 
 	bureaucrats = {
 		culture = polish
@@ -98,19 +94,19 @@
 	aristocrats = {
 		culture = north_german
 		religion = catholic
-		size = 9500
+		size = 8500
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = catholic
-		size = 4000
+		size = 3000
 	}
 
 	artisans = {
 		culture = north_german
 		religion = catholic
-		size = 7500
+		size = 6500
 	}
 
 	soldiers = {
@@ -184,7 +180,7 @@
 	clergymen = {
 		culture = north_german
 		religion = catholic
-		size = 2500
+		size = 1500
 	}
 
 	artisans = {
@@ -274,13 +270,13 @@
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 5000
+		size = 2000
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 9675
+		size = 5675
 	}
 }
 #Panevezys (204000/51000 POPS)
@@ -288,7 +284,7 @@
 	aristocrats = {
 		culture = north_german
 		religion = catholic
-		size = 5025
+		size = 3025
 	}
 
 	clergymen = {
@@ -300,13 +296,13 @@
 	artisans = {
 		culture = north_german
 		religion = catholic
-		size = 8750
+		size = 5750
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 3750
+		size = 2750
 	}
 
 	farmers = {
@@ -348,13 +344,13 @@
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 5000
+		size = 2000
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 2500
+		size = 1500
 	}
 
 	farmers = {
@@ -392,25 +388,25 @@
 	aristocrats = {
 		culture = north_german
 		religion = catholic
-		size = 9000
+		size = 4000
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = catholic
-		size = 8000
+		size = 3000
 	}
 
 	artisans = {
 		culture = north_german
 		religion = catholic
-		size = 12500
+		size = 10500
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size = 4250
+		size = 3250
 	}
 
 	farmers = {
@@ -448,7 +444,7 @@
 	aristocrats = {
 		culture = north_german
 		religion = catholic
-		size = 3500
+		size = 2500
 	}
 
 	clergymen = {
@@ -520,7 +516,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 8500
+		size = 2500
 	}
 
 }

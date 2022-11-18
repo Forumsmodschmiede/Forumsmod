@@ -342,7 +342,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 29025 
+		size = 39025 
 	}
 
 	aristocrats = {
@@ -456,7 +456,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 75025  
+		size = 55025  
 	}
 
 	clergymen = {
@@ -504,7 +504,7 @@
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 60700
+		size = 10700
 	}
 }
 #Orsova (376000/94000 POPS) #part of Romania today

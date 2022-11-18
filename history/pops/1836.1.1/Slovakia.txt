@@ -286,7 +286,7 @@
 	farmers = {
 		culture = slovak
 		religion = catholic
-		size = 63300
+		size = 53300
 	}
 
 	aristocrats = {
@@ -340,7 +340,7 @@
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size = 7475    
+		size = 17475    
 	}
 
 	clergymen = {
@@ -478,7 +478,7 @@
 	farmers = {
 		culture = slovak
 		religion = catholic
-		size = 93875 
+		size = 83875 
 	}
 
 	aristocrats = {
@@ -544,7 +544,7 @@
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size = 18525
+		size = 28525
 	}
 
 	clergymen = {
@@ -678,7 +678,7 @@
 	farmers = {
 		culture = slovak
 		religion = catholic
-		size = 18625 
+		size = 28625 
 	}
 
 	aristocrats = {
@@ -708,7 +708,7 @@
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 6675 
+		size = 1675 
 	}
 
 	clergymen = {

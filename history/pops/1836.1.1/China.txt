@@ -6008,6 +6008,11 @@
 }
 #Jirim Chuulghan (152000/38000 POPS)
 1533 = {
+	farmers = {
+		culture = manchu
+		religion = mahayana
+		size = 124100
+	}
 	aristocrats = {
 		culture = mongol
 		religion = gelugpa
@@ -12577,49 +12582,86 @@
 		size = 10
 	}
 }
-
-#Dornogovi Aimag
-3282 = {
-	aristocrats = {
-		culture = mongol
-		religion = gelugpa
-		size = 2000
-	}
-
-	bureaucrats = {
-		culture = mongol
-		religion = gelugpa
-		size = 225
-	}
-
-	officers = {
-		culture = mongol
-		religion = gelugpa
-		size = 225
-	}
-
+#Kwangchowan (Former Augmagsalik and also called Isortoq) (23625 POPS)
+2632 = {
 	clergymen = {
-		culture = mongol
-		religion = gelugpa
-		size = 1050
+		culture = nanfaren
+		religion = mahayana
+		size = 125
 	}
 
 	artisans = {
-		culture = mongol
-		religion = gelugpa
-		size = 4200
+		culture = nanfaren
+		religion = mahayana
+		size = 2500
 	}
-
+	
 	soldiers = {
-		culture = mongol
-		religion = gelugpa
-		size = 1050
+		culture = nanfaren
+		religion = mahayana
+		size = 1000
 	}
 
 	farmers = {
-		culture = mongol
-		religion = gelugpa
-		size = 95250
+		culture = nanfaren
+		religion = mahayana
+		size = 20000
+	}
+	
+	farmers = {
+		culture = nanfaren
+		religion = mahayana
+		size = 5000
+	}
+}
+#Tangshan no capital-only pops
+3306 = {
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 6500
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 5500
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 5500
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 5500
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 5500
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 5500
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 5000
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 700800
 	}
 
 	clergymen = {
@@ -12631,30 +12673,239 @@
 	artisans = {
 		culture = beifaren
 		religion = mahayana
-		size = 200
+		size = 350
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 3625
+		size = 6375
 	}
-
-	bureaucrats = {
+	
+	clergymen = {
 		culture = manchu
 		religion = mahayana
-		size = 25
+		size = 1500
 	}
 
-	officers = {
+	artisans = {
 		culture = manchu
 		religion = mahayana
-		size = 75
+		size = 5500
+	}
+	
+	artisans = {
+		culture = manchu
+		religion = mahayana
+		size = 5500
 	}
 
-	soldiers = {
+	farmers = {
 		culture = manchu
 		religion = mahayana
-		size = 1100
+		size = 23500
+	}
+}
+#Kalgan no capital-only pops
+3307 = {
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 1000
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 300000
+	}
+	
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 200000
+	}
+
+	clergymen = {
+		culture = manchu
+		religion = mahayana
+		size = 250
+	}
+
+	artisans = {
+		culture = manchu
+		religion = mahayana
+		size = 3000
+	}
+
+	farmers = {
+		culture = manchu
+		religion = mahayana
+		size = 5500
+	}
+}
+#Cangzhou #no capital-only pops
+3308 = {
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 7000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 20600
+	}
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 621325
+	}
+	
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 50000
+	}
+	
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 150
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 500
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 15000
+	}
+}
+#Liaocheng without capital-only pops
+3309 = {
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 4100
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 3000
+	}
+	
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 150
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 400000
+	}
+	
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 40000
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 250
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 1000
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 20000
 	}
 }

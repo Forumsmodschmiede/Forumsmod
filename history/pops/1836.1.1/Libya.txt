@@ -879,73 +879,56 @@
 		size = 500
 	}
 }
-#Ghat (16000/4000 POPS)
+#Former Ghat - Now Nordhorn(16000/4000 POPS)
 1743 = {
-	aristocrats = {
-		culture = bedouin
-		religion = sunni
-		size = 15
-	}
-
-	clergymen = {
-		culture = bedouin
-		religion = sunni
-		size = 25
-	}
-
-	artisans = {
-		culture = bedouin
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = bedouin
-		religion = sunni
-		size = 10
-	}
-
-	farmers = {
-		culture = bedouin
-		religion = sunni
-		size = 900
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = sunni
+	officers = {
+		culture = north_german
+		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = african_minor
-		religion = sunni
-		size = 25
+		culture = north_german
+		religion = protestant
+		size = 75 
 	}
 
 	artisans = {
-		culture = african_minor
-		religion = sunni
-		size = 100
+		culture = north_german
+		religion = protestant
+		size = 400
 	}
 
 	soldiers = {
-		culture = african_minor
-		religion = sunni
-		size = 1100
+		culture = north_german
+		religion = protestant
+		size = 88 
 	}
 
 	farmers = {
-		culture = african_minor
-		religion = sunni
-		size = 900
+		culture = north_german
+		religion = protestant
+		size = 8075
+	}
+	
+	farmers = {
+		culture = north_german
+		size = 500
+		religion = catholic
 	}
 
-	slaves = {
-		culture = african_minor
-		religion = animist
-		size = 1100
+	clergymen = {
+		culture = dutch
+		religion = protestant
+		size = 15 
 	}
+
+	farmers = {
+		culture = dutch
+		religion = protestant
+		size = 985 
+	}
+
 }
 #Ghadamis (24000/6000 POPS)
 1744 = {

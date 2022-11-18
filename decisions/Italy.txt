@@ -337,23 +337,11 @@ political_decisions = {
 			}
 			854 = {
 				add_core = ITA
-			}
-			470 = {
-				add_core = ITA
 			}			
 			729 = {
 				add_core = ITA
 			}
-			471 = {
-				add_core = ITA
-			}
-			469 = {
-				add_core = ITA
-			}
 			472 = {
-				add_core = ITA
-			}
-			454 = {
 				add_core = ITA
 			}
 			466 = {
@@ -392,9 +380,7 @@ political_decisions = {
 			769 = {
 				add_core = ITA
 			}
-			770 = {
-				add_core = ITA
-			}
+
 			778 = {
 				add_core = ITA
 			}
@@ -413,9 +399,19 @@ political_decisions = {
 			2568 = {
 				add_core = ITA
 			}
-			611 = {
+			2669 = {
 				add_core = ITA
 			}
+			3262 = {
+				add_core = ITA
+			}
+			770 = {
+				add_core = ITA
+			}
+			774 = {
+				add_core = ITA
+			}
+
 		}
 	}
 }

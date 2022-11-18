@@ -112,7 +112,7 @@ army = {
 	regiment = {
 		name= "8eme Brigade d'Infanterie"
 		type = infantry
-		home = 396 #Spa
+		home = 392 #Spa
 	}
 
 	regiment = {

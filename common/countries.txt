@@ -38,6 +38,10 @@ IBE		= "countries/Iberia.txt"
 BNX		= "countries/Benelux.txt"
 
 # Germany
+REU		= "countries/Reuss.txt"
+SCL		= "countries/Schaumburg-Lippe.txt"
+SWG		= "countries/Schwarzburg.txt"
+WLD		= "countries/Waldeck.txt"
 ANH		= "countries/Anhalt.txt"
 BAD		= "countries/Baden.txt"
 BAV		= "countries/Bavaria.txt"

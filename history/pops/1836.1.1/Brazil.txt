@@ -660,85 +660,145 @@
         rebel_type = anarcho_liberal_rebels
     }
 }
-#Amapa (8000/2000 POPS)
+#Jezira/Cizre (92000/23000 POPS)
 2414 = {
-    aristocrats = {
-        culture = french
-        religion = catholic
-        size = 40
-    }
+	aristocrats = {
+		culture = turkish
+		religion = sunni
+		size = 50
+	}
 
-    clergymen = {
-        culture = french
-        religion = catholic
-        size = 25
-    }
+	clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 75
+	}
 
-    artisans = {
-        culture = french
-        religion = catholic
-        size = 15
-    }
+	artisans = {
+		culture = turkish
+		religion = sunni
+		size = 150
+	}
 
-    soldiers = {
-        culture = french
-        religion = catholic
-        size = 25
-    }
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 675
+	}
 
-    clergymen = {
-        culture = afro_antillean
-        religion = catholic
-        size = 10
-    }
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 2050
+	}
+	
+	soldiers = {
+		culture = armenian
+		religion = orthodox
+		size = 200
+	}
 
-    artisans = {
-        culture = afro_antillean
-        religion = catholic
-        size = 50
-    }
+	clergymen = {
+		culture = armenian
+		religion = orthodox
+		size = 100
+	}
 
-    soldiers = {
-        culture = afro_antillean
-        religion = catholic
-        size = 10
-    }
+	artisans = {
+		culture = armenian
+		religion = orthodox
+		size = 350
+	}
 
-    farmers = {
-        culture = afro_antillean
-        religion = catholic
-        size = 150
-    }
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 4400
+	}
+	
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 100
+	}
 
-    slaves = {
-        culture = afro_antillean
-        religion = catholic
-        size = 680
-    }
+	clergymen = {
+		culture = turkish
+		religion = sunni
+		size = 100
+	}
 
-    clergymen = {
-        culture = brazilian
-        religion = animist
-        size = 42
-    }
+	artisans = {
+		culture = turkish
+		religion = sunni
+		size = 100
+	}
 
-    artisans = {
-        culture = brazilian
-        religion = animist
-        size = 85
-    }
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 1575
+	}
 
-    soldiers = {
-        culture = brazilian
-        religion = animist
-        size = 25
-    }
+	aristocrats = {
+		culture = kurdish
+		religion = sunni
+		size = 150
+	}
 
-    farmers = {
-        culture = brazilian
-        religion = animist
-        size = 1547
-    }
+	clergymen = {
+		culture = kurdish
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = sunni
+		size = 250
+	}
+	
+	soldiers = {
+		culture = kurdish
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = sunni
+		size = 1025
+	}
+	
+	aristocrats = {
+		culture = kurdish
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = kurdish
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = kurdish
+		religion = sunni
+		size = 550
+	}
+
+	soldiers = {
+		culture = kurdish
+		religion = sunni
+		size = 1175
+	}
+
+	farmers = {
+		culture = kurdish
+		religion = sunni
+		size = 7025
+	}
 }
 #Macapa (8000/2000 POPS)
 2415 = {

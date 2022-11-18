@@ -394,3 +394,47 @@
 	}
 
 }
+#Khasab - Former Oyotuni/Chokurdakh
+2664 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 10
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 100
+	}
+	
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 230
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 730
+	}
+	
+	farmers = {
+		culture = baluchi
+		religion = sunni
+		size = 100
+	}
+}

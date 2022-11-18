@@ -74,38 +74,7 @@
 }
 #Central Polynesia Region (604)
 #uncolonized in 1836
-#Line Islands (600/150 POPS)
-686 = {
-	aristocrats = {
-		culture = polynesian
-		religion = animist
-		size = 5
-	}
 
-	clergymen = {
-		culture = polynesian
-		religion = animist
-		size = 5
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = animist
-		size = 10
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = animist
-		size = 5
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = animist
-		size = 125
-	}
-}
 #Palmyra Atoll (60/15 POPS)
 2526 = {
 	farmers = {

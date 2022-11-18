@@ -2,72 +2,40 @@
 #Bahari Region (2664000)
 #under the rule of Egypt in 1836
 #Elepehantine
+
+#Galich (304000/76000 POPS)
 3274 = {
 	aristocrats = {
-		culture = misri
-		religion = sunni
-		size = 175
-	}
-
-	bureaucrats = {
-		culture = misri
-		religion = sunni
-		size = 45
-	}
-
-	officers = {
-		culture = misri
-		religion = sunni
-		size = 75
+		culture = russian
+		religion = orthodox
+		size = 900
 	}
 
 	clergymen = {
-		culture = misri
-		religion = sunni
-		size = 100
+		culture = russian
+		religion = orthodox
+		size = 750
 	}
 
 	artisans = {
-		culture = misri
-		religion = sunni
-		size = 500
+		culture = russian
+		religion = orthodox
+		size = 3800
 	}
 
 	soldiers = {
-		culture = misri
-		religion = sunni
-		size = 125
+		culture = russian
+		religion = orthodox
+		size = 750
 	}
 
 	farmers = {
-		culture = misri
-		religion = sunni
-		size = 8980
+		culture = russian
+		religion = orthodox
+		size = 19800
 	}
+	
 
-	bureaucrats = {
-		culture = misri
-		religion = coptic
-		size = 5
-	}
-
-	clergymen = {
-		culture = misri
-		religion = coptic
-		size = 50
-	}
-
-	artisans = {
-		culture = misri
-		religion = coptic
-		size = 100
-	}
-
-	farmers = {
-		culture = misri
-		religion = coptic
-		size = 1850
-	}
 }
 #Cairo (1004600/251150 POPS)
 1745 = {
