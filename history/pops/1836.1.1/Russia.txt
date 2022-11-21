@@ -8285,36 +8285,91 @@
 		size = 450
 	}
 }
-#Ugolniye (1000/250 POPS) #inuit = chukchi  }
+#Ceuta (old Ugolniye - Lutlin) (1000/250 POPS)
 2590 = {
+
 	aristocrats = {
-		culture = inuit
-		religion = animist
-		size = 2
+		culture = spanish
+		religion = catholic
+		size = 17
 	}
 
+	bureaucrats = {
+		culture = spanish
+		religion = catholic
+		size = 17
+	}
+	
 	clergymen = {
-		culture = inuit
-		religion = animist
-		size = 5
+		culture = spanish
+		religion = catholic
+		size = 72
 	}
 
 	artisans = {
-		culture = inuit
-		religion = animist
-		size = 10
+		culture = spanish
+		religion = catholic
+		size = 180
 	}
 
 	soldiers = {
-		culture = inuit
-		religion = animist
-		size = 3
+		culture = spanish
+		religion = catholic
+		size = 540
+	}
+	
+	farmers = {
+		culture = spanish
+		religion = catholic
+		size = 1080
+	}
+
+	clergymen = {
+		culture = maghrebi
+		religion = sunni
+		size = 53
+	}
+
+	artisans = {
+		culture = maghrebi
+		religion = sunni
+		size = 180
+	}
+
+	soldiers = {
+		culture = maghrebi
+		religion = sunni
+		size = 540
 	}
 
 	farmers = {
-		culture = inuit
-		religion = animist
-		size = 230
+		culture = maghrebi
+		religion = sunni
+		size = 1440
+	}
+
+	clergymen = {
+		culture = berber
+		religion = sunni
+		size = 36
+	}
+
+	artisans = {
+		culture = berber
+		religion = sunni
+		size = 180
+	}
+
+	soldiers = {
+		culture = berber
+		religion = sunni
+		size = 540
+	}
+
+	farmers = {
+		culture = berber
+		religion = sunni
+		size = 1440
 	}
 }
 #Pevek (600/150 POPS) #inuit = chukchi  }

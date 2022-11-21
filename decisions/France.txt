@@ -209,7 +209,7 @@ political_decisions = {
 			naval_plans = 1
 			relation = {
 				who = JAP
-				value = 100
+				value = 50
 			}
 		}
 		

@@ -55,6 +55,9 @@ GRE = {
 ENG = {
 	value = 0
 }
+JAP = {
+	value = 50
+}
 RUS = {
 	value = -75
 }

@@ -421,17 +421,17 @@ leader = {
 	date = 1835.1.1
 	type = land
 	personality = 	defence_4.2
-	background = attack_4.1
-	prestige = 0.25
+	background = attack_3.1
+	prestige = 0.3
 }
 leader = {
 	name = "Edwin von Manteuffel"
 	picture="austrian_general_56"
 	date = 1836.1.1
 	type = land
-	personality = 	defence_4.2
-	background = attack_3.1
-	prestige = 0.2
+	personality = 	defence_3.16
+	background = attack_4.1
+	prestige = 0.25
 }
 leader = {
 	name = "Helmuth von Moltke"
@@ -440,7 +440,7 @@ leader = {
 	type = land
 	personality = defence_2.2 
 	background = attack_5.1
-	prestige = 0.3
+	prestige = 0.35
 }
 
 leader = {
@@ -835,7 +835,7 @@ army = {
 }
 
 navy = {
-	name = "Königlich Preußische Marine"
+	name = "Königl. Preußische Marine"
 	location = 690
 	ship = {
 		name= "1. Klipperflottille"

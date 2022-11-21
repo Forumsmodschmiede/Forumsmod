@@ -79,7 +79,7 @@ army = {
 
 army = {
 	name = "2eme Division d'Infanterie"
-	location = 396 #Spa
+	location = 392 #Spa
 	regiment = {
 		name= "4e Infanterie Brigade"
 		type = infantry

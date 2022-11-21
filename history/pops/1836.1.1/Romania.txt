@@ -342,7 +342,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 39025 
+		size = 59025 
 	}
 
 	aristocrats = {
@@ -414,7 +414,7 @@
 	farmers = {
 		culture = hungarian
 		religion = protestant
-		size = 21275     
+		size = 31275     
 	}
 
 	aristocrats = {
@@ -456,7 +456,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 55025  
+		size = 25025  
 	}
 
 	clergymen = {

@@ -2764,31 +2764,31 @@
 	}
 	
 	aristocrats = {
-		culture = kurdish
+		culture = persian
 		religion = shiite
 		size = 200
 	}
 
 	clergymen = {
-		culture = kurdish
+		culture = persian
 		religion = shiite
 		size = 175
 	}
 
 	artisans = {
-		culture = kurdish
+		culture = turkmen
 		religion = shiite
 		size = 425
 	}
 
 	soldiers = {
-		culture = kurdish
+		culture = turkmen
 		religion = shiite
 		size = 1075
 	}
 
 	farmers = {
-		culture = kurdish
+		culture = persian
 		religion = shiite
 		size = 4225
 	}
