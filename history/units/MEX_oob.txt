@@ -56,7 +56,7 @@ leader = {
 
 army = {
 	name = "Ejército del Norte"
-	location = 2146
+	location = 138
 	regiment = {
 		name= "1.Division Cos"
 		type = irregular

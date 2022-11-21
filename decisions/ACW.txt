@@ -412,7 +412,10 @@ political_decisions = {
 			}
 		}
 		allow = {
+			war = no
 			romanticism = 1
+			idealism = 1
+			state_n_government = 1
 			NOT = {
 				exists = TEX
 				133 = {
@@ -422,6 +425,12 @@ political_decisions = {
 		}
 		effect = {			
 			set_country_flag = hasmanifestdestiny
+			random_list = {
+				25 = { }
+				25 = { badboy = 1 }
+				25 = { badboy = 2 }
+				25 = { badboy = 3 }
+			}
 			diplomatic_influence = {
 				who = MEX
 				value = -500
@@ -434,32 +443,32 @@ political_decisions = {
 				consciousness = 2
 			}
 			TEX_132 = {
-				add_core = USA
 				add_core = CSA
 			}
-			USA_200 = {
-				add_core = CSA
-			}
-			MEX_103 = {
-				add_core = USA
-			}
-			USA_129 = {
-				add_core = USA
-			}
-			USA_106 = {
-				add_core = USA
-			}
-			USA_81 = {
-				add_core = USA
-			}
-			MEX_94 = {
-				add_core = USA
-			}
-			MEX_85 = {
-				add_core = USA
-			}
-			MEX_100 = {
-				add_core = USA
+			MEX_85 = { add_core = USA } #California
+			TEX_132 = { add_core = USA } #Texas
+			MEX_94 = { add_core = USA } #Nevada
+			MEX_97 = { add_core = USA } #Utah
+			USA_129 = { add_core = USA } #Oklahoma
+			USA_106 = { add_core = USA } #Colorado
+			USA_78 = { add_core = USA } #Washington
+			USA_81 = { add_core = USA } #Portland
+			USA_91 = { add_core = USA } #Idaho
+			USA_111 = { add_core = USA } 
+			USA_126 = { add_core = USA }
+			2148 = { add_core = USA }
+			105 = { add_core = USA }
+			104 = { add_core = USA }
+			103 = { add_core = USA }
+			101 = { add_core = USA }
+			100 = { add_core = USA }
+			102 = { add_core = USA }
+			2662 = { add_core = USA }
+			all_core = {
+				limit = {
+					NOT = { life_rating = 40 }
+				}
+				life_rating = 5
 			}
 	
 		}

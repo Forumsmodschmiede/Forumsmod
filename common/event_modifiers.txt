@@ -1120,7 +1120,7 @@ ai_boni = {
 	icon = 15
 }
 ai_boni2 = {
-	min_tax = 0.4
+	min_tax = 0.6
    	tax_efficiency = 0.05
 	supply_consumption = -0.05
 	mobilisation_economy_impact = -0.5
