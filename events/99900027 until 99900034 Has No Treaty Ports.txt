@@ -6,28 +6,28 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		 owns = 3249
-		sphere_owner = { is_sphere_leader_of = THIS }
-		is_greater_power = yes
+
+		NOT = {owns = 2632}
+		is_sphere_leader_of = NAN
+
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 0
 	}
 
     option = {
 	name = "A bad day for our Empire"
 	#Remove Sphere from existing Sphere Owner
-	NAN = {
-		sphere_owner = {
-			diplomatic_influence = {
-				who = NAN
-				value = -900
-			}
+		THIS = {
+		diplomatic_influence = {
+			who = NAN
+			value = -900
+			}		}
 			clr_country_flag = treatyport_nanning
 			remove_country_modifier = treaty_port_nanning
-		}
-	}
+		
+	
     }
 }
 country_event = {
@@ -37,27 +37,27 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		owns = 1498
-		sphere_owner = { is_sphere_leader_of = THIS }
-		is_greater_power = yes	
+
+		NOT = {owns = 1498 }
+		is_sphere_leader_of = MAC
+
 
 	mean_time_to_happen = {
-		months = 1
+		months = 0
 	}
 
     option = {
 	name = "A bad day for our Empire"
 	#Remove Sphere from existing Sphere Owner
-	MAC = {
-		sphere_owner = {
-			diplomatic_influence = {
-				who = MAC
-				value = -900
-			}
+		THIS = {
+		diplomatic_influence = {
+			who = MAC
+			value = -900
+			}		}
 			clr_country_flag = treatyport_macau
 			remove_country_modifier = treaty_port_macau
-		}
-	}
+		
+	
     }
 }
 country_event = {
@@ -67,28 +67,28 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		owns = 1496
-		sphere_owner = { is_sphere_leader_of = THIS }
-		is_greater_power = yes
+
+		NOT = {owns = 1496 }
+		is_sphere_leader_of = HKG
+
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 0
 	}
 
     option = {
 	name = "A bad day for our Empire"
 	#Remove Sphere from existing Sphere Owner
-	HKG = {
-		sphere_owner = {
-			diplomatic_influence = {
-				who = HKG
-				value = -900
-			}
+		THIS = {
+		diplomatic_influence = {
+			who = HKG
+			value = -900
+			}		}
 			clr_country_flag = treatyport_hongkong
 			remove_country_modifier = treaty_port_hongkong
-		}
-	}
+		
+	
     }
 }
 country_event = {
@@ -98,28 +98,28 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		owns = 1482
-		sphere_owner = { is_sphere_leader_of = THIS }
-		is_greater_power = yes
+
+		NOT = {owns = 1482 }
+		is_sphere_leader_of = FZH
+
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 0
 	}
 
     option = {
 	name = "A bad day for our Empire"
 	#Remove Sphere from existing Sphere Owner
-	FZH = {
-		sphere_owner = {
-			diplomatic_influence = {
-				who = FZH
-				value = -900
-			}
+		THIS = {
+		diplomatic_influence = {
+			who = FZH
+			value = -900
+			}		}
 			clr_country_flag = treatyport_fuzhou
 			remove_country_modifier = treaty_port_fuzhou
-		}
-	}
+		
+	
     }
 }
 country_event = {
@@ -129,28 +129,28 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		owns = 1608
-		sphere_owner = { is_sphere_leader_of = THIS }
-		is_greater_power = yes
+
+		NOT = {owns = 1608 }
+		is_sphere_leader_of = NGB
+
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 0
 	}
 
     option = {
 	name = "A bad day for our Empire"
 	#Remove Sphere from existing Sphere Owner
-	NGB = {
-		sphere_owner = {
-			diplomatic_influence = {
-				who = NGB
-				value = -900
-			}
+		THIS = {
+		diplomatic_influence = {
+			who = NGB
+			value = -900
+			}		}
 			clr_country_flag = treatyport_ningbo
 			remove_country_modifier = treaty_port_ningbo
-		}
-	}
+		
+	
     }
 }
 country_event = {
@@ -160,28 +160,28 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		owns = 1538
-		sphere_owner = { is_sphere_leader_of = THIS }
-		is_greater_power = yes
+
+		NOT = {owns = 1538 }
+		is_sphere_leader_of = SHA
+
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 0
 	}
 
     option = {
 	name = "A bad day for our Empire"
 	#Remove Sphere from existing Sphere Owner
-	SHA = {
-		sphere_owner = {
-			diplomatic_influence = {
-				who = SHA
-				value = -900
-			}
+		THIS = {
+		diplomatic_influence = {
+			who = SHA
+			value = -900
+			}		}
 			clr_country_flag = treatyport_shanghai
 			remove_country_modifier = treaty_port_shanghai
-		}
-	}
+		
+	
     }
 }
 country_event = {
@@ -191,28 +191,28 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		owns = 1566
-		sphere_owner = { is_sphere_leader_of = THIS }
-		is_greater_power = yes
+		NOT = {owns = 1566 }
+		is_sphere_leader_of = QNG
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 0
 	}
 
     option = {
 	name = "A bad day for our Empire"
 	#Remove Sphere from existing Sphere Owner
-	QNG = {
-		sphere_owner = {
-			diplomatic_influence = {
-				who = QNG
-				value = -900
-			}
+
+
+		THIS = {
+		diplomatic_influence = {
+			who = QNG
+			value = -900
+			}		}
 			clr_country_flag = treatyport_qingdao
 			remove_country_modifier = treaty_port_qingdao
-		}
-	}
+		
+	
     }
 }
 country_event = {
@@ -222,27 +222,27 @@ country_event = {
     picture = "SeaPower"
 
 	trigger = {
-		owns = 1481
-		sphere_owner = { is_sphere_leader_of = THIS }
-		is_greater_power = yes
+		NOT = {owns = 1481 }
+		is_sphere_leader_of = BEI
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 0
 	}
 
     option = {
 	name = "A bad day for our Empire"
 	#Remove Sphere from existing Sphere Owner
-	BEI = {
-		sphere_owner = {
-			diplomatic_influence = {
-				who = BEI
-				value = -900
-			}
+	
+	
+		THIS = {
+		diplomatic_influence = {
+			who = BEI
+			value = -900
+			}		}
 			clr_country_flag = treatyport_beijing
 			remove_country_modifier = treaty_port_beijing
-		}
-	}
+		
+	
     }
 }

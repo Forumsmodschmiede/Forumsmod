@@ -654,7 +654,7 @@ acquire_treaty_port = {
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			OR = {
-				owns = 3249
+				owns = 2632
 				owns = 1498
 				owns = 1496
 				owns = 1482
@@ -669,7 +669,7 @@ acquire_treaty_port = {
 	allowed_states = {
 		any_owned_province = {
 			OR = {
-				province_id = 3249
+				province_id = 2632
 				province_id = 1498
 				province_id = 1496
 				province_id = 1482

@@ -11,7 +11,7 @@ country_event = { id = 99900041
 	
 
 		mean_time_to_happen =  {
-		months = 1
+		months = 0
 					}
 
 	option = {

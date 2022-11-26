@@ -14,7 +14,7 @@ country_event = {
 		name = "Send 100K"		
 		money = -100000
 		FROM = { money = 100000 }
-		FROM = { country_event = { id = 99900031 days = 0 }	}
+		FROM = { country_event = { id = 999000031 days = 0 }	}
 	}
 
 	#500K
@@ -22,7 +22,7 @@ country_event = {
 		name = "Send 500K"		
 		money = -500000
 		FROM = { money = 500000 }
-		FROM = { country_event = { id = 99900032 days = 0 }	}	
+		FROM = { country_event = { id = 999000032 days = 0 }	}	
 	}
 
 	#1000K
@@ -30,7 +30,7 @@ country_event = {
 		name = "Send 1M"		
 		money = -1000000
 		FROM = { money = 1000000 }
-		FROM = { country_event = { id = 99900033 days = 0 }	}			
+		FROM = { country_event = { id = 999000033 days = 0 }	}			
 	}
 
 	#Do nothing
@@ -49,7 +49,7 @@ country_event = {
 }
 
 country_event = {
-	id = 99900031
+	id = 999000031
 	is_triggered_only = yes
 	title = "$FROMCOUNTRY$ has given us 100000£"
 	desc = "$FROMCOUNTRY$ has granted us financial aid of 100K £"
@@ -62,7 +62,7 @@ country_event = {
 }
 
 country_event = {
-	id = 99900032
+	id = 999000032
 	is_triggered_only = yes
 	title = "$FROMCOUNTRY$ has given us 500000£"
 	desc = "$FROMCOUNTRY$ has granted us financial aid of 500K £"
@@ -75,7 +75,7 @@ country_event = {
 }
 
 country_event = {
-	id = 99900033
+	id = 999000033
 	is_triggered_only = yes
 	title = "$FROMCOUNTRY$ has given us 1000000£"
 	desc = "$FROMCOUNTRY$ has granted us financial aid of 1M £"

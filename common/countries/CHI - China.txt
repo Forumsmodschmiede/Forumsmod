@@ -4,8 +4,8 @@ religion = animist
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.02
-non_state_culture_literacy = 0.02
+literacy = 0.06
+non_state_culture_literacy = 0.03
 
 ruling_party = CHI_conservative
 upper_house = {

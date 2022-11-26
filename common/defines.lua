@@ -553,7 +553,7 @@ diplomacy = {
 	MAKE_CB_RELATION_LIMIT = 100,
 	CB_DETECTION_CHANCE_BASE = 15, -- chance out of 1000 every day
 	INVESTMENT_INFLUENCE_DEFENSE = 0.5,	-- maximum defense factor in sphere of having invested in a country
-	RELATION_INFLUENCE_MODIFIER = 1000, -- divisor for relation
+	RELATION_INFLUENCE_MODIFIER = 200, -- divisor for relation
 	ON_CB_DETECTED_RELATION_CHANGE = -50, -- relations decreased when CB detected.
 	
 	GW_INTERVENE_MIN_RELATIONS = 100, -- minimum relations required to intervene in great war
