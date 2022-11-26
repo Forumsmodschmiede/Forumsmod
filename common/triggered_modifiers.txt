@@ -9,7 +9,7 @@ leadership_fix = {
         exists = yes
     }
     icon = 10
-	leadership_modifier = -0.5
+	leadership_modifier = -0.6
 }
 slave_nation = {
     trigger = {

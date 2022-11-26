@@ -622,7 +622,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 70700 
+		size = 50700 
 	}
 
 	aristocrats = {
@@ -652,7 +652,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size =  26850
+		size =  46850
 	}
 
 	clergymen = {
