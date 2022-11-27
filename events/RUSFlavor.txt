@@ -391,12 +391,12 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA32510"
-		money = -72000
+		money = -720000
 		any_pop = {
 				consciousness = -1
 		}
 		RUS = {
-			money = 72000
+			money = 720000
 		}
 	}
 }

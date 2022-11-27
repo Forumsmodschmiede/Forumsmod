@@ -11,14 +11,6 @@ leadership_fix = {
     icon = 10
 	leadership_modifier = -0.6
 }
-slave_nation = {
-    trigger = {
-        slavery = yes_slavery
-    }
-    icon = 10
-    	core_pop_militancy_modifier = -0.005
-	core_pop_consciousness_modifier = -0.005
-}
 csa_mob = {
     trigger = {
         primary_culture = dixie

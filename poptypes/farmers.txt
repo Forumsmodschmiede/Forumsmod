@@ -803,6 +803,16 @@ promote_to =
 					is_colonial = yes
 				}
 		}
+
+        modifier = {
+            factor = -10
+	OR = {
+		culture = beifaren
+		culture = nanfaren
+		culture = marathi
+		}
+        }
+
 	}
 
 

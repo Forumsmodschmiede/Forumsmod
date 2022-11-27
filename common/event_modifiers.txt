@@ -990,6 +990,7 @@ otto_von_bismarck = {
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.05
 	suppression_points_modifier = 0.25
+	influence_modifier = 0.25
 	icon = 17
 }
 louis_napoleon_iii = {
@@ -1127,10 +1128,10 @@ ai_boni2 = {
 	org_regain = 0.5
 	land_organisation = 0.2
 	land_unit_start_experience = 5.0
-	administrative_efficiency_modifier = 1.5
+	administrative_efficiency_modifier = 1
 	army_tech_research_bonus = 0.2
   	tariff_efficiency_modifier = 0.1
-	education_efficiency_modifier = 0.3
+	education_efficiency_modifier = 0.1
  	loan_interest = -0.02
     	icon = 10
 }

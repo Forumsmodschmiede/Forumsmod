@@ -18,7 +18,7 @@ party_issues = {
 	economic_policy = {
 		laissez_faire = {
 			max_tax = 0.5
-			factory_owner_cost = 0.15
+			factory_owner_cost = 0.2
 			factory_output = 0.1
 			factory_input = -0.1
            		import_cost = -0.25
@@ -120,20 +120,20 @@ party_issues = {
 			factory_output = 0.01
 		}
 		secularized = {
-			ruling_party_support = 0.01
+			ruling_party_support = 0.1
 		}
 		pluralism = {
-			pop_militancy_modifier = -0.001
+			pop_militancy_modifier = -0.01
 		}
 		moralism = {
-			pop_consciousness_modifier = -0.001
+			pop_consciousness_modifier = -0.01
 		}
 	}
 	citizenship_policy = {
 		residency = {
 			rules = { primary_culture_voting = yes }
-			non_accepted_pop_militancy_modifier = 0.005
-			core_pop_militancy_modifier = -0.001
+			non_accepted_pop_militancy_modifier = 0.01
+			core_pop_militancy_modifier = -0.01
 		}
 		limited_citizenship = {
 			rules = { culture_voting = yes }
@@ -142,7 +142,7 @@ party_issues = {
 		full_citizenship = {
 			rules = { all_voting = yes }
 			global_assimilation_rate = 0.25
-			non_accepted_pop_consciousness_modifier = 0.005
+			non_accepted_pop_consciousness_modifier = 0.01
 		}
 	}
 	war_policy = {
@@ -190,6 +190,7 @@ political_reforms = {
 	slavery = {
 		yes_slavery = {
 			rules = { slavery_allowed = yes }
+			core_pop_militancy_modifier = -0.01
 		}
 		no_slavery = {
 			rules = { slavery_allowed = no }

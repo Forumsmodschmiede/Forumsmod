@@ -1,16 +1,13 @@
-capital = 1251
-primary_culture = asian_minor
-culture = avadhi
-culture = bihari
-culture = tamil
-culture = kanauji
-
+capital = 1236
+primary_culture = marathi
 religion = animist
 government = directorate
 plurality = 0.0
 nationalvalue = nv_liberty
-literacy = 0.02
-civilized = no
+literacy = 0.08
+non_state_culture_literacy = 0.1
+prestige = 10
+
 
 ruling_party = HND_conservative
 upper_house = {

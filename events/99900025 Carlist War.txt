@@ -17,6 +17,7 @@ country_event = {	id = 99900025
     option = {
         name = "EVT37711OPTA"
         set_country_flag = carlist_war
+			prestige = 10
 		add_country_modifier = {
 				name = spain_civil_war 
 					duration = 1645
@@ -92,6 +93,7 @@ country_event = {	id = 99900025
 
     option = {
         name = "EVT37711OPTB"
+			prestige = 20
         government = absolute_monarchy
         ruling_party_ideology = reactionary
         political_reform = none_voting

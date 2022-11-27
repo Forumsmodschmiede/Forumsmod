@@ -1894,7 +1894,7 @@
 	bureaucrats = {
 		culture = tatar
 		religion = sunni
-		size = 750
+		size = 75
 	}
 
 	officers = {
@@ -1906,7 +1906,7 @@
 	clergymen = {
 		culture = tatar
 		religion = sunni
-		size = 2000
+		size = 200
 	}
 
 	artisans = {
@@ -1960,7 +1960,7 @@
 	bureaucrats = {
 		culture = russian
 		religion = orthodox
-		size = 1750
+		size = 175
 	}
 
 	officers = {
@@ -2349,7 +2349,7 @@
 	clergymen = {
 		culture = tatar
 		religion = sunni
-		size = 6000
+		size = 600
 	}
 
 	artisans = {
@@ -2379,7 +2379,7 @@
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 5000
+		size = 500
 	}
 
 	artisans = {
@@ -2445,7 +2445,7 @@
 	clergymen = {
 		culture = south_german
 		religion = catholic
-		size = 2500
+		size = 250
 	}
 
 	artisans = {

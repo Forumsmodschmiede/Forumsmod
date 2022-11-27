@@ -868,7 +868,16 @@ personality = {
 		reliability = 0.2
 		organisation = 0.1
 	}
+	defence_4.4 = {
+		defence = 4
+		reliability = 0.2
+		organisation = 0.1
+	}
 	defence_5.1 = {
+		defence = 5
+		reliability = 0.25
+	}
+	defence_5.2 = {
 		defence = 5
 		reliability = 0.25
 	}
@@ -1713,7 +1722,16 @@ personality = {
 		reliability = -0.2
 		attrition = 0.04
 	}
+	defence_minus_4.4 = {
+		defence = -4
+		reliability = -0.2
+		attrition = 0.04
+	}
 	defence_minus_5.1 = {
+		defence = -5
+		reliability = -0.25
+	}
+	defence_minus_5.2 = {
 		defence = -5
 		reliability = -0.25
 	}
@@ -2572,7 +2590,16 @@ background = {
 		reliability = 0.2
 		attrition = -0.04
 	}
+	attack_4.4 = {
+		attack = 4
+		reliability = 0.2
+		attrition = -0.04
+	}
 	attack_5.1 = {
+		attack = 5
+		reliability = 0.25
+	}
+	attack_5.2 = {
 		attack = 5
 		reliability = 0.25
 	}
@@ -3427,7 +3454,16 @@ background = {
 		reliability = -0.2
 		organisation = -0.1
 	}
+	attack_minus_4.4 = {
+		attack = -4
+		reliability = -0.2
+		organisation = -0.1
+	}
 	attack_minus_5.1 = {
+		attack = -5
+		reliability = -0.25
+	}
+	attack_minus_5.2 = {
 		attack = -5
 		reliability = -0.25
 	}
