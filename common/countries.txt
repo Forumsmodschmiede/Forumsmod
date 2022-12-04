@@ -3,6 +3,9 @@
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
+#Cleanup
+CLN     = "countries/Cleanup.txt"
+
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
 RUS		= "countries/Russia.txt"

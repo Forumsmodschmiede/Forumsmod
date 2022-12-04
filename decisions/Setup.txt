@@ -184,7 +184,8 @@ political_decisions = {
 		}
 		
 		effect = {
-		
+			any_owned = { limit = { is_core = HND }
+			secede_province = HND }
 			any_pop = {
 				limit = {
 					OR = {
@@ -791,6 +792,8 @@ political_decisions = {
 					money = 1000
 				}
 			}
+
+
 
 			ENG = {
 				any_owned = { limit = { is_core = ENG }
@@ -1688,6 +1691,17 @@ political_decisions = {
 					duration = -1
 				}
 				}
+
+
+
+				
+
+any_country = {
+				limit = {
+					tag = ENG
+				}
+				country_event = 99900043
+			}
 
 
 			CHI = {

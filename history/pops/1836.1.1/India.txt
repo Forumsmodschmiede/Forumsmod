@@ -9376,6 +9376,11 @@
 }
 #Fort William
 3263 = {
+	aristocrats = {
+		culture = marathi
+		religion = hindu
+		size = 20
+	}
 	officers = {
 		culture = british
 		religion = protestant

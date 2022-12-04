@@ -1,0 +1,19 @@
+# india setup
+country_event = { id = 99900043
+	title = "India takes over indian regions"
+	desc = "All provinces in India will always become indian, if you own them."
+    picture = "india"
+	
+    is_triggered_only = yes
+
+	option = {
+		name = "Guess i can't be overpowered then..."
+		
+		 any_owned = {  limit = { is_core = HND owned_by =  ENG	}
+					
+			secede_province = HND } 
+			
+
+	}
+}
+
