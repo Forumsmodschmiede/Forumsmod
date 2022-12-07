@@ -1232,3 +1232,15 @@ outdated_bureaucracy = {
  	loan_interest = 0.1
 	icon = 6
 }
+land_crossing_notification = {
+	icon = 24
+}
+sea_crossing_notification = {
+	icon = 23
+}
+river_notification = {
+	icon = 21
+}
+canal_notification = {
+	icon = 22
+}

@@ -1,6 +1,57 @@
 political_decisions = {
 
 ###Setup Decisions
+
+	global_1836_setup = {
+		potential = {
+			tag = ENG
+			NOT = { has_global_flag = global_1836_setup }
+		}
+		allow = {
+		}
+		effect = {
+		
+			#Treasury Initialization
+			ENG = { treasury = 1000000 }
+			RUS = { treasury = 1000000 }
+			FRA = { treasury = 1000000 }
+			PRU = { treasury = 1000000 }
+			AUS = { treasury = 1000000 }
+			TUR = { treasury = 500000 }
+			SPA = { treasury = 500000 }
+			USA = { treasury = 500000 }
+			SAR = { treasury = 250000 }
+			NET = { treasury = 250000 }
+			BEL = { treasury = 250000 }
+		
+			set_global_flag = global_1836_setup
+			
+			enable_canal = 4	#Bosphorus Strait
+			enable_canal = 5	#Dardanelles Strait
+			enable_canal = 6	#Copenhagen Strait
+			enable_canal = 7	#Copenhagen Strait
+			enable_canal = 8	#North Gibraltar Strait
+			enable_canal = 9	#North Gibraltar Strait
+			enable_canal = 10	#South Gibraltar Strait
+			enable_canal = 11	#South Gibraltar Strait
+			enable_canal = 12	#Cadiz - South Gibraltar Strait
+			enable_canal = 13	#Aden Strait
+			enable_canal = 14	#Malacca Strait
+			enable_canal = 15	#Batavia Strait
+			enable_canal = 16	#Javan Strait
+			enable_canal = 17	#Lombok Strait
+			enable_canal = 18	#Flores Strait
+			enable_canal = 19	#Alor Strait
+			
+			set_variable = {
+				which = trade_channel
+				value = 1
+			}
+			
+
+	}
+
+
 	literacy_SPA = {
 		potential = {
 			tag = SPA
@@ -764,6 +815,28 @@ political_decisions = {
 		}
 		
 		effect = {
+
+			enable_canal = 4	#Bosphorus Strait
+			enable_canal = 5	#Dardanelles Strait
+			enable_canal = 6	#Copenhagen Strait
+			enable_canal = 7	#Copenhagen Strait
+			enable_canal = 8	#North Gibraltar Strait
+			enable_canal = 9	#North Gibraltar Strait
+			enable_canal = 10	#South Gibraltar Strait
+			enable_canal = 11	#South Gibraltar Strait
+			enable_canal = 12	#Cadiz - South Gibraltar Strait
+			enable_canal = 13	#Aden Strait
+			enable_canal = 14	#Malacca Strait
+			enable_canal = 15	#Batavia Strait
+			enable_canal = 16	#Javan Strait
+			enable_canal = 17	#Lombok Strait
+			enable_canal = 18	#Flores Strait
+			enable_canal = 19	#Alor Strait
+			
+			set_variable = {
+				which = trade_channel
+				value = 1
+			}
 
 			NEJ = {
 			
