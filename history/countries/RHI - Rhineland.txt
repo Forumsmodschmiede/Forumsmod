@@ -1,24 +1,25 @@
-#capital =
-primary_culture = british
-religion = protestant
+capital = 576
+primary_culture = north_german
+culture = south_german
+religion = catholic
 government = absolute_monarchy
-plurality = 25.1
+plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.17
+literacy = 0.8
 civilized = yes
-#is_releasable_vassal = no
+prestige = 1
 
-# Political reforms - inherit
+# Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
-public_meetings = no_meeting
-press_rights = censored_press
+public_meetings = yes_meeting
+press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
 political_parties = underground_parties
 
-# Social Reforms - inherit
+# Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
@@ -28,13 +29,14 @@ pensions = no_pensions
 school_reforms = no_schools
 
 
-ruling_party = ENG_conservative
-upper_house = { # inherit
-    fascist = 0
-    liberal = 25
-    conservative = 65
-    reactionary = 10
-    anarcho_liberal = 0
-    socialist = 0
-    communist = 0
+
+ruling_party = RHI_conservative_2
+upper_house = {
+	fascist = 0
+	liberal = 30
+	conservative = 55
+	reactionary = 15
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
 }

@@ -3,8 +3,6 @@
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
-#Cleanup
-CLN     = "countries/Cleanup.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
@@ -41,6 +39,8 @@ IBE		= "countries/Iberia.txt"
 BNX		= "countries/Benelux.txt"
 
 # Germany
+WES		= "countries/Westfalen.txt"
+RHI		= "countries/Rhineland.txt"
 REU		= "countries/Reuss.txt"
 SCL		= "countries/Schaumburg-Lippe.txt"
 SWG		= "countries/Schwarzburg.txt"
