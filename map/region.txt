@@ -108,9 +108,9 @@ USA_218 = { 218 217 } #West Virginia
 
 USA_219 = { 2146 220 219 222 221 } #Maryland
 
-USA_223 = { 223 224 225 226 227 228 2627 } #Pennsylvania
+USA_223 = { 223 224 225 226 227 228 2627 229 231 230 } #Pennsylvania
 
-USA_231 = { 229 231 230 } #New Jersey
+USA_231 = {  } #New Jersey
 
 USA_232 = { 232 233 234 235 236 237 238 239 240 } #New York
 
@@ -176,7 +176,9 @@ DEN_367 = { 367 366 368 2557 } #Jylland
 
 HOL_369 = { 369 530 529 3258 } #Holstein
 
-SCH_370 = { 370 371 533 } #Schleswig
+SCH_370 = { 370 371 } #Schleswig
+
+HAM_HELGOLAND = { 533 }
 
 DEN_372 = { 372 373 374 } #Sjaelland
 
@@ -255,9 +257,9 @@ SPA_498 = { 498 499 500 501 502 464 } #Catalonia
 
 SPA_503 = { 503 504 505 506 507 508 } #Valencia
 
-SPA_512 = { 512 509 510 511 517 } #Andalucia
+SPA_512 = { 512 509 510 511 } #Andalucia
 
-SPA_513 = { 513 514 515 516 } #Granada
+SPA_513 = { 513 514 515 516 517 } #Granada
 
 POR_518 = { 518 519 520 } #Douro
 
@@ -347,7 +349,7 @@ AUS_657 = { 657 659 647 655 656 } #Southern Transylvania
 
 AUS_702 = { 703 704 705 714 } #Galicia-Lodomeria
 
-AUS_662 = { 702 951 952 953 663 662} #East Galicia
+AUS_662 = { 702 951 952 953 } #East Galicia
 
 RUS_715 = { 715 711 713 716 } #West Galicia
 
@@ -395,7 +397,7 @@ SAR_765 = { 765 766 473 } #Sardinia & Corscia
 
 WAL_665 = { 664 665 666 668 667 669 } #Wallachia
 
-MOL_673 = { 673 672 670 671 } #Moldavia
+MOL_673 = { 673 672 670 671 663 662 } #Moldavia
 
 TUR_674 = { 674 675 818 } #Dobrudja
 
@@ -407,7 +409,7 @@ SER_794 = { 794 797 795 796 } #Northern Serbia
 
 MON_2582 = { 2583 2569 2577 800 } #Montenegro
 
-TUR_803 = { 803 804 798 802 799 } #Southern Serbia
+TUR_803 = { 803 804 798 802 } #Southern Serbia
 
 TUR_805 = { 805 819 820 821 822 } #Southern Macedonia
 
@@ -415,7 +417,7 @@ TUR_806 = { 806 807 1780 } #Northern Macedonia
 
 TUR_809 = { 815 817 808 816 } #Eastern Rumelia
 
-TUR_810 = { 809 810 811 812 813 814 } #Bulgaria
+TUR_810 = { 809 810 811 812 813 814 799 } #Bulgaria
 
 TUR_823 = { 823 829 830 } #Eastern Macedonia
 
@@ -571,7 +573,7 @@ RUS_978 = { 978 962 963 980 974 } #Kharkov
 
 RUS_979 = { 979 1047 1046 1045 } #Don Host Oblast
 
-RUS_981 = { 981 985 2588 } #Arkhangelsk
+RUS_981 = { 981 985 2588 986 2699 2688 2687 } #Arkhangelsk
 
 RUS_990 = { 990 987 1024 991 1023 } #Galich
 
@@ -599,23 +601,23 @@ RUS_1052 = { 1052 1053 1054 1055 1057 3296 } #North Caucasia
 
 RUS_1060 = { 1060 1044 1042 1034 1043 1035 } #Samara
 
-RUS_1064 = { 1064 1066 1061 } #Tobolsk
+RUS_1064 = { 2682 2613 2615 2659 2684 2646 2690 1065 1062 1064 1066 1061 1181 1184 2612 2611 } #Tobolsk
 
-RUS_1065 = { 2682 2613 2615 2659 2684 } #Ob - Yamalia
+RUS_1065 = { } #Ob - Yamalia
 
-RUS_1069 = { 1069 2650 2651 2649 2673 2652 2653 } #West Yakutsk
+RUS_1069 = {  } #West Yakutsk
 
-RUS_1070 = { 1077 1469 2691 2701 2674 } #Upper Yeniseysk - Krasnoyarsk
+RUS_1070 = { 1077 1469 2691 2701 2674 2657 2680 2654 2694 2656 2655 2693 2692 2675 1070 1075 1076 2677 } #Upper Yeniseysk - Krasnoyarsk
 
-RUS_1071 = { 2648 2696 2644 } #Yakutsk
+RUS_1071 = { 2648 2696 2644 1069 2650 2651 2649 2673 2652 2653 1081 2697 1080 1072 2641 2618 2620 2638 2639 1073 2660 2668 2643 2665 2667 2672 2621 2619 2642 2622 2634 2637 2661 2666 1074 2633 2616 2663 2695 2645 } #Yakutsk
 
-RUS_1072 = { 1081 2697 1080 } #Amur Region - Khingan 
+RUS_1072 = {  } #Amur Region - Khingan 
 
-RUS_1074 = { 1074 2633 2616 2663 } #Kamchatka
+RUS_1074 = {  } #Kamchatka
 
-RUS_1075 = { 1075 1076 2677 2695 2645 2676 } #Irkutsk
+RUS_1075 = {  } #Irkutsk
 
-RUS_1079 = { 1078 1079 2670 2671 } #Trans-Baikal
+RUS_1079 = { 1078 1079 2670 2671 2676 } #Trans-Baikal
 
 CHI_1082 = { 1082 1083 1085 1084 2617 } #Guanwai - Outer Manchuria
 
@@ -623,27 +625,27 @@ JAP_1086 = { 1086 1087 1088 1089 } #Sakhalin
 
 RUS_1182 = { 1182 1183 1194 2610 2702 } #Uralsk
 
-RUS_1184 = { 1181 1184 2612 2611 } #Akmolinsk
+RUS_1184 = {  } #Akmolinsk
 
 RUS_1185 = { 1185 1186 1187 1188 1197 2606 1193 } #Semireche - Zhetysu
 
 RUS_1196 = { 1196 1204 1205 1206 686  3280 3279 } #Turkmenia
 
-RUS_1469 = { 1063 1067 1068 2698  2683 2686 1070 } #Tomsk
+RUS_1469 = { 1063 1067 1068 2698  2683 2686 } #Tomsk
 
-RUS_2589 = { 986 2699 2688 2687 } #Nenetsia
+RUS_2589 = {  } #Nenetsia
 
-RUS_2590 = { 2622 2634 2637 2661 2666 } #Coastal Chukotka
+RUS_2590 = {  } #Coastal Chukotka
 
-RUS_2615 = { 2657 2680 2654 2694 2656 2655 2693 2692 2675 } #Lower Yeniseysk - Taymyria
+RUS_2615 = {  } #Lower Yeniseysk - Taymyria
 
-RUS_2618 = { 1072 2641 2618 2620 2638 2639 1073 2660 } #Upper Okhotsk - Magadan
+RUS_2618 = {  } #Upper Okhotsk - Magadan
 
 #RUS_2621 = { } #Inner Chukotka
 
-RUS_2653 = { 2646 2690 1065 1062 } #North Siberia
+RUS_2653 = {  } #North Siberia
 
-RUS_2668 = { 2668 2643 2665 2667 2672 2621 2619 2642 } #North Yakutsk
+RUS_2668 = {  } #North Yakutsk
 
 RUS_2685 = { 1058 2685 1059 2614 2658 } #Ural
 

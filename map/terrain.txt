@@ -951,10 +951,8 @@ categories =  {
 		assimilation_rate = -0.5
 		farm_rgo_size = -0.5
 		farm_rgo_eff = 0.25
-		mine_rgo_size = -0.5
-		mine_rgo_eff = 0.25
 		supply_limit = 6
-		combat_width = -0.8
+		combat_width = -0.6
 	}
 
 	ceuta = {
@@ -2684,11 +2682,12 @@ categories =  {
 		defence = 2
 		color = { 22 44 66 }
 		assimilation_rate = -0.5
+		combat_width = -0.3
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 16
+		supply_limit = 6
 	}
 	
 	pola = {

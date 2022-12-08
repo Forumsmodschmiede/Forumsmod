@@ -320,7 +320,7 @@ From;To;Type;Through;Data;Comment
 759;763;sea;2760;0;Strait of Messina
 837;827;sea;2765;0;Ionian Islands Strait
 966;1049;sea;2776;0;Strait of Azov
-512;1687;sea;0;0;Strait of Gibraltar - Cadiz to Tetouan
+517;2590;sea;2746;3205;Strait of Gibraltar - Gibraltar to Ceuta
 331;332;sea;2710;0;Gotland Strait
 846;872;sea;2771;0;Dodecanese Strait
 844;865;sea;2772;0;Myteline Strait
@@ -335,6 +335,7 @@ From;To;Type;Through;Data;Comment
 # Asian Straits
 #
 
+3260;1645;sea;2841;0;Rieta - Niigata Strait
 1632;2589;sea;2829;0;Pusan - Tshushima Strait
 1661;2589;sea;2829;0;Nagasaki - Tshushima Strait
 1540;1538;sea;2826;0;Nantong - Shanghai through the Yantze River
