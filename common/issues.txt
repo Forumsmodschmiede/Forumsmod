@@ -762,6 +762,7 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 				activate_technology = malthusian_thought
+				activate_technology = classicism_n_early_romanticism
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -890,6 +891,8 @@ economic_reforms = {
 				}
 				effect = {
 					activate_technology = guild_based_production
+					activate_technology = publishing_industry
+
 					build_factory_in_capital_state = canned_food_factory
 
 					any_pop = {
@@ -1401,6 +1404,7 @@ military_reforms = {
 			
 			on_execute = {
 				effect = {
+					activate_technology = introspectionism
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal

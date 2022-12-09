@@ -1650,7 +1650,12 @@ political_decisions = {
 			any_country = { limit = { civilized = yes is_greater_power = no is_secondary_power = no NOT = { number_of_states = 2 } } treasury = 1000 }
 			any_country = { limit = { civilized = no NOT = { tag = CHI } } treasury = 500 }
 			#################Giving Starting Money to Pops and Countries######################
-
+any_country = {
+				limit = {
+					tag = ENG
+				}
+				country_event = 99900044
+			}
 
 			
 			1493 = {
@@ -1729,7 +1734,12 @@ any_country = {
 				}
 				country_event = 99900044
 			}
-
+				AUS = {
+				add_country_modifier = {
+					name = multicultural_empire
+					duration = -1
+				}
+					}
 
 			CHI = {
 				add_country_modifier = {

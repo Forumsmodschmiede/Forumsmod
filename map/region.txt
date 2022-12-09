@@ -280,7 +280,9 @@ HAN_540 = { 539 540 543 542 538 541 1743 3259 } #East Friesland
 
 PRU_544 = { 544 545 } #Mecklenburg
 
-PRU_546 = { 546 547 548 679 680 692 } #Pomerania
+PRU_546 = { 546 679 680 692 } #Pomerania
+
+PRU_VORPOMMERN = { 547 548 }
 
 PRU_549 = { 549 550 551 552 681 } #Brandenburg
 
@@ -409,7 +411,7 @@ SER_794 = { 794 797 795 796 } #Northern Serbia
 
 MON_2582 = { 2583 2569 2577 800 } #Montenegro
 
-TUR_803 = { 803 804 798 802 } #Southern Serbia
+TUR_803 = { 803 804 798 802 799 } #Southern Serbia
 
 TUR_805 = { 805 819 820 821 822 } #Southern Macedonia
 
@@ -417,7 +419,7 @@ TUR_806 = { 806 807 1780 } #Northern Macedonia
 
 TUR_809 = { 815 817 808 816 } #Eastern Rumelia
 
-TUR_810 = { 809 810 811 812 813 814 799 } #Bulgaria
+TUR_810 = { 809 810 811 812 813 814 } #Bulgaria
 
 TUR_823 = { 823 829 830 } #Eastern Macedonia
 
@@ -577,11 +579,11 @@ RUS_981 = { 981 985 2588 986 2699 2688 2687 } #Arkhangelsk
 
 RUS_990 = { 990 987 1024 991 1023 } #Galich
 
-RUS_994 = { 994 996 997 2580 } #Ingria
+RUS_994 = { 994 996 997 } #Ingria
 
 RUS_998 = { 998 1001 992 993 989 } #Tver
 
-RUS_1003 = { 1003 1004 1005 1006 } #Novgorod
+RUS_1003 = { 1003 1004 1005 1006 2580 } #Novgorod
 
 RUS_1008 = { 1008 1011 1012 1013 1022 } #Moscow
 

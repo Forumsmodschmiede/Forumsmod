@@ -13677,7 +13677,7 @@ AUS_729;Venetia;Vénétie;Venedig;;Venecia;;;;;;;;;x;;;;
 AUS_625;Böhmen-Mähren;Bohême;Böhmen;;Bohemia;;;;;;;;;x;;;;
 AUS_626;Sudetenland;Moravie;Mähren;;Moravia;;;;;;;;;x;;;;
 AUS_654;North Siebenbürgen;Transylvanie occidentale;Westsiebenbürgen;;Siebenbürgen Occidental;;;;;;;;;x;;;;
-AUS_657;Siebenbürgen;Transylvanie orientale;Ostsiebenbürgen;;Siebenbürgen Oriental;;;;;;;;;x;;;;
+AUS_657;South Siebenbürgen;Transylvanie orientale;Ostsiebenbürgen;;Siebenbürgen Oriental;;;;;;;;;x;;;;
 AUS_647;South Siebenbürgen;Alföld;Alföld;;Alföld;;;;;;;;;x;;;;
 AUS_623;Transdanubia;Transdanubie;Transdanubien;;Transdanubia;;;;;;;;;x;;;;
 AUS_619;Ostmark;Autriche;Österreich;;Austria;;;;;;;;;x;;;;
@@ -13778,7 +13778,7 @@ HAM_528;Osthannover;Osthannover;Osthannover;;Osthannover;;;;;;;;;x;;;;
 REMOVE_MEC_544;Mecklemburg-Holstein;Mecklemburg-Holstein;Mecklenburg-Holstein;;Mecklemburg-Holstein;;;;;;;;;x;;;;
 PRU_553;Magdeburg;Magdeburg;Magdeburg;;Magdeburgo;;;;;;;;;x;;;;
 PRU_549;Brandenburg;Brandenbourg;Brandenburg;;Brandenburgo;;;;;;;;;x;;;;
-PRU_546;Pommern;Hinterpommern;Hinterpommern;;Hinterpommern;;;;;;;;;x;;;;
+PRU_546;Hinterpommern;Hinterpommern;Hinterpommern;;Hinterpommern;;;;;;;;;x;;;;
 PRU_682;Schlesien;Silésie;Schlesien;;Silesia;;;;;;;;;x;;;;
 PRU_701;Posen;Posnanie;Posen;;Poznán;;;;;;;;;x;;;;
 PRU_690;Westpreußen;Westpreußen;Westpreußen;;Westpreußen;;;;;;;;;x;;;;
@@ -15756,6 +15756,8 @@ FRA_proletarian_dictatorship;Paris Commune;;;;;;;;;;;;;x;;;;
 FRA_fascist_dictatorship;French State;;;;;;;;;;;;;x;;;;
 ENG_fascist_dictatorship;Holy Britannian Empire;;;;;;;;;;;;;x;;;;
 ITA_absolute_monarchy;Kingdom of Italy;;;;;;;;;;;;;x;;;;
+ITA_prussian_constitutionalism;Kingdom of Italy;;;;;;;;;;;;;x;;;;
+ITA_hms_government;Kingdom of Italy;;;;;;;;;;;;;x;;;;
 ITA_proletarian_dictatorship;Italian Union;;;;;;;;;;;;;x;;;;
 ITA_fascist_dictatorship;Italian Social Republic;;;;;;;;;;;;;x;;;;
 RUS_absolute_monarchy;Tsardom of Russia;;;;;;;;;;;;;x;;;;
@@ -16076,6 +16078,7 @@ EVTDESC999000039;The Congress of the Confederate States of America do enact, Tha
 austria_annex_SGF_title;Inherit the South German Confederation;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 austria_annex_SGF_desc;With the great empire of the Habsburgs now lost to us, perhaps it is time to look north towards the unification of Germany. First, however, we must bring the South German Confederation under our own leadership.;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
 infamy_punishment;Infamy Punishment;;;;;;;;;;;;x,,,,
+infamy_punishment_desc;We are suffering under our high Infamy;;;;;;;;;;;;x,,,,
 destroy_the_kremlin_title;Destroy the Moscow Kremlin;;;;;;;;;;;;;X,,,,,,,,,,,,,,
 destroy_the_kremlin_desc;By giving the order for our troops occupying Moskow to destroy the Kremlin we can deal a huge blow to our enemy's prestige and make it so it's more likely for the war to end sooner. This will be seen as an incredible act of aggression, however, and will forever damage our relations with them and some of our citizens, as well as their citizens, will be extremely angry by such heinous act against their national monument.;;;;;;;;;;;;;X,,,,,,,,,,,,,,
 EVTNAME152009876;The Fall of the Moscow Kremlin;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
@@ -16152,4 +16155,8 @@ WES_conservative_3;Christsoz. Arbeiterpartei;Christsoz. Arbeiterpartei;Christsoz
 WES_anarcho_liberal;Radical Arbeiterpartei;Arbeiterpartei radical;Radikale Arbeiterpartei;;;;;;;;;;;
 WES_communist;Communist Arbeiterpartei;Arbeiterpartei communiste;Kommunistische Arbeiterpartei;;;;;;;;;;;
 WES_fascist;NSDP;NSDP;NSDP;;;;;;;;;;;
+total_reform;Comprehensive Miracle;;;;;;;;;;;;;
+total_reform_desc;Our country is going through comprehensive reforms, promoting nothing short of a true miracle.;;;;;;;;;;;;;
+multicultural_empire;Multicultural Empire;;;;;;;;;;;;;
+multicultural_empire_desc;The Austrian Empire is an empire of many different races and with more time passing, we are having more problems to integrate them.;;;;;;;;;;;;;
 ;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,

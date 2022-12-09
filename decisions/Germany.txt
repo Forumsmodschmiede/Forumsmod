@@ -716,87 +716,25 @@ luderitz_expedition = {
 		}
 		
 		effect = {
-575 = {
-railroad  = 3
-				add_province_modifier = {
+	PRU_575 = { railroad  = 3 add_province_modifier = {
 
 					name = ruhr_boom
-					duration = 3650
-}
-578 = {
-railroad  = 3
-				add_province_modifier = {
+					duration = 3650 } }
+
+	PRU_570 = { railroad  = 3 add_province_modifier = {
 
 					name = ruhr_boom
-					duration = 3650
-}
-2561 = {
-railroad  = 3
-				add_province_modifier = {
+					duration = 3650 } }
+
+	PRU_578 = { railroad  = 3 add_province_modifier = {
 
 					name = ruhr_boom
-					duration = 3650
-}
-577 = {
-railroad  = 3
-				add_province_modifier = {
+					duration = 3650 } }
 
-					name = ruhr_boom
-					duration = 3650
-}
-576 = {
-railroad  = 3
-				add_province_modifier = {
 
-					name = ruhr_boom
-					duration = 3650
-}
-572 = {
-railroad  = 3
-				add_province_modifier = {
 
-					name = ruhr_boom
-					duration = 3650
-}
-573 = {
-railroad  = 3
-				add_province_modifier = {
 
-					name = ruhr_boom
-					duration = 3650
-}
-574 = {
-railroad  = 3
-				add_province_modifier = {
-
-					name = ruhr_boom
-					duration = 3650
-}
-570 = {
-railroad  = 3
-				add_province_modifier = {
-
-					name = ruhr_boom
-					duration = 3650
-}
-579 = {
-railroad  = 3
-				add_province_modifier = {
-
-					name = ruhr_boom
-					duration = 3650
-}
 			set_global_flag = ruhr_boom_has_happened
-												}
-											}
-										}
-									}
-								}
-							}	
-						}
-					}
-				}
-			}
-		}
+											
 	}
 }

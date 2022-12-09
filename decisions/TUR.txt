@@ -17,7 +17,7 @@ political_decisions = {
 		}
 		
 		effect = {	
-		money = 100000
+		prestige = 5
 			add_country_modifier = {
 				name = forced_assimilation
 				duration = 1825

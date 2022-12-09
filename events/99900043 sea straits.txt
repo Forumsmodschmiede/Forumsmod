@@ -4,7 +4,14 @@ country_event = { id = 99900043
 	desc = "All provinces in India will always become indian, if you own them."
     picture = "india"
 	
-    is_triggered_only = yes
+	trigger = {
+		tag = NEP
+		tag = TIB
+		tag = BUT
+	}
+		mean_time_to_happen =  {
+		months = 1
+					}
 
 	option = {
 		name = "Guess i can't be overpowered then..."
@@ -13,7 +20,6 @@ country_event = { id = 99900043
 		#applying land strait province notification
 		any_country = {
 			limit = {
-				exists = yes
 			}
 			any_owned = {
 				limit = {
@@ -81,7 +87,6 @@ country_event = { id = 99900043
 		#applying sea strait province notification
 		any_country = {
 			limit = {
-				exists = yes
 			}
 			any_owned = {
 				limit = {
@@ -300,7 +305,6 @@ country_event = { id = 99900043
 		#applying canal control province notification
 		any_country = {
 			limit = {
-				exists = yes
 			}
 			any_owned = {
 				limit = {
@@ -338,7 +342,6 @@ country_event = { id = 99900043
 		#applying river province notifications
 		any_country = {
 			limit = {
-				exists = yes
 			}
 			any_owned = {
 				limit = {

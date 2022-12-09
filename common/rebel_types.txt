@@ -856,7 +856,7 @@ nationalist_rebels = {
 	
 	resilient = yes					# Does not disband on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does use generals
+	general = yes					# Does use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = yes				# Units do remain after enforcing demands.
 	
@@ -1073,7 +1073,7 @@ pan_nationalist_rebels = {
 	
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does not use generals
+	general = yes					# Does not use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	
@@ -1714,7 +1714,7 @@ red_shirts = {
 	
 	resilient = yes					# Disbands on retreat
 	reinforcing = yes				# Does not receive reinforcements
-	general = no					# Does not use generals
+	general = yes					# Does not use generals
 	smart = yes					# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units remain after enforcing demands.
 	

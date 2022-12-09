@@ -67,11 +67,10 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
-			money = 4000000
+			money = 100000
 		}
 		effect = {
-				money = -2000000	
-				money = -2000000	
+				money = -100000		
 			prestige = 20
 			any_pop = {
 				militancy = -1
@@ -81,27 +80,13 @@ political_decisions = {
 			value = 300    }
 			create_vassal = HND
 		
+
+			}
+			HND = {	
 				inherit = BER
 				inherit = MYS
 				inherit = TRA
 				inherit = KUT
-			1311 = {
-				secede_province = ENG
-			}
-			1308 = {
-				secede_province = ENG
-			1294 = {
-				secede_province = HND
-			}
-			1233 = {
-				secede_province = HND
-			}
-			1234 = {
-				secede_province = HND
-			}
-			}
-			HND = {	
-
 			inherit = NAG
 			inherit = ORI
 			inherit = AWA

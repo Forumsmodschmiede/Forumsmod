@@ -399,7 +399,6 @@ political_decisions = {
 			prestige = 45
 			war = no
 					owns = 343
-					owns = 982
 					owns = 372
 					owns = 322
 		}
@@ -447,7 +446,7 @@ political_decisions = {
 			NOT = {
 				prestige = 40
 			}
-			average_consciousness = 4
+			average_consciousness = 3
 		}
 		
 		effect = {

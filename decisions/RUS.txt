@@ -9,7 +9,7 @@ political_decisions = {
 		}
 		}
 		allow = {	
-			money = 2000000
+			money = 200000
 			OR = {
 				AND = {
 					upper_house = {
@@ -22,11 +22,11 @@ political_decisions = {
 					ruling_party_ideology = liberal
 					average_consciousness = 4
 				}
-				average_militancy = 4
+				average_militancy = 3
 			}
 		}
 		effect = {
-			money = -2000000
+			money = -200000
 			government = absolute_monarchy
 			farmers = {
 				militancy = -2
@@ -48,12 +48,10 @@ political_decisions = {
 				militancy = 3
 				consciousness = 2
 			}
-			badboy = -4
+		add_country_modifier = { name = total_reform duration = 1825 }
 			years_of_research = 0.3
 			prestige = 5
 			plurality = 3
-			literacy = 1	
-			war_exhaustion = -5
 			any_pop = {
 				ideology = {
 					value = liberal
@@ -177,12 +175,13 @@ political_decisions = {
 		}
 		
 		effect = {	
-			literacy = 3		
+			any_pop = { limit = { has_pop_culture = ukrainian } literacy = -0.03 }
+			any_pop = { limit = { has_pop_culture = russian } literacy = 0.03 }	
 			any_pop = {
 				limit = {
 					has_pop_culture = ukrainian
 				}
-				militancy = 6
+				militancy = 4
 				consciousness = -2
 			}
 			set_country_flag = ems_ukaz_dispatched
@@ -278,6 +277,12 @@ political_decisions = {
 		}
 		
 		effect = {
+			CHI_1082 = {
+				remove_core = MCK
+			}
+			1469 = {
+				remove_core = MCK
+			}
 			1085 = {
 				change_province_name = "Blagoveshchensk"
 			}
@@ -318,6 +323,9 @@ political_decisions = {
 			capital = 1008
 			prestige = 5
 	                war_exhaustion = -3
+			1008 = {
+				life_rating = 5
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -421,8 +429,6 @@ political_decisions = {
 			owns = 953
 			owns = 702
 			mass_politics = 1
-			NOT = { citizenship_policy = full_citizenship }
-			NOT = { citizens_rights = all_voting_pops }
 			OR = {
 				government = fascist_dictatorship
 				government = proletarian_dictatorship
@@ -436,17 +442,13 @@ political_decisions = {
 			702 = { change_province_name = "Lviv" }
 			
 			702 = { remove_core = POL }
-			702 = { remove_core = GLM }
 			
 			951 = { remove_core = POL }
-			951 = { remove_core = GLM }
 			
 			952 = { remove_core = POL }
-			952 = { remove_core = GLM }
 			
 			953 = { remove_core = POL }
 			953 = { remove_core = RUT }
-			953 = { remove_core = GLM }
 			
 			702 = { any_pop = { limit = { has_pop_culture = polish } move_pop = 715 } }
 			952 = { any_pop = { limit = { has_pop_culture = polish } move_pop = 706 } }

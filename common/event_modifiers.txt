@@ -62,7 +62,8 @@ treaty_port_beijing = {
 unshakable_autocracy = {
 	suppression_points_modifier = 0.5
 	global_assimilation_rate = 0.05
-	pop_consciousness_modifier = -0.01
+	global_pop_consciousness_modifier = -0.01
+	icon = 5
 }
 
 ##### POLITICAL EVENTS ######
@@ -251,7 +252,7 @@ loyal_askaris = {
 
 muhammad_alis_reforms = {
 	research_points_modifier = 0.5
-	pop_consciousness_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
 	icon = 5
 }
 
@@ -512,7 +513,7 @@ kiruna_mine = {
 
 expanded_kiruna_mine = {
 	mine_rgo_eff = 5
-	mine_rgo_size = -0.33
+	mine_rgo_size = -0.3
 	icon = 14
 }
 
@@ -524,6 +525,7 @@ intensify_kiruna_mine = {
 
 kiruna_mining_colony = {
 	pop_militiancy_modifier = -0.01 
+	population_growth = 0.001
 	icon = 14
 }
 
@@ -964,15 +966,18 @@ Royal_Navy = {
 	naval_organisation = 0.1
 	naval_unit_start_experience = 10
 	navy_tech_research_bonus = 0.1
+	icon = 7
 }
 Rebuild_our_Fleet = {
 	local_repair = 0.5
 	local_ship_build = -0.1
+	icon = 15
 }
 Rebuild_our_Fleets = {
 	naval_unit_start_experience = 5
 	supply_consumption = -0.05
 	navy_tech_research_bonus = 0.05
+	icon = 15
 }
 Levee_en_masse = {
 	land_organisation = 0.1
@@ -1053,6 +1058,7 @@ German_Navy = {
 	naval_unit_start_experience = 5
 	navy_tech_research_bonus = 0.1
 	tax_efficiency = 0.05
+	icon = 7
 }
 spain_civil_war = {
     core_pop_militancy_modifier = 0.03
@@ -1107,17 +1113,15 @@ america_new_world = {
 	icon = 8
 }
 ai_boni = {
-	mobilisation_economy_impact = -1
-	mobilisation_size = 0.03
-	org_regain = 1
-	land_organisation = 1
-	supply_consumption = -0.5
+	mobilisation_economy_impact = -0.5
+	mobilisation_size = 0.01
+	org_regain = 0.1
+	land_organisation = 0.1
+	supply_consumption = -0.1
 	tax_efficiency = 0.1
-	administrative_efficiency_modifier = 1.5
+	administrative_efficiency_modifier = 0.5
 	army_tech_research_bonus = 0.3
-	import_cost = -0.3
     	min_military_spending = 0.1
-	min_tariff = 0.5
 	icon = 15
 }
 ai_boni2 = {
@@ -1133,7 +1137,7 @@ ai_boni2 = {
   	tariff_efficiency_modifier = 0.1
 	education_efficiency_modifier = 0.1
  	loan_interest = -0.02
-    	icon = 10
+    	icon = 15
 }
 claim_ggr = {
 	prestige = -0.1
@@ -1154,7 +1158,7 @@ encouraged_partisans = {
 	administrative_efficiency_modifier = -0.05
    	tax_efficiency = -0.05
 	global_population_growth = -0.001
-	pop_militancy_modifier = -0.01
+	global_pop_militancy_modifier = -0.01
 	icon = 18
 }
 eiffel_tower_construction = {
@@ -1181,9 +1185,9 @@ war_torn = {
 infamy_punishment = {
 	prestige = -0.5
 	ruling_party_support = -0.5
-	pop_militancy_modifier = 0.01
+	global_pop_militancy_modifier = 0.01
 	non_accepted_pop_militancy_modifier = 0.02
-	pop_consciousness_modifier = 0.02
+	global_pop_consciousness_modifier = 0.02
 	war_exhaustion = 1
 	factory_output = -0.3
 	rgo_output = -0.3
@@ -1244,3 +1248,13 @@ river_notification = {
 canal_notification = {
 	icon = 22
 }
+total_reform = {
+	education_efficiency_modifier = 0.2
+	administrative_efficiency_modifier = 0.1
+	icon = 3
+}
+multicultural_empire = {
+	global_assimilation_rate = -0.5
+	icon = 2
+}
+

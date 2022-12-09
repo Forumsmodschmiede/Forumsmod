@@ -877,14 +877,6 @@ personality = {
 		defence = 5
 		reliability = 0.25
 	}
-	defence_5.2 = {
-		defence = 5
-		reliability = 0.25
-	}
-	defence_6.1 = {
-		defence = 6
-		reliability = 0.3
-	}
 	defence_minus_1.1 = {
 		defence = -1
 		reliability = -0.05
@@ -1730,14 +1722,6 @@ personality = {
 	defence_minus_5.1 = {
 		defence = -5
 		reliability = -0.25
-	}
-	defence_minus_5.2 = {
-		defence = -5
-		reliability = -0.25
-	}
-	defence_minus_6.1 = {
-		defence = -6
-		reliability = -0.3
 	}
 }
 
@@ -2599,14 +2583,6 @@ background = {
 		attack = 5
 		reliability = 0.25
 	}
-	attack_5.2 = {
-		attack = 5
-		reliability = 0.25
-	}
-	attack_6.1 = {
-		attack = 6
-		reliability = 0.3
-	}
 	attack_minus_1.1 = {
 		attack = -1
 		reliability = -0.05
@@ -3462,13 +3438,5 @@ background = {
 	attack_minus_5.1 = {
 		attack = -5
 		reliability = -0.25
-	}
-	attack_minus_5.2 = {
-		attack = -5
-		reliability = -0.25
-	}
-	attack_minus_6.1 = {
-		attack = -6
-		reliability = -0.3
 	}
 }

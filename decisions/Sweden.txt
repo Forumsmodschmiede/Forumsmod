@@ -74,15 +74,12 @@ political_decisions = {
 				}
 				militancy = 3
             }
-			994 = { add_core = THIS }
-			996 = { add_core = THIS }
-			997 = { add_core = THIS }
-			349 = { add_core = THIS }
-			350 = { add_core = THIS }
-			351 = { add_core = THIS }
-			352 = { add_core = THIS }
-			353 = { add_core = THIS }
-			354 = { add_core = THIS }
+			RUS_994 = { add_core = THIS }
+			RUS_349 = { add_core = THIS }
+			RUS_354 = { add_core = THIS }
+			RUS_360 = { add_core = THIS }
+			PRU_VORPOMMERN = { add_core = THIS }
+
 		}
 		ai_will_do = { factor = 1 }
     }
