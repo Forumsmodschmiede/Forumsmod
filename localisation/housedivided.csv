@@ -825,8 +825,8 @@ DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Partially Westernized Nation;Nation parti
 DIPLOMACY_PRIMITIVENATION_STATUS;Primitive Nation;Nation primitive;Primitive Nation;;;;;;;;;;;x
 UNCIV_CANT_RESEARCH;Westernize to be able to research;L'occidentalisation est nécessaire pour la recherche;Verwestlichen, um Forschen zu können;;;;;;;;;;;x
 TB_NATIONALFOCUS_CULTURE;§Y$NUM$§W people of primary/accepted cultures give us §Y$FOCUS$§W focus points;§Y$NUM$§W de personnes de cultures primitives ou acceptées donnent §Y$FOCUS$§W point(s) de cause nationale;§Y$NUM$§W Menschen aus primären/akzeptierten Kulturen geben uns §Y$FOCUS$§W Fokuspunkte;;;;;;;;;;;x
-meiji_restoration_boost;Meiji reformation.;Réforme Meiji.;Meiji Reformation.;;;;;;;;;;;x
-meiji_restoration_boost_desc;Progress in the name of the Emperor!;Le progrès au nom de l'Empereur;Fortschritt im Namen des Herrschers!;;;;;;;;;;;x
+meiji_restoration_boost;Shogunate reformation.;Réforme Meiji.;Meiji Reformation.;;;;;;;;;;;x
+meiji_restoration_boost_desc;Progress in the name of the Shogun!;Le progrès au nom de l'Empereur;Fortschritt im Namen des Herrschers!;;;;;;;;;;;x
 OTHER_PORT;This is a naval base that we do not have access to;C'est une base navale à laquelle nous n'avons pas accès;Dies ist ein Marinestützpunkt, zu dem wir keinen Zugang haben;;;;;;;;;;;x
 MODIFIER_UNCIV_ECONOMIC_UH;Upper house support;Soutien de l'Assemblée;Unterstützung des Oberhauses;;;;;;;;;;;x
 MODIFIER_UNCIV_MILITARY_UH;Upper house support;Soutien de l'Assemblée;Unterstützung des Oberhauses;;;;;;;;;;;x

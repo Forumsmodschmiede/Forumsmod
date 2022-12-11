@@ -924,6 +924,7 @@ treaty_of_london = {
 }
 created_a_national_language = {
 	education_efficiency_modifier = 0.25
+	culture_tech_research_bonus = 0.1
 	icon = 5
 }
 algeria_boom= {
@@ -1055,9 +1056,17 @@ German_Navy = {
 	prestige = 0.1
 	ruling_party_support = 0.1
 	naval_organisation = 0.05
-	naval_unit_start_experience = 5
-	navy_tech_research_bonus = 0.1
+	naval_unit_start_experience = 10
+	navy_tech_research_bonus = 0.05
 	tax_efficiency = 0.05
+	icon = 7
+}
+Japanese_Navy = {
+	ruling_party_support = 0.1
+	core_pop_militancy_modifier = -0.01
+	naval_organisation = 0.2
+	naval_unit_start_experience = 5
+	navy_tech_research_bonus = 0.15
 	icon = 7
 }
 spain_civil_war = {

@@ -1749,7 +1749,7 @@ the_command_principle = {
 		default_organisation = 5
 	}
 		colonial_points = 75
-		colonial_migration = 0.02
+		colonial_migration = 0.05
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1834,6 +1834,7 @@ naval_professionalism = {
 		default_organisation = 5
 	}
 		colonial_points = 75
+		colonial_migration = 0.05
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1918,6 +1919,7 @@ naval_decision_making = {
 		default_organisation = 5
 	}
 		colonial_points = 75
+		colonial_migration = 0.05
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -2002,6 +2004,7 @@ naval_risk_management = {
 		default_organisation = 5
 	}
 		colonial_points = 75
+		colonial_migration = 0.05
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -2086,6 +2089,7 @@ naval_nco_training = {
 		default_organisation = 5
 	}
 		colonial_points = 75
+		colonial_migration = 0.05
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -2170,6 +2174,7 @@ modern_naval_training = {
 		default_organisation = 5
 	}
 		colonial_points = 75
+		colonial_migration = 0.05
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this

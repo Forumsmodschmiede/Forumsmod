@@ -3,8 +3,10 @@ Royal_Navy;Royal Navy;;;;;;;;;;;;;;
 Royal_Navy_desc;We have established the Royal Navy.;;;;;;;;;;;;;;
 German_Navy;German Navy;;;;;;;;;;;;;;
 German_Navy_desc;We have established the Kaiserliche Marine.;;;;;;;;;;;;;;
-Establish_the_German_Navy_title;Establish the Kaiserliche Marine;;;;;;;;;;;;;;
-Establish_the_German_Navy_desc;The Imperial German Navy existed between 1871 and 1919, growing out of the small Prussian Navy (from 1867 the North German Federal Navy), which was mainly for coast defence. Kaiser Wilhelm II then greatly expanded the navy. The key leader was Admiral Alfred von Tirpitz, who greatly expanded the size and quality of the navy, while adopting modern sea power theories. The result was a naval arms race with Britain as the German navy grew to become one of the greatest maritime forces in the world, second only to the Royal Navy. The foam wire tax was introduced in 1902 by the Reichstag to finance the imperial war fleet, because "in such a strong increase in the country's expenses, the foam wine must be used".;;;;;;;;;;;;;;
+Japanese_Navy;Japanese Navy;;;;;;;;;;;;;;
+Japanese_Navy_desc;We have established the Imperial Japanese Navy.;;;;;;;;;;;;;;
+Establish_the_Japanese_Navy_title;Establish the Imperial Japanese Navy;;;;;;;;;;;;;;
+Establish_the_Japanese_Navy_desc;The Imperial Japanese Navy existed between 1868 to 1945, growing from her origins lying in the early medieval period towards her official creation in the Boshin War. In 1883 the first naval expansion bill was issued, which would transfer the japanese navy into one of the strongest naval powers, together with building new shipyards, the most famous ones in Kure and Sasebo, which saw the construction of the largest battleships in history.;;;;;;;;;;;;;;
 Rebuild_our_Fleets;Rebuild our Fleets;;;;;;;;;;;;;;
 Rebuild_our_Fleets_desc;We have done the measures to bring our fleet to old glory.;;;;;;;;;;;;;;
 Emergency_ship_building_effort_title;Emergency Ship Building Effort;;;;;;;;;;;;;;
@@ -56,7 +58,7 @@ taiwan_administration_desc;Japan now controls Formosa, and our modern administra
 create_a_national_language_title;Create a compulsory school system;;;;;;;;;;;;;;
 create_a_national_language_desc;The introduction of compulsory schooling brought with it heavy resistence espacially of the rural population, though they couln't pay the school fees. It took until 1910 to fully indroduce it everywhere, but it was for a low cost, because in foreign lands it was the only possibility to integrate them under japanese rule.;;;;;;;;;;;;;;
 created_a_national_language;Compulsory school system;;;;;;;;;;;;;;
-created_a_national_language_desc;We have created a compulsory school system;;;;;;;;;;;;;;
+created_a_national_language_desc;We have created a compulsory school system.;;;;;;;;;;;;;;
 iwakura_mission_title;The Iwakura Mission;;;;;;;;;;;;;;
 iwakura_mission_desc;The Iwakura Mission was a Japanese diplomatic voyage to the United States and Europe conducted between 1871 and 1873 by leading statesmen and scholars of the Meiji period. The aim of the mission was threefold. To gain recognition for the newly reinstated imperial dynasty under the Emperor Meiji, to begin preliminary renegotiation of the unequal treaties with the dominant world powers, and to make a comprehensive study of modern industrial, political, military and educational systems and structures in the United States and Europe.;;;;;;;;;;;;;;
 meiji_constitution_title;Meiji Constitution;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,

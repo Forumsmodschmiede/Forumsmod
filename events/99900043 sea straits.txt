@@ -4,10 +4,12 @@ country_event = { id = 99900043
 	desc = "All provinces in India will always become indian, if you own them."
     picture = "india"
 	
-	trigger = {
+	trigger = { 
+	OR = {
 		tag = NEP
 		tag = TIB
 		tag = BUT
+		}
 	}
 		mean_time_to_happen =  {
 		months = 1

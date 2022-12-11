@@ -2847,7 +2847,7 @@
 		size = 103510
 	}
 	farmers = {
-		culture = basque
+		culture = french
 		religion = catholic
 		size = 11200
 	}
@@ -2911,7 +2911,7 @@
 	}
 
 	farmers = {
-		culture = french
+		culture = basque
 		religion = catholic
 		size = 104300
 	}
@@ -2941,7 +2941,7 @@
 	}
 
 	farmers = {
-		culture = basque
+		culture = french
 		religion = catholic
 		size = 51200
 	}

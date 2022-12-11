@@ -130,4 +130,11 @@ schools ={
 		navy_tech_research_bonus = 0.15
 		industry_tech_research_bonus = 0.05
 	}
+	japanese_tech_school = {
+		army_tech_research_bonus = 0.15
+		commerce_tech_research_bonus = -0.15
+		navy_tech_research_bonus = 0.15
+		industry_tech_research_bonus = 0.00
+		culture_tech_research_bonus = -0.1
+	}
 }

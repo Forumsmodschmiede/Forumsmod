@@ -1,276 +1,47 @@
-Dez 08, 2022 4:01:48 AM posed.PositionsEditor main
+Dez 11, 2022 2:17:11 AM posed.PositionsEditor main
 INFORMATION: Java version: 1.8.0_311
-Dez 08, 2022 4:01:50 AM posed.Map loadData
+Dez 11, 2022 2:17:13 AM posed.Map loadData
 INFORMATION: Map file is C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map\default.map
-Dez 08, 2022 4:01:50 AM posed.PositionsEditorUI load
+Dez 11, 2022 2:17:13 AM posed.PositionsEditorUI load
 INFORMATION: Loading positions from C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map\positions.txt
-Dez 08, 2022 4:01:50 AM posed.MapPanel createMapImage
+Dez 11, 2022 2:17:13 AM posed.MapPanel createMapImage
 INFORMATION: Reading map from C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map/provinces.bmp
-Dez 08, 2022 4:01:51 AM posed.PositionsEditorUI validateObject
+Dez 11, 2022 2:17:14 AM posed.PositionsEditorUI validateObject
 WARNUNG: Unknown object name in 3234 (sea): city
-Dez 08, 2022 4:01:56 AM posed.ProvincePanel setImage
-INFORMATION: Province image scale: 11,538
-Dez 08, 2022 4:02:05 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Province 717:
-Dez 08, 2022 4:02:05 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Old entry:
-717 = { 
-    text_position = { x = 3090.860000 y = 1670.946667 } 
-    text_rotation = 5
-    text_scale = 3.00000
-    unit = { x = 3092.000000 y = 1661.000000 } 
-    factory = { x = 3093.000000 y = 1668.000000 } 
-    building_construction = { x = 3099.793333 y = 1679.353333 } 
-    building_position = { fort = { x = 3086.100098 y = 1669.900024 } } 
-} # Minsk
-
-Dez 08, 2022 4:02:05 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: New entry:
-################################################################################
-# Kalisz
-################################################################################
-717 = { 
-    text_position = { x = 3090.173333 y = 1670.080000 } 
-    text_rotation = 5
-    text_scale = 3.00000
-    unit = { x = 3092.000000 y = 1661.000000 } 
-    factory = { x = 3093.000000 y = 1668.000000 } 
-    building_construction = { x = 3099.793333 y = 1679.353333 } 
-    building_position = { fort = { x = 3086.100098 y = 1669.900024 } } 
-}
-
-Dez 08, 2022 4:02:08 AM posed.ProvincePanel setImage
+Dez 11, 2022 2:17:57 AM posed.ProvincePanel setImage
 INFORMATION: Province image scale: 20
-Dez 08, 2022 4:02:26 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Province 703:
-Dez 08, 2022 4:02:26 AM posed.PositionsEditorUI provinceListMouseClicked
+Dez 11, 2022 2:18:11 AM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 1.649:
+Dez 11, 2022 2:18:11 AM posed.PositionsEditorUI provinceListMouseClicked
 INFORMATION: Old entry:
-703 = { 
-    text_position = { x = 3112.000000 y = 1631.050000 } 
-    text_scale = 1.400000
-    unit = { x = 3112.800000 y = 1631.250000 } 
-    city = { x = 3109.750000 y = 1632.250000 } 
-    factory = { x = 3109.500000 y = 1631.600000 } 
-    building_construction = { x = 3115.150000 y = 1631.200000 } 
-    building_position = { fort = { x = 3111.750000 y = 1632.300000 } railroad = { x = 3114.050000 y = 1631.650000 } } 
-} # Novy Sacz
+1649 = { 
+    unit = { x = 4986.000000 y = 1357.000000 } 
+    text_position = { x = 4984.899902 y = 1354.000000 } 
+    text_scale = 2.200000
+    city = { x = 4981.399902 y = 1355.000000 } 
+    building_construction = { x = 4982.100098 y = 1356.900024 } 
+    military_construction = { x = 4985.100098 y = 1354.800049 } 
+    factory = { x = 4988.299805 y = 1358.500000 } 
+    building_position = { fort = { x = 4990.200195 y = 1356.199951 } naval_base = { x = 4988.600098 y = 1352.699951 } } 
+    building_rotation = { naval_base = 3.752459 } 
+} # Chiba
 
-Dez 08, 2022 4:02:26 AM posed.PositionsEditorUI provinceListMouseClicked
+Dez 11, 2022 2:18:11 AM posed.PositionsEditorUI provinceListMouseClicked
 INFORMATION: New entry:
 ################################################################################
-# Krakow
+# Edo
 ################################################################################
-703 = { 
-    text_position = { x = 3112.000000 y = 1631.050000 } 
-    text_scale = 1.400000
-    unit = { x = 3112.800000 y = 1631.250000 } 
-    city = { x = 3109.750000 y = 1632.250000 } 
-    factory = { x = 3109.500000 y = 1631.600000 } 
-    building_construction = { x = 3115.150000 y = 1631.200000 } 
-    building_position = { fort = { x = 3106.700000 y = 1631.450000 } railroad = { x = 3114.050000 y = 1631.650000 } } 
+1649 = { 
+    text_position = { x = 4984.150000 y = 1354.050000 } 
+    text_scale = 2.200000
+    unit = { x = 4986.000000 y = 1357.000000 } 
+    city = { x = 4981.399902 y = 1355.000000 } 
+    factory = { x = 4988.299805 y = 1358.500000 } 
+    building_construction = { x = 4982.100098 y = 1356.900024 } 
+    military_construction = { x = 4985.100098 y = 1354.800049 } 
+    building_position = { fort = { x = 4990.200195 y = 1356.199951 } naval_base = { x = 4988.600098 y = 1352.699951 } } 
+    building_rotation = { naval_base = 3.752459 } 
 }
 
-Dez 08, 2022 4:02:36 AM posed.ProvincePanel setImage
-INFORMATION: Province image scale: 20
-Dez 08, 2022 4:02:57 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Province 2.584:
-Dez 08, 2022 4:02:57 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Old entry:
-2584 = { 
-    text_position = { x = 3098.850000 y = 1623.800000 } 
-    text_rotation = 6.283184
-    text_scale = 1.900000
-    factory = { x = 3101.000000 y = 1625.099976 } 
-    building_construction = { x = 3098.650000 y = 1625.900000 } 
-    building_position = { fort = { x = 3098.100098 y = 1624.000000 } } 
-} # Matan as Sarah
-
-Dez 08, 2022 4:02:57 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: New entry:
-################################################################################
-# Bielsko
-################################################################################
-2584 = { 
-    text_position = { x = 3098.700000 y = 1623.750000 } 
-    text_rotation = 6.283184
-    text_scale = 1.600000
-    factory = { x = 3101.000000 y = 1625.099976 } 
-    building_construction = { x = 3098.650000 y = 1625.900000 } 
-    building_position = { fort = { x = 3098.100098 y = 1624.000000 } } 
-}
-
-Dez 08, 2022 4:02:57 AM posed.MapPanel getProvinceAt
-WARNUNG: No province registered for 1,222,200
-Dez 08, 2022 4:02:57 AM posed.MapPanel getProvinceAt
-WARNUNG: No province registered for 1,222,200
-Dez 08, 2022 4:02:59 AM posed.ProvincePanel setImage
-INFORMATION: Province image scale: 20
-Dez 08, 2022 4:03:16 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Province 689:
-Dez 08, 2022 4:03:16 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Old entry:
-689 = { 
-    text_position = { x = 3095.000000 y = 1621.800000 } 
-    text_scale = 1.50000
-    unit = { x = 3093.700000 y = 1622.900000 } 
-    factory = { x = 3095.900000 y = 1620.900000 } 
-    building_construction = { x = 3094.300049 y = 1619.400024 } 
-    military_construction = { x = 3093.699951 y = 1625.099976 } 
-    building_position = { fort = { x = 3091.700000 y = 1624.100000 } railroad = { x = 3092.900000 y = 1620.900000 } } 
-} # Danzig
-
-Dez 08, 2022 4:03:16 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: New entry:
-################################################################################
-# Tesin
-################################################################################
-689 = { 
-    text_position = { x = 3094.700000 y = 1621.750000 } 
-    text_scale = 1.40000
-    unit = { x = 3093.700000 y = 1622.900000 } 
-    factory = { x = 3095.900000 y = 1620.900000 } 
-    building_construction = { x = 3094.300049 y = 1619.400024 } 
-    military_construction = { x = 3093.699951 y = 1625.099976 } 
-    building_position = { fort = { x = 3091.700000 y = 1624.100000 } railroad = { x = 3092.900000 y = 1620.900000 } } 
-}
-
-Dez 08, 2022 4:03:23 AM posed.MapPanel getProvinceAt
-WARNUNG: No province registered for 17,20,233
-Dez 08, 2022 4:03:23 AM posed.MapPanel getProvinceAt
-WARNUNG: No province registered for 17,20,233
-Dez 08, 2022 4:03:23 AM posed.MapPanel getProvinceAt
-WARNUNG: No province registered for 17,20,233
-Dez 08, 2022 4:03:23 AM posed.MapPanel getProvinceAt
-WARNUNG: No province registered for 17,20,233
-Dez 08, 2022 4:03:23 AM posed.MapPanel getProvinceAt
-WARNUNG: No province registered for 17,20,233
-Dez 08, 2022 4:03:23 AM posed.MapPanel getProvinceAt
-WARNUNG: No province registered for 17,20,233
-Dez 08, 2022 4:03:25 AM posed.ProvincePanel setImage
-INFORMATION: Province image scale: 20
-Dez 08, 2022 4:03:31 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Province 688:
-Dez 08, 2022 4:03:31 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Old entry:
-688 = { 
-    text_position = { x = 3079.500000 y = 1629.700000 } 
-    text_rotation = 5.579456
-    text_scale = 1.900000
-    factory = { x = 3077.700000 y = 1634.150000 } 
-    building_construction = { x = 3084.650000 y = 1625.050000 } 
-    military_construction = { x = 3086.250000 y = 1623.000000 } 
-    building_position = { fort = { x = 3071.900000 y = 1636.900000 } } 
-} # Tesin
-
-Dez 08, 2022 4:03:31 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: New entry:
-################################################################################
-# Troppau
-################################################################################
-688 = { 
-    text_position = { x = 3079.350000 y = 1629.400000 } 
-    text_rotation = 5.579456
-    text_scale = 1.900000
-    factory = { x = 3077.700000 y = 1634.150000 } 
-    building_construction = { x = 3084.650000 y = 1625.050000 } 
-    military_construction = { x = 3086.250000 y = 1623.000000 } 
-    building_position = { fort = { x = 3071.900000 y = 1636.900000 } } 
-}
-
-Dez 08, 2022 4:03:33 AM posed.ProvincePanel setImage
-INFORMATION: Province image scale: 20
-Dez 08, 2022 4:03:37 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Province 632:
-Dez 08, 2022 4:03:37 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Old entry:
-632 = { 
-    text_position = { x = 3072.600000 y = 1627.300000 } 
-    text_rotation = 5.522693
-    text_scale = 2.000000
-    factory = { x = 3068.600000 y = 1631.350000 } 
-    building_construction = { x = 3067.600000 y = 1628.500000 } 
-    military_construction = { x = 3072.300049 y = 1628.000000 } 
-    building_position = { fort = { x = 3078.500000 y = 1624.599976 } } 
-} # Bratislava
-
-Dez 08, 2022 4:03:37 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: New entry:
-################################################################################
-# Olomouc
-################################################################################
-632 = { 
-    text_position = { x = 3072.250000 y = 1627.000000 } 
-    text_rotation = 5.522693
-    text_scale = 2.000000
-    factory = { x = 3068.600000 y = 1631.350000 } 
-    building_construction = { x = 3067.600000 y = 1628.500000 } 
-    military_construction = { x = 3072.300049 y = 1628.000000 } 
-    building_position = { fort = { x = 3078.500000 y = 1624.599976 } } 
-}
-
-Dez 08, 2022 4:03:43 AM posed.ProvincePanel setImage
-INFORMATION: Province image scale: 17,647
-Dez 08, 2022 4:03:55 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Province 626:
-Dez 08, 2022 4:03:55 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Old entry:
-626 = { 
-    text_position = { x = 3050.399902 y = 1632.900024 } 
-    text_rotation = 5.585052
-    text_scale = 2.000000
-    factory = { x = 3047.327083 y = 1640.264583 } 
-    building_construction = { x = 3052.300049 y = 1627.699951 } 
-    building_position = { fort = { x = 3058.199951 y = 1632.300049 } } 
-} # Karlsbad
-
-Dez 08, 2022 4:03:55 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: New entry:
-################################################################################
-# Hradec Kralove
-################################################################################
-626 = { 
-    text_position = { x = 3050.680000 y = 1631.773333 } 
-    text_rotation = 5.585052
-    text_scale = 2.000000
-    factory = { x = 3047.327083 y = 1640.264583 } 
-    building_construction = { x = 3052.300049 y = 1627.699951 } 
-    building_position = { fort = { x = 3058.199951 y = 1632.300049 } } 
-}
-
-Dez 08, 2022 4:04:07 AM posed.ProvincePanel setImage
-INFORMATION: Province image scale: 20
-Dez 08, 2022 4:04:10 AM posed.ProvincePanel setImage
-INFORMATION: Province image scale: 20
-Dez 08, 2022 4:04:23 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Province 685:
-Dez 08, 2022 4:04:23 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: Old entry:
-685 = { 
-    text_position = { x = 3099.650000 y = 1631.850000 } 
-    text_rotation = 6.283185
-    text_scale = 2.000000
-    unit = { x = 3097.850000 y = 1633.700000 } 
-    factory = { x = 3095.850000 y = 1644.500000 } 
-    building_construction = { x = 3099.899902 y = 1639.400024 } 
-    military_construction = { x = 3096.300000 y = 1627.500000 } 
-    building_position = { fort = { x = 3101.000000 y = 1631.500000 } railroad = { x = 3098.300049 y = 1631.000000 } } 
-} # Line Islands
-
-Dez 08, 2022 4:04:23 AM posed.PositionsEditorUI provinceListMouseClicked
-INFORMATION: New entry:
-################################################################################
-# Kattowitz
-################################################################################
-685 = { 
-    text_position = { x = 3099.600000 y = 1631.250000 } 
-    text_rotation = 6.283185
-    text_scale = 1.800000
-    unit = { x = 3097.850000 y = 1633.700000 } 
-    factory = { x = 3095.850000 y = 1644.500000 } 
-    building_construction = { x = 3099.899902 y = 1639.400024 } 
-    military_construction = { x = 3096.300000 y = 1627.500000 } 
-    building_position = { fort = { x = 3101.000000 y = 1631.500000 } railroad = { x = 3098.300049 y = 1631.000000 } } 
-}
-
-Dez 08, 2022 4:07:28 AM posed.MapPanel getProvinceAt
-WARNUNG: No province registered for 1,222,200
+Dez 11, 2022 2:18:12 AM posed.MapPanel getProvinceAt
+WARNUNG: No province registered for 65,230,214
