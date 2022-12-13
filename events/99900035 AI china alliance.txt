@@ -6,7 +6,6 @@ country_event = {	id = 99900035
 	
 	trigger = {
 	any_country = { 
-		ai = yes
 		NOT = { 
 			OR = {
 				tag = KOR
@@ -34,13 +33,10 @@ alliance_with = CHI
 	}
 
 		mean_time_to_happen =  {
-		months = 0
+		days = 1
 					}
 
-        modifier = {
-            factor = 999
-		year = 1836
-        }
+
 
 	option = {
 		name = "China remains isolated"

@@ -1718,9 +1718,19 @@ any_country = {
 				}
 				}
 
-
-
-				
+			BEI = {
+any_owned = {
+					limit = {
+						OR = { 
+							state_id = 1612
+						}
+					}
+					add_province_modifier = {
+						name = forbidden_city
+						duration = -1
+					}
+				}
+				}
 
 any_country = {
 				limit = {

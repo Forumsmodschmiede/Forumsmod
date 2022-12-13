@@ -1,5 +1,32 @@
 political_decisions = {
 
+	the_quebec_question = {
+		picture = vive_le_quebec
+		potential = {
+			primary_culture = french
+			is_greater_power = yes
+			NOT = { has_country_flag = demanded_quebec }
+		}
+		
+		allow = {
+			war = no
+			NOT = { truce_with = ENG }
+			associationism  = 1
+		}
+		
+		effect = {
+			set_country_flag = demanded_quebec 
+			ENG_68 = { add_core = FRA }
+			CAN_58 = { add_core = FRA }
+			CAN_46 = { add_core = FRA }
+			CAN_60 = { add_core = FRA }
+			ENG_74 = { add_core = FRA }
+			badboy = 15
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+
 	luxembourg_crisis = {
 		potential = {
 			year = 1845

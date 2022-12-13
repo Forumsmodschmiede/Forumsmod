@@ -15760,9 +15760,9 @@ ITA_prussian_constitutionalism;Kingdom of Italy;;;;;;;;;;;;;x;;;;
 ITA_hms_government;Kingdom of Italy;;;;;;;;;;;;;x;;;;
 ITA_proletarian_dictatorship;Italian Union;;;;;;;;;;;;;x;;;;
 ITA_fascist_dictatorship;Italian Social Republic;;;;;;;;;;;;;x;;;;
-RUS_absolute_monarchy;Tsardom of Russia;;;;;;;;;;;;;x;;;;
-RUS_prussian_constitutionalism;Tsardom of Russia;;;;;;;;;;;;;x;;;;
-RUS_hms_government;Tsardom of Russia;;;;;;;;;;;;;x;;;;
+RUS_absolute_monarchy;Russian Empire;;;;;;;;;;;;;x;;;;
+RUS_prussian_constitutionalism;Russian Empire;;;;;;;;;;;;;x;;;;
+RUS_hms_government;Russian Empire;;;;;;;;;;;;;x;;;;
 RUS_presidential_dictatorship;Russian Republic;;;;;;;;;;;;;x;;;;
 RUS_bourgeois_dictatorship;Russian Republic;;;;;;;;;;;;;x;;;;
 RUS_democracy;Russian Republic;;;;;;;;;;;;;x;;;;
@@ -16049,6 +16049,7 @@ EVT37236OPTB;Invest what is planned.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 EVT37236OPTC;Invest the minimum possible.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 EVTNAME37237;The Eiffel Tower Is Finished;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 EVTDESC37237;The main structural work was completed at the end of March 1889 and today Eiffel celebrated this by leading a group of government officials, accompanied by representatives of the press, to the top of the tower. Since the lifts were not yet in operation, the ascent was made by foot, and took over an hour, Eiffel frequently stopping to make explanations of various features. Most of the party chose to stop at the lower levels, but a few, including Nouguier, Compagnon, the President of the City Council and reporters from Le Figaro and Le Monde Illustré completed the climb. At 2:35 Eiffel hoisted a large French flag, to the accompaniment of a 25-gun salute fired from the lower level. There was still work to be done, particularly on the lifts and the fitting out of the facilities for visitors, and the tower was not opened to the public. The tower was an immediate success with the public, and nearly 30,000 visitors made the 1,710-step climb to the top using the stairs before the lifts entered service.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+forbidden_city;Forbidden City ;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVT37237OPTA;Vive la Tour Eiffel!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 EVTNAME3697000;The Construction of the Clock Tower;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 EVTDESC3697000;During the rebuilding of the Palace of Westminster in the wake of the fire of 1834, the parliament determined that the new buildings should incorporate an impressive clock tower and passed a bill to that end in $YEAR$. This clock tower will take years to be built but it will be a massive accomplishment for out country. The only thing left for the building to start is to define the budget.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
@@ -16060,6 +16061,8 @@ bigben_construction;Reconstruction of the Palace of Westminster;;;;;;;;;;;;;x,,,
 bigben_construction_desc;The Palace of Westminster is being reconstructed and with it, a huge clock tower.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 eiffel_tower_construction;Eiffel Tower Under Construction;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 eiffel_tower_construction_desc;Our great nation is dedicating its resources and workers to build a magnificent tower.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+destroy_forbidden_city_title;Destroy the Forbidden City;;;;;;;;;;;;;X,,,,,,,,,,,,,,
+destroy_forbidden_city_desc;By giving the order to destroy the Forbidden City we can once and for all show our strenght over the chinese collos. Hopefully we can destroy it before the emperor surrenders, but otherwise we can also burn the royal summer palace, however they will have to pay for this war!;;;;;;;;;;;;;X,,,,,,,,,,,,,,
 destroy_westminster_title;Destroy the Palace of Westminster;;;;;;;;;;;;;X,,,,,,,,,,,,,,
 destroy_westminster_desc;By giving the order for our troops occupying London to destroy the Palace of Westminster we can deal a huge blow to our enemy's prestige and make it so it's more likely for the war to end sooner. This will be seen as an incredible act of aggression, however, and will forever damage our relations with them and some of our citizens, as well as their citizens, will be extremely angry by such heinous act against their parliament.;;;;;;;;;;;;;X,,,,,,,,,,,,,,
 destroy_eiffel_tower_title;Destroy the Eiffel Tower;;;;;;;;;;;;;X,,,,,,,,,,,,,,
@@ -16159,4 +16162,8 @@ total_reform;Comprehensive Miracle;;;;;;;;;;;;;
 total_reform_desc;Our country is going through comprehensive reforms, promoting nothing short of a true miracle.;;;;;;;;;;;;;
 multicultural_empire;Multicultural Empire;;;;;;;;;;;;;
 multicultural_empire_desc;The Austrian Empire is an empire of many different races and with more time passing, we are having more problems to integrate them.;;;;;;;;;;;;;
+grant_cooldown;§CGrant Cooldown§!;;;;;;;;;;;;;
+grant_cooldown_desc;We have recently requested aid;;;;;;;;;;;;;
+the_quebec_question_title;The Quebec Question;;;;;;;;;;;;;
+the_quebec_question_desc;Reclaiming the British controlled Quebec will be a major step of reuniting the overseas French. From it's foundation in 1608 on it was a jewel in the french colonial settlements, controling all trade in the far north of america. In the Seven Years War however we had to scede it to the british, but it's time to eradicate this mistake.;;;;;;;;;;;;;
 ;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,

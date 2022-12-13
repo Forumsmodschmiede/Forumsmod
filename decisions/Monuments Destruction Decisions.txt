@@ -43,6 +43,59 @@ political_decisions = {
 		}
 	}
 
+	destroy_forbidden_city = {
+		picture = lijin
+		potential = {
+			is_greater_power = yes
+			1612 = {
+				has_province_modifier = forbidden_city
+				controlled_by = THIS
+				owner = { war_with = THIS }
+			}
+			NOT = { has_global_flag = forbidden_city_destroyed }
+			NOT = { owns = 1612 }
+			civilized = yes
+		}
+		allow = {
+			1612 = {
+				owner = { war_with = THIS }
+			}
+			controls = 1612 
+			nationalism_n_imperialism = 1
+			OR = {
+				indirect_artillery_fire = 1
+				AND = {
+					steel_breech_loaded_artillery = 1
+					invention = nitroglycerin
+				}
+			}
+		}
+		
+		effect = {
+			badboy = 3
+			prestige = 5
+			set_global_flag = forbidden_city_destroyed
+			        1612 = {
+           	 clr_province_flag = summer_palace
+			remove_province_modifier = forbidden_city
+		add_province_modifier = { name = war_torn duration = 730 }
+        			    }
+			1612 = {
+				owner = { prestige_factor = -0.2
+						war_exhaustion = 25 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_country_modifier = malevolent_ai }
+			}
+		}
+	}
+
+
+
 	destroy_the_kremlin = {
 		picture = kremlin
 		potential = {

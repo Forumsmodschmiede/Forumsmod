@@ -762,6 +762,7 @@ breech_loaded_rifle_armament = {
 	}
 }
 
+
 #machine_guns
 machine_gun_armament = {
 	limit = { machine_guns = 1 }
@@ -775,36 +776,186 @@ machine_gun_armament = {
 	}
 	effect = {
 		infantry = {
-			defence = 4
-			supply_consumption = 0.20
+			defence = 1
+			supply_consumption = 0.05
 		}
 		guard = {
-			defence = 4
-			supply_consumption = 0.20
+			defence = 1
+			supply_consumption = 0.05
 		}
 		engineer = {
-			defence = 4
-			supply_consumption = 0.20
+			defence = 1
+			supply_consumption = 0.05
 		}
 		cuirassier = {
 			defence = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.05
 		}
 		dragoon = {
-			defence = 2
-			supply_consumption = 0.20
+			defence = 0.5
+			supply_consumption = 0.05
 		}
 		hussar = {
-			defence = 3
-			supply_consumption = 0.20
+			defence = 0.75
+			supply_consumption = 0.05
 		}
 		cavalry = {
-			defence = 1
-			supply_consumption = 0.20
+			defence = 0.25
+			supply_consumption = 0.05
 		}
 		irregular = {
+			defence = 0.25
+			supply_consumption = 0.05
+		}
+	}
+}
+mitrailleuse = {
+	limit = { machine_guns = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 3
+			war = yes
+			war_countries = { invention = mitrailleuse }
+			invention = machine_gun_armament
+		}
+		modifier = {
+			factor = 4
+			invention = machine_gun_armament
+		}
+	}
+	effect = {
+		infantry = {
 			defence = 1
-			supply_consumption = 0.20
+			supply_consumption = 0.05
+		}
+		guard = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		engineer = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		cuirassier = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		dragoon = {
+			defence = 0.5
+			supply_consumption = 0.05
+		}
+		hussar = {
+			defence = 0.75
+			supply_consumption = 0.05
+		}
+		cavalry = {
+			defence = 0.25
+			supply_consumption = 0.05
+		}
+		irregular = {
+			defence = 0.25
+			supply_consumption = 0.05
+		}
+	}
+}
+gatling_gun = {
+	limit = { machine_guns = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = gatling_gun }
+			invention = mitrailleuse
+		}
+		modifier = {
+			factor = 3
+			invention = mitrailleuse
+		}
+	}
+	effect = {
+		infantry = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		guard = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		engineer = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		cuirassier = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		dragoon = {
+			defence = 0.5
+			supply_consumption = 0.05
+		}
+		hussar = {
+			defence = 0.75
+			supply_consumption = 0.05
+		}
+		cavalry = {
+			defence = 0.25
+			supply_consumption = 0.05
+		}
+		irregular = {
+			defence = 0.25
+			supply_consumption = 0.05
+		}
+	}
+}
+maxim_gun = {
+	limit = { machine_guns = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = maxim_gun }
+			invention = gatling_gun
+		}
+		modifier = {
+			factor = 2
+			invention = gatling_gun
+		}
+	}
+	effect = {
+		infantry = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		guard = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		engineer = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		cuirassier = {
+			defence = 1
+			supply_consumption = 0.05
+		}
+		dragoon = {
+			defence = 0.5
+			supply_consumption = 0.05
+		}
+		hussar = {
+			defence = 0.75
+			supply_consumption = 0.05
+		}
+		cavalry = {
+			defence = 0.25
+			supply_consumption = 0.05
+		}
+		irregular = {
+			defence = 0.25
+			supply_consumption = 0.05
 		}
 	}
 }
