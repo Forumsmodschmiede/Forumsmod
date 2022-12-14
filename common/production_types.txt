@@ -5,7 +5,7 @@ factory_template = {
 	efficiency = {
 		cement = 0.5 #if no cement, work at 75% efficiency #cost = 16.0
 		machine_parts = 0.05 # was 0.01 cost = 36.5		# 9.825/day/level for both
-		coal = 1
+		coal = 0.01
 	}
 	
 	owner =
@@ -36,7 +36,7 @@ factory_template = {
 cheap_factory_template = {
 	efficiency = {
 		cement = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
-		coal = 0.5
+		coal = 0.01
 	}
 	
 	owner =
@@ -402,8 +402,8 @@ luxury_furniture_factory = {
 steel_factory = {       
 	template = factory_template
 	input_goods = { 
-		iron = 17		#70
-		coal = 6.5		#11.5	total input+maint = 81.5
+		iron = 20		#70
+		coal = 5		#11.5	total input+maint = 81.5
 	}
 
 	output_goods = steel 		#94 
@@ -796,7 +796,7 @@ cattle_ranch = {
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
-	value = 2.3
+	value = 2.4
 	mine = yes
 }
 
@@ -838,7 +838,7 @@ grain_farm = {
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = 1.9
+	value = 1.8
 	mine = yes
 }
 
