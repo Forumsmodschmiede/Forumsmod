@@ -44,6 +44,12 @@ upper_house = {
 	communist = 0
 }
 
+govt_flag = 
+{
+	government = hms_government
+	flag = imperial
+}
+
 # Technologies
 post_napoleonic_thought = 1
 flintlock_rifles = 1
@@ -77,10 +83,7 @@ basic_chemistry = 1
 consciousness = 3
 nonstate_consciousness = 1
 
-govt_flag = {
-	government = hms_government
-	flag = democracy
-}
+
 
 oob = "SPA_oob.txt"
 

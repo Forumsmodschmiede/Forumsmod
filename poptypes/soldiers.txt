@@ -66,37 +66,197 @@ luxury_needs = {
 }
 
 
-country_migration_target =
-{
+country_migration_target = {
 	factor = 1
+
 	modifier = {
-		factor = 2.0
-		has_pop_culture = THIS
+		factor = 1.35
+		government = democracy
 	}
+
 	modifier = {
 		factor = 1.2
 		is_greater_power = yes
 	}
+	
 	modifier = {
-		factor = 1.05
-		vote_franschise = wealth_voting
+		factor = 1.1
+		NOT = { unemployment = 0.025 }
+	}
+
+	modifier = {
+		factor = 0.75
+		NOT = { military_spending = 0.4 }
 	}
 	modifier = {
-		factor = 1.25
-		vote_franschise = universal_weighted_voting
+		factor = 1.1
+		military_spending = 0.7
 	}
 	modifier = {
-		factor = 1.5
-		vote_franschise = universal_voting
+		factor = 1.1
+		military_spending = 0.8
 	}
 	modifier = {
-		factor = 4.0
-		OR = { 
-			continent = north_america
-			continent = south_america
-			continent = oceania
+		factor = 1.1
+		military_spending = 0.9
+	}
+	modifier = {
+		factor = 1.2
+		military_spending = 0.99
+	}
+
+	modifier = {
+		factor = 2.0
+		OR = {
+			is_primary_culture = THIS
+			is_accepted_culture = THIS
 		}
 	}
+	
+	modifier = {
+		factor = 1.5
+		OR = {
+			AND = {
+				THIS = { is_culture_group = germanic }
+				OR = { 
+					is_culture_group = american_cultures
+					AND = {
+						primary_culture = dutch
+						is_vassal = yes
+					}
+				}
+			}
+			
+			AND = {
+				THIS = { is_culture_group = polish_culture_group }
+				is_culture_group = french
+			}
+		}
+	}
+	
+	modifier = {
+		factor = 2.81
+		OR = {
+			##is_culture_group = THIS
+			AND = {
+				THIS = { is_culture_group = iberian }
+				is_culture_group = latin_american_cultures
+			}
+			AND = {
+				THIS = { has_pop_culture = dutch }
+				primary_culture = boer
+			}
+			AND = {
+				OR = {
+					THIS = { is_culture_group = french }
+					THIS = { has_pop_culture = wallonian }
+				}
+				OR = { 
+					primary_culture = french_canadian
+					primary_culture = french
+					primary_culture = wallonian
+				}
+			}
+			AND = {
+				THIS = { is_culture_group = british }
+				OR = {
+					is_culture_group = american_cultures
+					primary_culture = australian
+					primary_culture = anglo_canadian
+				}
+			}
+			AND = {
+				THIS = { is_culture_group = polish_culture_group }
+				OR = { 
+					is_culture_group = polish_culture_group
+					primary_culture = french
+				}	
+			}
+			AND = {
+				THIS = { is_culture_group = germanic }
+				OR = {
+					is_culture_group = germanic
+				}
+				NOT = { continent = asia }
+			}
+		}
+	}
+	
+	modifier = {
+		factor = 0
+		OR = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	
+	modifier = {
+		factor = 0.5
+		OR = {
+			government = absolute_monarchy
+		}
+	}
+	
+	modifier = {
+		factor = 2.5
+		number_of_states = 2
+		NOT = { year = 1905 }
+		OR = {
+			continent = north_america
+			continent = south_america
+			primary_culture = australian
+		}
+		OR = {
+			government = democracy
+			government = hms_government
+		}
+	}
+	
+	modifier = {
+		factor = 1.8
+		NOT = { number_of_states = 2 }
+		NOT = { year = 1905 }
+		OR = {
+			continent = north_america
+			continent = south_america
+			primary_culture = australian
+		}
+		OR = {
+			government = democracy
+			government = hms_government
+		}
+	}
+
+	modifier = {
+		factor = 1.4
+		number_of_states = 2
+		year = 1905
+		OR = {
+			continent = north_america
+			continent = south_america
+			primary_culture = australian
+		}
+		OR = {
+			government = democracy
+			government = hms_government
+		}
+	}
+	
+	modifier = {
+		factor = 1.2
+		NOT = { number_of_states = 2 }
+		year = 1905
+		OR = {
+			continent = north_america
+			continent = south_america
+			primary_culture = australian
+		}
+		OR = {
+			government = democracy
+			government = hms_government
+		}
+	}
+	
 	modifier = {
 		factor = 0.1
 		NOT = {
@@ -121,15 +281,20 @@ country_migration_target =
 	}	
 }
 
-migration_target =
-{
+migration_target = {
 	factor = 0.01
+
+	
+	modifier = {
+		factor = 5.0
+		NOT = { total_pops = 500 }
+	}
 	
 	modifier = {
 		factor = 1.2
 		total_pops = 150000
-	}
-		modifier = {
+	}	
+	modifier = {
 		factor = 1.2
 		total_pops = 250000
 	}
@@ -142,36 +307,37 @@ migration_target =
 		total_pops = 750000
 	}
 	
+	
+	
+	##############################
+	### Unemployment Modifiers ###
+	##############################
+	
 	modifier = {
-		factor = 1.2
-		has_pop_culture = THIS
+		factor = 0.01
+		OR = { 
+			unemployment_by_type = { type = farmers value = 0.01  }
+			unemployment_by_type = { type = labourers value = 0.01  }
+		}
 	}
+	
 	modifier = {
-    	factor = 0.25
-    	has_culture_core = no
+		factor = 10
+		NOT = {
+			OR = { 
+				unemployment_by_type = { type = farmers value = 0.01  }
+				unemployment_by_type = { type = labourers value = 0.01  }
+			}
+		}
 	}
+	
+	
+	###########################
+	### Political Modifiers ###
+	###########################
+	
 	modifier = {
 		factor = 2
-		state_scope = {
-			has_factories = yes
-		}
-	}
-	modifier = {
-		factor = 1.2
-		has_pop_religion = THIS
-	}
-	modifier = {
-		factor = 1.5
-		any_core = { is_primary_culture = THIS }
-	}
-	modifier = {
-		factor = 0.75
-		state_scope = {
-			is_slave = yes
-		}
-	}
-	modifier = {
-		factor = 20000
 		is_state_capital = yes
 	}		
 	modifier = {
@@ -179,26 +345,130 @@ migration_target =
 		is_capital = yes
 	}
 	modifier = {
+		factor = 1.2
+		has_pop_religion = THIS
+	}
+	modifier = {
+		factor = 1.2
+		has_pop_culture = THIS
+	}
+	modifier = {
+		factor = 2
+		OR = {
+			any_core = { is_primary_culture = yes }
+			any_core = { is_cultural_union = yes }
+		}
+	}	
+	modifier = {
+		factor = 0.75
+		OR = {
+			state_scope = { is_slave = yes }
+			is_overseas = yes
+		}
+	}
+	
+	
+	#########################
+	### Terrain Modifiers ###
+	#########################
+	
+	modifier = {
 		factor = 1.05
 		is_coastal = yes
+	}
+	
+	modifier = {
+		factor = 0.8
+		terrain = steppe
+	}
+	
+	modifier = {
+		factor = 0.7
+		terrain = savanna
+	}
+	
+	modifier = {
+		factor = 0.8
+		terrain = dryhills
+	}
+	
+	modifier = {
+		factor = 0.5
+		terrain = jungle
 	}
 	
 	modifier = {
 		factor = 0.6
 		terrain = mountain
 	}
+	
 	modifier = {
-		factor = 0.1
-		terrain = desert
+		factor = 0.6
+		terrain = montane_forest
 	}
+	
 	modifier = {
 		factor = 0.6
 		terrain = marsh
 	}
+	
+	modifier = {
+		factor = 0.5
+		terrain = semidesert
+	}
+	
+	modifier = {
+		factor = 0.5
+		terrain = boreal
+	}
+
 	modifier = {
 		factor = 0.1
+		terrain = small_island
+	}
+	
+	modifier = {
+		factor = 0.1
+		terrain = coral_island
+	}
+	
+	modifier = {
+		factor = 0.05
+		terrain = desert
+	}
+	
+	modifier = {
+		factor = 0.05
 		terrain = arctic
 	}
+	
+	modifier = {
+		factor = 0.05
+		terrain = montane_tundra
+	}
+	
+	modifier = {
+		factor = 0.5
+		OR = {
+			continent = africa
+		}
+	}
+	
+	modifier = {
+		factor = 2.5
+		OR = { 
+			state_id = 409
+			state_id = 411
+			state_id = 354
+			state_id = 350
+			state_id = 690
+			state_id = 699
+			state_id = 657
+			state_id = 2533
+		}
+		country = { has_country_flag = prussian_settlement_commission }
+	}
+	
 	modifier = {
 		factor = 2
 		life_rating = 40

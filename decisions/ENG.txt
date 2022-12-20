@@ -1,5 +1,79 @@
 political_decisions = {
 
+	the_british_commonwealth = {
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = the_commonwealth_has_been_found
+			}
+		}
+
+		allow = {
+			revolution_n_counterrevolution = 1
+					AST = { 
+						all_core = { 
+							owned_by = THIS 
+						} 
+					}
+					NZL = { 
+						all_core = { 
+							owned_by = THIS 
+						} 
+					}
+					CAN = { 
+						all_core = { 
+							owned_by = THIS 
+						} 
+					}
+					SAF = { 
+						all_core = { 
+							owned_by = THIS 
+						} 
+					}
+		}
+
+		effect = { 			
+			prestige = 20
+			badboy = -3
+			release = AST 
+			release = NZL 
+			release = CAN 
+			release = SAF 
+			add_country_modifier = {
+				name = the_commonwealth
+				duration = -1
+			}
+			set_country_flag = the_commonwealth_has_been_found
+		}
+	}
+
+	build_titanic = {
+		picture = titanic
+		potential = {
+			is_greater_power = yes
+			exists = yes
+			NOT = { has_global_flag = titanic_built }
+			steel_steamers = 1
+			num_of_ports = 1		
+			tag = ENG		}
+
+		allow = {
+			invention = dreadnoughts
+			high_sea_battle_fleet = 1
+			money = 110000
+		}
+
+		effect = {
+			set_global_flag = titanic_built
+			prestige = 50
+			money = -90000
+			random_list = {
+				60 = { set_country_flag = titanic_sinks }
+				40 = { set_country_flag = titanic_arrives }
+			}
+		}
+	}
+
 	build_the_big_ben = {
 		picture = bigben
 		potential = {

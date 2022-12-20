@@ -561,6 +561,58 @@ army = {
 army = {
 	name = "The Bombay Army"
 	location = 1297
+
+	regiment = {
+		name= "3.5th Indian Division"
+		type = irregular
+		home = 1251
+	}
+	regiment = {
+		name= "1.1st Indian Division"
+		type = irregular
+		home = 1297
+	}
+	regiment = {
+		name= "1.3rd Indian Division"
+		type = irregular
+		home = 1251
+	}
+
+	regiment = {
+		name= "2.1st Indian Division"
+		type = irregular
+		home = 1291
+	}
+
+	regiment = {
+		name= "3.1st Indian Division"
+		type = irregular
+		home = 1299
+	}
+
+	regiment = {
+		name= "1.2nd Indian Division"
+		type = irregular
+		home = 1316
+	}
+
+	regiment = {
+		name= "2.2nd Indian Division"
+		type = irregular
+		home = 1317
+	}
+
+	regiment = {
+		name= "3.2nd Indian Division"
+		type = irregular
+		home = 1317
+	}
+
+}
+
+army = {
+	name = "The Calcutta Army"
+	location = 1256
 	regiment = {
 		name= "1.9th Division"
 		type = infantry
@@ -578,48 +630,6 @@ army = {
 		type = infantry
 		home = 289
 	}
-
-	regiment = {
-		name= "1.1st Indian Division"
-		type = infantry
-		home = 1297
-	}
-
-	regiment = {
-		name= "2.1st Indian Division"
-		type = infantry
-		home = 1291
-	}
-
-	regiment = {
-		name= "3.1st Indian Division"
-		type = infantry
-		home = 1299
-	}
-
-	regiment = {
-		name= "1.2nd Indian Division"
-		type = infantry
-		home = 1316
-	}
-
-	regiment = {
-		name= "2.2nd Indian Division"
-		type = infantry
-		home = 1317
-	}
-
-	regiment = {
-		name= "3.2nd Indian Division"
-		type = infantry
-		home = 1317
-	}
-
-}
-
-army = {
-	name = "The Calcutta Army"
-	location = 1256
 	regiment = {
 		name= "1.10th Division"
 		type = infantry
@@ -636,12 +646,6 @@ army = {
 		name= "3.10th Division"
 		type = infantry
 		home = 265
-	}
-
-	regiment = {
-		name= "1.3rd Indian Division"
-		type = infantry
-		home = 1251
 	}
 
 	regiment = {
@@ -748,11 +752,7 @@ army = {
 		home = 1239
 	}
 
-	regiment = {
-		name= "3.5th Indian Division"
-		type = infantry
-		home = 1251
-	}
+
 
 }
 

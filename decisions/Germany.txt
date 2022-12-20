@@ -171,6 +171,7 @@ luderitz_expedition = {
 				duration = -1
 					}
 		set_country_flag = founding_german_namibia 
+		set_country_flag = prussian_settlement_commission 
 		2084 = { change_province_name = "Luederitzbucht" life_rating = 5 }
 		2086 = {  change_province_name = "Keetmanshoop" life_rating = 5 }
 		2085 = { change_province_name = "Maltahoehe" life_rating = 5 }

@@ -1144,7 +1144,6 @@ ai_boni2 = {
 	administrative_efficiency_modifier = 1
 	army_tech_research_bonus = 0.2
   	tariff_efficiency_modifier = 0.1
-	education_efficiency_modifier = 0.1
  	loan_interest = -0.02
     	icon = 15
 }
@@ -1274,4 +1273,19 @@ forbidden_city = {
 	prestige = 0.01
 	local_ruling_party_support = 0.1
 	icon = 15
+}
+the_commonwealth = {
+	prestige = 0.1
+	supply_consumption = -0.05
+	land_unit_start_experience = 5.0
+	naval_unit_start_experience = 5.0
+	leadership_modifier = 0.1
+	naval_organisation = 0.1
+	research_points_modifier = 0.1
+	diplomatic_points_modifier = 0.25
+  	tariff_efficiency_modifier = 0.05
+ 	loan_interest = -0.02
+	influence_modifier = 0.25
+	factory_output = 0.1
+	icon = 7
 }
