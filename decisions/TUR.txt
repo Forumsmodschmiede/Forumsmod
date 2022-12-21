@@ -1,4 +1,166 @@
 political_decisions = {
+
+	integrate_egypt = {
+		potential = {
+			tag = OTC
+			NOT = { has_global_flag = egypt_integrated }				
+		}
+		
+		allow = {
+			war = no
+			EGY = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			add_accepted_culture = maghrebi
+			add_accepted_culture = misri
+			add_accepted_culture = berber
+			EGY = { 
+				all_core = {
+					add_core = OTC
+					remove_Core = EGY
+				}
+			}
+
+			set_global_flag = egypt_integrated		
+		}
+	}
+
+	form_caliphate = {
+		potential = {
+			tag = TUR
+			NOT = { has_global_flag = caliphate_formed  }					
+		}
+		
+		allow = {
+			war = no
+			all_core = { owned_by = THIS }
+			nationalism_n_imperialism = 1
+
+			1151 = { 
+				OR = {
+					owned_by = THIS 
+					owner = { in_sphere = THIS }
+				}
+			}
+			1157 = { 
+				OR = {
+					owned_by = THIS 
+					owner = { in_sphere = THIS }
+				}
+			}
+			1412 = { 
+				OR = {
+					owned_by = THIS 
+					owner = { in_sphere = THIS }
+				}
+			}
+			1171 = { 
+				OR = {
+					owned_by = THIS 
+					owner = { in_sphere = THIS }
+				}
+			}
+			1167 = { 
+				OR = {
+					owned_by = THIS 
+					owner = { in_sphere = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			change_tag = OTC
+			TUR = { all_core = { remove_core = TUR } }
+			SER = { all_core = { add_core = OTC } }
+			GRE = { all_core = { add_core = OTC } }
+			add_accepted_culture = azerbaijani
+			add_accepted_culture = turkmen
+
+
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = bedouin
+						primary_culture = mashriqi
+					}
+					in_sphere = THIS
+				}
+				annex_to = THIS
+			}
+			
+			add_accepted_culture = bedouin
+			any_country = { 
+				limit = { 
+					primary_culture = bedouin
+				}
+				all_core  = { add_core = OTC }
+				annex_to = THIS 
+			}
+
+			add_accepted_culture = mashriqi
+			any_country = { 
+				limit = { 
+					primary_culture = mashriqi
+				}
+				all_core  = { add_core = OTC } 
+				annex_to = THIS
+			}
+			967 = { add_core = OTC }
+			964 = { add_core = OTC }
+			966 = { add_core = OTC }
+			prestige = 10
+			set_global_flag = caliphate_formed	
+		}
+	}
+
+	conquer_montenegro = {
+		picture = map_montenegro
+		potential = {
+			NOT = { has_country_flag = montenegro_claims }
+			tag = TUR
+			exists = MON
+		}
+		
+		allow = {
+			state_n_government = 1
+			war_policy = jingoism
+		}
+		
+		effect = {
+			badboy = 3
+			set_country_flag = montenegro_claims
+			relation = {
+				who = MON
+				value = -400
+			}
+			diplomatic_influence = {
+				who = MON
+				value = -400
+			}
+			
+			casus_belli = {
+				target = MON
+				type = conquest
+				months = 120
+			}
+		}
+		ai_will_do = {
+			factor = 1 
+			modifier = {
+				factor = 0
+				NOT = {
+					has_country_flag = wallachia_annexed
+					has_country_flag = moldavia_annexed
+				}
+			}
+		}
+	}
+
 	tanzimat_reforms = {
 		potential = {
 			OR = {

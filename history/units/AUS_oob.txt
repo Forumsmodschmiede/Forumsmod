@@ -1,5 +1,15 @@
 #Sphere of Influence
 
+HAN = {
+
+	value = 125
+
+	level = 4
+
+	influence_value = 25
+
+}
+
 BAD = {	
 	value = 125
 	level = 5

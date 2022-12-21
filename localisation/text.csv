@@ -16177,4 +16177,8 @@ the_commonwealth;The Commonwealth;;;;;;;;;;;;;
 the_commonwealth_desc;We have decided to live as first among our dependencies, long live the Commonwealth!;;;;;;;;;;;;;
 the_british_commonwealth_title;The Commonwealth;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 the_british_commonwealth_desc;After the American Independence War Britain realisied that they could no longer hold their vast colonies under direct control. Because of that they began to grant their white colonies more and more autonomy, which would culminate in the Balfour Declaration at the 1926 Imperial Conference, in which the United Kingdom and its dominions agreed they were "equal in status, in no way subordinate one to another in any aspect of their domestic or external affairs, though united by common allegiance to the Crown, and freely associated as members of the British Commonwealth of Nations".
+negotiated_state_transfer;Negotiated State Transfer;;;;;;;;;;;;;
+negotiated_state_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism and without a truce at the end;;;;;;;;;;;;;
+negotiated_state_transfer_short;Transfer $STATE$;;;;;;;;;;;;;
+negotiated_state_transfer_setup;Transfer $STATE$ from $RECIPIENT$;;;;;;;;;;;;;
 ;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
