@@ -637,7 +637,7 @@
 	farmers = {
 		culture = wallonian
 		religion = catholic
-		size = 10175
+		size = 5175
 	}
 
 	clergymen = {
@@ -661,7 +661,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 22375
+		size = 27375
 	}
 }
 #Luxembourg Region (172000)

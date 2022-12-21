@@ -414,29 +414,21 @@ political_decisions = {
 			casus_belli = {
 				target = PRU
 				type = acquire_state
-				months = 24
+				months = 2
 
 			}
 			casus_belli = {
 				target = BAV
 				type = acquire_state
-				months = 24
+				months = 36
 
 			}
 			casus_belli = {
 				target = HES
 				type = acquire_state
-				months = 24
+				months = 36
 
 			}
-		war = {
-			target = PRU
-			attacker_goal = {
-                        casus_belli = acquire_state
-                        state_province_id = 573
-			}
-			call_ally = no
-		}
 
 			prestige = 10
 			badboy = 4

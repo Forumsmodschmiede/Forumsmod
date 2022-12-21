@@ -294,9 +294,9 @@ SAX_558 = { 558 559 560 687 } #Saxony
 
 HES_2560 = { 564 565 566 567 568 2560 3257 3270 } #Hessen
 
-PRU_570 = { 570 573 574 571 } #Palatinate
+PRU_570 = { 570 573 574 571 572 397 } #Palatinate
 
-PRU_575 = { 575 576 577 572 397 396 } #Rheinland
+PRU_575 = { 575 576 577 396 } #Rheinland
 
 PRU_578 = { 578 579 2561 3265 } #Eastern Rheinland
 
@@ -623,7 +623,7 @@ RUS_1079 = { 1078 1079 2670 2671 2676 } #Trans-Baikal
 
 CHI_1082 = { 1082 1083 1085 1084 2617 } #Guanwai - Outer Manchuria
 
-JAP_1086 = { 1086 1087 1088 1089 } #Sakhalin
+JAP_1086 = { 1088 1089 } #Sakhalin
 
 RUS_1182 = { 1182 1183 1194 2610 2702 } #Uralsk
 
@@ -1322,6 +1322,8 @@ TON_2540 = { 2540 2545 2546 2548 } #Tonga
 USA_2543 = { 2543 2544 2547 } #Samoa Islands
 
 FRA_801 = { 801 2551 2552 2553 } #Tahiti
+
+CHI_1086 = { 1086 1087 }
 
 #Chinese Treaty Ports
 #Nanning

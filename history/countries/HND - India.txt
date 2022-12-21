@@ -4,7 +4,7 @@ religion = animist
 government = directorate
 plurality = 0.0
 nationalvalue = nv_liberty
-literacy = 0.08
+literacy = 0.03
 non_state_culture_literacy = 0.1
 prestige = 10
 
