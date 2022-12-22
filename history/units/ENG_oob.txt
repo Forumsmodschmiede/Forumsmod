@@ -230,9 +230,9 @@ COL = {				#Columbia if released
 	influence_value = 5
 }
 SWI = {
-	value = -200		#relation
-	level = 0		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 0
+	value = 125
+	level = 4
+	influence_value = 25
 }
 
 leader = {

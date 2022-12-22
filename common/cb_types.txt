@@ -376,7 +376,7 @@ minor_conquest = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 	
-	construction_speed = 1
+	construction_speed = 0.5
 	
 	on_add = {
 		move_issue_percentage = { 
