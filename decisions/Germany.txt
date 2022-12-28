@@ -1,4 +1,37 @@
 political_decisions = {
+
+	the_jade_purchase = {
+		picture = "wilhelmshaven"
+		potential = {
+			tag = PRU
+			NOT = { has_country_flag = has_asked_for_jade }
+			NOT = { owns = 3259 }
+		}
+		
+		allow = {
+			is_greater_power = yes
+			money = 50000
+			OR = {
+				nationalism_n_imperialism = 1
+				battleship_column_doctrine = 1
+			}
+		}
+		
+		effect = {
+			set_country_flag = has_asked_for_jade
+			treasury = -50000
+			prestige = 5
+					activate_technology = naval_professionalism
+					activate_technology = naval_plans
+			OLD = { 		
+					prestige = 5		
+					treasury = 50000
+					3259 = { secede_province = PRU		remove_core = OLD 	add_core = PRU }
+				 }
+		}
+		
+	}
+	
 	an_mein_volk = {
 		potential = {
 		tag = PRU

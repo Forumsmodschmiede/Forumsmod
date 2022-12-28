@@ -94,6 +94,10 @@ country_event = { id = 99900043
 				limit = {
 					OR = {
 
+						### Heligoland Straits
+						province_id = 533
+						province_id = 3259
+
 						### Gibraltar Straits
 						province_id = 517
 						province_id = 2590

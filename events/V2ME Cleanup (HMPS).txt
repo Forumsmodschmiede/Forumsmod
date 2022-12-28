@@ -1,0 +1,38 @@
+country_event = {
+	id = 477877790
+	title = "AI: Monthly Cleanup Check"
+	desc = "AI: Monthly Cleanup Check"
+	
+	trigger = { 
+	OR = {
+		tag = NEP
+		tag = TIB
+		tag = BUT
+		}
+	}
+		mean_time_to_happen =  {
+		months = 1
+					}
+	
+	option = {
+		name = "Checking..."
+	
+	
+		
+		#ghost units monthly cleanup
+		any_country = {
+			limit = {
+				exists = no
+                is_greater_power = no
+                capital_scope = { NOT = { province_control_days = 120 } }
+                OR = {
+                    is_mobilised = yes
+                    total_amount_of_ships = 1
+                }
+			}
+			annex_to = FROM
+
+		}
+		
+
+}

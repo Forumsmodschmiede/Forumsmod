@@ -380,6 +380,9 @@ political_decisions = {
 			2568 = {
 				add_core = ITA
 			}
+			611 = {
+				add_core = ITA
+			}
 			2669 = {
 				add_core = ITA
 			}

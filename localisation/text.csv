@@ -248,7 +248,8 @@ larochelle;La Rochelle;;;;;;;;x
 hanoi;Hanoi;;;;;;;;x
 trieste;Trieste;;;;;;;;x
 pola;Pola;;;;;;;;x
-wilhelmshaven;Helgoland;;;;;;;;x
+wilhelmshaven;Wilhelmshaven;;;;;;;;x
+heligoland;Helgoland;;;;;;;;x
 nice;Nice;;;;;;;;x
 quebec;Quebec;;;;;;;;x
 fort_william;Fort William;;;;;;;;x
@@ -16181,4 +16182,6 @@ negotiated_state_transfer;Negotiated State Transfer;;;;;;;;;;;;;
 negotiated_state_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism and without a truce at the end;;;;;;;;;;;;;
 negotiated_state_transfer_short;Transfer $STATE$;;;;;;;;;;;;;
 negotiated_state_transfer_setup;Transfer $STATE$ from $RECIPIENT$;;;;;;;;;;;;;
+the_jade_purchase_title;The Jade Treaty;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+the_jade_purchase_desc;We were unable to regain our possessions at the German North Sea coast during the Congress of Vienna. While the lack of a suitable blue water port in the North Sea has previously not been a major concern for us, our merchants are increasingly operating overseas as our reliance on imported goods. Defending international shipping lanes and coasts is thus starting to be recognized as an important task for the $COUNTRY_ADJ$ government. We could offer to purchase 315 hectares of land near the Jade Bight in Frisia to construct a port properly suited to our growing ambitions as a naval power - the Grand Duke of Oldenburg surely won't object.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 ;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,

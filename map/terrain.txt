@@ -2677,19 +2677,25 @@ categories =  {
 		supply_limit = 16
 	}
 
-	wilhelmshaven = {
+	heligoland = {
 		movement_cost = 1.0
-		defence = 2
 		color = { 22 44 66 }
+		defence = 2
 		assimilation_rate = -0.5
 		combat_width = -0.3
+		supply_limit = 6
+	}
+
+	wilhelmshaven = {
+		movement_cost = 1.0
+		color = { 22 44 66 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		supply_limit = 6
+		supply_limit = 16
 	}
-	
+
 	pola = {
 		movement_cost = 1.2
 		defence = 1
