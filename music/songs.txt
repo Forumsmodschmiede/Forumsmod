@@ -559,3 +559,163 @@ song = {
 		}
 	}
 }
+song = {
+	name = "70.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "71.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "72.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "73.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "74.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "75.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "76.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "77.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "78.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "79.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "80.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "81.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "82.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "83.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "84.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "85.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "86.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "87.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "88.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "89.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
