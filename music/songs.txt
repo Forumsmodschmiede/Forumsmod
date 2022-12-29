@@ -719,3 +719,35 @@ song = {
 		}
 	}
 }
+song = {
+	name = "90.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "91.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "92.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+song = {
+	name = "93.mp3"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
