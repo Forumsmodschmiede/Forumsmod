@@ -414,7 +414,7 @@ political_decisions = {
 			casus_belli = {
 				target = PRU
 				type = acquire_state
-				months = 2
+				months = 3
 
 			}
 			casus_belli = {

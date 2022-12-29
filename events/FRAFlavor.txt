@@ -231,19 +231,8 @@ country_event = {
 			casus_belli = {
 				target = SWI
 				type = humiliate
-				months = 24
+				months = 3
 			}
-			casus_belli = {
-				target = SWI
-				type = add_to_sphere
-				months = 48
-			}
-		war = {
-			target = SWI
-			attacker_goal = {
-				casus_belli = humiliate
-			}}
-			call_ally = no
 
 		set_global_flag = LouisNapoleonExtradite
 	}

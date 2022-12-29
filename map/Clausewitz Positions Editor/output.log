@@ -1,2 +1,141 @@
-Dez 21, 2022 10:19:01 PM posed.PositionsEditor main
+Dez 28, 2022 8:20:47 PM posed.PositionsEditor main
 INFORMATION: Java version: 1.8.0_311
+Dez 28, 2022 8:20:49 PM posed.Map loadData
+INFORMATION: Map file is C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map\default.map
+Dez 28, 2022 8:20:49 PM posed.PositionsEditorUI load
+INFORMATION: Loading positions from C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map\positions.txt
+Dez 28, 2022 8:20:49 PM posed.MapPanel createMapImage
+INFORMATION: Reading map from C:\Program Files (x86)\Steam\steamapps\common\Victoria 2\mod\Forumsmod\map/provinces.bmp
+Dez 28, 2022 8:20:50 PM posed.PositionsEditorUI validateObject
+WARNUNG: Unknown object name in 3234 (sea): city
+Dez 28, 2022 8:20:54 PM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 20
+Dez 28, 2022 8:21:01 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 472:
+Dez 28, 2022 8:21:01 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+472 = { 
+    text_position = { x = 2920.253704 y = 1509.629630 } 
+    text_scale = 2.300000
+    unit = { x = 2917.700000 y = 1513.500000 } 
+    factory = { x = 2913.750000 y = 1514.750000 } 
+    building_construction = { x = 2913.350000 y = 1511.600000 } 
+    military_construction = { x = 2920.100000 y = 1507.100000 } 
+    building_position = { fort = { x = 2924.600098 y = 1512.199951 } railroad = { x = 2916.750000 y = 1511.850000 } naval_base = { x = 2922.000000 y = 1504.400024 } } 
+    building_rotation = { naval_base = 4.276058 } 
+} # Corsica
+
+Dez 28, 2022 8:21:01 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Nice
+################################################################################
+472 = { 
+    text_position = { x = 2920.253704 y = 1509.629630 } 
+    text_scale = 2.300000
+    unit = { x = 2918.500000 y = 1511.000000 } 
+    factory = { x = 2913.750000 y = 1514.750000 } 
+    building_construction = { x = 2913.350000 y = 1511.600000 } 
+    military_construction = { x = 2920.100000 y = 1507.100000 } 
+    building_position = { fort = { x = 2924.600098 y = 1512.199951 } railroad = { x = 2916.750000 y = 1511.850000 } naval_base = { x = 2922.000000 y = 1504.400024 } } 
+    building_rotation = { naval_base = 4.276058 } 
+}
+
+Dez 28, 2022 8:21:03 PM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 20
+Dez 28, 2022 8:21:15 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 471:
+Dez 28, 2022 8:21:15 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+471 = { 
+    text_position = { x = 2910.500000 y = 1507.300000 } 
+    text_rotation = 5.65
+    text_scale = 1.80000
+    factory = { x = 2909.699951 y = 1517.500000 } 
+    building_construction = { x = 2908.300000 y = 1512.900000 } 
+    military_construction = { x = 2912.650000 y = 1509.150000 } 
+    building_position = { fort = { x = 2915.000000 y = 1505.000000 } railroad = { x = 2909.400000 y = 1510.600000 } naval_base = { x = 2917.000000 y = 1501.199951 } } 
+    building_rotation = { naval_base = 4.014258 } 
+} # Nice
+
+Dez 28, 2022 8:21:15 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Frejus
+################################################################################
+471 = { 
+    text_position = { x = 2910.500000 y = 1507.300000 } 
+    text_rotation = 5.65
+    text_scale = 1.80000
+    unit = { x = 2910.650000 y = 1506.250000 } 
+    factory = { x = 2909.699951 y = 1517.500000 } 
+    building_construction = { x = 2908.300000 y = 1512.900000 } 
+    military_construction = { x = 2912.650000 y = 1509.150000 } 
+    building_position = { fort = { x = 2915.000000 y = 1505.000000 } railroad = { x = 2909.400000 y = 1510.600000 } naval_base = { x = 2917.000000 y = 1501.199951 } } 
+    building_rotation = { naval_base = 4.014258 } 
+}
+
+Dez 28, 2022 8:21:23 PM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 18,182
+Dez 28, 2022 8:21:27 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 469:
+Dez 28, 2022 8:21:27 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+469 = { 
+    text_position = { x = 2902.795000 y = 1520.325000 } 
+    text_rotation = 6.283185
+    text_scale = 2.300000
+    unit = { x = 2902.960000 y = 1524.340000 } 
+    factory = { x = 2896.360000 y = 1522.470000 } 
+    building_construction = { x = 2901.585000 y = 1517.300000 } 
+    military_construction = { x = 2903.730000 y = 1511.525000 } 
+    building_position = { fort = { x = 2909.230000 y = 1525.880000 } railroad = { x = 2902.520000 y = 1514.660000 } } 
+} # Toulon
+
+Dez 28, 2022 8:21:27 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Digne
+################################################################################
+469 = { 
+    text_position = { x = 2902.795000 y = 1520.325000 } 
+    text_rotation = 6.283185
+    text_scale = 2.300000
+    unit = { x = 2903.015000 y = 1519.005000 } 
+    factory = { x = 2896.360000 y = 1522.470000 } 
+    building_construction = { x = 2901.585000 y = 1517.300000 } 
+    military_construction = { x = 2903.730000 y = 1511.525000 } 
+    building_position = { fort = { x = 2909.230000 y = 1525.880000 } railroad = { x = 2902.520000 y = 1514.660000 } } 
+}
+
+Dez 28, 2022 8:22:17 PM posed.ProvincePanel setImage
+INFORMATION: Province image scale: 20
+Dez 28, 2022 8:22:24 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Province 431:
+Dez 28, 2022 8:22:24 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: Old entry:
+431 = { 
+    text_position = { x = 2876.500000 y = 1559.300000 } 
+    text_scale = 2.400000
+    unit = { x = 2876.000000 y = 1558.000000 } 
+    factory = { x = 2880.400000 y = 1555.750000 } 
+    building_construction = { x = 2887.150000 y = 1563.600000 } 
+    military_construction = { x = 2870.500000 y = 1556.600000 } 
+    building_position = { fort = { x = 2874.450000 y = 1563.450000 } } 
+} # Besancon
+
+Dez 28, 2022 8:22:24 PM posed.PositionsEditorUI provinceListMouseClicked
+INFORMATION: New entry:
+################################################################################
+# Macon
+################################################################################
+431 = { 
+    text_position = { x = 2876.500000 y = 1559.300000 } 
+    text_scale = 2.400000
+    unit = { x = 2876.750000 y = 1558.650000 } 
+    factory = { x = 2880.400000 y = 1555.750000 } 
+    building_construction = { x = 2887.150000 y = 1563.600000 } 
+    military_construction = { x = 2870.500000 y = 1556.600000 } 
+    building_position = { fort = { x = 2874.450000 y = 1563.450000 } } 
+}
+

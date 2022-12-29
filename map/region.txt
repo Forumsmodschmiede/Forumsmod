@@ -226,9 +226,9 @@ FRA_442 = { 442 444 443 434 } #Poitou
 
 FRA_445 = { 445 446 447 450 } #Limousin
 
-FRA_448 = { 448 430 } #Auvergne 
+FRA_448 = { 448 430 452 453 } #Auvergne 
 
-FRA_451 = { 451 452 453 454 } #Rhone
+FRA_451 = { 467 468 469 470 471 451 454 } #Rhone
 
 FRA_455 = { 457 460 } #Le Midi
 
@@ -238,7 +238,7 @@ FRA_461 = { 461 463 449 462 } #Languedoc
 
 SAR_466 = { 465 466 472} #Savoie
 
-FRA_467 = { 467 468 469 470 471 } #Provence
+FRA_467 = { } #Provence
 
 
 ### Spain & Portugal
