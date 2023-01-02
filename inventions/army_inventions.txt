@@ -814,7 +814,7 @@ mitrailleuse = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 3
+			factor = 2
 			war = yes
 			war_countries = { invention = mitrailleuse }
 			invention = machine_gun_armament

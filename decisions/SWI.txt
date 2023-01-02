@@ -12,7 +12,6 @@ political_decisions = {
 			ai = yes
 		}
 		effect = {
-			prestige = -20
 			money = 2000000
 			artillery = 2000
 			canned_food = 2000
@@ -69,7 +68,6 @@ political_decisions = {
 			606 = {
 				infrastructure = 4
 			}
-			prestige = -10
 			set_country_flag = gotthard_tunnel_built
 		}
 	}

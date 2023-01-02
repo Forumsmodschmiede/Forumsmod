@@ -487,8 +487,6 @@ country_event = { id = 99900043
 						province_id = 454
 						province_id = 468
 						province_id = 467
-						province_id = 433
-						province_id = 465
 						
 						### The Amur
 						province_id = 1084

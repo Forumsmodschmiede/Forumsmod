@@ -11,7 +11,8 @@ song = {
 	name = "1.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -19,7 +20,8 @@ song = {
 	name = "2.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -27,7 +29,8 @@ song = {
 	name = "3.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -35,7 +38,8 @@ song = {
 	name = "4.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -43,7 +47,8 @@ song = {
 	name = "5.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -51,7 +56,8 @@ song = {
 	name = "6.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -59,7 +65,8 @@ song = {
 	name = "7.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -67,7 +74,8 @@ song = {
 	name = "8.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -75,7 +83,8 @@ song = {
 	name = "9.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -83,7 +92,8 @@ song = {
 	name = "10.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -91,7 +101,8 @@ song = {
 	name = "11.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -99,7 +110,8 @@ song = {
 	name = "12.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -107,7 +119,8 @@ song = {
 	name = "13.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -115,7 +128,8 @@ song = {
 	name = "14.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -123,7 +137,8 @@ song = {
 	name = "15.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -131,7 +146,8 @@ song = {
 	name = "16.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			year = 1846 
 		}
 	}
 }
@@ -139,7 +155,12 @@ song = {
 	name = "17.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -147,7 +168,12 @@ song = {
 	name = "18.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -155,7 +181,12 @@ song = {
 	name = "19.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -163,7 +194,12 @@ song = {
 	name = "20.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -171,7 +207,12 @@ song = {
 	name = "21.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -179,7 +220,12 @@ song = {
 	name = "22.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -187,7 +233,12 @@ song = {
 	name = "23.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -195,7 +246,12 @@ song = {
 	name = "24.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -203,7 +259,12 @@ song = {
 	name = "25.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -211,7 +272,12 @@ song = {
 	name = "26.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -219,7 +285,12 @@ song = {
 	name = "27.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -227,7 +298,12 @@ song = {
 	name = "28.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -235,7 +311,12 @@ song = {
 	name = "29.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -243,7 +324,12 @@ song = {
 	name = "30.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -251,7 +337,12 @@ song = {
 	name = "31.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -259,7 +350,12 @@ song = {
 	name = "32.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1846 }
+		}
+		modifier = {
+			factor = -1
+			year = 1856 
 		}
 	}
 }
@@ -267,7 +363,12 @@ song = {
 	name = "33.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -275,7 +376,12 @@ song = {
 	name = "34.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -283,7 +389,12 @@ song = {
 	name = "35.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -291,7 +402,12 @@ song = {
 	name = "36.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -299,7 +415,12 @@ song = {
 	name = "37.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -307,7 +428,12 @@ song = {
 	name = "38.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -315,7 +441,12 @@ song = {
 	name = "39.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -323,7 +454,12 @@ song = {
 	name = "40.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -331,7 +467,12 @@ song = {
 	name = "41.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -339,7 +480,12 @@ song = {
 	name = "42.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -347,7 +493,12 @@ song = {
 	name = "43.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -355,7 +506,12 @@ song = {
 	name = "44.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -363,7 +519,12 @@ song = {
 	name = "45.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -371,7 +532,12 @@ song = {
 	name = "46.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -379,7 +545,12 @@ song = {
 	name = "47.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -387,7 +558,12 @@ song = {
 	name = "48.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1856 }
+		}
+		modifier = {
+			factor = -1
+			year = 1866 
 		}
 	}
 }
@@ -395,7 +571,12 @@ song = {
 	name = "49.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -403,7 +584,12 @@ song = {
 	name = "50.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -411,7 +597,12 @@ song = {
 	name = "51.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -419,7 +610,12 @@ song = {
 	name = "52.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -427,7 +623,12 @@ song = {
 	name = "53.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -435,7 +636,12 @@ song = {
 	name = "54.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -443,7 +649,12 @@ song = {
 	name = "55.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -451,7 +662,12 @@ song = {
 	name = "56.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -459,7 +675,12 @@ song = {
 	name = "57.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -467,7 +688,12 @@ song = {
 	name = "58.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -475,7 +701,12 @@ song = {
 	name = "59.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -483,7 +714,12 @@ song = {
 	name = "60.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -491,7 +727,12 @@ song = {
 	name = "61.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -499,7 +740,12 @@ song = {
 	name = "62.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -507,7 +753,12 @@ song = {
 	name = "63.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -515,7 +766,12 @@ song = {
 	name = "64.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1866 }
+		}
+		modifier = {
+			factor = -1
+			year = 1876 
 		}
 	}
 }
@@ -523,7 +779,12 @@ song = {
 	name = "65.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -531,7 +792,12 @@ song = {
 	name = "66.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -539,7 +805,12 @@ song = {
 	name = "67.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -547,7 +818,12 @@ song = {
 	name = "68.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -555,7 +831,12 @@ song = {
 	name = "69.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -563,7 +844,12 @@ song = {
 	name = "70.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -571,7 +857,12 @@ song = {
 	name = "71.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -579,7 +870,12 @@ song = {
 	name = "72.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -587,7 +883,12 @@ song = {
 	name = "73.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -595,7 +896,12 @@ song = {
 	name = "74.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -603,7 +909,12 @@ song = {
 	name = "75.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -611,7 +922,12 @@ song = {
 	name = "76.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -619,7 +935,12 @@ song = {
 	name = "77.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -627,7 +948,12 @@ song = {
 	name = "78.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -635,7 +961,12 @@ song = {
 	name = "79.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -643,7 +974,12 @@ song = {
 	name = "80.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1876 }
+		}
+		modifier = {
+			factor = -1
+			year = 1886 
 		}
 	}
 }
@@ -651,7 +987,8 @@ song = {
 	name = "81.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -659,7 +996,8 @@ song = {
 	name = "82.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -667,7 +1005,8 @@ song = {
 	name = "83.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -675,7 +1014,8 @@ song = {
 	name = "84.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -683,7 +1023,8 @@ song = {
 	name = "85.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -691,7 +1032,8 @@ song = {
 	name = "86.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -699,7 +1041,8 @@ song = {
 	name = "87.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -707,7 +1050,8 @@ song = {
 	name = "88.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -715,7 +1059,8 @@ song = {
 	name = "89.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -723,7 +1068,8 @@ song = {
 	name = "90.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -731,7 +1077,8 @@ song = {
 	name = "91.mp3"
 	chance = {
 		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }
@@ -739,15 +1086,8 @@ song = {
 	name = "92.mp3"
 	chance = {
 		modifier = {
-			factor = 1
-		}
-	}
-}
-song = {
-	name = "93.mp3"
-	chance = {
-		modifier = {
-			factor = 1
+			factor = -1
+			NOT = { year = 1886 }
 		}
 	}
 }

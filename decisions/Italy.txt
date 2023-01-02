@@ -105,7 +105,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 20
-			badboy = -10
+			badboy = -5
 			relation = {
 				who = FRA
 				value = 20

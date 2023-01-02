@@ -51,7 +51,12 @@ political_decisions = {
 		effect = {
 			set_country_flag = luxembourg_crisis
 			badboy = 3
-			397 = { add_core = FRA }
+			casus_belli = {
+				target = LUX
+				type = acquire_state
+				months = 3
+
+			}
             		NET = { release_vassal = LUX }
             		BNX = { release_vassal = LUX }
 		}

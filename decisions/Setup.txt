@@ -1109,11 +1109,6 @@ political_decisions = {
 				create_vassal = BRA
 			}
 			
-			VEN = {
-				all_core = {
-					add_core = LOM
-				}
-			}
 		}
 	}
 	
