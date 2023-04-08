@@ -5,6 +5,10 @@ political_decisions = {
 		potential = {
 				tag = JAP
 			civilized = yes
+			owns = 1086 #Pogobi
+			owns = 1087 #Ootomari
+			owns = 1088 #Shumshu
+			owns = 1089 #Etorofu
 			NOT = { has_global_flag = japanese_sakhalin }
 		}
 		allow = {
@@ -52,6 +56,10 @@ political_decisions = {
 		picture = map_yellow_sea
 		potential = {
 			tag = RUS
+			owns = 1086 #Pogobi
+			owns = 1087 #Ootomari
+			owns = 1088 #Shumshu
+			owns = 1089 #Etorofu
 			has_global_flag = japanese_sakhalin
 		}
 		allow = {

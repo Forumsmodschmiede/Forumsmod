@@ -3,16 +3,23 @@ political_decisions = {
 		potential = {
 			tag = SWI
 			owns = 608
+		OR = {
 			608 = {
 				is_core = PRU
+			}
+			608 = {
+				is_core = NGF
+			}
+			608 = {
+				is_core = GER
+			}
 			}
 		}
 		allow = {
 			romanticism = 1
-			ai = yes
 		}
 		effect = {
-			money = 2000000
+			money = 200000
 			artillery = 2000
 			canned_food = 2000
 			ammunition = 2000
@@ -45,15 +52,10 @@ political_decisions = {
 		
 		allow = {
 			invention = machine_tools
-			ai = yes
 		}
 		
-		effect = {					define_general = {
-				name = "Gerhard Broder"
-				personality = defence_5.1
-				background = attack_3.1
-			}	
-			money = 2000000
+		effect = {					
+			money = 200000
 			artillery = 2000
 			canned_food = 2000
 			ammunition = 2000

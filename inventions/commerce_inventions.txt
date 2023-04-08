@@ -415,6 +415,10 @@ john_ramsay_mcculloch = {
 			prestige = 30
 		}
 		modifier = {
+			factor = -20
+			not = { civilized = yes }
+		}
+		modifier = {
 			factor = 2
 			is_greater_power = yes
 		}
@@ -433,6 +437,10 @@ nassau_william_sr = {
 			economic_policy = laissez_faire
 		}
 		modifier = {
+			factor = -20
+			not = { civilized = yes }
+		}
+		modifier = {
 			factor = 1
 			ruling_party_ideology = liberal
 		}
@@ -446,6 +454,10 @@ james_mill = {
 	news = no
 	chance = {
 		base = 2
+		modifier = {
+			factor = -20
+			not = { civilized = yes }
+		}
 		modifier = {
 			factor = 2
 			nationalvalue = nv_equality

@@ -117,22 +117,18 @@ party_issues = {
 	
 	religious_policy = {
 		pro_atheism = {
-			factory_output = 0.01
 		}
 		secularized = {
-			ruling_party_support = 0.1
 		}
 		pluralism = {
-			pop_militancy_modifier = -0.01
 		}
 		moralism = {
-			pop_consciousness_modifier = -0.01
 		}
 	}
 	citizenship_policy = {
 		residency = {
 			rules = { primary_culture_voting = yes }
-			non_accepted_pop_militancy_modifier = 0.01
+			non_accepted_pop_militancy_modifier = 0.02
 			core_pop_militancy_modifier = -0.01
 		}
 		limited_citizenship = {

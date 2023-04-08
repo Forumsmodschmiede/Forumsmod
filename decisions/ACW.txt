@@ -40,7 +40,10 @@ political_decisions = {
 			war = no
 			total_amount_of_ships = 4
 			JAP = {
+			OR = {
 			part_of_sphere = no
+			in_sphere = USA
+				}
 			government = shogunate
 			is_greater_power = no
 				}

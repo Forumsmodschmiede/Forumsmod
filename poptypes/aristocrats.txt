@@ -1205,7 +1205,7 @@ ideologies = {
 	}
 	
 	reactionary = {
-		factor = 1.4
+		factor = 1.6
 		modifier = {
 			factor = 0.5
 			not = { militancy = 6 }
@@ -1484,7 +1484,117 @@ ideologies = {
 			poor_strata_militancy = 9
 		}
 	}
-
+	liberal = {
+		factor = 0.5
+		modifier = {
+			factor = 1.2
+			consciousness = 9 
+		}
+		modifier = {
+			factor = 0.5
+			militancy = 6
+		}
+		modifier = {
+			factor = 1.2
+			consciousness = 8
+		}
+		modifier = {
+			factor = 1.2
+			consciousness = 7
+		}
+		modifier = {
+			factor = 1.2
+			consciousness = 6
+		}
+		modifier = {
+			factor = 1.2
+			consciousness = 5
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { is_ideology_enabled = socialist }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { is_ideology_enabled = communist }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { is_ideology_enabled = anarcho_liberal }
+		}
+		modifier = {
+			factor = 1.1
+			nationalvalue = nv_liberty
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.02
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.04
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.06
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.08
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.10
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.12
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.14
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.16
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.18
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.20
+		}
+		modifier = {
+			factor = 1.1
+			OR = { 
+			poor_strata_militancy = 5
+			middle_strata_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 1.1
+			OR = {
+			poor_strata_militancy = 6
+			middle_strata_militancy = 6
+			}
+		}
+		modifier = {
+			factor = 1.1
+			OR = {
+			poor_strata_militancy = 7
+			middle_strata_militancy = 7
+			}
+		}
+		modifier = {
+			factor = 1.1
+			OR = {
+			poor_strata_militancy = 8
+			middle_strata_militancy = 8
+			}
+		}
+	}
 	socialist = {
 		factor = 0
 	}
@@ -1492,9 +1602,6 @@ ideologies = {
 		factor = 0
 	}
 	
-	radical = {
-		factor = 0
-	}
 	anarcho_liberal = {
 		factor = 0
 	}

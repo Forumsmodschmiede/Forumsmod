@@ -122,7 +122,10 @@ political_decisions = {
 		picture = map_montenegro
 		potential = {
 			NOT = { has_country_flag = montenegro_claims }
-			tag = TUR
+			OR = {
+				tag = TUR
+				tag = OTC
+			}
 			exists = MON
 		}
 		

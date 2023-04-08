@@ -33,6 +33,7 @@ good_health_care_fully_funded;Fully Funded Healthcare;;;;;;;;;;;;;
 low_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;
 acceptable_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;
 good_schools_fully_funded;Fully Funded Education;;;;;;;;;;;;;
+good_schools_1;Good Schools;;;;;;;;;;;;;
 no_health_care_desc;The government doesn't care about healthcare and no funding for it exists. The few health institutions that exist are inherited from medieval times and are equipped accordingly. The medical career is an informal profession, mainly linked to the church. Hospitals use rudimentary lighting, facilities are overcrowded and infectious diseases round the halls and corners of the buildings. Prayers are commonly recommended to treat ailments.;;;;;;;;;;;;;
 trinket_health_care;Trinket Healthcare;;;;;;;;;;;;;
 trinket_health_care_desc;Doctors and nurses have a rudimentary understanding of wounds and diseases, partially relying on old beliefs when treating patients, but they do have formal training. Hospitals have rules to reduce overcrowding (beds are spaced a meter apart), provisions for ventilation, and the sewers leading from the hospital are flushed several times a day while the latrines/drains are disinfected with peat charcoal. There is meager collection of patient data but there aren't any proper sanitation standards for hospitals nor government agencies to check them. Healthcare facilities are hard to find.\n§YFor the full effects of this reform, your administration spending should be at least 20%.§W;;;;;;;;;;;;;
