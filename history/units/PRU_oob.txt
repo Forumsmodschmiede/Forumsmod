@@ -323,7 +323,7 @@ leader = {
 	type = land
 	personality = defence_2.1
 	background = attack_3.1
-	prestige = 0.5
+	prestige = 0.4
 }
 
 leader = {

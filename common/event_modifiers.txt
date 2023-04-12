@@ -69,7 +69,7 @@ unshakable_autocracy = {
 ##### POLITICAL EVENTS ######
 government_sanitarium = {
 	population_growth = 0.005
-	icon = 19
+	icon = 17
 }
 
 government_confusion = {
@@ -83,7 +83,7 @@ government_confusion = {
 spirit_of_unification = {
 	prestige = 0.01
 	core_pop_militancy_modifier = -0.02
-	icon = 19
+	icon = 17
 }
 
 ##### TECH SCHOOLS ######
@@ -240,7 +240,7 @@ colonial_recruitment = {
 
 baby_boom = {
 	population_growth = 0.002
-	icon = 19
+	icon = 17
 }
 
 loyal_askaris = {
@@ -534,7 +534,7 @@ libertine_culture = {
 	prestige = -0.01
 	farm_rgo_eff = -0.05
 	mine_rgo_eff = -0.05
-	icon = 19
+	icon = 18
 }
 
 temperance_league = {
@@ -557,7 +557,7 @@ destitution_and_poverty = {
 	farm_rgo_eff = -0.05
 	mine_rgo_eff = -0.05
 	pop_militancy_modifier = 0.02
-	icon = 19
+	icon = 18
 }
 
 liquor_prohibition = {
@@ -660,7 +660,7 @@ prussian_general_staff = {
 ##### Boer War #####
 trek_boers = {
 	immigrant_attract = 2		#200%
-	icon = 19
+	icon = 17
 }
 
 boer_exodus = {
@@ -1263,7 +1263,7 @@ total_reform = {
 	icon = 3
 }
 multicultural_empire = {
-	global_assimilation_rate = -0.5
+	global_assimilation_rate = -1
 	icon = 2
 }
 grant_cooldown = {
@@ -1287,5 +1287,11 @@ the_commonwealth = {
  	loan_interest = -0.02
 	influence_modifier = 0.25
 	factory_output = 0.1
+	icon = 7
+}
+signed_the_geneva_convention = {
+	war_exhaustion = -0.02
+	org_regain = 0.05
+	badboy = 0.01
 	icon = 7
 }

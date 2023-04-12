@@ -3,33 +3,16 @@ political_decisions = {
 		potential = {
 			tag = SWI
 			owns = 608
-		OR = {
 			608 = {
 				is_core = PRU
 			}
-			608 = {
-				is_core = NGF
-			}
-			608 = {
-				is_core = GER
-			}
-			}
 		}
 		allow = {
+			prestige = 1
 			romanticism = 1
 		}
 		effect = {
-			money = 200000
-			artillery = 2000
-			canned_food = 2000
-			ammunition = 2000
-			small_arms = 2000
-			cotton = 2000
-			steel = 2000
-			iron = 2000
-			coal = 2000
-			explosives = 2000
-			wool = 2000
+			prestige = 5
 			608 = {
 				remove_core = PRU
 				remove_core = NGF
@@ -37,10 +20,60 @@ political_decisions = {
 			}
 			relation = {
 				who = PRU
-				value = 50
+				value = 20
 			}
 		}
 	}
+	call_geneva_convention = {
+		potential = {
+			tag = SWI
+			owns = 607
+			NOT = {
+				has_global_flag = geneva_convention_held
+			}
+		}
+		
+		allow = {
+			any_greater_power = {
+				war_exhaustion = 5
+			}
+			empiricism = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = signed_the_geneva_convention
+				duration = -1
+			}
+			set_global_flag = geneva_convention_held
+			prestige = 10
+		}
+	}
+	
+	sign_the_geneva_convention = {
+		potential = {
+			civilized = yes
+			has_global_flag = geneva_convention_held
+			NOT = {
+				has_country_modifier = signed_the_geneva_convention
+			}
+		}
+		
+		allow = {
+			NOT = {
+				badboy = 1
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = signed_the_geneva_convention
+				duration = -1
+			}
+			badboy = -1
+		}
+	}
+	
 	build_gotthard_tunnel = {
 		potential = {
 			tag = SWI
@@ -54,22 +87,11 @@ political_decisions = {
 			invention = machine_tools
 		}
 		
-		effect = {					
-			money = 200000
-			artillery = 2000
-			canned_food = 2000
-			ammunition = 2000
-			small_arms = 2000
-			cotton = 2000
-			steel = 2000
-			iron = 2000
-			coal = 2000
-			explosives = 2000
-			wool = 2000
-			leadership = 80
+		effect = {
 			606 = {
 				infrastructure = 4
 			}
+			prestige = 5
 			set_country_flag = gotthard_tunnel_built
 		}
 	}

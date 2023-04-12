@@ -270,11 +270,11 @@ gas_attack_capability = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 3
+			factor = 2
 			invention = cracking
 		}
 		modifier = {
-			factor = 3
+			factor = 2
 			invention = carbon_soil_enrichment
 		}
 		modifier = {
@@ -291,7 +291,7 @@ gas_defense_capability = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 15
+			factor = 5
 			war = yes
 			war_countries = { invention = gas_attack_capability }
 		}
