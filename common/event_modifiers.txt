@@ -240,7 +240,7 @@ colonial_recruitment = {
 
 baby_boom = {
 	population_growth = 0.002
-	icon = 17
+	icon = 19
 }
 
 loyal_askaris = {
@@ -1294,4 +1294,9 @@ signed_the_geneva_convention = {
 	org_regain = 0.05
 	badboy = 0.01
 	icon = 7
+}
+indian_nerf = {
+	local_RGO_output = -0.5
+	local_factory_output = -0.5
+	icon = 20
 }

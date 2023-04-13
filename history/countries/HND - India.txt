@@ -1,13 +1,11 @@
 capital = 1236
 primary_culture = marathi
 religion = animist
-government = directorate
+government = democracy
 plurality = 0.0
 nationalvalue = nv_liberty
-literacy = 0.03
-non_state_culture_literacy = 0.1
-prestige = 10
-
+literacy = 0.02
+civilized = no
 
 ruling_party = HND_conservative
 upper_house = {

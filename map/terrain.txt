@@ -781,7 +781,8 @@ categories =  {
 	}
 
 	karlsruhe = {
-		movement_cost = 1.0
+		movement_cost = 1.2
+		defence = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
@@ -2290,16 +2291,6 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 6
-	}
-
-	chisinau = {
-		movement_cost = 1.0
-		color = { 22 44 66 }
-		farm_rgo_size = 0.0
-		farm_rgo_eff = 0.0
-		mine_rgo_size = 0.0
-		mine_rgo_eff = 0.0
-		supply_limit = 16
 	}
 
 	kazan = {

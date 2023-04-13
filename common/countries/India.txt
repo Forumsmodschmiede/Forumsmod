@@ -1,5 +1,4 @@
-color = {170  10  10}
-democracy = {150 77 240}
+color = {150 77 240}
 graphical_culture = IndianGC
 party = {
 	name = "HND_conservative"

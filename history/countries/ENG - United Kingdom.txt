@@ -11,6 +11,7 @@ civilized = yes
 #GreaterPowers = prestige
 prestige = 100
 
+decision = literacy_ENG
 
 # Political reforms
 slavery = no_slavery

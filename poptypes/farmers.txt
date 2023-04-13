@@ -956,7 +956,7 @@ promote_to =
 		}
 
         modifier = {
-            factor = -20
+            factor = -100
 	OR = {
 	AND = {
             soldiers = 0.02
@@ -1061,7 +1061,7 @@ promote_to =
 		}
 
         modifier = {
-            factor = -20
+            factor = -5
 	OR = {
 		culture = beifaren
 		culture = nanfaren
