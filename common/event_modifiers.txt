@@ -1298,5 +1298,6 @@ signed_the_geneva_convention = {
 indian_nerf = {
 	local_RGO_output = -0.5
 	local_factory_output = -0.5
+	immigrant_push = -0.5
 	icon = 20
 }

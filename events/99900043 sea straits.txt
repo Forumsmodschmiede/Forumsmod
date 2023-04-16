@@ -26,12 +26,6 @@ country_event = { id = 99900043
 			any_owned = {
 				limit = {
 					OR = {
-						### Copenhagen Region
-						province_id = 372
-						province_id = 334
-						province_id = 373
-						province_id = 2557
-						province_id = 371
 						
 
 						
@@ -93,6 +87,18 @@ country_event = { id = 99900043
 			any_owned = {
 				limit = {
 					OR = {
+
+						### Balearic Region
+						province_id = 502
+						province_id = 498
+
+
+						### Copenhagen Region
+						province_id = 372
+						province_id = 334
+						province_id = 373
+						province_id = 2557
+						province_id = 371
 
 						### Heligoland Straits
 						province_id = 533
