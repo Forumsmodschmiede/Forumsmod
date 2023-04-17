@@ -30,6 +30,7 @@ country_event = {
 			primary_culture = malayalam
 			primary_culture = tamil
 			primary_culture = telegu
+			primary_culture = baluchi
 		}
 	}
 
