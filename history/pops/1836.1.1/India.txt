@@ -9374,52 +9374,5 @@
 		size = 90
 	}
 }
-#Fort William
-3263 = {
-	aristocrats = {
-		culture = marathi
-		religion = hindu
-		size = 20
-	}
-	officers = {
-		culture = british
-		religion = protestant
-		size = 50
-	}
-	
-	artisans = {
-		culture = british
-		religion = protestant
-		size = 2050
-	}
-	
-	bureaucrats = {
-		culture = british
-		religion = protestant
-		size = 500
-	}
-	
-	farmers = {
-		culture = marathi
-		religion = hindu
-		size = 109500
-	}
-	
-	artisans = {
-		culture = marathi
-		religion = sunni
-		size = 1000
-	}
-	
-	farmers = {
-		culture = marathi
-		religion = sunni
-		size = 3250
-	}
-	
-	artisans = {
-		culture = marathi
-		religion = hindu
-		size = 1000
-	}
+
 }

@@ -12523,55 +12523,55 @@
 #Guangzhouwan (40000/10000 POPS)
 3249 = {
 	clergymen = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 10
 	}
 
 	artisans = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 100
 	}
 
 	soldiers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 10
 	}
 
 	farmers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 250
 	}
 
 	aristocrats = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 40
 	}
 	
 	clergymen = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 90
 	}
 
 	artisans = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 1400
 	}
 
 	soldiers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 90
 	}
 
 	farmers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = mahayana
 		size = 8000
 	}
@@ -12824,7 +12824,7 @@
 	}
 }
 #Liaocheng without capital-only pops
-3309 = {
+3263 = {
 	clergymen = {
 		culture = beifaren
 		religion = mahayana

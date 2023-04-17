@@ -3175,7 +3175,6 @@ From;To;Type;Through;Data;Comment
 3260;3234;impassable;0;0;
 3261;3234;impassable;0;0;
 3262;3234;impassable;0;0;
-3263;3234;impassable;0;0;
 3264;3234;impassable;0;0;
 3265;3234;impassable;0;0;
 3266;3234;impassable;0;0;
@@ -3873,7 +3872,6 @@ From;To;Type;Through;Data;Comment
 2796;3300;sea;0;0;
 2796;1251;sea;0;0;
 2796;1256;sea;0;0;
-2796;3263;sea;0;0;
 2796;3303;sea;0;0;
 2796;1254;sea;0;0;
 2968;2253;sea;0;0;

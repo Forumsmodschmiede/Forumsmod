@@ -120117,29 +120117,7 @@
 
     }
 
-} # Fort William
-
-3263 = {
-    text_position = {
-        x = 4176.650000
-        y = 1108.00000
-    }
-
-    text_rotation = 0.5
-    text_scale = 1.3
-    building_position = {
-        naval_base = {
-            x = 4178
-            y = 1113
-        }
-
-    }
-
-    building_rotation = {
-        naval_base = 1
-    }
-
-} # Nicobar Islands
+}  # Nicobar Islands
 
 3264 = {
     text_position = {
@@ -122012,7 +121990,7 @@
 
 }
 
-3309 = {
+3263 = {
     text_position = {
         x = 4614.621667
         y = 1371.828333
