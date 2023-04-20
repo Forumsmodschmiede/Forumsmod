@@ -1427,7 +1427,7 @@ country_event = {
 		is_ideology_enabled = fascist
 		civilized = yes
 		fascist = 5
-		unemployment = 0.05
+		unemployment = 0.01
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
@@ -1573,15 +1573,15 @@ country_event = {
 			great_war_experience = 1
 		}
 		modifier = {
-			factor = 0.9
+			factor = 2
 			mass_politics = 1
 		}
 		modifier = {
-			factor = 0.9
+			factor = 1.2
 			anti__rationalism = 1
 		}
 		modifier = {
-			factor = 0.9
+			factor = 1.1
 			social_alienation = 1
 		}
 		modifier = {
@@ -1595,7 +1595,7 @@ country_event = {
 			nationalvalue = nv_liberty
 		}
 		modifier = {
-			factor = 0.9
+			factor = 1.2
 			nationalvalue = nv_order
 		}
 	}
@@ -1624,7 +1624,7 @@ country_event = {
 		political_reform = state_controlled
 		political_reform = underground_parties
 		any_pop = {
-			militancy = 8
+			militancy = 4
 		}
 	}
 }
@@ -1641,7 +1641,7 @@ country_event = {
 		civilized = yes
 		war = no
 		war_exhaustion = 1
-		unemployment = 0.02
+		unemployment = 0.01
 		OR = {
 			government = prussian_constitutionalism
 			government = democracy
@@ -1651,7 +1651,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 30
+		months = 50
 		modifier = {
 			factor = 0.9
 			average_consciousness = 5
@@ -1858,9 +1858,6 @@ country_event = {
 			government = democracy
 			government = hms_government
 			government = absolute_monarchy
-		}
-		NOT = {
-			administration_spending = 0.7
 		}
 	}
 	

@@ -5,7 +5,7 @@ country_event = { id = 99900047
     picture = "heligoland_treaty_1"
 
 
-	trigger = {			NOT = { tag = ENG }
+	trigger = {		
 			any_owned_province = {
 				is_core = HND
 			NOT = { has_province_modifier = indian_nerf }
@@ -25,4 +25,3 @@ country_event = { id = 99900047
 			
 	}
 }
-

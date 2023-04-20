@@ -1142,7 +1142,7 @@ ai_boni2 = {
 	land_organisation = 0.2
 	land_unit_start_experience = 5.0
 	administrative_efficiency_modifier = 1
-	army_tech_research_bonus = 0.2
+	army_tech_research_bonus = 0.1
   	tariff_efficiency_modifier = 0.1
  	loan_interest = -0.02
     	icon = 15
@@ -1297,7 +1297,7 @@ signed_the_geneva_convention = {
 }
 indian_nerf = {
 	local_RGO_output = -0.5
-	local_factory_output = -0.5
+	local_factory_throughput = -0.5
 	immigrant_push = -0.5
 	icon = 20
 }

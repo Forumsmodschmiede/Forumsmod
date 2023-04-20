@@ -305,13 +305,6 @@ political_decisions = {
 
 
 			any_owned = {
-				limit = { is_core = HND }
-				add_province_modifier = { name = indian_nerf duration = -1 }
-			}
-
-
-
-			any_owned = {
 				limit = {
 					is_core = ENG
 					is_overseas = no
@@ -1656,11 +1649,16 @@ political_decisions = {
 			any_country = { limit = { civilized = no NOT = { tag = CHI } } treasury = 500 }
 			#################Giving Starting Money to Pops and Countries######################
 any_country = {
-				limit = {
-					tag = ENG
-				}
-				country_event = 99900044
+			limit = {
 			}
+			any_owned = {
+				limit = { is_core = HND
+			NOT = { has_province_modifier = indian_nerf } }
+					add_province_modifier = {
+					name = "indian_nerf"
+					duration = -1
+				}
+	}
 
 			
 			1493 = {
