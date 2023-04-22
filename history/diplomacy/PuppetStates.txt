@@ -78,6 +78,13 @@ vassal = {
 #######################
 #        INDIA        #
 #######################
+# United Kingdom-India
+vassal = {
+	first = ENG
+	second = HND
+	start_date = 1801.1.1
+	end_date = 1949.1.1
+}
 
 # United Kingdom-Awadh
 vassal = {

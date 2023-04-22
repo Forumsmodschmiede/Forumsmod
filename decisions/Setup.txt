@@ -184,6 +184,11 @@ political_decisions = {
 		
 		effect = {
 
+			add_country_modifier = {
+				name = old_glory
+				duration = 1825
+			}
+
 			any_pop = {
 				limit = {
 					OR = {
@@ -1026,23 +1031,6 @@ political_decisions = {
 			literacy = 0.1
 			}
 			
-			
-			any_pop = { limit = { has_pop_culture = gypsy } literacy = -0.99 }
-			serfs = {
-				militancy = -9
-				consciousness = -9
-				literacy = -0.99
-			}
-			
-			random_country = {
-				limit = { 
-					tag = PRU
-					ai = yes
-				}
-				create_vassal = MEC
-				create_vassal = BRA
-			}
-			
 		}
 	}
 	
@@ -1346,17 +1334,18 @@ political_decisions = {
 		
 		effect = {
 			#Treasury Initialization
-			ENG = { treasury = 100000 }
-			RUS = { treasury = 100000 }
-			FRA = { treasury = 100000 }
-			PRU = { treasury = 100000 }
-			AUS = { treasury = 100000 }
-			TUR = { treasury = 50000 }
-			SPA = { treasury = 50000 }
-			USA = { treasury = 50000 }
-			SAR = { treasury = 25000 }
-			NET = { treasury = 25000 }
-			BEL = { treasury = 25000 }
+			ENG = { treasury = 300000 }
+			RUS = { treasury = 300000 }
+			FRA = { treasury = 300000 }
+			PRU = { treasury = 300000 }
+			AUS = { treasury = 300000 }
+			TUR = { treasury = 100000 }
+			SPA = { treasury = 100000 }
+			USA = { treasury = 100000 }
+			SAR = { treasury = 50000 }
+			NET = { treasury = 50000 }
+			BEL = { treasury = 50000 }
+			JAP = { treasury = 50000 }
 
 			set_global_flag = 1836_set_up
 			set_country_flag = existing_country

@@ -139,7 +139,7 @@ political_decisions = {
 		allow = {
 			nationalism_n_imperialism = 1
 			money = 100000
-			owns = 1236
+			is_our_vassal = HND
 		}
 		effect = {
 				money = -100000		
@@ -147,7 +147,11 @@ political_decisions = {
 			any_pop = {
 				militancy = -1
 			}
-
+		diplomatic_influence = {
+			who = HND
+			value = 300    }
+			HND = {	
+		government = absolute_monarchy
 				inherit = BER
 				inherit = MYS
 				inherit = TRA
@@ -167,6 +171,7 @@ political_decisions = {
 			inherit = JAS
 			inherit = JOD
 			inherit = MEW
+				}
 				
 			set_country_flag = empress_of_india
 		}

@@ -1135,7 +1135,7 @@ ai_boni = {
 	icon = 15
 }
 ai_boni2 = {
-	min_tax = 0.6
+	min_tax = 0.5
    	tax_efficiency = 0.05
 	supply_consumption = -0.1
 	mobilisation_economy_impact = -0.5
@@ -1301,4 +1301,10 @@ indian_nerf = {
 	local_factory_throughput = -0.5
 	immigrant_push = -0.5
 	icon = 20
+}
+old_glory = {
+	supply_consumption = -0.1
+	administrative_efficiency_modifier = 0.1
+	prestige = 0.001
+	icon = 7
 }

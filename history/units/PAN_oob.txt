@@ -141,25 +141,3 @@ army = {
 	}
 }
 
-army = {
-	name = "Ludhiana Garrison"
-	location = 1234
-	regiment = {
-		name= "8. Panjabi Infantry"
-		type = infantry
-		home = 1234
-	}
-
-	regiment = {
-		name= "9. Panjabi Infantry"
-		type = infantry
-		home = 1233
-	}
-
-	regiment = {
-		name= "10. Panjabi Infantry"
-		type = infantry
-		home = 1233
-	}
-}
-

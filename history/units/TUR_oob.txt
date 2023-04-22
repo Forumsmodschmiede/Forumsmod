@@ -26,8 +26,8 @@ GRE = {
 
 TUN = {
 	value = 125		#relation
-	level = 4		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
 }
 
 SER = {
@@ -79,7 +79,7 @@ leader = {
 	picture="arab_general_58"
 	date = 1816.1.1
 	type = land
-	personality = defence_0.2 
+	personality = defence_1.2 
 	background = attack_4.1
 	prestige = 0.2
 }
@@ -89,7 +89,7 @@ leader = {
 	picture="arab_general_55"
 	date = 1836.1.1
 	type = land
-	personality = defense_0.1
+	personality = defence_1.2
 	background = attack_3.1
 	prestige = 0.0
 }
