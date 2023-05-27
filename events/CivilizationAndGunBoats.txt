@@ -123,6 +123,9 @@ country_event = {
 		NOT = {
 			prestige = 15
 		}
+		NOT = {
+			tag = HND
+		}
 		OR = {
 			primary_culture = assamese
 			primary_culture = bengali
