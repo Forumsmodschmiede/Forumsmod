@@ -214,10 +214,10 @@ political_decisions = {
 
 		allow = {
 			phenomenalism = 1
-			money = 1000000
+			money = 100000
 		}
 
-		effect = { money = -1000000
+		effect = { money = -100000
 			add_country_modifier = {
 				name = the_yard
 				duration = -1
@@ -351,42 +351,5 @@ Establish_the_Royal_Navy = {
 		}
 
 }
-Emergency_ship_building_effort = {
-		potential = {
-			tag = ENG
-			NOT = {
-				has_country_flag = Emergency_ship_building_efforts_made
-			}
-		}
-		allow = {
-			naval_plans = 1
-		}
-		effect = {	set_country_flag = Emergency_ship_building_efforts_made
-		add_country_modifier = {
-					name = Rebuild_our_Fleets
-					duration = 1825
-					}
-		281 = { add_province_modifier = {
-					name = Rebuild_our_Fleet
-					duration = 1825
-					}
-}
-		303 = { add_province_modifier = {
-					name = Rebuild_our_Fleet
-					duration = 1825
-					}
-}
-		299 = { add_province_modifier = {
-					name = Rebuild_our_Fleet
-					duration = 1825
-					}
-}
-		271 = { add_province_modifier = {
-					name = Rebuild_our_Fleet
-					duration = 1825
-					}
-}
-}
-
 
 }

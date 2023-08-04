@@ -1588,7 +1588,7 @@ country_event = {
 	option = { 
 		name = "They are to strong for us..."
 			prestige = -5
-			money = -7000}
+			}
 }
 
 

@@ -15657,7 +15657,7 @@ LEADERDIED_BTN2;OK;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x;;;;
 LEADERDIED_BTN3;Goto;ALLER À;Goto;OK;Ir allí;OK;Rendben;OK;;;;;;x;;;;
 LEADERDIED_MAP;*;*;*;IdŸ do;*;Andare;Ugrás;Pøejít na;;;;;;x;;;;
 release_vasall_title;Release Vasalls;;;;;;;;;;;;;;
-release_vasall_desc;We will release all our vasalls that are currently NOT in our sphere;;;;;;;;;;;;;;
+release_vasall_desc;We will release all our vasalls that are currently NOT in our sphere.;;;;;;;;;;;;;;
 offer_grants_title;Offer grants;;;;;;;;;;;;;;
 offer_grants_desc;Allow other nations to ask us for grants;;;;;;;;;;;;;;
 discontinue_offer_grants_title;Stop offering grants;;;;;;;;;;;;;;
@@ -15921,7 +15921,6 @@ carlist_sympathies;Carlist Sympathies;;;;;;;;;;;;;
 christino_sympathies;Christino Sympathies;;;;;;;;;;;;;
 spain_civil_war;Carlist War;;;;;;;;;;;;;;
 spain_civil_war_desc;The division in the spanish society was so cemented, that the phrase The two Spains become popular.;;;;;;;;;;;;;;
-spain_war;State in Chaos;;;;;;;;;;;;;;
 spain_immigrant;Two Spains;;;;;;;;;;;;;;
 south_of_south_america_united;United the South;;;;;;;;;;;;;;
 north_of_south_america_united;United the North;;;;;;;;;;;;;;
@@ -16178,6 +16177,8 @@ the_commonwealth;The Commonwealth;;;;;;;;;;;;;
 the_commonwealth_desc;We have decided to live as first among our dependencies, long live the Commonwealth!;;;;;;;;;;;;;
 old_glory;Old Glory;;;;;;;;;;;;;
 old_glory_desc;After the defeat of Napoleon's empire, we have established a respected dominant trading position, in Europe and beyond!;;;;;;;;;;;;;
+spain_war;Spanish Civil War;;;;;;;;;;;;;
+spain_war_desc;We are living in times of turmoil in Spain.;;;;;;;;;;;;;
 the_british_commonwealth_title;The Commonwealth;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 the_british_commonwealth_desc;After the American Independence War Britain realisied that they could no longer hold their vast colonies under direct control. Because of that they began to grant their white colonies more and more autonomy, which would culminate in the Balfour Declaration at the 1926 Imperial Conference, in which the United Kingdom and its dominions agreed they were "equal in status, in no way subordinate one to another in any aspect of their domestic or external affairs, though united by common allegiance to the Crown, and freely associated as members of the British Commonwealth of Nations".
 negotiated_state_transfer;Negotiated State Transfer;;;;;;;;;;;;;

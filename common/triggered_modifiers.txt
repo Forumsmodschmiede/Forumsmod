@@ -211,28 +211,6 @@ save_the_nation5  = {
     mobilisation_economy_impact = -0.66
     icon = 9
 }
-spain_war = {
-    trigger = {
-	is_culture_group = iberian
-	exists = yes
-	war = no
-	is_greater_power = yes
-	NOT = { year = 1840 }
-	ai = no
-    }
-
-    	icon = 11
-	loan_interest = 0.05
-	administrative_efficiency_modifier = -0.05
-   	supply_consumption = 0.5
-	mobilisation_economy_impact = 10
-   	suppression_points_modifier = 1
-	org_regain = -0.75
-	land_organisation = -0.75
-	import_cost = 0.5
-   	mobilisation_size = -0.05
-	cb_generation_speed_modifier = -0.5
-}
 social_reformed_nation = {
 		trigger = {
 			exists = yes

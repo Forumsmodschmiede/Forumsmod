@@ -32,34 +32,7 @@ political_decisions = {
 		
 	}
 	
-	an_mein_volk = {
-		potential = {
-		tag = PRU
-            	NOT = { has_country_flag = prussia_mobilizes }
-			}
-			allow = {          
-		 tag = PRU
-	        OR = { war_with = FRA
-			war_with = RUS}
-		}
-		effect = {
-			any_pop = {
-				limit = { is_culture_group = germanic }
-				dominant_issue = {
-					factor = 0.2
-					value = jingoism
-				}
-			}
-            		set_country_flag = prussia_mobilizes
-			money = 200000
-			leadership = 80
-		add_country_modifier = {
 
-					name = An_mein_Volk
-					duration = 730
-					}
-			}
-				}
 	claim_ggr = {
 	picture = ggr
 		potential = {

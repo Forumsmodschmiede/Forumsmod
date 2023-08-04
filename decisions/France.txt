@@ -504,51 +504,5 @@ political_decisions = {
 			set_country_flag = extreme_home_makeover
 		}
 	}
-	The_legacy_of_Napoleon = {
-		picture = napoleon1
-		potential = {
-			NOT = {
-				has_country_flag = legacy_of_Napoleon
-				}
-			tag = FRA
-				}
-		allow = {  
-		military_statistics = 1        
-		 tag = FRA
-	        OR = { war_with = ENG
-			war_with = GER
-			war_with = GGR}
-		}
-		effect = {			set_country_flag = legacy_of_Napoleon
-			any_pop = {
-				limit = { is_culture_group = french }
-				militancy = -1
-				dominant_issue = {
-					factor = 0.05
-					value = jingoism
-				}
-			}
-		add_country_modifier = {
-					name = Levee_en_masse
-					duration = 3650
-					}
 
-		470 = { add_province_modifier = {
-					name = Rebuild_our_Fleet
-					duration = 3650
-					}
-}
-		442 = { add_province_modifier = {
-					name = Rebuild_our_Fleet
-					duration = 3650
-					}
-}
-		418 = { add_province_modifier = {
-					name = Rebuild_our_Fleet
-					duration = 3650
-					}
-}
-			}
-				}
-}
 }

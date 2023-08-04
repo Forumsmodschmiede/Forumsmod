@@ -2,14 +2,17 @@ sprite = 3
 color = { 234 227 40 }
 strata = middle
 
-can_reduce_consciousness = yes
-research_points = 4	#if max %, then 4 extra research points.
+research_points = 3	#if max %, then 2 extra research points.
 research_optimum = 0.02	#2%
 
-rebel = {
+rebel =
+{
 	infantry = 0.5
 	irregular = 0.5
 }
+
+
+can_reduce_consciousness = yes
 
 life_needs_income = {
 	type = education
@@ -21,44 +24,42 @@ everyday_needs_income = {
 	weight = 1
 }
 
-luxury_needs_income = {
-	type = education
+luxury_needs_income =
+{
+	type = reforms
 	weight = 1
 }
 
-
-life_needs = {
-	cattle = 1.5
-	wool =  1.5
-	fish =  2
-	fruit =  2
-	grain =  5
+luxury_needs = {
+	opium = 1.0
+	luxury_clothes = 1
+	luxury_furniture = 1
+	telephones = 1.25
+	automobiles = 1.0
+	wine = 10
+	aeroplanes = 0.4
+	radio = 1.0
+	fuel = 0.2
+	coffee = 2
 }
 
 everyday_needs = {
-	canned_food = 0.75
-	coal = 2
-	wine = 8
+	coal = 1
+	liquor = 5
 	regular_clothes = 5
 	furniture = 4
 	paper = 5
 	glass = 1
-	radio = 0.5
-	telephones = 0.5
-}
-
-luxury_needs = {
 	tobacco = 3
 	tea = 5
-	coffee = 3
-	opium = 1
-	luxury_clothes = 1
-	luxury_furniture = 1
-	telephones = 1.25
-	automobiles = 1
-	aeroplanes = 0.4
-	radio = 1
-	fuel = 0.2
+}
+
+life_needs = {
+	cattle = 0.75
+	wool =  1
+	fish =  1
+	fruit =  1
+	grain =  2.5
 }
 
 

@@ -11,6 +11,12 @@ political_decisions = {
 		}
 		
 		effect = {
+
+			add_country_modifier = {
+				name = spain_war
+				duration = 1460
+			}
+
 			any_pop = { limit = { has_pop_culture = filipino } literacy = -0.04 }
 			any_pop = { limit = { has_pop_culture = caribeno } literacy = -0.02 }
 			any_pop = { limit = { OR = { has_pop_culture = basque has_pop_culture = catalan } } literacy = 0.03 }
@@ -186,7 +192,7 @@ political_decisions = {
 
 			add_country_modifier = {
 				name = old_glory
-				duration = 1825
+				duration = 1460
 			}
 
 			any_pop = {
@@ -1347,6 +1353,8 @@ political_decisions = {
 			BEL = { treasury = 50000 }
 			JAP = { treasury = 50000 }
 
+			any_country = { treasury = 10000 }
+
 			set_global_flag = 1836_set_up
 			set_country_flag = existing_country
 			any_country = { limit = { exists = yes } set_country_flag = existing_country }
@@ -1567,7 +1575,9 @@ political_decisions = {
 			2172 = { set_province_flag = mexico_city }
 			1612 = { set_province_flag = summer_palace }
 			#################Provinces Setup######################
-			
+
+						
+
 			#################Giving Starting Money to Pops and Countries######################
 			any_country = { limit = { is_greater_power = yes } capitalists = { money = 1000 } aristocrats = { money = 500 } artisans = { money = 200 } }
 			any_country = { limit = { is_secondary_power = yes } capitalists = { money = 800 } aristocrats = { money = 400 } artisans = { money = 100 } }
