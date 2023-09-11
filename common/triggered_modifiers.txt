@@ -4,13 +4,6 @@
 # Effects are fully scriptable here.
 
 
-leadership_fix = {
-    trigger = {
-        exists = yes
-    }
-    icon = 10
-	leadership_modifier = -0.6
-}
 csa_mob = {
     trigger = {
         primary_culture = dixie

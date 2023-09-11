@@ -1295,7 +1295,7 @@ signed_the_geneva_convention = {
 	icon = 7
 }
 old_glory = {
-	supply_consumption = -0.2
+	supply_consumption = -0.1
 	administrative_efficiency_modifier = 0.2
 	prestige = 0.01
 	icon = 7

@@ -1340,18 +1340,6 @@ political_decisions = {
 		
 		effect = {
 			#Treasury Initialization
-			ENG = { treasury = 300000 }
-			RUS = { treasury = 300000 }
-			FRA = { treasury = 300000 }
-			PRU = { treasury = 300000 }
-			AUS = { treasury = 300000 }
-			TUR = { treasury = 100000 }
-			SPA = { treasury = 100000 }
-			USA = { treasury = 100000 }
-			SAR = { treasury = 50000 }
-			NET = { treasury = 50000 }
-			BEL = { treasury = 50000 }
-			JAP = { treasury = 50000 }
 
 			any_country = { treasury = 10000 }
 
