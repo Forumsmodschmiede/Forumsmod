@@ -40,7 +40,7 @@ country_event = {	id = 99900025
                 }
             }
             any_pop = {
-	       militancy = 10
+	       militancy = 3
                 ideology = {
                     value = conservative
                     factor = 0.2
@@ -74,8 +74,8 @@ country_event = {	id = 99900025
                         has_pop_culture = catalan
                     }
                 }
-                militancy = 10
-                consciousness = 10
+                militancy = 1
+                consciousness = 1
                 ideology = {
                     value = reactionary
                     factor = 0.3
@@ -121,7 +121,7 @@ country_event = {	id = 99900025
                 }
             }
             any_pop = {
-                militancy = -10
+                militancy = -3
                 ideology = {
                     value = reactionary
                     factor = 0.3
@@ -139,7 +139,7 @@ country_event = {	id = 99900025
                 }
             }
             any_pop = {
-                militancy = 10
+                militancy = 3
                 ideology = {
                     value = liberal
                     factor = 0.8

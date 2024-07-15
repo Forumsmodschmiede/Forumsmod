@@ -71,49 +71,49 @@ country_event = {
 			treasury = 100000
 		clergymen = {
 			scaled_militancy = {
-				factor = 3
+				factor = 1
 				ideology = conservative
 			}
 		}
 		clergymen = {
 			scaled_militancy = {
-				factor = 4
+				factor = 2
 				ideology = reactionary
 			}
 		}
 		clergymen = {
 			scaled_consciousness = {
-				factor = 3
+				factor = 1
 				ideology = conservative
 			}
 		}
 		clergymen = {
 			scaled_consciousness = {
-				factor = 4
+				factor = 2
 				ideology = reactionary
 			}
 		}
 		aristocrats = {
 			scaled_militancy = {
-				factor = 3
+				factor = 1
 				ideology = conservative
 			}
 		}
 		aristocrats = {
 			scaled_militancy = {
-				factor = 4
+				factor = 2
 				ideology = reactionary
 			}
 		}
 		aristocrats = {
 			scaled_consciousness = {
-				factor = 3
+				factor = 1
 				ideology = conservative
 			}
 		}
 		aristocrats = {
 			scaled_consciousness = {
-				factor = 4
+				factor = 3
 				ideology = reactionary
 			}
 		}

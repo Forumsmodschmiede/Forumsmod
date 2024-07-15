@@ -1071,17 +1071,16 @@ Japanese_Navy = {
 	icon = 7
 }
 spain_civil_war = {
-    core_pop_militancy_modifier = 0.03
 	political_reform_desire = 0.1
 }
 christino_sympathies = {
-    pop_militancy_modifier = 0.1
+    pop_militancy_modifier = 0.03
     local_RGO_throughput = -0.3
     immigrant_push = -0.1
     icon = 4
 }
 carlist_sympathies = {
-    pop_militancy_modifier = 0.1
+    pop_militancy_modifier = 0.03
     local_RGO_throughput = -0.3
     immigrant_push = -0.1
     icon = 4
@@ -1147,8 +1146,8 @@ ai_boni2 = {
     	icon = 15
 }
 claim_ggr = {
-	prestige = -0.1
-	badboy = 0.03
+	prestige = -0.01
+	badboy = 0.01
 	icon = 4
 }
 supported_partisans = {
@@ -1301,12 +1300,7 @@ old_glory = {
 	icon = 7
 }
 spain_war = {
-	loan_interest = 0.05
-   	supply_consumption = 0.1
-	mobilisation_economy_impact = 1
-   	suppression_points_modifier = 1
-	org_regain = -0.2
-	land_organisation = -0.2
-	cb_generation_speed_modifier = -0.5
+	mobilisation_economy_impact = 0.1
+   	suppression_points_modifier = 2
     	icon = 16
 }

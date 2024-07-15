@@ -29,20 +29,7 @@ political_decisions = {
                 consciousness = 10
                 militancy = 10
             }
-            any_pop = {
-                scaled_militancy = {
-                    ideology = conservative
-                    factor = 2
-                }
-                scaled_militancy = {
-                    ideology = reactionary
-                    factor = 6
-                }
-                scaled_militancy = {
-                    ideology = liberal
-                    factor = -1
-                }
-            }
+        
         }
         ai_will_do = { factor = 1 }
     }
@@ -109,12 +96,12 @@ political_decisions = {
 			any_pop = {
 				scaled_militancy = {
 					ideology = conservative
-					factor = 4
+					factor = 1
 				}}
 			any_pop = {
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 8
+					factor = 2
 				}}
 			any_pop = {
 				dominant_issue = {

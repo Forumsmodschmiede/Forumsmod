@@ -80,9 +80,11 @@ political_decisions = {
 			owns = 616 }
 				}
 			allow = {
+
 	        AND = { owns = 619
 			owns = 612
 			owns = 616 }
+
 				}
 		effect = {
 			remove_country_modifier = claim_ggr
@@ -156,8 +158,6 @@ luderitz_expedition = {
 			primary_culture = north_german
 			primary_culture = south_german
 			}
-		year = 1850
-		total_amount_of_ships = 10
 	}
 	
 	allow = {

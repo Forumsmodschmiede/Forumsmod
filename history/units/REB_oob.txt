@@ -6,8 +6,8 @@ army = {
 		picture="european_general_21"
 		date = 1833.1.1
 		type = land
-		personality = defence_4.1
-		background = attack_4.1
+		personality = defence_2.1
+		background = attack_2.1
 		prestige = 0.5
 	}
 
@@ -42,41 +42,6 @@ army = {
 		type = artillery
 		home = 493
 	}
-	regiment = {
-		name = "7. Regiment"
-		type = artillery
-		home = 493
-	}
-	regiment = {
-		name = "8. Regiment"
-		type = artillery
-		home = 500
-	}
-	regiment = {
-		name = "9. Regiment"
-		type = infantry
-		home = 500
-	}
-	regiment = {
-		name = "18. Regiment"
-		type = infantry
-		home = 500
-	}
-	regiment = {
-		name = "19. Regiment"
-		type = artillery
-		home = 500
-	}
-	regiment = {
-		name = "20. Regiment"
-		type = artillery
-		home = 500
-	}
-	regiment = {
-		name = "21. Regiment"
-		type = artillery
-		home = 500
-	}
 }
 army = {
 	name = "2nd Carlist Army"
@@ -86,8 +51,8 @@ army = {
 		picture="net_general_5"
 		date = 1833.1.1
 		type = land
-		personality = defence_3.1
-		background = attack_4.1
+		personality = defence_1.1
+		background = attack_2.1
 		prestige = 0.25
 	}
 
@@ -124,38 +89,8 @@ army = {
 		home = 499
 	}
 	regiment = {
-		name = "22. Regiment"
-		type = infantry
-		home = 499
-	}
-	regiment = {
-		name = "23. Regiment"
-		type = infantry
-		home = 501
-	}
-	regiment = {
-		name = "24. Regiment"
-		type = infantry
-		home = 501
-	}
-	regiment = {
-		name = "25. Regiment"
-		type = artillery
-		home = 501
-	}
-	regiment = {
-		name = "26. Regiment"
-		type = artillery
-		home = 500
-	}
-	regiment = {
-		name = "27. Regiment"
-		type = artillery
-		home = 500
-	}
-	regiment = {
 		name = "28. Regiment"
 		type = artillery
-		home = 493
+		home = 501
 	}
 }
